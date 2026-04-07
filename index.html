@@ -1,0 +1,454 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 import React, \{ useState, useEffect, useMemo \} from 'react';\
+import \{ \
+  Plus, \
+  Trash2, \
+  TrendingUp, \
+  AlertTriangle, \
+  FileText, \
+  ShieldCheck, \
+  Calculator,\
+  User,\
+  Eye,\
+  X,\
+  Download,\
+  CheckCircle2,\
+  Clock,\
+  Briefcase\
+\} from 'lucide-react';\
+import \{ initializeApp \} from 'firebase/app';\
+import \{ \
+  getFirestore, \
+  collection, \
+  addDoc, \
+  onSnapshot, \
+  deleteDoc, \
+  doc \
+\} from 'firebase/firestore';\
+import \{ \
+  getAuth, \
+  signInAnonymously, \
+  signInWithCustomToken, \
+  onAuthStateChanged \
+\} from 'firebase/auth';\
+\
+// --- CONFIGURAZIONE FIREBASE ---\
+const firebaseConfig = JSON.parse(window.__firebase_config || '\{\}');\
+const appId = typeof window.__app_id !== 'undefined' ? window.__app_id : 'fiscal-docent-docente';\
+\
+const app = initializeApp(firebaseConfig);\
+const db = getFirestore(app);\
+const auth = getAuth(app);\
+\
+// --- COSTANTI FISCALI 2026 ---\
+const RAL_DOCENTE = 45000;\
+const SOGLIA_INPS = 5000;\
+const SOGLIA_SCAGLIONE = 50000;\
+const ALIQUOTA_ORDINARIA = 0.33 + 0.02; // 35% (IRPEF + Addizionali)\
+const ALIQUOTA_MARGINALE = 0.43 + 0.02; // 45% (IRPEF + Addizionali)\
+const RITENUTA_ACCONTO = 0.20;\
+\
+const App = () => \{\
+  const [user, setUser] = useState(null);\
+  const [receipts, setReceipts] = useState([]);\
+  const [loading, setLoading] = useState(true);\
+  const [showForm, setShowForm] = useState(false);\
+  const [selectedReceipt, setSelectedReceipt] = useState(null);\
+  const [formData, setFormData] = useState(\{\
+    date: new Date().toISOString().split('T')[0],\
+    client: '',\
+    description: '',\
+    grossAmount: '',\
+    type: 'occasional' // occasional | copyright\
+  \});\
+\
+  // 1. Autenticazione\
+  useEffect(() => \{\
+    const initAuth = async () => \{\
+      if (typeof window.__initial_auth_token !== 'undefined' && window.__initial_auth_token) \{\
+        await signInWithCustomToken(auth, window.__initial_auth_token);\
+      \} else \{\
+        await signInAnonymously(auth);\
+      \}\
+    \};\
+    initAuth();\
+    const unsubscribe = onAuthStateChanged(auth, setUser);\
+    return () => unsubscribe();\
+  \}, []);\
+\
+  // 2. Recupero Dati\
+  useEffect(() => \{\
+    if (!user) return;\
+    const receiptsRef = collection(db, 'artifacts', appId, 'users', user.uid, 'receipts');\
+    \
+    const unsubscribe = onSnapshot(receiptsRef, (snapshot) => \{\
+      const data = snapshot.docs.map(doc => (\{ id: doc.id, ...doc.data() \}));\
+      \
+      // Se l'utente \'e8 nuovo, inseriamo le ricevute fornite nel prompt\
+      if (data.length === 0 && loading) \{\
+        seedData(user.uid);\
+      \} else \{\
+        setReceipts(data.sort((a, b) => new Date(b.date) - new Date(a.date)));\
+        setLoading(false);\
+      \}\
+    \});\
+    return () => unsubscribe();\
+  \}, [user]);\
+\
+  const seedData = async (uid) => \{\
+    const initial = [\
+      \{ date: '2026-01-08', client: 'Fondazione Mondo Digitale', description: 'Patentino Digitale - Modulo 1', grossAmount: 240, type: 'occasional' \},\
+      \{ date: '2026-01-10', client: 'Fondazione Mondo Digitale', description: 'Webinar Copilot', grossAmount: 150, type: 'occasional' \},\
+      \{ date: '2026-01-26', client: 'Basco Bazar 2 SRL', description: 'Formazione Docenti', grossAmount: 150, type: 'occasional' \}\
+    ];\
+    const receiptsRef = collection(db, 'artifacts', appId, 'users', uid, 'receipts');\
+    for (const item of initial) await addDoc(receiptsRef, item);\
+  \};\
+\
+  // 3. Logica Fiscale Dinamica\
+  const stats = useMemo(() => \{\
+    let totalGrossOccasional = 0;\
+    let totalGrossCopyright = 0;\
+    \
+    receipts.forEach(r => \{\
+      if (r.type === 'occasional') totalGrossOccasional += Number(r.grossAmount);\
+      else totalGrossCopyright += Number(r.grossAmount);\
+    \});\
+\
+    const totalExtraGross = totalGrossOccasional + totalGrossCopyright;\
+    const totalIncome = RAL_DOCENTE + totalExtraGross;\
+\
+    const processed = receipts.map(r => \{\
+      const isCopyright = r.type === 'copyright';\
+      // Abbattimento forfettario 25% per diritti d'autore (over 35 anni)\
+      const taxableBase = isCopyright ? r.grossAmount * 0.75 : r.grossAmount;\
+      const withholding = taxableBase * RITENUTA_ACCONTO;\
+      \
+      // Calcolo aliquota in base al totale (semplificato per riga)\
+      const currentRate = totalIncome > SOGLIA_SCAGLIONE ? ALIQUOTA_MARGINALE : ALIQUOTA_ORDINARIA;\
+      const totalTax = taxableBase * currentRate;\
+      const gap = totalTax - withholding; // Quello che pagher\'e0 nel 730\
+      const netFinal = r.grossAmount - withholding - gap;\
+\
+      return \{ ...r, withholding, gap, netFinal, taxableBase \};\
+    \});\
+\
+    return \{ totalGrossOccasional, totalGrossCopyright, totalExtraGross, totalIncome, processed \};\
+  \}, [receipts]);\
+\
+  // 4. Azioni\
+  const handleSubmit = async (e) => \{\
+    e.preventDefault();\
+    if (!user) return;\
+    const receiptsRef = collection(db, 'artifacts', appId, 'users', user.uid, 'receipts');\
+    await addDoc(receiptsRef, \{ ...formData, grossAmount: Number(formData.grossAmount) \});\
+    setFormData(\{ date: new Date().toISOString().split('T')[0], client: '', description: '', grossAmount: '', type: 'occasional' \});\
+    setShowForm(false);\
+  \};\
+\
+  const removeReceipt = async (id) => \{\
+    const docRef = doc(db, 'artifacts', appId, 'users', user.uid, 'receipts', id);\
+    await deleteDoc(docRef);\
+  \};\
+\
+  if (loading) return (\
+    <div className="h-screen flex items-center justify-center bg-slate-50">\
+      <div className="text-center space-y-4">\
+        <div className="w-12 h-12 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mx-auto"></div>\
+        <p className="text-slate-500 font-medium">Configurazione Dashboard Fiscale...</p>\
+      </div>\
+    </div>\
+  );\
+\
+  return (\
+    <div className="min-h-screen bg-[#F8FAFC] text-slate-900 pb-20">\
+      \{/* Header Proferssionale */\}\
+      <header className="bg-white border-b border-slate-200 sticky top-0 z-40">\
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">\
+          <div className="flex items-center gap-3">\
+            <div className="bg-indigo-600 p-2.5 rounded-xl shadow-lg shadow-indigo-200 text-white">\
+              <ShieldCheck size=\{24\} />\
+            </div>\
+            <div>\
+              <h1 className="text-lg font-bold tracking-tight text-slate-800">Fiscal Docent Dashboard</h1>\
+              <div className="flex items-center gap-2">\
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>\
+                <p className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">Incarichi PA 2026</p>\
+              </div>\
+            </div>\
+          </div>\
+          <div className="flex items-center gap-4">\
+            <div className="hidden sm:block text-right">\
+              <p className="text-sm font-bold text-slate-700">F. Sabatini</p>\
+              <p className="text-xs text-slate-400">Docente Statale Autorizzata</p>\
+            </div>\
+            <div className="w-10 h-10 rounded-full bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-600">\
+              <User size=\{20\} />\
+            </div>\
+          </div>\
+        </div>\
+      </header>\
+\
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-8">\
+        \
+        \{/* KPI Section */\}\
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">\
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+            <p className="text-xs font-bold text-slate-400 uppercase mb-1">Extra Lordo Totale</p>\
+            <h3 className="text-2xl font-black text-slate-800">\'80\{stats.totalExtraGross.toLocaleString('it-IT')\}</h3>\
+            <p className="text-[10px] text-slate-500 mt-2 flex items-center gap-1">\
+              <Clock size=\{12\} /> Progressivo Anno Solare\
+            </p>\
+          </div>\
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+            <p className="text-xs font-bold text-slate-400 uppercase mb-1">Reddito Complessivo</p>\
+            <h3 className="text-2xl font-black text-indigo-600">\'80\{stats.totalIncome.toLocaleString('it-IT')\}</h3>\
+            <p className="text-[10px] text-slate-500 mt-2">RAL \'8045k + Extra</p>\
+          </div>\
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">\
+            <p className="text-xs font-bold text-slate-400 uppercase mb-1">Debito IRPEF Stima</p>\
+            <h3 className="text-2xl font-black text-orange-500">\'80\{stats.processed.reduce((a,b)=>a+b.gap, 0).toFixed(2)\}</h3>\
+            <p className="text-[10px] text-slate-500 mt-2 font-medium">In sede di 730/2027</p>\
+          </div>\
+          <div className="bg-indigo-900 p-5 rounded-2xl shadow-xl text-white">\
+            <p className="text-xs font-bold text-indigo-300 uppercase mb-1">Vero Netto Reale</p>\
+            <h3 className="text-2xl font-black">\'80\{stats.processed.reduce((a,b)=>a+b.netFinal, 0).toFixed(2)\}</h3>\
+            <p className="text-[10px] text-indigo-400 mt-2">Post-Tasse e Conguagli</p>\
+          </div>\
+        </div>\
+\
+        \{/* Alerts & Insights */\}\
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">\
+          <div className=\{`p-5 rounded-2xl border flex items-start gap-4 transition-all $\{stats.totalGrossOccasional > 4000 ? 'bg-orange-50 border-orange-200 shadow-orange-100 shadow-lg' : 'bg-white border-slate-200 shadow-sm'\}`\}>\
+            <div className=\{`p-2 rounded-xl $\{stats.totalGrossOccasional > 4000 ? 'bg-orange-200 text-orange-700' : 'bg-green-100 text-green-600'\}`\}>\
+              <AlertTriangle size=\{20\} />\
+            </div>\
+            <div className="flex-1">\
+              <h4 className="font-bold text-slate-800">Soglia INPS Gestione Separata</h4>\
+              <p className="text-sm text-slate-600 mt-1">Soglia: \'805.000,00 lordi. Attuale: <b>\'80\{stats.totalGrossOccasional.toFixed(2)\}</b></p>\
+              <div className="w-full h-1.5 bg-slate-200 rounded-full mt-3 overflow-hidden">\
+                <div \
+                  className=\{`h-full transition-all duration-700 $\{stats.totalGrossOccasional > 4000 ? 'bg-orange-500' : 'bg-green-500'\}`\}\
+                  style=\{\{ width: `$\{Math.min((stats.totalGrossOccasional/SOGLIA_INPS)*100, 100)\}%` \}\}\
+                ></div>\
+              </div>\
+            </div>\
+          </div>\
+\
+          <div className=\{`p-5 rounded-2xl border flex items-start gap-4 transition-all $\{stats.totalIncome > 49000 ? 'bg-red-50 border-red-200 shadow-red-100 shadow-lg' : 'bg-white border-slate-200 shadow-sm'\}`\}>\
+            <div className=\{`p-2 rounded-xl $\{stats.totalIncome > 49000 ? 'bg-red-200 text-red-700' : 'bg-indigo-100 text-indigo-600'\}`\}>\
+              <TrendingUp size=\{20\} />\
+            </div>\
+            <div className="flex-1">\
+              <h4 className="font-bold text-slate-800">Allerta Aliquota 43%</h4>\
+              <p className="text-sm text-slate-600 mt-1">\
+                \{stats.totalIncome >= SOGLIA_SCAGLIONE \
+                  ? "Sei nello scaglione 43%. Ogni euro extra rende il 55% netto." \
+                  : `Mancano \'80$\{(SOGLIA_SCAGLIONE - stats.totalIncome).toFixed(2)\} al salto di aliquota.`\}\
+              </p>\
+              <div className="w-full h-1.5 bg-slate-200 rounded-full mt-3 overflow-hidden">\
+                <div \
+                  className="h-full bg-indigo-500 transition-all duration-700"\
+                  style=\{\{ width: `$\{Math.min((stats.totalIncome/SOGLIA_SCAGLIONE)*100, 100)\}%` \}\}\
+                ></div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+\
+        \{/* Form and Table */\}\
+        <div className="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">\
+          <div className="p-6 border-b border-slate-100 flex flex-wrap gap-4 items-center justify-between bg-white">\
+            <h3 className="text-lg font-bold flex items-center gap-2">\
+              <Calculator className="text-indigo-600" size=\{20\} />\
+              Registro Compensi 2026\
+            </h3>\
+            <button \
+              onClick=\{() => setShowForm(!showForm)\}\
+              className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-xl font-bold flex items-center gap-2 transition-all shadow-md shadow-indigo-100"\
+            >\
+              \{showForm ? <X size=\{18\} /> : <Plus size=\{18\} />\}\
+              \{showForm ? "Chiudi" : "Aggiungi Compenso"\}\
+            </button>\
+          </div>\
+\
+          \{showForm && (\
+            <div className="p-6 bg-slate-50 border-b border-slate-200 animate-in fade-in slide-in-from-top-4 duration-300">\
+              <form onSubmit=\{handleSubmit\} className="grid grid-cols-1 md:grid-cols-4 gap-4">\
+                <div className="space-y-1.5">\
+                  <label className="text-[10px] font-bold text-slate-400 uppercase">Data</label>\
+                  <input type="date" required value=\{formData.date\} onChange=\{e => setFormData(\{...formData, date: e.target.value\})\} className="w-full p-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 outline-none" />\
+                </div>\
+                <div className="space-y-1.5">\
+                  <label className="text-[10px] font-bold text-slate-400 uppercase">Committente</label>\
+                  <input type="text" placeholder="es. Universit\'e0 di..." required value=\{formData.client\} onChange=\{e => setFormData(\{...formData, client: e.target.value\})\} className="w-full p-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 outline-none" />\
+                </div>\
+                <div className="space-y-1.5">\
+                  <label className="text-[10px] font-bold text-slate-400 uppercase">Lordo (\'80)</label>\
+                  <input type="number" step="0.01" required value=\{formData.grossAmount\} onChange=\{e => setFormData(\{...formData, grossAmount: e.target.value\})\} className="w-full p-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 outline-none font-mono" />\
+                </div>\
+                <div className="space-y-1.5">\
+                  <label className="text-[10px] font-bold text-slate-400 uppercase">Tipologia</label>\
+                  <select value=\{formData.type\} onChange=\{e => setFormData(\{...formData, type: e.target.value\})\} className="w-full p-3 rounded-xl border border-slate-200 bg-white focus:ring-2 focus:ring-indigo-500 outline-none">\
+                    <option value="occasional">Prestazione Occasionale</option>\
+                    <option value="copyright">Diritto d'Autore</option>\
+                  </select>\
+                </div>\
+                <div className="md:col-span-3 space-y-1.5">\
+                  <label className="text-[10px] font-bold text-slate-400 uppercase">Descrizione</label>\
+                  <input type="text" placeholder="es. 10 ore webinar AI" required value=\{formData.description\} onChange=\{e => setFormData(\{...formData, description: e.target.value\})\} className="w-full p-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 outline-none" />\
+                </div>\
+                <div className="flex items-end">\
+                  <button type="submit" className="w-full bg-slate-800 text-white p-3 rounded-xl font-bold hover:bg-slate-700 transition-all">\
+                    Registra Compenso\
+                  </button>\
+                </div>\
+              </form>\
+            </div>\
+          )\}\
+\
+          <div className="overflow-x-auto">\
+            <table className="w-full border-collapse">\
+              <thead>\
+                <tr className="bg-slate-50/50 border-b border-slate-100">\
+                  <th className="px-6 py-4 text-left text-[10px] font-bold text-slate-400 uppercase">Dettagli Prestazione</th>\
+                  <th className="px-6 py-4 text-right text-[10px] font-bold text-slate-400 uppercase">Lordo</th>\
+                  <th className="px-6 py-4 text-right text-[10px] font-bold text-slate-400 uppercase">Ritenuta (20%)</th>\
+                  <th className="px-6 py-4 text-right text-[10px] font-bold text-slate-400 uppercase">Conguaglio*</th>\
+                  <th className="px-6 py-4 text-right text-[10px] font-bold text-slate-400 uppercase">Vero Netto</th>\
+                  <th className="px-6 py-4 text-center text-[10px] font-bold text-slate-400 uppercase">Preview</th>\
+                </tr>\
+              </thead>\
+              <tbody className="divide-y divide-slate-100">\
+                \{stats.processed.map(r => (\
+                  <tr key=\{r.id\} className="hover:bg-slate-50/50 transition-colors">\
+                    <td className="px-6 py-4">\
+                      <div className="flex items-center gap-3">\
+                        <div className=\{`p-2 rounded-lg $\{r.type === 'copyright' ? 'bg-purple-100 text-purple-600' : 'bg-blue-100 text-blue-600'\}`\}>\
+                          \{r.type === 'copyright' ? <FileText size=\{16\} /> : <Briefcase size=\{16\} />\}\
+                        </div>\
+                        <div>\
+                          <p className="font-bold text-slate-700 text-sm leading-none mb-1">\{r.client\}</p>\
+                          <p className="text-xs text-slate-400 max-w-[180px] truncate">\{r.description\}</p>\
+                          <p className="text-[10px] text-slate-400 mt-1 uppercase font-bold">\{new Date(r.date).toLocaleDateString('it-IT')\}</p>\
+                        </div>\
+                      </div>\
+                    </td>\
+                    <td className="px-6 py-4 text-right font-mono font-bold text-sm">\'80\{r.grossAmount.toFixed(2)\}</td>\
+                    <td className="px-6 py-4 text-right font-mono text-slate-400 text-xs">\'80\{r.withholding.toFixed(2)\}</td>\
+                    <td className="px-6 py-4 text-right font-mono text-orange-400 text-xs">\'80\{r.gap.toFixed(2)\}</td>\
+                    <td className="px-6 py-4 text-right">\
+                      <div className="bg-indigo-50 inline-block px-3 py-1 rounded-lg">\
+                        <span className="font-mono font-bold text-indigo-700 text-sm">\'80\{r.netFinal.toFixed(2)\}</span>\
+                      </div>\
+                    </td>\
+                    <td className="px-6 py-4 text-center">\
+                      <div className="flex items-center justify-center gap-2">\
+                        <button onClick=\{() => setSelectedReceipt(r)\} className="p-2 text-slate-400 hover:text-indigo-600 transition-all hover:bg-indigo-50 rounded-lg">\
+                          <Eye size=\{18\} />\
+                        </button>\
+                        <button onClick=\{() => removeReceipt(r.id)\} className="p-2 text-slate-300 hover:text-red-500 transition-all hover:bg-red-50 rounded-lg">\
+                          <Trash2 size=\{16\} />\
+                        </button>\
+                      </div>\
+                    </td>\
+                  </tr>\
+                ))\}\
+              </tbody>\
+            </table>\
+          </div>\
+        </div>\
+      </main>\
+\
+      \{/* Modal Anteprima Ricevuta */\}\
+      \{selectedReceipt && (\
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">\
+          <div className="bg-white w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">\
+            <div className="p-6 border-b border-slate-100 flex items-center justify-between">\
+              <h2 className="text-lg font-bold">Documento in Anteprima</h2>\
+              <button onClick=\{() => setSelectedReceipt(null)\} className="p-2 hover:bg-slate-100 rounded-full transition-all">\
+                <X size=\{20\} />\
+              </button>\
+            </div>\
+            \
+            <div className="p-8 bg-white overflow-y-auto max-h-[70vh]">\
+              <div className="border border-slate-200 p-8 text-slate-800 font-serif leading-relaxed shadow-sm">\
+                <div className="flex justify-between items-start mb-8 not-italic">\
+                  <div>\
+                    <p className="font-bold text-sm uppercase">Mittente</p>\
+                    <p className="text-sm">Francesca Sabatini</p>\
+                    <p className="text-xs text-slate-500 italic">SBTFNC75E67E958B</p>\
+                    <p className="text-xs text-slate-500">Residente in Via Romana 31, Marino</p>\
+                  </div>\
+                  <div className="text-right">\
+                    <p className="text-xs text-slate-400 mb-1">DATA EMISSIONE</p>\
+                    <p className="font-bold text-sm">\{new Date(selectedReceipt.date).toLocaleDateString('it-IT')\}</p>\
+                  </div>\
+                </div>\
+\
+                <div className="mb-10">\
+                  <p className="text-xs text-slate-400 uppercase mb-2 font-bold tracking-widest">Oggetto della Prestazione</p>\
+                  <p className="text-sm font-bold uppercase border-b border-slate-100 pb-2">\{selectedReceipt.type === 'copyright' ? 'Cessione dei Diritti d\\'Autore' : 'Ricevuta Prestazione Occasionale'\}</p>\
+                  <p className="text-sm mt-3 italic text-slate-600">"\{selectedReceipt.description\}" per il committente \{selectedReceipt.client\}.</p>\
+                </div>\
+\
+                <div className="bg-slate-50 p-6 rounded-xl space-y-3 font-sans">\
+                  <div className="flex justify-between items-center text-sm">\
+                    <span>Compenso Lordo Concordato</span>\
+                    <span className="font-mono font-bold">\'80\{selectedReceipt.grossAmount.toFixed(2)\}</span>\
+                  </div>\
+                  \{selectedReceipt.type === 'copyright' && (\
+                    <div className="flex justify-between items-center text-xs text-slate-500 border-t border-slate-200 pt-2">\
+                      <span>Abbattimento Forfettario (25%) - Diritto d'Autore</span>\
+                      <span className="font-mono">-\'80\{(selectedReceipt.grossAmount * 0.25).toFixed(2)\}</span>\
+                    </div>\
+                  )\}\
+                  <div className="flex justify-between items-center text-sm text-red-600 font-medium">\
+                    <span>Ritenuta d'Acconto (20% su Imponibile)</span>\
+                    <span className="font-mono">-\'80\{selectedReceipt.withholding.toFixed(2)\}</span>\
+                  </div>\
+                  <div className="flex justify-between items-center text-lg font-black pt-4 border-t-2 border-slate-200">\
+                    <span>Netto a Pagare</span>\
+                    <span className="font-mono text-indigo-700">\'80\{(selectedReceipt.grossAmount - selectedReceipt.withholding).toFixed(2)\}</span>\
+                  </div>\
+                </div>\
+\
+                <div className="mt-8 space-y-2">\
+                  <div className="flex items-center gap-2 text-[10px] text-slate-400">\
+                    <CheckCircle2 size=\{12\} className="text-green-500" />\
+                    <p>Marca da bollo da \'802,00 assolta sull'originale (per importi &gt; \'8077,47).</p>\
+                  </div>\
+                  <div className="flex items-center gap-2 text-[10px] text-slate-400">\
+                    <CheckCircle2 size=\{12\} className="text-green-500" />\
+                    <p>Esente IVA ai sensi dell'Art. 5 DPR 633/72.</p>\
+                  </div>\
+                  <div className="flex items-center gap-2 text-[10px] text-slate-400">\
+                    <CheckCircle2 size=\{12\} className="text-green-500" />\
+                    <p>Incarico autorizzato dalla PA di appartenenza.</p>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+\
+            <div className="p-6 bg-slate-50 flex gap-3">\
+              <button onClick=\{() => window.print()\} className="flex-1 bg-slate-800 text-white py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-slate-700 transition-all">\
+                <Download size=\{18\} /> Scarica PDF\
+              </button>\
+              <button onClick=\{() => setSelectedReceipt(null)\} className="flex-1 bg-white border border-slate-200 py-3 rounded-xl font-bold hover:bg-slate-50 transition-all">\
+                Chiudi\
+              </button>\
+            </div>\
+          </div>\
+        </div>\
+      )\}\
+    </div>\
+  );\
+\};\
+\
+export default App;}
