@@ -1,0 +1,61 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 0. Rete di sicurezza globale: tutto negato salvo regole esplicite
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Solo le email in questa lista possono accedere ai dati aziendali.
+    // Per aggiungere un collaboratore: inserire qui la sua email (minuscola)
+    // e ripubblicare le regole dalla console Firebase.
+    function isAuthorized() {
+      return request.auth != null &&
+        request.auth.token.email_verified == true &&
+        request.auth.token.email.lower() in [
+          'admin@erreciesse.it',
+          'sabatini.francesca75@gmail.com'
+        ];
+    }
+
+    // Validazione ordini: campi obbligatori, quantità positiva, stato ammesso
+    function isValidOrder(data) {
+      return data.keys().hasAll(['clienteId', 'modello', 'quantita', 'status', 'valore']) &&
+             data.clienteId is string && data.clienteId.size() > 0 && data.clienteId.size() <= 200 &&
+             data.modello is string && data.modello.size() > 0 && data.modello.size() <= 200 &&
+             data.quantita is number && data.quantita > 0 &&
+             data.valore is number && data.valore >= 0 &&
+             data.status in ['lavaggio', 'sabbiatura', 'verniciatura', 'omologazione', 'attesa_incasso', 'completato'];
+    }
+
+    // Validazione magazzino: la giacenza può essere negativa (rappresenta il "manco")
+    function isValidInventory(data) {
+      return data.keys().hasAll(['giacenza']) &&
+             data.giacenza is number;
+    }
+
+    match /orders/{orderId} {
+      allow read: if isAuthorized();
+      allow create, update: if isAuthorized() && isValidOrder(request.resource.data);
+      allow delete: if isAuthorized();
+    }
+
+    match /inventory/{itemId} {
+      allow read: if isAuthorized();
+      allow create, update: if isAuthorized() && isValidInventory(request.resource.data);
+      allow delete: if isAuthorized();
+    }
+
+    match /customers/{customerId} {
+      allow read, write: if isAuthorized();
+    }
+
+    match /models/{modelId} {
+      allow read, write: if isAuthorized();
+    }
+
+    match /raw_materials/{materialId} {
+      allow read, write: if isAuthorized();
+    }
+  }
+}
