@@ -72,6 +72,33 @@ Questo branch contiene il codice dell'app **con tutte le correzioni applicate** 
 > `tsconfig.json`, `metadata.json` e `firebase-blueprint.json` (non sono stati caricati):
 > per compilare da questo repository da zero vanno aggiunti dal progetto locale.
 
+## Novità: importazione del file "PROGRAMMA LAVORAZIONE.xlsx" dell'ufficio
+
+L'app ora riconosce automaticamente il formato dei fogli PROGRAMMA di Erreciesse
+(Mod. R46–R50: lavorazione, consegne settimanali, programma iniziale, ordini,
+conto lavorazione), che sono matrici clienti × modelli (FT/IN) con intestazioni
+doppie unite — non tabelle "un ordine per riga".
+
+- Nuovo modulo `src/lib/programmaParser.ts`: legge la doppia intestazione
+  (modello + FT/IN), propaga le celle unite, mappa i modelli sul catalogo
+  dell'app (295→Lino 295, 1000 H→1000 H RIGENERATO, ecc.), estrae numero e
+  data ordine da "ORD. 288 DEL 06/07/2026", stato "PAGATO", "C/LAVORAZIONE",
+  e scarta righe di totale/fase e valori non plausibili.
+- Nel modulo Google Workspace compare il pulsante **"Importa Programma
+  Erreciesse"** quando il foglio selezionato ha questo formato. Ogni scheda
+  (CONSEGNE, SETTIMANA 30/31, CHIUSURA, ORDINI…) si importa separatamente.
+- Le righe delle sezioni CONSEGNE entrano come ordini "pronti per consegna"
+  (Logistica Elena); le altre come ordini in lavorazione. Le righe "PAGATO"
+  risultano già incassate.
+- Reimportare lo stesso file **aggiorna** gli ordini invece di duplicarli
+  (l'automatismo richiesto: l'ufficio continua ad aggiornare l'Excel e l'app
+  si allinea a ogni importazione).
+- L'intervallo di lettura è passato da A1:Z100 ad A1:AZ400 (il file arriva
+  oltre la colonna Z e le 100 righe).
+- Limite noto: il file PROGRAMMA non contiene importi in €, quindi gli ordini
+  importati nascono con valore 0 da completare in app (o in futuro con un
+  listino prezzi per modello).
+
 ## Raccomandazioni future (non bloccanti)
 
 - Collegare gli ordini al **codice** cliente anziché al nome (rinominare un cliente oggi

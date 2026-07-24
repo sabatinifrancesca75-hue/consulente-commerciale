@@ -136,7 +136,7 @@ function parseArrayBufferToSheetData(buffer: ArrayBuffer, fileName?: string, tar
 export async function getSpreadsheetValues(
   accessToken: string,
   spreadsheetId: string,
-  range = 'A1:Z100',
+  range = 'A1:AZ400',
   mimeType?: string,
   sheetName?: string
 ): Promise<SheetRangeData> {

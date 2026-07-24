@@ -16,6 +16,7 @@ import {
 import { signInWithGoogle } from '../firebase';
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../firebase';
+import { detectProgrammaErreciesse, parseProgrammaErreciesse } from '../lib/programmaParser';
 
 interface WorkspaceModuleProps {
   onImportNotification?: (msg: string) => void;
@@ -118,7 +119,7 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
     setContentLoading(true);
     try {
       if (isSpreadsheetFile(selectedFile)) {
-        const data = await getSpreadsheetValues(token, selectedFile.id, 'A1:Z100', selectedFile.mimeType);
+        const data = await getSpreadsheetValues(token, selectedFile.id, 'A1:AZ400', selectedFile.mimeType);
         setSheetData(data);
         if (data.sheetNames && data.sheetNames.length > 0) {
           setSelectedSheetTab(data.activeSheetName || data.sheetNames[0]);
@@ -147,7 +148,7 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
     setContentLoading(true);
     try {
       if (isSpreadsheetFile(file)) {
-        const data = await getSpreadsheetValues(token, file.id, 'A1:Z100', file.mimeType);
+        const data = await getSpreadsheetValues(token, file.id, 'A1:AZ400', file.mimeType);
         setSheetData(data);
         if (data.sheetNames && data.sheetNames.length > 0) {
           setSelectedSheetTab(data.activeSheetName || data.sheetNames[0]);
@@ -508,11 +509,90 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
     }
   };
 
+  // Import dedicato ai fogli "PROGRAMMA" Erreciesse (Mod. R46-R50):
+  // matrice clienti (righe) x modelli FT/IN (colonne), con riferimento ordine e note
+  const handleImportProgramma = async () => {
+    if (!sheetData?.values?.length) {
+      alert("Nessun dato caricato dal foglio selezionato.");
+      return;
+    }
+    const righe = parseProgrammaErreciesse(sheetData.values);
+    if (righe.length === 0) {
+      alert("In questa scheda non ho trovato righe ordine del formato PROGRAMMA (le sezioni 'PROGRAMMA LAVORAZIONE' contengono fasi di produzione, non ordini: seleziona una scheda CONSEGNE/ORDINI/INIZIALE/CONTO LAVORAZIONE).");
+      return;
+    }
+
+    const slug = (s: string) => s.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 12);
+
+    setImporting(true);
+    try {
+      let count = 0;
+      const clienti = new Set<string>();
+      let pagati = 0;
+
+      for (const o of righe) {
+        // ID deterministico cliente+ordine+modello: reimportare il file aggiorna
+        // le stesse righe invece di creare duplicati
+        const orderId = `ORD-PRG-${slug(o.cliente).slice(0, 10)}-${o.numeroOrdine || 'SN'}-${slug(o.modello)}`;
+
+        await setDoc(doc(db, 'orders', orderId), {
+          id: orderId,
+          clienteId: o.cliente,
+          modello: o.modello,
+          quantita: o.quantita,
+          valore: 0, // il file PROGRAMMA non contiene importi: da completare in app
+          metodoPagamento: o.pagato ? 'Pagamento anticipato' : 'Rimessa Diretta',
+          status: o.pronto ? 'omologazione' : 'lavaggio',
+          incassato: o.pagato,
+          note: [
+            o.riferimento,
+            o.note,
+            o.contoLavorazione ? 'CONTO LAVORAZIONE' : '',
+            `Sezione: ${o.sezione}`,
+            `Importato da ${selectedFile?.name || 'file Workspace'}`
+          ].filter(Boolean).join(' | '),
+          createdAt: serverTimestamp(),
+          updatedAt: serverTimestamp()
+        }, { merge: true });
+
+        if (!clienti.has(o.cliente)) {
+          clienti.add(o.cliente);
+          const custId = `CUST-${slug(o.cliente)}`;
+          await setDoc(doc(db, 'customers', custId), {
+            id: custId,
+            nome: o.cliente,
+            createdAt: serverTimestamp(),
+            updatedAt: serverTimestamp()
+          }, { merge: true });
+        }
+
+        if (o.pagato) pagati++;
+        count++;
+      }
+
+      const msg = `Programma importato: ${count} righe ordine, ${clienti.size} clienti (${pagati} già pagate) da "${selectedFile?.name}". Gli importi in € vanno completati in app.`;
+      setImportSuccessMsg(msg);
+      if (onImportNotification) onImportNotification(msg);
+    } catch (err: any) {
+      alert(`Errore durante l'importazione del programma: ${err.message}`);
+    } finally {
+      setImporting(false);
+    }
+  };
+
   // Import both Customers & Orders simultaneously
   const handleImportAll = async () => {
     await handleImportSheetAsCustomers();
     await handleImportSheetAsOrders();
   };
+
+  // Il foglio selezionato ha il formato dei programmi Erreciesse (Mod. R46-R50)?
+  const programmaRilevato = !!(
+    selectedFile &&
+    isSpreadsheetFile(selectedFile) &&
+    sheetData?.values &&
+    detectProgrammaErreciesse(sheetData.values)
+  );
 
   const filteredFiles = files.filter(f => {
     const matchesSearch = f.name.toLowerCase().includes(searchQuery.toLowerCase());
@@ -720,8 +800,21 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
                     Auto-Sync {autoRefreshEnabled ? 'ON (15s)' : 'OFF'}
                   </button>
 
+                  {/* Import dedicato formato PROGRAMMA Erreciesse */}
+                  {programmaRilevato && (
+                    <button
+                      onClick={handleImportProgramma}
+                      disabled={importing || contentLoading}
+                      className="bg-rose-600 hover:bg-rose-700 text-white px-3.5 py-2 rounded-xl text-xs font-black uppercase shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                      title="Formato PROGRAMMA Erreciesse riconosciuto: importa gli ordini cliente per modello (FT/IN) con riferimento ordine, note e stato pagamento"
+                    >
+                      {importing ? <RefreshCw size={14} className="animate-spin" /> : <Check size={14} />}
+                      Importa Programma Erreciesse
+                    </button>
+                  )}
+
                   {/* Action Buttons for Import */}
-                  <button 
+                  <button
                     onClick={handleImportSheetAsCustomers}
                     disabled={importing || contentLoading}
                     className="bg-indigo-600 hover:bg-indigo-700 text-white px-3.5 py-2 rounded-xl text-xs font-black uppercase shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
@@ -812,7 +905,7 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
                                 // Refresh with selected tab
                                 if (token && selectedFile) {
                                   setContentLoading(true);
-                                  getSpreadsheetValues(token, selectedFile.id, 'A1:Z100', selectedFile.mimeType, sName)
+                                  getSpreadsheetValues(token, selectedFile.id, 'A1:AZ400', selectedFile.mimeType, sName)
                                     .then(data => setSheetData(data))
                                     .finally(() => setContentLoading(false));
                                 }
