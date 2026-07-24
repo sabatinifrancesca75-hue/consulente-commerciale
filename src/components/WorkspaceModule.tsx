@@ -20,8 +20,11 @@ import {
   detectProgrammaErreciesse,
   parseProgrammaErreciesse,
   detectMagazzinoComponenti,
-  parseMagazzinoComponenti
+  parseMagazzinoComponenti,
+  detectDibaErreciesse,
+  parseDibaErreciesse
 } from '../lib/programmaParser';
+import { prezzoListino, scontoAggiuntivoPerCliente } from '../lib/listino';
 
 interface WorkspaceModuleProps {
   onImportNotification?: (msg: string) => void;
@@ -542,12 +545,18 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
         const dataSlug = (o.dataOrdine || '').replace(/\D/g, '');
         const orderId = `ORD-PRG-${slug(o.cliente).slice(0, 10)}-${o.numeroOrdine || dataSlug || 'SN'}-${slug(o.modello)}`;
 
+        // Il file PROGRAMMA non contiene importi: dove possibile applichiamo
+        // il Listino 2026 (rigenerazione per il conto lavorazione) con lo
+        // sconto aggiuntivo del cliente dal foglio "sconti clienti"
+        const sconto = scontoAggiuntivoPerCliente(o.cliente);
+        const prezzo = prezzoListino(o.modello, o.contoLavorazione, sconto);
+
         await setDoc(doc(db, 'orders', orderId), {
           id: orderId,
           clienteId: o.cliente,
           modello: o.modello,
           quantita: o.quantita,
-          valore: 0, // il file PROGRAMMA non contiene importi: da completare in app
+          valore: prezzo ? Math.round(prezzo * o.quantita * 100) / 100 : 0,
           metodoPagamento: o.pagato ? 'Pagamento anticipato' : 'Rimessa Diretta',
           status: o.consegnato ? 'completato' : (o.pronto ? 'omologazione' : 'lavaggio'),
           incassato: o.pagato,
@@ -555,6 +564,7 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
             o.riferimento,
             o.note,
             o.contoLavorazione ? 'CONTO LAVORAZIONE' : '',
+            prezzo ? `Valore da Listino 2026 45%${sconto ? `+${sconto}%` : ''}` : 'Prezzo non a listino: da completare',
             `Sezione: ${o.sezione}`,
             `Importato da ${selectedFile?.name || 'file Workspace'}`
           ].filter(Boolean).join(' | '),
@@ -578,7 +588,8 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
       }
 
       const consegnate = righe.filter(o => o.consegnato).length;
-      const msg = `Programma importato: ${count} righe ordine, ${clienti.size} clienti (${pagati} già pagate${consegnate ? `, ${consegnate} già consegnate` : ''}) da "${selectedFile?.name}". Gli importi in € vanno completati in app.`;
+      const senzaPrezzo = righe.filter(o => !prezzoListino(o.modello, o.contoLavorazione)).length;
+      const msg = `Programma importato: ${count} righe ordine, ${clienti.size} clienti (${pagati} già pagate${consegnate ? `, ${consegnate} già consegnate` : ''}) da "${selectedFile?.name}". Valori dal Listino 2026${senzaPrezzo ? `; ${senzaPrezzo} righe senza prezzo a listino da completare` : ''}.`;
       setImportSuccessMsg(msg);
       if (onImportNotification) onImportNotification(msg);
     } catch (err: any) {
@@ -625,6 +636,41 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
     }
   };
 
+  // Import della Distinta Base reale (scheda DI.BA. di MAGAZZINO+USCITI+ORDINI)
+  const handleImportDiba = async () => {
+    if (!sheetData?.values?.length) {
+      alert("Nessun dato caricato dal foglio selezionato.");
+      return;
+    }
+    const modelli = parseDibaErreciesse(sheetData.values);
+    if (modelli.length === 0) {
+      alert("In questa scheda non ho trovato la distinta base (colonne: modello FT/IN, componente, quantità).");
+      return;
+    }
+    if (!window.confirm(`Aggiorno la distinta base di ${modelli.length} modelli con i componenti del file. Il fabbisogno componenti userà da subito la distinta reale. Procedere?`)) {
+      return;
+    }
+
+    setImporting(true);
+    try {
+      let count = 0;
+      for (const m of modelli) {
+        await setDoc(doc(db, 'models', m.modello), {
+          components: m.components,
+          updatedAt: serverTimestamp()
+        }, { merge: true });
+        count++;
+      }
+      const msg = `Distinta base aggiornata: ${count} modelli da "${selectedFile?.name}".`;
+      setImportSuccessMsg(msg);
+      if (onImportNotification) onImportNotification(msg);
+    } catch (err: any) {
+      alert(`Errore durante l'importazione della distinta base: ${err.message}`);
+    } finally {
+      setImporting(false);
+    }
+  };
+
   // Import both Customers & Orders simultaneously
   const handleImportAll = async () => {
     await handleImportSheetAsCustomers();
@@ -645,6 +691,15 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
     isSpreadsheetFile(selectedFile) &&
     sheetData?.values &&
     detectMagazzinoComponenti(sheetData.values)
+  );
+
+  // Il foglio selezionato contiene la distinta base (DI.BA.)?
+  const dibaRilevata = !!(
+    selectedFile &&
+    isSpreadsheetFile(selectedFile) &&
+    sheetData?.values &&
+    !magazzinoRilevato &&
+    detectDibaErreciesse(sheetData.values)
   );
 
   const filteredFiles = files.filter(f => {
@@ -876,6 +931,19 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
                     >
                       {importing ? <RefreshCw size={14} className="animate-spin" /> : <Database size={14} />}
                       Importa Magazzino
+                    </button>
+                  )}
+
+                  {/* Import distinta base (scheda DI.BA.) */}
+                  {dibaRilevata && (
+                    <button
+                      onClick={handleImportDiba}
+                      disabled={importing || contentLoading}
+                      className="bg-purple-600 hover:bg-purple-700 text-white px-3.5 py-2 rounded-xl text-xs font-black uppercase shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                      title="Distinta base riconosciuta: aggiorna i componenti di ogni modello usati per il calcolo del fabbisogno"
+                    >
+                      {importing ? <RefreshCw size={14} className="animate-spin" /> : <Layers size={14} />}
+                      Importa Distinta Base
                     </button>
                   )}
 

@@ -33,9 +33,15 @@ const MODEL_MAP: Record<string, { FT?: string; IN?: string }> = {
   '295': { FT: 'Lino 295 FT', IN: 'Lino 295 INT' },
   '500': { FT: 'Lino 500 FT', IN: 'Lino 500 INT' },
   '500 V': { FT: 'Lino 500 FT', IN: 'Lino 500 INT' },
+  '575 V': { FT: '575 V FT', IN: '575 V INT' },
+  '750': { FT: '750 FT', IN: '750 INT' },
+  '750 V': { FT: '750 FT', IN: '750 INT' },
+  'C1000 V': { FT: 'C1000 V FT', IN: 'C1000 V INT' },
+  '1000 S': { FT: '1000 S FT', IN: '1000 S INT' },
   '1000 H': { FT: '1000 H FT RIGENERATO', IN: '1000 H INT RIGENERATO' },
   '1000 V': { FT: '1000 V FT RIGENERATO', IN: '1000 V INT RIGENERATO' },
   '1650': { FT: '1650 V FT RIGENERATO', IN: '1650 V INT RIGENERATO' },
+  '1650 V': { FT: '1650 V FT RIGENERATO', IN: '1650 V INT RIGENERATO' },
   '1750': { FT: '1750 H FT RIGENERATO', IN: '1750 H INT RIGENERATO' },
   '1750 H': { FT: '1750 H FT RIGENERATO', IN: '1750 H INT RIGENERATO' },
   '3000': { FT: '3000 H FT RIGENERATO', IN: '3000 H INT RIGENERATO' },
@@ -269,4 +275,72 @@ export function parseMagazzinoComponenti(values: string[][]): ParsedInventoryIte
   }
 
   return articoli;
+}
+
+/**
+ * Scheda DI.BA. del file MAGAZZINO+USCITI+ORDINI: distinta base reale
+ * di ogni modello. Struttura: gruppo in colonna A (solo sulla prima riga
+ * del gruppo), variante in colonna B ("295 FT", "1000H IN", "FT"...),
+ * componente in colonna C, quantità in colonna D.
+ */
+export interface ParsedDibaModel {
+  modello: string;
+  components: { id: string; qty: number }[];
+}
+
+// Correzioni di refusi noti presenti nel file
+const CORREZIONI_BASE: Record<string, string> = { '296': '295' };
+
+function normalizzaVariante(variante: string, gruppo: string): string | null {
+  const m = variante.toUpperCase().match(/^(.*?)\s*(FT|IN)$/);
+  if (!m) return null;
+  let base = m[1].trim();
+  const sub = m[2] as 'FT' | 'IN';
+  if (!base) base = normalizza(gruppo).toUpperCase();
+  base = base.replace(/^(\d{3,4})([A-Z])$/, '$1 $2'); // "1000H" -> "1000 H"
+  base = CORREZIONI_BASE[base] || base;
+  if (!base) return null;
+  return mappaModello(base, sub);
+}
+
+function rigaDiba(celle: string[]): boolean {
+  const variante = celle[1] || '';
+  const componente = celle[2] || '';
+  const qty = parseInt(celle[3], 10);
+  return /(^|\s)(FT|IN)$/i.test(variante)
+    && /[A-Za-z]/.test(componente)
+    && !isNaN(qty) && qty > 0 && qty <= 50;
+}
+
+/** True se il foglio ha il formato della distinta base */
+export function detectDibaErreciesse(values: string[][]): boolean {
+  let trovate = 0;
+  for (const riga of values) {
+    if (rigaDiba((riga || []).map(normalizza))) trovate++;
+    if (trovate >= 8) return true;
+  }
+  return false;
+}
+
+export function parseDibaErreciesse(values: string[][]): ParsedDibaModel[] {
+  let gruppo = '';
+  const mappa: Record<string, Record<string, number>> = {};
+
+  for (const riga of values) {
+    const celle = (riga || []).map(normalizza);
+    if (celle[0]) gruppo = celle[0];
+    if (!rigaDiba(celle)) continue;
+
+    const modello = normalizzaVariante(celle[1], gruppo);
+    if (!modello) continue;
+
+    const componente = celle[2];
+    const qty = parseInt(celle[3], 10);
+    (mappa[modello] ||= {})[componente] = qty;
+  }
+
+  return Object.entries(mappa).map(([modello, comp]) => ({
+    modello,
+    components: Object.entries(comp).map(([id, qty]) => ({ id, qty })),
+  }));
 }

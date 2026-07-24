@@ -33,6 +33,7 @@ import {
 } from 'firebase/firestore';
 import { onAuthStateChanged, signOut, type User } from 'firebase/auth';
 import { db, auth, signInWithGoogle, handleFirestoreError, OperationType } from './firebase';
+import { prezzoListino, scontoAggiuntivoPerCliente } from './lib/listino';
 
 // Fasi della produzione ordinate
 const STAGES = [
@@ -114,6 +115,8 @@ export default function App() {
   const [orders, setOrders] = useState<Order[]>([]);
   const [inventory, setInventory] = useState<InventoryItem[]>([]);
   const [customers, setCustomers] = useState<Customer[]>([]);
+  // Distinte base caricate da Firestore (es. importate dalla scheda DI.BA.)
+  const [modelsDb, setModelsDb] = useState<Record<string, { components: { id: string; qty: number }[] }>>({});
 
   const [showAddOrder, setShowAddOrder] = useState(false);
   const [showArrivoMerce, setShowArrivoMerce] = useState(false);
@@ -236,12 +239,26 @@ export default function App() {
       setCustomers(snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() } as Customer)));
     }, (err) => handleFirestoreError(err, OperationType.LIST, 'customers'));
 
+    const unsubModels = onSnapshot(collection(db, 'models'), (snapshot) => {
+      const m: Record<string, { components: { id: string; qty: number }[] }> = {};
+      snapshot.docs.forEach(d => {
+        const data = d.data() as any;
+        if (data && Array.isArray(data.components)) m[d.id] = { components: data.components };
+      });
+      setModelsDb(m);
+    }, (err) => handleFirestoreError(err, OperationType.LIST, 'models'));
+
     return () => {
       unsubOrders();
       unsubInventory();
       unsubCustomers();
+      unsubModels();
     };
   }, [user]);
+
+  // Distinta base attiva: quella su Firestore (reale, importata dai file)
+  // ha la precedenza; quella fissa nel codice fa da riserva.
+  const dibaAttiva = useMemo(() => ({ ...DIBA, ...modelsDb }), [modelsDb]);
 
   // CALCOLO FABBISOGNO E ANALISI FINANZIARIA
   const analysis = useMemo(() => {
@@ -249,7 +266,7 @@ export default function App() {
     orders.forEach(o => {
       // Solo gli ordini ancora in officina: dopo il ritiro i componenti sono già stati scalati
       if (o && ACTIVE_STAGE_IDS.includes(o.status)) {
-        const d = DIBA[o.modello];
+        const d = dibaAttiva[o.modello];
         if (d && d.components) {
           d.components.forEach(c => {
             req[c.id] = (req[c.id] || 0) + (c.qty * (o.quantita || 0));
@@ -295,7 +312,7 @@ export default function App() {
       .slice(0, 5);
 
     return { alerts, incassoMese1, incassoMese2, pieData, barData };
-  }, [orders, inventory]);
+  }, [orders, inventory, dibaAttiva]);
 
   const handleAddOrder = async () => {
     const totale = newOrder.prezzoUnitario * newOrder.quantita;
@@ -467,7 +484,7 @@ export default function App() {
     if (!order) return;
     
     try {
-      const diba = DIBA[order.modello];
+      const diba = dibaAttiva[order.modello];
       if (diba && diba.components) {
         for (const comp of diba.components) {
           // increment() scala sul server: sicuro anche con più utenti simultanei
@@ -1547,7 +1564,16 @@ export default function App() {
                   <select 
                     className="w-full p-3 bg-slate-50 rounded-xl border border-slate-200 text-sm font-bold"
                     value={newOrder.clienteId}
-                    onChange={e => setNewOrder({...newOrder, clienteId: e.target.value})}
+                    onChange={e => {
+                      const clienteId = e.target.value;
+                      // Ricalcola il prezzo con lo sconto aggiuntivo del cliente
+                      const prezzo = prezzoListino(newOrder.modello, false, scontoAggiuntivoPerCliente(clienteId));
+                      setNewOrder({
+                        ...newOrder,
+                        clienteId,
+                        prezzoUnitario: prezzo ?? newOrder.prezzoUnitario
+                      });
+                    }}
                   >
                     <option value="">Seleziona cliente...</option>
                     {customers.map(c => <option key={c.id} value={c.nome}>{c.nome}</option>)}
@@ -1565,9 +1591,19 @@ export default function App() {
                   <select 
                     className="w-full p-3 bg-slate-50 rounded-xl border border-slate-200 text-sm font-bold"
                     value={newOrder.modello}
-                    onChange={e => setNewOrder({...newOrder, modello: e.target.value})}
+                    onChange={e => {
+                      const modello = e.target.value;
+                      // Propone in automatico il prezzo del Listino 2026 con lo
+                      // sconto aggiuntivo del cliente selezionato (modificabile)
+                      const prezzo = prezzoListino(modello, false, scontoAggiuntivoPerCliente(newOrder.clienteId));
+                      setNewOrder({
+                        ...newOrder,
+                        modello,
+                        prezzoUnitario: prezzo ?? newOrder.prezzoUnitario
+                      });
+                    }}
                   >
-                    {Object.keys(DIBA).map(m => <option key={m} value={m}>{m}</option>)}
+                    {Object.keys(dibaAttiva).sort().map(m => <option key={m} value={m}>{m}</option>)}
                   </select>
                 </div>
 

@@ -119,6 +119,25 @@ doppie unite — non tabelle "un ordine per riga".
   fissa nel codice dell'app): conviene far leggere all'app anche quella, così
   il fabbisogno componenti userà la distinta vera.
 
+## Novità: listino prezzi per cliente e distinta base reale
+
+- **`src/lib/listino.ts`**: Listino 2026 integrato (vendita nuovi/rigenerati e
+  rigenerazione conto lavorazione, prezzi base 45% IVA esclusa) più gli sconti
+  aggiuntivi per cliente dal foglio "sconti clienti" di Drive (Cantone/Evergas +3%,
+  Izzo/Aversana/Tuttogas/Real Gas/Delivery/Autogas Riviera +5%,
+  Narigas/Capital/Beneco/Serygas +10%, Essenergia +30%).
+  Prezzo = base × (1 − sconto/100), verificato al centesimo sul listino 45%+5%.
+- **Importazione PROGRAMMA**: gli ordini importati ora hanno il valore in € dal
+  listino con lo sconto del cliente (rigenerazione per il conto lavorazione);
+  le righe senza prezzo a listino restano a 0 con nota "da completare".
+- **Nuovo ordine in app**: selezionando cliente e modello il prezzo unitario si
+  precompila da listino con lo sconto del cliente (sempre modificabile a mano).
+- **Distinta base (DI.BA.)**: nuovo pulsante "Importa Distinta Base" quando si
+  apre la scheda DI.BA. di MAGAZZINO+USCITI+ORDINI: carica i componenti reali di
+  ogni modello nella collezione `models`, e il calcolo del fabbisogno componenti
+  usa da subito la distinta importata (quella fissa nel codice resta come riserva).
+- Quando cambiano listino o sconti basta aggiornare `src/lib/listino.ts`.
+
 ## Raccomandazioni future (non bloccanti)
 
 - Collegare gli ordini al **codice** cliente anziché al nome (rinominare un cliente oggi
