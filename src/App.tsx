@@ -33,7 +33,7 @@ import {
 } from 'firebase/firestore';
 import { onAuthStateChanged, signOut, type User } from 'firebase/auth';
 import { db, auth, signInWithGoogle, handleFirestoreError, OperationType } from './firebase';
-import { prezzoListino, scontoAggiuntivoPerCliente } from './lib/listino';
+import { prezzoListino, scontoAggiuntivoPerCliente, isClientePrivato } from './lib/listino';
 
 // Fasi della produzione ordinate
 const STAGES = [
@@ -1566,8 +1566,8 @@ export default function App() {
                     value={newOrder.clienteId}
                     onChange={e => {
                       const clienteId = e.target.value;
-                      // Ricalcola il prezzo con lo sconto aggiuntivo del cliente
-                      const prezzo = prezzoListino(newOrder.modello, false, scontoAggiuntivoPerCliente(clienteId));
+                      // Ricalcola il prezzo con lo sconto del cliente (o listino privati)
+                      const prezzo = prezzoListino(newOrder.modello, false, scontoAggiuntivoPerCliente(clienteId), isClientePrivato(clienteId));
                       setNewOrder({
                         ...newOrder,
                         clienteId,
@@ -1595,7 +1595,7 @@ export default function App() {
                       const modello = e.target.value;
                       // Propone in automatico il prezzo del Listino 2026 con lo
                       // sconto aggiuntivo del cliente selezionato (modificabile)
-                      const prezzo = prezzoListino(modello, false, scontoAggiuntivoPerCliente(newOrder.clienteId));
+                      const prezzo = prezzoListino(modello, false, scontoAggiuntivoPerCliente(newOrder.clienteId), isClientePrivato(newOrder.clienteId));
                       setNewOrder({
                         ...newOrder,
                         modello,

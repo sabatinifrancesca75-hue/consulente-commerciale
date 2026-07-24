@@ -58,6 +58,37 @@ export const LISTINO_RIGENERAZIONE: Record<string, number> = {
 };
 
 /**
+ * Listino PRIVATI 2026 (Mod. C01-PV Rev.04) — prezzi IVA INCLUSA,
+ * kit regolatori incluso, pagamento anticipato.
+ * Usato per le righe "PRIVATI" (per i privati con nome e cognome
+ * il prezzo va indicato/verificato a mano).
+ */
+export const LISTINO_PRIVATI: Record<string, number> = {
+  'Lino 295 FT': 1100.00,
+  'Lino 295 INT': 1200.00,
+  'Lino 500 FT': 1200.00,
+  'Lino 500 INT': 1300.00,
+  '750 FT': 1300.00,
+  '750 INT': 1400.00,
+  '1000 H FT RIGENERATO': 1100.00,
+  '1000 H INT RIGENERATO': 1300.00,
+  '1000 V FT RIGENERATO': 1200.00,
+  '1000 V INT RIGENERATO': 1300.00,
+  '1650 V INT RIGENERATO': 1400.00,
+  '1750 H FT RIGENERATO': 1200.00,
+  '1750 H INT RIGENERATO': 1500.00,
+  '3000 H FT RIGENERATO': 1600.00,
+  '3000 H INT RIGENERATO': 2100.00,
+  '5000 H FT RIGENERATO': 2700.00,
+  '5000 H INT RIGENERATO': 2900.00,
+};
+
+/** True se il nome cliente indica la riga aggregata dei privati */
+export function isClientePrivato(cliente: string | null | undefined): boolean {
+  return /PRIVAT/i.test(cliente || '');
+}
+
+/**
  * Sconto AGGIUNTIVO per cliente (dal foglio "sconti clienti" di Drive).
  * Chi non è in elenco ha solo il 45% base (sconto aggiuntivo 0).
  * Le chiavi vengono confrontate ignorando spazi/punteggiatura, quindi
@@ -98,12 +129,17 @@ export function scontoAggiuntivoPerCliente(cliente: string | null | undefined): 
  * Prezzo di listino per un modello, null se non a listino.
  * Con contoLavorazione=true usa il listino rigenerazione (codici R).
  * scontoAggiuntivo è la percentuale extra del cliente (es. 5 per 45%+5%).
+ * Con privato=true usa il listino privati (IVA inclusa, senza sconti).
  */
 export function prezzoListino(
   modello: string,
   contoLavorazione = false,
-  scontoAggiuntivo = 0
+  scontoAggiuntivo = 0,
+  privato = false
 ): number | null {
+  if (privato && !contoLavorazione) {
+    return LISTINO_PRIVATI[modello] ?? null;
+  }
   const listino = contoLavorazione ? LISTINO_RIGENERAZIONE : LISTINO_VENDITA;
   const base = listino[modello];
   if (base === undefined) return null;

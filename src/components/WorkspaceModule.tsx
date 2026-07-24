@@ -24,7 +24,7 @@ import {
   detectDibaErreciesse,
   parseDibaErreciesse
 } from '../lib/programmaParser';
-import { prezzoListino, scontoAggiuntivoPerCliente } from '../lib/listino';
+import { prezzoListino, scontoAggiuntivoPerCliente, isClientePrivato } from '../lib/listino';
 
 interface WorkspaceModuleProps {
   onImportNotification?: (msg: string) => void;
@@ -549,7 +549,8 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
         // il Listino 2026 (rigenerazione per il conto lavorazione) con lo
         // sconto aggiuntivo del cliente dal foglio "sconti clienti"
         const sconto = scontoAggiuntivoPerCliente(o.cliente);
-        const prezzo = prezzoListino(o.modello, o.contoLavorazione, sconto);
+        const privato = isClientePrivato(o.cliente);
+        const prezzo = prezzoListino(o.modello, o.contoLavorazione, sconto, privato);
 
         await setDoc(doc(db, 'orders', orderId), {
           id: orderId,
@@ -564,7 +565,9 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
             o.riferimento,
             o.note,
             o.contoLavorazione ? 'CONTO LAVORAZIONE' : '',
-            prezzo ? `Valore da Listino 2026 45%${sconto ? `+${sconto}%` : ''}` : 'Prezzo non a listino: da completare',
+            prezzo
+              ? (privato ? 'Valore da Listino Privati 2026 (IVA inclusa)' : `Valore da Listino 2026 45%${sconto ? `+${sconto}%` : ''}`)
+              : 'Prezzo non a listino: da completare',
             `Sezione: ${o.sezione}`,
             `Importato da ${selectedFile?.name || 'file Workspace'}`
           ].filter(Boolean).join(' | '),
