@@ -23,6 +23,7 @@ export interface ParsedProgramOrder {
   note: string;
   pagato: boolean;
   pronto: boolean; // proviene da una sezione CONSEGNE: pronto per il ritiro
+  consegnato: boolean; // proviene da un foglio USCITI: merce già uscita
   contoLavorazione: boolean;
   sezione: string;
 }
@@ -113,11 +114,19 @@ export function detectProgrammaErreciesse(values: string[][]): boolean {
  * Estrae le righe ordine (cliente × modello × quantità) da un foglio programma.
  * Le sezioni "PROGRAMMA LAVORAZIONE" (fasi di produzione, Mod. R46) vengono
  * saltate: contengono conteggi di fase, non ordini cliente.
+ *
+ * `nomeScheda` (facoltativo) è il nome della scheda del file: se contiene
+ * "USCITI" le righe vengono marcate come merce già consegnata (es. i fogli
+ * mensili "MAGGIO 2026 USCITI" del file MAGAZZINO+USCITI+ORDINI, dove la
+ * colonna B contiene la data di uscita invece del riferimento ordine).
  */
-export function parseProgrammaErreciesse(values: string[][]): ParsedProgramOrder[] {
+export function parseProgrammaErreciesse(values: string[][], nomeScheda?: string): ParsedProgramOrder[] {
   const ordini: ParsedProgramOrder[] = [];
   let blocco: Blocco | null = null;
   let sezione = '';
+
+  const foglioUsciti = /USCIT/i.test(nomeScheda || '')
+    || values.some(riga => (riga || []).some(c => /^TOTALI USCITI/i.test(normalizza(c))));
 
   for (let r = 0; r < values.length; r++) {
     const celle = (values[r] || []).map(normalizza);
@@ -154,7 +163,9 @@ export function parseProgrammaErreciesse(values: string[][]): ParsedProgramOrder
 
     const matchOrd = riferimento.match(/ORD\.?\s*(\d+)?\s*(?:A VOCE\s*)?DEL\s*(\d{1,2}\/\d{1,2}\/\d{2,4})/i);
     const numeroOrdine = matchOrd?.[1] || null;
-    const dataOrdine = matchOrd?.[2] || null;
+    // Nei fogli USCITI la colonna B è direttamente la data di uscita (es. 04/05/2026)
+    const dataSecca = riferimento.match(/^(\d{1,2}\/\d{1,2}\/\d{2,4})$/);
+    const dataOrdine = matchOrd?.[2] || dataSecca?.[1] || null;
 
     const testoRiga = `${riferimento} ${note}`.toUpperCase();
     const pagato = testoRiga.includes('PAGATO');
@@ -179,11 +190,83 @@ export function parseProgrammaErreciesse(values: string[][]): ParsedProgramOrder
         note,
         pagato,
         pronto,
+        consegnato: foglioUsciti,
         contoLavorazione,
-        sezione: sezione || 'PROGRAMMA',
+        sezione: sezione || (foglioUsciti ? 'USCITI' : 'PROGRAMMA'),
       });
     }
   }
 
   return ordini;
+}
+
+/**
+ * Fogli magazzino componenti del file MAGAZZINO+USCITI+ORDINI:
+ * tabella con colonne COMPONENTE, GIAC.INIZ., CONSUMATO, GIAC.ATTUALE
+ * (la giacenza attuale può essere negativa: rappresenta il "manco").
+ */
+export interface ParsedInventoryItem {
+  id: string;
+  giacenza: number;
+  consumato: number | null;
+  note: string;
+}
+
+interface ColonneMagazzino {
+  comp: number;
+  attuale: number;
+  consumato: number;
+  nota: number;
+}
+
+function trovaColonneMagazzino(values: string[][]): { header: number; col: ColonneMagazzino } | null {
+  for (let r = 0; r < Math.min(20, values.length); r++) {
+    const celle = (values[r] || []).map(normalizza);
+    const comp = celle.findIndex(c => /^COMPONENTE$/i.test(c));
+    if (comp === -1) continue;
+    const attuale = celle.findIndex(c => /^GIAC\.?\s*ATT/i.test(c));
+    const consumato = celle.findIndex(c => /^CONSUMAT/i.test(c));
+    if (attuale === -1) continue;
+    return { header: r, col: { comp, attuale, consumato, nota: attuale + 1 } };
+  }
+  return null;
+}
+
+/** True se il foglio ha il formato del magazzino componenti */
+export function detectMagazzinoComponenti(values: string[][]): boolean {
+  return trovaColonneMagazzino(values) !== null;
+}
+
+export function parseMagazzinoComponenti(values: string[][]): ParsedInventoryItem[] {
+  const trovato = trovaColonneMagazzino(values);
+  if (!trovato) return [];
+  const { header, col } = trovato;
+
+  const articoli: ParsedInventoryItem[] = [];
+  const visti = new Set<string>();
+
+  for (let r = header + 1; r < values.length; r++) {
+    const celle = (values[r] || []).map(normalizza);
+    const componente = celle[col.comp];
+    if (!componente || /^COMPONENTE$/i.test(componente)) continue;
+    if (!/[A-Za-z]/.test(componente)) continue;
+
+    const attuale = parseInt(celle[col.attuale], 10);
+    if (isNaN(attuale)) continue; // righe vuote o template senza numeri
+
+    const consumatoRaw = col.consumato >= 0 ? parseInt(celle[col.consumato], 10) : NaN;
+
+    // In caso di duplicati (più tabelle nello stesso foglio) vince la prima
+    if (visti.has(componente.toUpperCase())) continue;
+    visti.add(componente.toUpperCase());
+
+    articoli.push({
+      id: componente,
+      giacenza: attuale,
+      consumato: isNaN(consumatoRaw) ? null : consumatoRaw,
+      note: celle[col.nota] || '',
+    });
+  }
+
+  return articoli;
 }

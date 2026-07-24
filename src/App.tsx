@@ -85,7 +85,8 @@ interface Order {
 interface InventoryItem {
   id: string;
   giacenza: number;
-  costo: number;
+  costo?: number; // assente per i componenti importati dai file di magazzino
+  nota?: string;
 }
 
 interface Customer {
@@ -1211,7 +1212,9 @@ export default function App() {
                   <div key={item.id} className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex justify-between items-center">
                     <div>
                       <h4 className="font-black text-slate-900 text-base uppercase">{item.id}</h4>
-                      <p className="text-xs text-slate-400 font-semibold mt-0.5">Costo Un.: €{item.costo.toFixed(2)}</p>
+                      <p className="text-xs text-slate-400 font-semibold mt-0.5">
+                        {typeof item.costo === 'number' ? `Costo Un.: €${item.costo.toFixed(2)}` : 'Costo da inserire'}
+                      </p>
                     </div>
                     <div className="text-right">
                       <p className={`text-2xl font-black ${item.giacenza < 5 ? 'text-red-600' : 'text-slate-800'}`}>{item.giacenza}</p>

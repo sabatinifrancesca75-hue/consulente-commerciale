@@ -99,6 +99,26 @@ doppie unite — non tabelle "un ordine per riga".
   importati nascono con valore 0 da completare in app (o in futuro con un
   listino prezzi per modello).
 
+### Supporto al file "MAGAZZINO+USCITI+ORDINI"
+
+- **Schede mensili USCITI** (es. "MAGGIO 2026 USCITI"): stessa matrice modelli
+  ma con la data di uscita in colonna B. Le righe vengono importate come ordini
+  **già consegnati** (stato "completato"), con la data nel codice ordine così i
+  mesi non si sovrascrivono tra loro.
+- **Schede magazzino componenti** (COMPONENTE / GIAC.INIZ. / CONSUMATO /
+  GIAC.ATTUALE): nuovo pulsante **"Importa Magazzino"** che aggiorna le
+  giacenze dei componenti in app con i valori del file (anche negative = manco),
+  conservando le note (es. "PIU' 3 COTRAKO"). Richiede conferma perché il file
+  diventa la fonte di verità.
+- La scheda ORDINI (senza numeri d'ordine) viene importata come ordini in
+  lavorazione.
+- La pagina Magazzino dell'app ora tollera componenti senza costo unitario
+  (mostra "Costo da inserire").
+- Passo successivo consigliato: la scheda **DI.BA.** dello stesso file contiene
+  la distinta base reale e completa di ogni modello (molto più ricca di quella
+  fissa nel codice dell'app): conviene far leggere all'app anche quella, così
+  il fabbisogno componenti userà la distinta vera.
+
 ## Raccomandazioni future (non bloccanti)
 
 - Collegare gli ordini al **codice** cliente anziché al nome (rinominare un cliente oggi

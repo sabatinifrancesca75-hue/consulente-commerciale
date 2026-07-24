@@ -16,7 +16,12 @@ import {
 import { signInWithGoogle } from '../firebase';
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../firebase';
-import { detectProgrammaErreciesse, parseProgrammaErreciesse } from '../lib/programmaParser';
+import {
+  detectProgrammaErreciesse,
+  parseProgrammaErreciesse,
+  detectMagazzinoComponenti,
+  parseMagazzinoComponenti
+} from '../lib/programmaParser';
 
 interface WorkspaceModuleProps {
   onImportNotification?: (msg: string) => void;
@@ -516,7 +521,8 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
       alert("Nessun dato caricato dal foglio selezionato.");
       return;
     }
-    const righe = parseProgrammaErreciesse(sheetData.values);
+    const nomeScheda = selectedSheetTab || sheetData.activeSheetName || selectedFile?.name || '';
+    const righe = parseProgrammaErreciesse(sheetData.values, nomeScheda);
     if (righe.length === 0) {
       alert("In questa scheda non ho trovato righe ordine del formato PROGRAMMA (le sezioni 'PROGRAMMA LAVORAZIONE' contengono fasi di produzione, non ordini: seleziona una scheda CONSEGNE/ORDINI/INIZIALE/CONTO LAVORAZIONE).");
       return;
@@ -531,9 +537,10 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
       let pagati = 0;
 
       for (const o of righe) {
-        // ID deterministico cliente+ordine+modello: reimportare il file aggiorna
-        // le stesse righe invece di creare duplicati
-        const orderId = `ORD-PRG-${slug(o.cliente).slice(0, 10)}-${o.numeroOrdine || 'SN'}-${slug(o.modello)}`;
+        // ID deterministico cliente+ordine(+data)+modello: reimportare il file
+        // aggiorna le stesse righe invece di creare duplicati
+        const dataSlug = (o.dataOrdine || '').replace(/\D/g, '');
+        const orderId = `ORD-PRG-${slug(o.cliente).slice(0, 10)}-${o.numeroOrdine || dataSlug || 'SN'}-${slug(o.modello)}`;
 
         await setDoc(doc(db, 'orders', orderId), {
           id: orderId,
@@ -542,7 +549,7 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
           quantita: o.quantita,
           valore: 0, // il file PROGRAMMA non contiene importi: da completare in app
           metodoPagamento: o.pagato ? 'Pagamento anticipato' : 'Rimessa Diretta',
-          status: o.pronto ? 'omologazione' : 'lavaggio',
+          status: o.consegnato ? 'completato' : (o.pronto ? 'omologazione' : 'lavaggio'),
           incassato: o.pagato,
           note: [
             o.riferimento,
@@ -570,11 +577,49 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
         count++;
       }
 
-      const msg = `Programma importato: ${count} righe ordine, ${clienti.size} clienti (${pagati} già pagate) da "${selectedFile?.name}". Gli importi in € vanno completati in app.`;
+      const consegnate = righe.filter(o => o.consegnato).length;
+      const msg = `Programma importato: ${count} righe ordine, ${clienti.size} clienti (${pagati} già pagate${consegnate ? `, ${consegnate} già consegnate` : ''}) da "${selectedFile?.name}". Gli importi in € vanno completati in app.`;
       setImportSuccessMsg(msg);
       if (onImportNotification) onImportNotification(msg);
     } catch (err: any) {
       alert(`Errore durante l'importazione del programma: ${err.message}`);
+    } finally {
+      setImporting(false);
+    }
+  };
+
+  // Import del magazzino componenti (COMPONENTE / GIAC.INIZ. / CONSUMATO / GIAC.ATTUALE)
+  const handleImportMagazzino = async () => {
+    if (!sheetData?.values?.length) {
+      alert("Nessun dato caricato dal foglio selezionato.");
+      return;
+    }
+    const articoli = parseMagazzinoComponenti(sheetData.values);
+    if (articoli.length === 0) {
+      alert("In questa scheda non ho trovato la tabella magazzino (colonne COMPONENTE / GIAC.ATTUALE).");
+      return;
+    }
+    if (!window.confirm(`Aggiorno le giacenze di ${articoli.length} componenti in magazzino con i valori del file (il file diventa la fonte di verità: le giacenze attuali in app verranno sostituite). Procedere?`)) {
+      return;
+    }
+
+    setImporting(true);
+    try {
+      let count = 0;
+      for (const a of articoli) {
+        await setDoc(doc(db, 'inventory', a.id), {
+          giacenza: a.giacenza,
+          ...(a.note ? { nota: a.note } : {}),
+          updatedAt: serverTimestamp()
+        }, { merge: true });
+        count++;
+      }
+      const negativi = articoli.filter(a => a.giacenza < 0).length;
+      const msg = `Magazzino aggiornato: ${count} componenti da "${selectedFile?.name}"${negativi ? ` (${negativi} in manco)` : ''}.`;
+      setImportSuccessMsg(msg);
+      if (onImportNotification) onImportNotification(msg);
+    } catch (err: any) {
+      alert(`Errore durante l'importazione magazzino: ${err.message}`);
     } finally {
       setImporting(false);
     }
@@ -592,6 +637,14 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
     isSpreadsheetFile(selectedFile) &&
     sheetData?.values &&
     detectProgrammaErreciesse(sheetData.values)
+  );
+
+  // Il foglio selezionato contiene la tabella magazzino componenti?
+  const magazzinoRilevato = !!(
+    selectedFile &&
+    isSpreadsheetFile(selectedFile) &&
+    sheetData?.values &&
+    detectMagazzinoComponenti(sheetData.values)
   );
 
   const filteredFiles = files.filter(f => {
@@ -810,6 +863,19 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
                     >
                       {importing ? <RefreshCw size={14} className="animate-spin" /> : <Check size={14} />}
                       Importa Programma Erreciesse
+                    </button>
+                  )}
+
+                  {/* Import magazzino componenti (MAGAZZINO+USCITI+ORDINI) */}
+                  {magazzinoRilevato && (
+                    <button
+                      onClick={handleImportMagazzino}
+                      disabled={importing || contentLoading}
+                      className="bg-amber-600 hover:bg-amber-700 text-white px-3.5 py-2 rounded-xl text-xs font-black uppercase shadow-sm active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                      title="Tabella magazzino riconosciuta (COMPONENTE / GIAC.ATTUALE): aggiorna le giacenze dei componenti in app con i valori del file"
+                    >
+                      {importing ? <RefreshCw size={14} className="animate-spin" /> : <Database size={14} />}
+                      Importa Magazzino
                     </button>
                   )}
 
