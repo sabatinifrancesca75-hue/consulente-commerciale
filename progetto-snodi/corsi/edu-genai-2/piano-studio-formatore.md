@@ -19,7 +19,9 @@
 - Quadro normativo essenziale da saper esporre in 20 minuti: GDPR (basi giuridiche a scuola, minori), AI Act — classificazione dei rischi e perché gli strumenti usati sono a "rischio limitato", obblighi di trasparenza; L. 132/2025; DM 166/2025 (Linee guida IA nelle scuole) — principi di antropocentrismo e supervisione umana; Privacy by Design/by Default; cosa è una DPIA e cosa dice quella d'istituto.
 - La regola operativa non negoziabile: **nessun dato personale di studenti negli strumenti IA** — come si lavora lo stesso (dati sintetici, pseudonimizzazione, casi-tipo).
 
-**Studio consigliato (in ordine):** DM 166/2025 integrale; sintesi AI Act per l'educazione (cap. su sistemi ad alto rischio in ambito istruzione, All. III); Cristianini *Machina sapiens* capp. su funzionamento LLM; guida NotebookLM/Gemini for Education di Google.
+**Studio consigliato (in ordine):** DM 166/2025 integrale; sintesi AI Act per l'educazione (cap. su sistemi ad alto rischio in ambito istruzione, All. III); Cristianini *Machina sapiens* capp. su funzionamento LLM; guida NotebookLM/Gemini for Education di Google; **DigComp 3.0** (JRC nov. 2025, trad. it. ufficiale 30/03/2026) — l'IA è ora trasversale a tutte le 21 competenze e i livelli passano da 8 a 4: usare questa versione nelle slide, non il 2.2.
+
+**Dati di contesto da usare in apertura:** indagine INDIRE–Tecnica della Scuola (Didacta 2025, 1.803 docenti): il 52,4% dei docenti usa già l'IA a supporto della didattica, il 10% come strumento compensativo — il corso non parte da zero, parte da usi spontanei da mettere in sicurezza. Citare anche la sperimentazione MIM 2024–26 dell'assistente IA (15 istituti in 4 regioni, valutazione INVALSI in corso) per collocare lo Snodo nel quadro nazionale.
 
 **Da preparare:** slide sul "viaggio di un prompt" (cosa succede tecnicamente); demo live di un'allucinazione indotta e della sua correzione con grounding; patto d'aula del corso.
 
@@ -35,7 +37,9 @@
 - Generazione e adattamento di risorse: semplificazione/complessificazione di testi, batterie di esercizi graduati, testi paralleli per livelli.
 - Copyright e licenze: chi è autore dell'output GenAI (orientamento attuale: no tutela autorale per output puramente generati), licenze Creative Commons per i materiali prodotti, citazione trasparente dell'uso di IA.
 
-**Studio consigliato:** guida al prompting di Google (Prompting Essentials / guida Gemini for Educators); Mollick *Co-intelligenza* (capp. sui "4 principi" e sull'IA come co-docente); un paper leggibile su few-shot/CoT (anche solo le sezioni introduttive di "Chain-of-Thought Prompting Elicits Reasoning in LLMs", Wei et al. 2022).
+**Evidenza da portare in aula:** trial EEF/NFER inglese (RCT indipendente, 259 docenti di secondaria in 68 scuole): ChatGPT **con una guida d'uso** riduce del **31% il tempo di pianificazione** (~25 min/settimana) a qualità invariata al blind review. Il messaggio: il risparmio arriva con metodo, non con l'uso naïf — ed è esattamente ciò che questo incontro insegna.
+
+**Studio consigliato:** guida al prompting di Google (Prompting Essentials / guida Gemini for Educators); Mollick *Co-intelligenza* (capp. sui "4 principi" e sull'IA come co-docente); un paper leggibile su few-shot/CoT (anche solo le sezioni introduttive di "Chain-of-Thought Prompting Elicits Reasoning in LLMs", Wei et al. 2022); rapporto EEF/NFER "ChatGPT in Lesson Preparation — Teacher Choices Trial" (almeno l'executive summary).
 
 **Da preparare:** template di prompt didattico da compilare in diretta; esercitazione a coppie "stesso obiettivo, prompt diversi, confronto output"; avvio della prompt-libreria condivisa (Doc/Sheet di corso).
 
@@ -51,7 +55,9 @@
 - Compiti autentici e artefatti multimediali: criteri di autenticità (Wiggins), prodotti valutabili.
 - Il project work del corso parte qui: ogni corsista imposta la propria UdA (consegna finale richiesta per l'attestato).
 
-**Studio consigliato:** DigCompEdu (testo JRC, Area 3 con i descrittori di livello B2/C1 — sono il tuo linguaggio di certificazione); Bowen & Watson *Teaching with AI* (parte sulle attività e assignment ridisegnati); UNESCO *Guidance for generative AI in education and research* (sezione sugli usi didattici co-creativi).
+**Dato di contesto per calibrare le UdA:** Rapporto INVALSI 2026 (rilevazione competenze digitali su ~600 scuole): oltre l'80% degli studenti al secondo anno del secondo grado raggiunge almeno il livello intermedio, ~7 su 10 il livello avanzato in uscita — le UdA possono assumere una base digitale solida e puntare in alto sulla dimensione critica.
+
+**Studio consigliato:** DigCompEdu (testo JRC, Area 3 con i descrittori di livello B2/C1 — sono il tuo linguaggio di certificazione; nota: il quadro è del 2017, integrarlo in aula con i learning outcomes IA di DigComp 3.0); Bowen & Watson *Teaching with AI* (parte sulle attività e assignment ridisegnati); UNESCO *Guidance for generative AI in education and research* (sezione sugli usi didattici co-creativi).
 
 **Da preparare:** canvas UdA (template condiviso), 2 UdA-esempio complete (una STEM, una umanistica/di indirizzo), rubrica di qualità dell'UdA che userai al project work finale — consegnarla già ora crea trasparenza valutativa.
 
@@ -67,7 +73,9 @@
 - Personalizzazione operativa: adattamenti per DSA (semplificazione lessicale, mappe, sintesi vocale), BES, potenziamento per eccellenze; il principio: l'IA adatta il *mezzo*, il docente presidia l'*obiettivo* (PDP/PEI restano atti del consiglio di classe — non si caricano su strumenti IA).
 - PCTO: simulazioni di colloqui, analisi di casi aziendali, orientamento — con i vincoli privacy visti all'incontro 1.
 
-**Studio consigliato:** Khan *Brave New Words* (visione del tutor IA, cap. su Khanmigo); Bloom "The 2 Sigma Problem" (1984 — il problema che il tutoring 1:1 pone alla scuola, cornice perfetta per la lezione); Wood, Bruner & Ross "The Role of Tutoring in Problem Solving" (1976); linee guida CAST sull'Universal Design for Learning (UDL) come cornice della personalizzazione.
+**Evidenza da portare in aula — il cuore empirico del corso:** RCT di **Bastani et al. (PNAS 2025)** su ~1.000 studenti di scuola superiore: con ChatGPT "libero" la performance assistita sale (+48%) ma all'esame senza IA gli studenti vanno *peggio* del controllo (−17%); la versione tutor **con guardrail** annulla il danno. In contrappunto, **Kestin et al. (Scientific Reports 2025)**: un tutor IA progettato su principi pedagogici fa apprendere più dell'active learning in presenza (contesto universitario, da dichiarare). Insieme dimostrano la tesi dell'incontro: non "IA sì/no" ma *come è progettato il tutor* — guardrail, domande socratiche, fading.
+
+**Studio consigliato:** Khan *Brave New Words* (visione del tutor IA, cap. su Khanmigo); Bloom "The 2 Sigma Problem" (1984 — il problema che il tutoring 1:1 pone alla scuola, cornice perfetta per la lezione); Wood, Bruner & Ross "The Role of Tutoring in Problem Solving" (1976); Bastani et al., "Generative AI without guardrails can harm learning" (PNAS 2025) e Kestin et al. (Sci. Rep. 2025) — almeno abstract e figure principali; linee guida CAST sull'Universal Design for Learning (UDL) come cornice della personalizzazione.
 
 **Da preparare:** un Gem/chatbot tutor socratico funzionante da mostrare e clonare; esercitazione "scrivi le istruzioni di sistema del tuo tutor disciplinare"; casi-studio BES/DSA con dati fittizi.
 
@@ -83,9 +91,14 @@
 - Valutazione assistita: rubriche co-progettate con l'IA, feedback formativo generato e **sempre revisionato**; principio **Human-in-the-loop** come vincolo normativo (Linee guida MIM 2025: la valutazione è atto proprio e insostituibile del docente) e non solo metodologico.
 - Integrità accademica nel secondo ciclo: politiche d'istituto sull'uso dichiarato dell'IA da parte degli studenti; perché i "detector di IA" sono inaffidabili e non vanno usati come prova.
 
-**Studio consigliato:** O'Neil *Armi di distruzione matematica* (bias algoritmici sui casi concreti — miniera di esempi per la lezione); Bender et al. "On the Dangers of Stochastic Parrots" (2021, anche solo §4–6); Linee guida MIM DM 166/2025 (rilettura mirata: valutazione e supervisione umana); Floridi *Etica dell'intelligenza artificiale* (capp. su bias e responsabilità).
+**Due casi di fact-checking da usare come esercitazione (la data literacy applicata a se stessa):**
+1. La meta-analisi **Wang & Fan 2025** (il famoso g = 0.867 sull'apprendimento con ChatGPT) è stata **ritrattata** dall'editore ma continua a circolare in convegni e articoli divulgativi — esercizio: cercarla, scoprire la retraction, discutere come si verifica lo stato di una fonte.
+2. Lo studio MIT **"Your Brain on ChatGPT"** ("l'IA atrofizza il cervello"): preprint non peer-reviewed su ~54 soggetti, mediatizzato ben oltre i dati — esercizio: confrontare i titoli di stampa con l'abstract reale.
+Chiudere presentando onestamente lo stato della letteratura: meta-analisi con effetti positivi moderati (Deng 2025; HSSC 2026) vs. RCT che mostrano danni senza guardrail — l'incertezza è essa stessa contenuto didattico.
 
-**Da preparare:** batteria di prompt "trappola" per far emergere bias/allucinazioni in diretta; esercitazione di co-costruzione rubrica su un elaborato reale anonimizzato; bozza di policy d'aula sull'uso dell'IA da discutere.
+**Studio consigliato:** O'Neil *Armi di distruzione matematica* (bias algoritmici sui casi concreti — miniera di esempi per la lezione); Bender et al. "On the Dangers of Stochastic Parrots" (2021, anche solo §4–6); Linee guida MIM DM 166/2025 (rilettura mirata: valutazione e supervisione umana); Floridi *Etica dell'intelligenza artificiale* (capp. su bias e responsabilità); una delle meta-analisi recenti (es. quella di 35 studi sperimentali su Nature HSSC 2026) per padroneggiare il quadro d'insieme.
+
+**Da preparare:** batteria di prompt "trappola" per far emergere bias/allucinazioni in diretta; dossier del caso Wang & Fan e del caso MIT (screenshot titoli vs. fonte); esercitazione di co-costruzione rubrica su un elaborato reale anonimizzato; bozza di policy d'aula sull'uso dell'IA da discutere.
 
 ---
 

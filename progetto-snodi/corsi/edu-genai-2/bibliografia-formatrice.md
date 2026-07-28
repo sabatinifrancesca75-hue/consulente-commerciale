@@ -38,7 +38,20 @@ Percorso di letture per Edu-GenAI 2 (utile in larga parte anche per Ethic-AI 2).
 - **Cathy O'Neil — *Armi di distruzione matematica*** (Bompiani, 2017) — casi concreti di bias algoritmico, ottimi come materiale d'aula.
 - **Bender, Gebru et al. — "On the Dangers of Stochastic Parrots"** (FAccT 2021) — la critica scientifica di riferimento ai LLM: rischi, bias nei dati, costi ambientali (utile anche per Ethic-AI 2).
 - **Luciano Floridi — *Etica dell'intelligenza artificiale. Sviluppi, opportunità, sfide*** (Raffaello Cortina, 2022) — il quadro etico sistematico, in italiano.
-- **Vuorikari et al. — DigComp 2.2** (JRC, 2022) e materiali **DigComp 3.0**: gli esempi di conoscenze/abilità/attitudini su IA e dati (l'appendice "citizens interacting with AI" di DigComp 2.2 è pronta per l'aula).
+- **DigComp 3.0** (JRC, novembre 2025 — trad. it. ufficiale del Dipartimento per la Trasformazione Digitale, 30/03/2026): la versione di riferimento da citare in aula — IA integrata trasversalmente in tutte le 21 competenze, 4 livelli di padronanza, nuovi learning outcomes su GenAI, disinformazione e benessere digitale. DigComp 2.2 (2022) resta utile solo per l'appendice "citizens interacting with AI".
+
+## Evidenza empirica recente (integrata dalla ricognizione di luglio 2026)
+
+Studi da conoscere per fondare empiricamente le affermazioni del corso — dettaglio e valutazione di affidabilità in `fonti-aggiornate-ricognizione.md`:
+
+- **Bastani et al. — "Generative AI without guardrails can harm learning"** (PNAS, 2025) — RCT pre-registrato su ~1.000 studenti di scuola superiore: uso libero di ChatGPT → −17% alla prova senza IA; tutor con guardrail → danno annullato. *La* citazione per l'incontro 4.
+- **Kestin et al. — "AI tutoring outperforms in-class active learning"** (Scientific Reports, 2025) — il contro-caso positivo: tutor IA ben progettato batte l'active learning (contesto universitario).
+- **Meta-analisi di 35 studi sperimentali su ChatGPT** (Humanities & Social Sciences Communications, 2026) e **Deng et al. 2025** (62 studi): effetti positivi moderati, forte eterogeneità — il quadro d'insieme da presentare con onestà.
+- ⚠️ **Wang & Fan (HSSC 2025) — RITRATTATA**: non citare come evidenza; usare come caso di fact-checking.
+- ⚠️ **Kosmyna et al. (MIT) — "Your Brain on ChatGPT"** (2025): preprint su ~54 soggetti, sovra-mediatizzato; citare solo con cautela esplicita, come caso di studio sulla comunicazione della scienza.
+- **EEF/NFER — ChatGPT in Lesson Preparation, Teacher Choices Trial** (Inghilterra, RCT su 259 docenti di secondaria): −31% tempo di pianificazione a qualità invariata, *se* accompagnato da una guida d'uso. Evidenza motivazionale per l'incontro 2.
+- **Indagine INDIRE–Tecnica della Scuola** (Didacta 2025, 1.803 docenti): 52,4% usa già l'IA nella didattica — il dato per calibrare il livello d'ingresso dei corsisti.
+- **Sperimentazione MIM assistente IA 2024–26** (15 istituti, 4 regioni, valutazione INVALSI): da monitorare — la valutazione ufficiale non risulta ancora pubblicata a luglio 2026.
 
 ## Formazione continua (dopo il corso)
 - **Paolo Benanti — *Human in the loop. Decisioni umane e intelligenze artificiali*** (Mondadori Università, 2022) — approfondisce il principio cardine delle Linee guida MIM; ponte naturale verso Ethic-AI 2.
