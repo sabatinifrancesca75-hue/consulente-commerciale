@@ -14,6 +14,8 @@
 
 **Gruppo A — Il paper ritrattato.** Cercate "meta-analysis ChatGPT learning performance retracted". Trovate la retraction notice della rivista. Domande: quando è stata ritrattata? La notizia della retraction ha circolato quanto il paper? Cosa significa per come citiamo le fonti?
 
+*Dossier per la formatrice (fatti verificati):* Wang & Fan, HSSC 2025 (DOI 10.1057/s41599-025-04787-y), il famoso g = 0.867. Ritrattata il **22 aprile 2026** (Retraction Note: HSSC vol. 13, art. 528): "discrepanze nella meta-analisi", in particolare l'aggregazione di studi troppo diversi per metodo e campione; segnalazioni di M. Ingebrigtsen e M. Lukic; gli autori non hanno risposto. Prima della ritrattazione: **~486.000 visualizzazioni, 266 citazioni, Altmetric 1.023** — i numeri della viralità sono la lezione: la smentita non viaggia mai quanto la notizia. Il PDF con filigrana "RETRACTED ARTICLE" è nella cartella dell'incontro 5: mostrarlo in apertura dell'esercizio.
+
 **Gruppo B — Il preprint da 54 soggetti.** Cercate un titolo di stampa su "Your Brain on ChatGPT" (es. "l'IA atrofizza il cervello") e poi l'abstract del preprint MIT. Domande: quanti partecipanti? È stato sottoposto a peer review? Il titolo di stampa è sostenuto dai dati?
 
 **Sintesi condivisa:** tre controlli minimi prima di citare una fonte — esiste? è ancora valida (non ritrattata/superata)? dice davvero ciò che il titolo le fa dire?
