@@ -8,7 +8,7 @@ Compilate un campo alla volta, nell'ordine: è il backward design.
 2. **Competenze target** — 2–3, osservabili, dal PECUP dell'indirizzo ("Lo studente sa…").
 3. **Prerequisiti** — cosa la classe deve già possedere.
 4. **Compito autentico** — il prodotto finale: cosa, per quale destinatario reale, con quali vincoli. Test: "vivrebbe fuori dal compito in classe?"
-5. **Fasi di lavoro** — per ciascuna fase: attività, tempi, e la colonna **[IA]**: se l'IA entra, come, con quale strumento e quale regola d'uso per gli studenti.
+5. **Fasi di lavoro** — per ciascuna fase: attività, tempi, e la colonna **[IA]**: se l'IA entra, come, con quale strumento e quale regola d'uso per gli studenti. Per scegliere il livello di coinvolgimento usate la scala della guida UNESCO-TVET (2026): *AI-independent → AI-aware → AI-supported → AI-enhanced → AI-centric* — non è una progressione ma un repertorio di scelte, fase per fase; sulle competenze fondamentali si costruisce prima la padronanza **senza** IA.
 6. **Policy IA per gli studenti** — cosa è consentito (e va dichiarato), cosa è vietato, come si dichiara l'uso. (Si affina all'incontro 5.)
 7. **Valutazione** — rubrica del prodotto + osservazione del processo + domanda metacognitiva finale.
 8. **Riflessione della progettista/del progettista** — cosa vi aspettate che l'IA aggiunga; cosa temete; come lo verificherete in classe.

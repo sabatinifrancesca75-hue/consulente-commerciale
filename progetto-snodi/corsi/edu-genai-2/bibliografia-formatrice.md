@@ -53,6 +53,17 @@ Studi da conoscere per fondare empiricamente le affermazioni del corso — detta
 - **Indagine INDIRE–Tecnica della Scuola** (Didacta 2025, 1.803 docenti): 52,4% usa già l'IA nella didattica — il dato per calibrare il livello d'ingresso dei corsisti.
 - **Sperimentazione MIM assistente IA 2024–26** (15 istituti, 4 regioni, valutazione INVALSI): da monitorare — la valutazione ufficiale non risulta ancora pubblicata a luglio 2026.
 
+## Dai documenti UNESCO/OCSE forniti dalla formatrice (integrazione luglio 2026)
+
+Analisi completa in `approfondimento-unesco-oecd.md`. I quattro da studiare:
+
+- **OECD — *Digital Education Outlook 2026: Exploring Effective Uses of Generative AI in Education*** — la fonte empirica più aggiornata: dati TALIS 2024 sui docenti (36% usa l'IA, 75% si sente impreparato), RCT sui tutor (Tutor CoPilot: +9 punti con i tutor inesperti), "metacognitive laziness", meta-analisi Vaccaro (la sinergia umano-IA va progettata, non presunta). Priorità assoluta.
+- **UNESCO-UNEVOC — *Integrating AI in TVET*** (2026) — la più operativa: i 5 livelli di coinvolgimento IA per la progettazione e le 4 categorie di valutazione col "non-delegable anchor" (già integrate nelle schede 3a e 6); indicazioni specifiche per tecnici/professionali e alternanza.
+- **UNESCO — *AI and the future of education: Disruptions, dilemmas and directions*** (2025) — antologia critica d'autore (Bender sulla "forma senza significato", Aerts sulle learning echo chambers, Perkins & Roe sull'era post-plagiarism): materiale di discussione per gli incontri 1, 4 e 5.
+- **UNESCO — *AI and education: Protecting the rights of learners*** (2025) — la privacy come diritto; il dato Common Sense (solo il 20% dei prodotti ed-tech supera standard minimi di privacy); la citazione-missione: «AI should support the learning process without reducing cognitive abilities» (Racc. etica IA 2021, §104).
+
+⚠️ Nota: il **GEM Report 2026** fornito è l'edizione su accesso ed equità, non quella sulla tecnologia — per le posizioni GEM su tecnologia/IA procurarsi il **GEM 2023 *Technology in education: A tool on whose terms?***.
+
 ## Formazione continua (dopo il corso)
 - **Paolo Benanti — *Human in the loop. Decisioni umane e intelligenze artificiali*** (Mondadori Università, 2022) — approfondisce il principio cardine delle Linee guida MIM; ponte naturale verso Ethic-AI 2.
 - **OECD — *Opportunities, guidelines and guardrails for effective and equitable use of AI in education*** (2023) — per la prospettiva di policy comparata.

@@ -33,6 +33,14 @@ con una giustificazione, poi la rubrica completa in tabella.
 
 **Ciclo di critica (il vero esercizio):** individuate descrittori vaghi ("adeguata padronanza"…) e livelli indistinguibili → fate riscrivere con le vostre correzioni → applicate all'elaborato anonimizzato → domanda finale: *il giudizio vi convince? Cosa vede il vostro occhio che la griglia non cattura?* Quella differenza È la ragione dello Human-in-the-loop.
 
+**Upgrade dalla guida UNESCO-TVET (2026) — classificate ogni singolo compito, non l'attività intera:**
+- *AI-excluded* — l'IA non è ammessa (verifica di padronanza di base);
+- *AI-permitted* — ammessa per fasi dichiarate (ricerca, brainstorming);
+- *AI-integrated* — l'uso dell'IA è parte della consegna;
+- *AI-enabled* — il compito esiste solo grazie all'IA (es. bias audit).
+
+Ogni compito con IA ammessa deve avere un **"non-delegable anchor"**: uno step che solo lo studente può compiere — colloquio orale, dimostrazione pratica, diario di processo. È l'alternativa progettuale ai detector.
+
 **Bozza di policy IA per la vostra UdA (10 righe, da incollare nel canvas):**
 ```
 In questa attività puoi usare l'IA per: [es. generare idee, chiedere

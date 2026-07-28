@@ -17,7 +17,7 @@ Le quattro proprietà che rendono "agente" un sistema:
 3. **Memoria e stato** — ricorda cosa ha già fatto dentro il compito (e talvolta tra sessioni).
 4. **Iterazione autonoma** — valuta i propri risultati intermedi e riprova senza chiedere conferma a ogni passo.
 
-I sistemi **multi-agente** coordinano più agenti specializzati (uno pianifica, uno scrive, uno verifica). Concetto da conoscere perché è la direzione del mercato, non per l'uso scolastico immediato.
+I sistemi **multi-agente** coordinano più agenti specializzati (uno pianifica, uno scrive, uno verifica). Concetto da conoscere perché è la direzione del mercato, non per l'uso scolastico immediato. L'OECD Digital Education Outlook 2026 inquadra il rapporto docente-IA in tre modi — *replacement, complementarity, augmentation* — e indica il terzo come il più efficace: docente e IA che «critique and refine each other's outputs». La scala di autonomia qui sotto è il modo operativo di scegliere il punto giusto su quell'asse.
 
 **Concetto chiave da insegnare — la scala di autonomia.** L'automazione non è on/off; per ogni processo il docente sceglie il gradino:
 
