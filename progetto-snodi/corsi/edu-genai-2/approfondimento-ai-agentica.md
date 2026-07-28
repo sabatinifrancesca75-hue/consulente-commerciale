@@ -35,7 +35,7 @@ Il perimetro per la scuola: **livelli 2–3 per la didattica, mai oltre il 4 per
 ## 2. Il quadro normativo specifico per gli agenti
 
 - **AI Act pienamente applicabile dal 2 agosto 2026** (data di piena applicazione della gran parte degli obblighi, incl. sistemi ad alto rischio). Per gli agenti la questione si sposta: più autonomia = più responsabilità del deployer. Un agente usato per valutare studenti o decidere accessi a percorsi ricade nell'**alto rischio** (All. III, istruzione): fuori dal perimetro dello Snodo.
-- **EDPS (Garante europeo)**: per l'IA agentica a scuola indica di **mappare puntualmente gli usi** invece dell'approccio generico "usiamo l'IA" — ogni flusso automatizzato va censito, con titolarità e base giuridica. Tradotto: ogni agente creato va inserito nel registro dei trattamenti se tocca dati personali.
+- **EDPS (Garante europeo della protezione dei dati)** — precisazione d'ambito: il suo "Compass 2026–2027" riguarda la vigilanza sui sistemi IA delle **istituzioni UE**, non le scuole. È però un **modello di governance** da imitare: la sua mappatura ha censito oltre cento sistemi IA in uso negli enti UE (con la GenAI come tecnologia dominante) e segnala che «agentic AI is also being explored and is likely to emerge in the short term». Tradotto per l'istituto: censire ogni flusso automatizzato in una mappa degli usi IA, con titolarità e base giuridica, e inserirlo nel registro dei trattamenti se tocca dati personali — gli obblighi veri per la scuola derivano dall'AI Act e dal DM 166/2025.
 - **DM 166/2025**: supervisione umana e insostituibilità del docente valgono a maggior ragione per gli agenti: il principio operativo è **human-in-the-loop by design** — il flusso deve *strutturalmente* fermarsi per la revisione umana prima che l'output raggiunga gli studenti.
 - **Automation bias** (distorsione da automazione): il rischio nuovo non è l'errore dell'agente ma la fiducia crescente del docente che smette di controllare. Contromisure da insegnare: revisione a campione programmata, "errori sentinella" (controllare sempre 2-3 output a caso per lotto), log delle esecuzioni.
 - **Regola dello Snodo invariata**: nessun dato personale di studenti negli strumenti IA — vale anche per i flussi automatizzati (che è facile violare per distrazione: un agente che legge la casella email del docente *vede* i nomi degli studenti).
@@ -89,7 +89,7 @@ Processo reale, a rischio zero privacy (nessun dato di studenti), replicabile da
 
 ## 6. Letture e risorse per formarsi
 
-1. **EDPS — orientamenti su IA agentica e istituzioni educative** (2026): il riferimento per la mappatura degli usi. Priorità alta.
+1. **EDPS — *The EDPS Compass for its new role under the AI Act, 2026–2027*** (2026): ambito = istituzioni UE, non scuole; da leggere come modello di mappatura degli usi e di enforcement AI Act (audit, ispezioni, sandbox). La frase da citare: «A human-centric AI is a competitive advantage».
 2. **Documentazione Google Workspace Studio for Education** + blog Google for Education (annunci BETT 2026): capacità reali e limiti dello strumento che i corsisti useranno.
 3. **Mollick — *Co-intelligenza*** (già in bibliografia) e la sua newsletter *One Useful Thing*: i pezzi 2025–26 sugli agenti sono la migliore divulgazione sul "cosa cambia quando l'IA agisce invece di rispondere".
 4. **Anthropic — "Building effective agents"** (guida tecnica, 2024): per capire pattern e limiti architetturali (workflow vs. agenti, guardrail) — livello AI-Lead.

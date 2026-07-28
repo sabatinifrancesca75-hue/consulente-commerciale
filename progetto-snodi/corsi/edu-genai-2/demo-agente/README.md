@@ -52,7 +52,7 @@ Creare un Google Sheet **`Programma_settimanale`** con due tab:
 2. **(2')** La scala di autonomia (slide): questo flusso è un livello 3 — parte da solo, ma consegna *bozze*.
 3. **(8')** Costruzione live del flusso in Studio (o mostrare il flusso già pronto ed eseguirlo con "Run now" sulla riga demo del CSV).
 4. **(4')** Aprire i tre documenti generati: confrontare le versioni — *stesso obiettivo, tre scaffolding diversi*. Far notare dove l'output va corretto: la revisione è il punto, non un difetto.
-5. **(3')** Il semaforo dei processi (🟢🟡🔴) + regola EDPS: ogni agente si censisce.
+5. **(3')** Il semaforo dei processi (🟢🟡🔴) + la regola di governance: ogni agente si censisce nella mappa degli usi IA dell'istituto (sul modello della mappatura EDPS per le istituzioni UE).
 
 **Riga demo consigliata** (già nel CSV): Matematica, 4B, "Derivata di una funzione" — parla al liceo scientifico ospite ed è ricca di possibilità di differenziazione; in aula con docenti di altre discipline, generare live una seconda riga proposta da loro (Storia o Scienze) per mostrare che i template sono disciplinari-agnostici.
 
