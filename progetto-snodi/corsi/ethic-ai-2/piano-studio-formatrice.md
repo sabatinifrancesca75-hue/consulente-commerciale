@@ -12,3 +12,9 @@ Il fascicolo di preparazione condivide la base documentale di Edu-GenAI 2 (`../e
 | 6 — Project work | Annessi UNESCO-TVET (AI-readiness, registro rischi); protocolli di tuning per la peer review |
 
 **Le tre frasi-cardine del corso:** «A human-centric AI is a competitive advantage» (EDPS) · «AI should support the learning process without reducing cognitive abilities» (UNESCO §104) · "Il cinismo è l'altro modo di essere manipolati" (patto d'aula, incontro 3).
+
+## Il filo filosofico-magisteriale (ampio respiro)
+
+Vedi `approfondimento-etica-filosofica.md` per il dettaglio. In sintesi: **capsule filosofiche da 10'** distribuite sugli incontri — Floridi/onlife e magistero (inc. 1, con la slide "Bussola filosofica"), Fabris/chi diventiamo con le macchine (inc. 2), *Antiqua et Nova*/intelligenza funzionale vs umana (inc. 3), Benanti/algoretica (inc. 4), Panai/l'eticista come professione (inc. 5, dentro la slide "Prompt etici e di controllo" e la scheda E7).
+
+**Letture prioritarie aggiuntive:** Antiqua et Nova (2025, integrale — 30 pagine); Rome Call for AI Ethics (2020, i sei principi); Floridi e Benanti già in bibliografia; Fabris, *Etica delle nuove tecnologie* (⚠️ verificare il titolo più recente); Panai (⚠️ riferimento bibliografico da verificare). **Nota di precisione:** a oggi non risulta un'enciclica papale sull'IA — verificare prima dell'avvio se nel 2026 ne è uscita una; in mancanza, la formula corretta è "la nota *Antiqua et Nova* e il magistero di Leone XIV".
