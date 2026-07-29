@@ -4,15 +4,24 @@ Materiale di studio per la formatrice (Ethic-AI 2), per dare al corso il respiro
 
 ## 1. Il magistero della Chiesa sull'IA — cosa citare (con precisione)
 
-**Precisazione preliminare importante:** a oggi **non risulta un'enciclica papale dedicata all'IA**. Chi la cita in convegni confonde quasi sempre uno di questi documenti reali — ed è essa stessa una micro-lezione di fact-checking da fare in aula:
+### ⭐ L'enciclica: *Magnifica Humanitas* (2026)
+
+**Il documento principale, verificato:** Leone XIV, **Lettera Enciclica *Magnifica Humanitas* "sulla custodia della persona umana nel tempo dell'intelligenza artificiale"** — firmata il **15 maggio 2026, nel 135° anniversario della *Rerum Novarum*** di Leone XIII (la data è il programma: l'IA come nuova questione sociale), pubblicata il 25 maggio e presentata in Aula del Sinodo alla presenza del Papa stesso (fatto inedito per un'enciclica). **245 paragrafi**; prima enciclica del pontificato. Testo integrale gratuito su vatican.va.
+
+**Le tesi principali (per il corso):**
+- La Dottrina sociale della Chiesa come bussola per governare l'IA ed evitare non solo disparità ma una **"disumanizzazione"**;
+- La denuncia delle **"nuove schiavitù"** e del **"colonialismo dei dati"**: il calcolo globale che si alimenta del lavoro invisibile e dello sfruttamento (fino ai minori nelle miniere di terre rare) — aggancio diretto al nucleo "sviluppo e sostenibilità" del DM 183 e ai vostri casi di algocrazia;
+- Il nucleo più urgente: **scuola, famiglia, lavoro** come luoghi decisivi per custodire la libertà umana nell'età digitale, con l'appello a un'**"alleanza educativa per l'età digitale"**;
+- **La scuola**: "luogo fondamentale dove le nuove generazioni imparano a cercare e amare la verità, a interrogarsi sul senso della vita e sulla dignità di ogni persona" — chiamata a una funzione **che nessuna tecnologia può sostituire: aiutare i giovani a costruire una coscienza**. "Il digitale non può sostituire il tempo umano dell'educazione";
+- **§146 — il paragrafo per il vostro corso:** il rischio di un sistema educativo "senza amore per la verità" e la proposta di un'**"igiene dell'attenzione"**: silenzio, approfondimento, lettura, confronto misurato. (È la versione magisteriale della vostra "dieta informativa" dell'incontro 3 — citarli insieme.)
+
+**Come usarla in aula (registro laico):** come documento di rilievo mondiale sul tema del corso — al pari di UNESCO e OCSE — e come *caso*: un'istituzione millenaria che risponde alla rivoluzione tecnologica con la stessa mossa del 1891. Il parallelo Rerum Novarum (1891, questione operaia) → Magnifica Humanitas (2026, questione algoritmica) è una lezione di storia e cittadinanza in un colpo solo.
+
+### Gli altri due documenti (il contesto che la precede)
 
 - **Rome Call for AI Ethics** (Pontificia Accademia per la Vita, 28 febbraio 2020; poi Fondazione RenAIssance): non un documento dottrinale ma un patto multi-attore — firmato da Microsoft, IBM, FAO, Governo italiano, e negli anni successivi da rappresentanti di ebraismo e islam (dimensione interreligiosa) e altre big tech. **Sei principi**: trasparenza, inclusione, responsabilità, imparzialità, affidabilità, sicurezza e privacy. Il concetto chiave: **"algoretica"** — un'etica *computabile*, tradotta nel design degli algoritmi fin dall'inizio, non applicata dopo.
 - **Antiqua et Nova** (28 gennaio 2025): **Nota** dei Dicasteri per la Dottrina della Fede e per la Cultura e l'Educazione "sul rapporto tra intelligenza artificiale e intelligenza umana". È il documento teoretico di riferimento. Tesi centrale: quella dell'IA è una *funzionalità* — la capacità di eseguire compiti — mentre l'intelligenza umana è **incarnata, relazionale, aperta alla verità e al senso**: usare la stessa parola per entrambe genera l'equivoco da cui nascono deleghe indebite. Contiene paragrafi dedicati all'educazione: la tecnologia deve servire la formazione del giudizio, non sostituire il processo con cui il giudizio si forma. L'IA va intesa come strumento complementare all'intelligenza umana, mai come suo sostituto.
-- **Leone XIV** (dal maggio 2025): ha fatto dell'IA un tema-programma del pontificato a partire dalla **scelta del nome** — dichiaratamente in continuità con Leone XIII, il papa della *Rerum Novarum* (1891), che rispose alla prima rivoluzione industriale: la Chiesa si pone davanti all'IA come a **una nuova questione sociale** (lavoro, dignità, distribuzione del potere). I suoi interventi insistono su dignità del lavoro umano e protezione dei minori/dello sviluppo umano integrale nell'era dell'IA.
-
-> ⚠️ **Da verificare prima dell'avvio del corso** (non verificabile ora): se nel 2026 Leone XIV ha pubblicato un'enciclica o esortazione dedicata all'IA, va integrata qui come documento principale. Se sì, il parallelo Rerum Novarum → nuova enciclica diventa la slide perfetta. Se no, la formula corretta in aula è: "la nota *Antiqua et Nova* e il magistero di Leone XIV".
-
-**Perché in un corso pubblico:** non per catechesi, ma per tre ragioni laiche: (1) il Rome Call è uno dei rari luoghi dove big tech, governi e religioni hanno firmato principi comuni — un caso di governance multi-attore da studiare in Educazione Civica; (2) *Antiqua et Nova* offre la distinzione concettuale più limpida in circolazione tra intelligenza funzionale e intelligenza umana — utile a qualunque aula, credente o no; (3) l'algoretica di Benanti è il ponte tra principi e codice, cioè esattamente ciò che l'AI Act prova a fare per via giuridica.
+**Perché in un corso pubblico:** non per catechesi, ma per ragioni laiche: (1) *Magnifica Humanitas* è un documento di rilievo mondiale sul tema esatto del corso, con il nucleo educativo più esplicito mai scritto dal magistero sull'IA; (2) il Rome Call è uno dei rari luoghi dove big tech, governi e religioni hanno firmato principi comuni — governance multi-attore da studiare in Educazione Civica; (3) *Antiqua et Nova* offre la distinzione concettuale più limpida tra intelligenza funzionale e intelligenza umana; (4) l'algoretica di Benanti è il ponte tra principi e codice, ciò che l'AI Act prova a fare per via giuridica.
 
 ## 2. Le quattro voci filosofiche
 
@@ -50,9 +59,9 @@ Formato: **10 minuti a incontro** (1-4), una voce alla volta, sempre con la stes
 
 | Incontro | Capsula | Aggancio al blocco |
 |---|---|---|
-| 1 | Floridi (onlife) + magistero (Rerum Novarum → IA come questione sociale) | Impatto sociale |
+| 1 | Floridi (onlife) + Magnifica Humanitas (Rerum Novarum 1891 → enciclica 2026: l'IA come questione sociale) | Impatto sociale |
 | 2 | Fabris (chi diventiamo con le macchine) | Benessere digitale |
-| 3 | Antiqua et Nova (intelligenza funzionale vs umana) | Bias e "bespoke misinformation" |
+| 3 | Antiqua et Nova (intelligenza funzionale vs umana) + Magnifica Humanitas §146 (igiene dell'attenzione ↔ dieta informativa) | Bias e "bespoke misinformation" |
 | 4 | Benanti (algoretica → policy della UdA) | Curricolo e policy |
 | 5 | Panai (l'eticista come professione) — dentro il laboratorio | Red-teaming |
 
@@ -60,10 +69,11 @@ Formato: **10 minuti a incontro** (1-4), una voce alla volta, sempre con la stes
 
 ## 4. Scaffale filosofico essenziale (aggiunta alla bibliografia)
 
-1. **Antiqua et Nova** (2025) — testo integrale, gratuito sul sito vaticano. Priorità assoluta: 30 pagine dense ma leggibili.
-2. **Rome Call for AI Ethics** (2020) — il testo dei sei principi (romecall.org).
-3. **Floridi**, *Etica dell'intelligenza artificiale* (Cortina, 2022) — capp. su principi e spiegabilità.
-4. **Benanti**, *Human in the loop* (Mondadori Università, 2022).
-5. **Fabris**, *Etica delle nuove tecnologie* (+ titolo recente da verificare).
-6. **Panai** — riferimento da completare dopo verifica bibliografica.
-7. Per contrasto laico già in bibliografia: Bender (antologia UNESCO), O'Neil, Cristianini.
+1. **Magnifica Humanitas** (Leone XIV, 2026) — testo integrale su vatican.va. Priorità assoluta: almeno i capitoli su scuola/educazione e il §146.
+2. **Antiqua et Nova** (2025) — il fondamento teoretico che la precede (intelligenza funzionale vs umana).
+3. **Rome Call for AI Ethics** (2020) — il testo dei sei principi (romecall.org).
+4. **Floridi**, *Etica dell'intelligenza artificiale* (Cortina, 2022) — capp. su principi e spiegabilità.
+5. **Benanti**, *Human in the loop* (Mondadori Università, 2022).
+6. **Fabris**, *Etica delle nuove tecnologie* (+ titolo recente da verificare).
+7. **Panai** — riferimento da completare dopo verifica bibliografica.
+8. Per contrasto laico già in bibliografia: Bender (antologia UNESCO), O'Neil, Cristianini.
