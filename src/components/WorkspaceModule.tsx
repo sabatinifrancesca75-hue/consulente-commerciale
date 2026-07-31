@@ -1019,6 +1019,41 @@ export const WorkspaceModule: React.FC<WorkspaceModuleProps> = ({ onImportNotifi
                 </div>
               )}
 
+              {/* Banner ben visibile quando il foglio è un formato Erreciesse riconosciuto:
+                  qui la gente deve capire al volo che può riversare i dati nell'app */}
+              {!contentLoading && (programmaRilevato || magazzinoRilevato || dibaRilevata) && (
+                <div className="bg-blue-900 text-white p-5 rounded-2xl border-2 border-blue-400 shadow-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <div className="bg-amber-400 p-2.5 rounded-xl text-blue-900 shrink-0">
+                      <Download size={22} />
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-black uppercase text-blue-300 tracking-widest">Formato Erreciesse riconosciuto</p>
+                      <p className="text-sm font-bold mt-0.5">
+                        {programmaRilevato && 'Questa scheda contiene un PROGRAMMA: ordini per cliente e modello, con valori dal Listino 2026.'}
+                        {magazzinoRilevato && 'Questa scheda contiene il MAGAZZINO componenti: le giacenze dell’app verranno allineate al file.'}
+                        {dibaRilevata && 'Questa scheda contiene la DISTINTA BASE (DI.BA.): i componenti di ogni modello verranno aggiornati.'}
+                      </p>
+                      <p className="text-[11px] text-blue-200 mt-0.5 font-medium">
+                        Premi il pulsante per riversare i dati nel gestionale. Reimportare lo stesso file aggiorna, non duplica.
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={programmaRilevato ? handleImportProgramma : magazzinoRilevato ? handleImportMagazzino : handleImportDiba}
+                    disabled={importing}
+                    className="bg-white text-blue-900 hover:bg-blue-50 px-6 py-3.5 rounded-xl font-black text-xs uppercase tracking-wider shadow-lg active:scale-95 transition-all shrink-0 cursor-pointer disabled:opacity-50 flex items-center gap-2"
+                  >
+                    {importing ? <RefreshCw size={16} className="animate-spin" /> : <Download size={16} />}
+                    {importing
+                      ? 'Importazione in corso…'
+                      : programmaRilevato ? 'Importa Ordini nel Gestionale'
+                      : magazzinoRilevato ? 'Aggiorna Magazzino'
+                      : 'Aggiorna Distinta Base'}
+                  </button>
+                </div>
+              )}
+
               {/* Content Render */}
               {contentLoading ? (
                 <div className="py-20 text-center space-y-3">
