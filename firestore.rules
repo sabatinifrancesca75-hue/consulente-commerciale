@@ -14,7 +14,10 @@ service cloud.firestore {
         request.auth.token.email_verified == true &&
         request.auth.token.email.lower() in [
           'admin@erreciesse.it',
-          'sabatini.francesca75@gmail.com'
+          'sabatini.francesca75@gmail.com',
+          'elenazeppieri@erreciesse.it',
+          'patriziagasbarri@erreciesse.it',
+          'silviazeppieri@erreciesse.it'
         ];
     }
 

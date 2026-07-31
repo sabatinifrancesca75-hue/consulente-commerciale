@@ -4,9 +4,11 @@
 
 Le regole in `firestore.rules` implementano oggi:
 
-- ✅ **Lista di email autorizzate** (`isAuthorized()`): solo `admin@erreciesse.it` e
-  `sabatini.francesca75@gmail.com` (email verificata obbligatoria) possono leggere/scrivere.
-  Qualsiasi altro account Google viene rifiutato dal server, anche se riesce ad autenticarsi nell'app.
+- ✅ **Lista di email autorizzate** (`isAuthorized()`): possono leggere/scrivere solo
+  `admin@erreciesse.it`, `sabatini.francesca75@gmail.com`, `elenazeppieri@erreciesse.it`,
+  `patriziagasbarri@erreciesse.it` e `silviazeppieri@erreciesse.it` (email verificata
+  obbligatoria). Qualsiasi altro account Google viene rifiutato dal server, anche se
+  riesce ad autenticarsi nell'app.
 - ✅ **Validazione ordini**: campi obbligatori presenti e tipizzati, `quantita > 0`, `valore >= 0`,
   `status` limitato agli stati reali dell'app (`lavaggio`, `sabbiatura`, `verniciatura`,
   `omologazione`, `attesa_incasso`, `completato`).
