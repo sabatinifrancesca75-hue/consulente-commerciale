@@ -192,6 +192,8 @@ Tenete a mente questo momento: ci torniamo tra poco, quando sarete voi a farlo.�
 
 Perimetro giuridico: opposto. A sinistra c'è un contratto in cui la scuola è titolare dei dati, i dati non vengono usati per addestrare i modelli, e tutto sta dentro la valutazione d'impatto — la DPIA — della scuola. A destra: nessuna di queste garanzie.
 
+E vi spiego dove sta scritta questa differenza, perché è una sigla che incontrerete ovunque: i ToS, Terms of Service, i "Termini di servizio" — il contratto che tutti accettiamo e nessuno legge, quando clicchiamo "Accetto" alla creazione di un account. Nei ToS di molti strumenti gratuiti c'è una riga che autorizza il fornitore a usare ciò che caricate — un tema, un elaborato — per addestrare i suoi modelli: il vostro materiale diventa materia prima del prodotto di qualcun altro. Nel Workspace della scuola vale invece un contratto di segno opposto, il DPA — Data Processing Agreement, quello dell'articolo 28 del GDPR — che alla stessa domanda risponde: vietato. Stesso gesto, cliccare "Accetto"; perimetri giuridici opposti. E se il servizio è gratuito, chiedetevi sempre: chi paga? Spesso il pagamento sono i dati — e la clausola che lo permette sta esattamente lì, nei ToS.
+
 Quindi la regola operativa del corso è semplice: tutto ciò che facciamo qui, si fa con l'account della scuola. Chi viene da un altro istituto usa l'ambiente del proprio. Se stasera provate da casa col Gmail personale, sappiate che non state facendo la stessa cosa.»
 
 ## [SLIDE 27 · 20%]
