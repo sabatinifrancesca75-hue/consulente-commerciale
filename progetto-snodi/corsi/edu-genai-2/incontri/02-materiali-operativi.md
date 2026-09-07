@@ -43,6 +43,6 @@ Il kit completo (foglio `Programma_settimanale`, i 3 prompt-template del flusso,
 
 ## Consegne per l'incontro 3
 
-- Rifinire il template e caricarlo nella Prompt-libreria entro giovedì.
+- Rifinire il template e caricarlo nella Prompt-libreria entro lunedì 14.
 - Usarlo almeno una volta su un materiale reale.
 - Scegliere l'argomento della vostra UdA (project work): si parte mercoledì.

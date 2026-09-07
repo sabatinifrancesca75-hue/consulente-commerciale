@@ -59,6 +59,6 @@ sono dichiarati.
 
 ## Consegne per l'incontro 6
 
-- **UdA completa entro lunedì 21:** canvas + un materiale generato-e-revisionato + policy IA.
+- **UdA completa entro lunedì 28:** canvas + un materiale generato-e-revisionato + policy IA.
 - Preparare la presentazione da 7 minuti (traccia: 2' il compito autentico e perché è autentico; 3' le fasi e dove entra l'IA; 1' la policy; 1' cosa vi preoccupa — sarà la vostra domanda alla peer review).
 - Chi può: testare un pezzo della UdA in classe e portare osservazioni vere.

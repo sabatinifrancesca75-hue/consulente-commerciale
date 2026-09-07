@@ -2,14 +2,14 @@
 
 **Corso:** Edu-GenAI 2 — Didattica Aumentata e Data Literacy (18 ore, secondo ciclo)
 **Formatrice:** Prof.ssa Sabatini — **Tutor:** Prof. Bonelli
-**Calendario operativo (da Avviso):** 6 incontri online sincroni da 3 ore, ore 15:00–18:00 — 2, 7, 9, 11, 15, 24 settembre
+**Calendario operativo (da Avviso):** 6 incontri online sincroni da 3 ore, ore 15:30–18:30 — 9, 11, 16, 18, 23, 30 settembre
 **Riferimenti:** progetto M4C1I2.1-2026-1745-P-65156 — CUP I84D25003890006 — DigCompEdu Aree 3 e 5, DigComp 3.0 Aree 1 e 4
 
 > ⚠️ **Nota di coerenza:** la scheda impaginata articola il corso in 7 incontri misti (5h+4h online + 9h in presenza), mentre l'Avviso pubblicato prevede 6 incontri da 3h interamente online sincroni. La modalità online sincrona è ammissibile per la Tipologia A (come da candidatura). Il documento operativo di riferimento è **l'Avviso**: allineare la scheda impaginata prima della pubblicazione sul sito, mantenendo invariati i contenuti.
 
 ---
 
-## Incontro 1 — mer 2/9 — Ambiente protetto e regole d'ingaggio
+## Incontro 1 — mer 9/9 — Ambiente protetto e regole d'ingaggio
 
 **Obiettivo della formatrice:** aprire il corso fissando il perimetro tecnico e normativo dentro cui tutto il resto avverrà; dare sicurezza ai docenti diffidenti.
 
@@ -27,7 +27,7 @@
 
 ---
 
-## Incontro 2 — lun 7/9 — Prompting per la progettazione didattica
+## Incontro 2 — ven 11/9 — Prompting per la progettazione didattica
 
 **Obiettivo:** trasformare i corsisti da utenti occasionali a progettisti di prompt riusabili per la didattica di indirizzo.
 
@@ -45,7 +45,7 @@
 
 ---
 
-## Incontro 3 — mer 9/9 — Progettare UdA interattive con l'IA
+## Incontro 3 — mer 16/9 — Progettare UdA interattive con l'IA
 
 **Obiettivo:** ancorare l'IA alla progettazione curricolare vera (DigCompEdu Area 3): non "attività spot" ma UdA transdisciplinari.
 
@@ -63,7 +63,7 @@
 
 ---
 
-## Incontro 4 — ven 11/9 — Scaffolding mediato e personalizzazione
+## Incontro 4 — ven 18/9 — Scaffolding mediato e personalizzazione
 
 **Obiettivo:** il cuore pedagogico del corso (DigCompEdu Area 5): differenziazione con l'IA per BES, DSA e valorizzazione del talento, più il raccordo PCTO.
 
@@ -81,7 +81,7 @@
 
 ---
 
-## Incontro 5 — mar 15/9 — Data literacy e valutazione assistita
+## Incontro 5 — mer 23/9 — Data literacy e valutazione assistita
 
 **Obiettivo:** chiudere il cerchio critico (DigComp 3.0 Aree 1 e 4): leggere i dati, riconoscere bias e allucinazioni, valutare con l'IA senza cederle la valutazione.
 
@@ -102,7 +102,7 @@ Chiudere presentando onestamente lo stato della letteratura: meta-analisi con ef
 
 ---
 
-## Incontro 6 — gio 24/9 — Project work e restituzione finale
+## Incontro 6 — mer 30/9 — Project work e restituzione finale
 
 **Obiettivo:** valutare le UdA aumentate prodotte, consolidare la comunità di pratica, chiudere gli adempimenti.
 

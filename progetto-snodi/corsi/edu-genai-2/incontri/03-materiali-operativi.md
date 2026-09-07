@@ -13,7 +13,7 @@ Compilate un campo alla volta, nell'ordine: è il backward design.
 7. **Valutazione** — rubrica del prodotto + osservazione del processo + domanda metacognitiva finale.
 8. **Riflessione della progettista/del progettista** — cosa vi aspettate che l'IA aggiunga; cosa temete; come lo verificherete in classe.
 
-**Consegna finale del corso (per l'attestato):** canvas completo + un materiale della UdA generato con l'IA e revisionato + policy IA. Scadenza: lunedì 21 settembre.
+**Consegna finale del corso (per l'attestato):** canvas completo + un materiale della UdA generato con l'IA e revisionato + policy IA. Scadenza: lunedì 28 settembre.
 
 ## Scheda 3b — Rubrica del project work (pubblica da oggi)
 

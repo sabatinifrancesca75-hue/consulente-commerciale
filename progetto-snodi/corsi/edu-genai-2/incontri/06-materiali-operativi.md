@@ -44,11 +44,11 @@ Una copia per ogni UdA che ascoltate. A fine incontro le griglie vanno all'autor
 
 - Frequenza ≥ 70% delle 18 ore (= almeno 13 ore, verificata da registro).
 - Consegna dell'UdA completa (canvas + materiale generato-e-revisionato + policy IA).
-- Versione finale nel repository dello Snodo entro il **30 settembre**.
+- Versione finale nel repository dello Snodo entro il **5 ottobre***.
 
 ## Dopo il corso
 
 - **Laboratori sul campo (Tipologia B):** 7 ore in presenza, con gli studenti, affiancati da un formatore. Priorità ai team di docenti dello stesso istituto. È il luogo dove la vostra UdA va in scena. Iscrizioni su Scuola Futura.
-- **Ethic-AI 2** (dal 28/9): etica, bias, cittadinanza digitale — il completamento critico di questo corso. Iscrizioni entro il 27/9.
+- **Ethic-AI 2** (avvio previsto 28/9, da riconfermare col nuovo calendario): etica, bias, cittadinanza digitale — il completamento critico di questo corso. Iscrizioni entro il 27/9.
 - **Prompt-libreria e repository:** restano aperti; ogni nuovo materiale è patrimonio del territorio (Art. 4 dell'Avviso).
 - Contatti: snodo.ai@liceovolterra.edu.it

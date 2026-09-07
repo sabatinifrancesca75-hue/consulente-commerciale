@@ -1,6 +1,6 @@
 # Script di conduzione — Incontro 1: Ambiente protetto e regole d'ingaggio
 
-**Mercoledì 2 settembre 2026, 15:00–18:00, Google Meet** — Formatrice: Prof.ssa Sabatini • Tutor: Prof. Bonelli
+**Mercoledì 9 settembre 2026, 16:00–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini • Tutor: Prof. Bonelli
 
 **Obiettivi dell'incontro:** i corsisti sanno spiegare perché un LLM allucina; conoscono il perimetro tecnico (Workspace Education) e normativo (AI Act, DM 166/2025); hanno interiorizzato la regola "nessun dato di studenti"; hanno sperimentato di persona un'allucinazione e la sua mitigazione col grounding.
 
@@ -8,15 +8,15 @@
 
 | Orario | Blocco | Conduzione | Materiali |
 |---|---|---|---|
-| 15:00–15:05 | Accoglienza | Benvenuto, presenze in chat, promemoria attestato (70% + UdA) | Registro |
-| 15:05–15:20 | Perché siamo qui | Slide 2–3: rotta del corso, dato INDIRE (52%), il progetto Snodo | Slide |
-| 15:20–16:00 | Dentro un LLM | Slide 4–5: token, predizione, "fluidità non è affidabilità"; perché allucina; grounding. Se il ritmo regge: mini-demo bibliografia inventata | Slide, Gemini |
-| 16:00–16:25 | L'ambiente protetto | Slide 6: Workspace Education vs app consumer; dove si lavora nel corso | Slide |
-| 16:25–16:30 | Pausa | — | — |
-| 16:30–16:50 | Quadro normativo | Slide 7: piramide AI Act, DM 166, art. 4 (questo corso come attuazione) | Slide |
-| 16:50–17:05 | La regola d'oro | Slide 8: niente dati studenti + come lavorare con profili sintetici | Slide |
-| 17:05–17:45 | **Esercitazione** | Slide 9 — "Rompere e riparare": coppie in stanze Meet, 25' lavoro + 10' restituzione. Girare nelle stanze | Scheda 1, PDF nel Drive |
-| 17:45–18:00 | Chiusura | Slide 10: consegne, modulo dati indicatori, patto d'aula. Firma registro | Modulo indicatori |
+| 15:30–15:35 | Accoglienza | Benvenuto, presenze in chat, promemoria attestato (70% + UdA) | Registro |
+| 15:35–15:50 | Perché siamo qui | Slide 2–3: rotta del corso, dato INDIRE (52%), il progetto Snodo | Slide |
+| 15:50–16:30 | Dentro un LLM | Slide 4–5: token, predizione, "fluidità non è affidabilità"; perché allucina; grounding. Se il ritmo regge: mini-demo bibliografia inventata | Slide, Gemini |
+| 16:30–16:55 | L'ambiente protetto | Slide 6: Workspace Education vs app consumer; dove si lavora nel corso | Slide |
+| 16:55–17:00 | Pausa | — | — |
+| 17:00–17:20 | Quadro normativo | Slide 7: piramide AI Act, DM 166, art. 4 (questo corso come attuazione) | Slide |
+| 17:20–17:35 | La regola d'oro | Slide 8: niente dati studenti + come lavorare con profili sintetici | Slide |
+| 17:35–18:15 | **Esercitazione** | Slide 9 — "Rompere e riparare": coppie in stanze Meet, 25' lavoro + 10' restituzione. Girare nelle stanze | Scheda 1, PDF nel Drive |
+| 18:15–18:30 | Chiusura | Slide 10: consegne, modulo dati indicatori, patto d'aula. Firma registro | Modulo indicatori |
 
 ## Note di regia
 
