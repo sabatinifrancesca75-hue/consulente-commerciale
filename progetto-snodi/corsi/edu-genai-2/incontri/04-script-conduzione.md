@@ -21,6 +21,7 @@
 - La **demo del Gem tutor è il momento più convincente del corso**: collaudarla il giorno prima. Copione: chiedere la soluzione (rifiuta), sbagliare un passaggio apposta (rimanda al punto critico), mostrare il fading chiedendo un esercizio simile dopo un successo.
 - Sull'evidenza: insistere sulla lettura corretta — non "l'IA fa male/bene" ma "senza design fa male, con design può fare molto bene". Il −17% è ritenzione: l'aiuto non interiorizzato evapora.
 - Nel test incrociato, chi fa lo studente deve **recitare il caso-tipo del collega**: è lì che si scoprono i buchi delle istruzioni.
+- Legittimazione teorica del laboratorio (Beghetto, Outlook cap. 5): la vera AI literacy non si impara discutendo astrattamente di etica, ma **costruendo e tarando i propri strumenti** — scrivere le regole del proprio Gem è riappropriarsi dell'agency professionale, capire la macchina "sotto il cofano" per governarla e non esserne governati. Dirlo in apertura del laboratorio: nobilita l'esercizio.
 - Raccogliere le migliori "regole aggiunte" nel template comune: il tutor del corso migliora a ogni edizione.
 - Promemoria da mandare lunedì 21: elaborato anonimizzato per giovedì 24, con le istruzioni di anonimizzazione (togliere nome, classe, riferimenti riconoscibili).
 

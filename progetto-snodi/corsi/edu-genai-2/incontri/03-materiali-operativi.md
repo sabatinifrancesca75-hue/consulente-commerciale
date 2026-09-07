@@ -47,6 +47,12 @@ richiedano dati personali di studenti o di terzi.
 
 *(Da OECD Outlook 2026: "Slow AI" di R. Beghetto, cap. 5 pp. 117-120; teaming di M. Cukurova, cap. 7 pp. 130-142. Utilizzabile come apertura del laboratorio dell'incontro 3 o come attività ponte nella settimana 17-23/9.)*
 
+**La cornice (Beghetto & Glăveanu, in OECD Outlook 2026, cap. 5 pp. 117-120):**
+- **Fast AI** = domanda → risposta immediata → accettazione acritica: crea dipendenza e trasforma studenti e docenti in "marionette digitali" (*digital puppets*), portavoce di testi generati da algoritmi.
+- **Slow AI** = interrogare l'IA in modo iterativo per ottenere feedback, sfidare i propri assunti, considerare alternative — come ci si confronta con un collega di cui non ci si fida ciecamente.
+- **La distopia da disinnescare** (citazione-chiave, da usare in aula): senza approccio "lento" si arriva allo scenario in cui *"un'IA parla attraverso gli studenti a un'altra IA che parla attraverso i docenti"* — e la relazione educativa evapora.
+- **I tre pilastri pratici:** (1) configurare l'IA in modo *ostinatamente socratico* (mai risposte dirette, solo domande e possibilità); (2) l'***unplanning*** — decostruire i piani iper-rigidi introducendo *incertezza strutturata* (vincoli e obiettivi chiari, percorso aperto); (3) la regola **"Prima l'Umano"**: l'IA non è mai il primo passo — prima progettazione autonoma e confronto tra colleghi, l'IA solo come cassa di risonanza sul blocco creativo. *(Nota di coerenza: è la stessa regola "attivazione cognitiva prima, IA dopo" lanciata all'incontro 1 — qui i corsisti scoprono che ha un nome e una teoria.)*
+
 **Obiettivo:** vivere in prima persona il passaggio dalla "Fast AI" (scorciatoia che disattiva il pensiero) alla "Slow AI" (partner socratico che sfida le assunzioni e preserva l'agency del docente).
 
 **Fase 1 — La trappola della Fast AI (10')**

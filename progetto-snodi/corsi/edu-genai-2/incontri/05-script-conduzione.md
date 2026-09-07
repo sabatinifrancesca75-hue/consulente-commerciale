@@ -21,6 +21,7 @@
 - Le 3 trappole vanno **collaudate il giorno prima**: (1) bibliografia di nicchia, (2) bias "descrivi un ingegnere e un'insegnante", (3) sycophancy con doppia premessa opposta. Se una non scatta dal vivo, avere gli screenshot di riserva.
 - Il momento "meta" (fact-checking sulla letteratura dell'IA) va esplicitato: stiamo applicando al nostro campo il metodo che insegneremo ai ragazzi. È il punto più formativo del corso.
 - Sui detector: dirlo con forza — falsi positivi = studenti accusati ingiustamente. L'alternativa è progettuale: bozze, log, colloquio.
+- Il monito di Beghetto da richiamare qui (già seminato all'incontro 3): se gli studenti fanno scrivere i compiti all'IA e noi li facciamo valutare all'IA, si arriva alla distopia in cui "un'IA parla attraverso gli studenti a un'altra IA che parla attraverso i docenti". La valutazione presidiata dal docente è l'argine.
 - Nel laboratorio, il punto critico è il 4: "il giudizio che esce dalla rubrica vi convince? Dove il vostro occhio vede oltre la griglia?" — è lì che si tocca il senso dello Human-in-the-loop.
 - Mandare promemoria a metà settimana: consegna UdA lunedì 28.
 
