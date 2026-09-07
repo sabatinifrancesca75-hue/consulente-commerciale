@@ -39,5 +39,5 @@ richiedano dati personali di studenti o di terzi.
 
 ## Consegne per l'incontro 4
 
-- Canvas: campi 1–4 completati entro venerdì.
-- Portare un **caso-tipo**: profilo sintetico di uno studente in difficoltà sul vostro argomento (es. "studente di 4ª con DSA-dislessia, buone capacità orali, si blocca sui testi lunghi"). Nessuna persona reale.
+- Canvas: campi 1–3 completati per domani (mercoledì 16) — il compito autentico si rifinisce in aula all'incontro 4.
+- Portare domani un **caso-tipo**: profilo sintetico di uno studente in difficoltà sul vostro argomento (es. "studente di 4ª con DSA-dislessia, buone capacità orali, si blocca sui testi lunghi"). Nessuna persona reale.

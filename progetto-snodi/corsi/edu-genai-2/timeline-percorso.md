@@ -16,33 +16,33 @@ Ogni tappa chiude con la slide "Bussola internazionale 2026" (integrata nei deck
 - **Bussola:** UNESCO *AI for Skills Development* (integrità accademica e diritto d'autore nell'era sintetica); OCSE «partner, non scorciatoia». ⭐ **Digital Learning Week UNESCO (Parigi, 8–11/9)**: cade in questa settimana del corso — plenarie in streaming gratuito, invito ai corsisti a seguirne una e portare un'osservazione alla tappa 3.
 
 ## 📍 Tappa 3 — Co-design e progettazione
-**Mercoledì 16 settembre*** · Progettare UdA interattive con l'IA
+**Martedì 15 settembre** · Progettare UdA interattive con l'IA
 - **Nuclei:** l'IA come partner conversazionale; backward design.
 - **Operativo:** canvas UdA (con la scala UNESCO-TVET dei 5 livelli di coinvolgimento IA); consegna immediata della rubrica (trasparenza valutativa); avvio del project work.
 - **Bussola:** UNESCO **GEM Report 2026** come lente di equità per progettare percorsi inclusivi — *con la precisazione:* l'edizione 2026 non tratta l'IA (l'edizione tecnologia è il GEM 2023 *A tool on whose terms?*); UNESCO-UNEVOC TVET (5 livelli); WEF 39% delle competenze in trasformazione al 2030.
 
 ## 📍 Tappa 4 — L'impalcatura cognitiva
-**Venerdì 18 settembre*** · Scaffolding mediato e personalizzazione
+**Mercoledì 16 settembre** · Scaffolding mediato e personalizzazione
 - **Nuclei:** Vygotskij, scaffolding e **fading** contro il cognitive offloading; adattamento per BES, DSA e PCTO.
 - **Operativo:** costruzione del Gem "Tutor Socratico" (correzione ritardata, supporto euristico) con test incrociato.
 - **Bussola:** **OCSE Digital Education Outlook 2026** — il divario tra performance apparente e apprendimento reale (Bastani −17%; Tutor CoPilot +9 punti con i tutor meno esperti); Digital Learning Week — il rischio di discenti dipendenti dall'automazione (formulazione prudente: il termine "ghost learners" circola nel dibattito ma non risulta nelle fonti ufficiali dell'evento); Aerts — learning echo chambers.
 
 ## 📍 Tappa 5 — Il senso critico e l'umano al centro
-**Mercoledì 23 settembre*** · Data literacy e valutazione assistita
+**Giovedì 24 settembre** · Data literacy e valutazione assistita
 - **Nuclei:** bias, stereotipi, echo chambers, sycophancy, metacognitive laziness; Human-in-the-loop — la valutazione resta atto insindacabile del docente (DM 166/2025).
 - **Operativo:** stress-test dal vivo (3 trappole); fact-checking su due casi reali; rubriche assistite; classificazione dei compiti AI-excluded/permitted/integrated/enabled con "non-delegable anchor" (UNESCO-TVET).
 - **Bussola:** UNESCO **MOOC "Educating in the Age of AI: Digital Citizenship from the Classroom"** (decostruzione dell'informazione algoritmica — consigliato come follow-up, gratuito con certificato); Perkins & Roe — era post-plagiarism; meta-analisi Vaccaro.
 
 ## 📍 Tappa 6 — Restituzione e condivisione
-**Mercoledì 30 settembre*** · Project work e restituzione finale
+**Mercoledì 30 settembre** · Project work e restituzione finale
 - **Nuclei:** peer review strutturata (7'+4'+2'); riflessione metacognitiva sul percorso.
 - **Operativo:** presentazione delle UdA aumentate; valutazione incrociata su rubrica; attestati (soglia: 13 ore + consegna UdA); modulo di gradimento in aula.
 - **Bussola:** UNESCO *AI for Skills Development* (valutazione negli ecosistemi ibridi umano-IA); UNESCO-UNEVOC — strumenti di AI-readiness d'istituto e registro dei rischi come passi successivi; il dato-mandato per i laboratori con gli studenti: **62% dei giovani usa l'IA in contesti pratici, solo il 30% ha ricevuto formazione formale**.
 
 ---
 
-### ⚠️ Nota calendario (v2 — aggiornamento del 7/9/2026)
-Date **confermate** (dalla presentazione Gamma v2): incontro 1 = mercoledì 9/9, incontro 2 = venerdì 11/9, orario 15:30–18:30. Le date con asterisco (incontri 3–6: 16/9, 18/9, 23/9, 30/9) sono la **proposta in cadenza mercoledì/venerdì** che ne consegue, con una settimana tra il 23/9 e il 30/9 per completare le UdA (consegna: lunedì 28/9): **da confermare**. Attenzione all'interferenza con Ethic-AI 2 (avvio previsto lunedì 28/9): se il calendario di Edu-GenAI 2 resta questo, valutare lo slittamento anche di Ethic-AI 2. Con l'avvio al 9/9, la Digital Learning Week (8–11/9) coincide con la prima settimana del corso: l'invito a seguire una plenaria si lancia già all'incontro 1.
+### ✅ Nota calendario (definitivo, confermato il 7/9/2026)
+Calendario confermato dalla formatrice: **9, 11, 15, 16, 24, 30 settembre**, ore 15:30–18:30. Attenzione al back-to-back 15–16/9 (le consegne tra incontro 3 e 4 sono ricalibrate di conseguenza) e alla settimana 17–23/9 senza incontri (utile per il lavoro sui canvas). Resta da verificare **Ethic-AI 2**: l'avvio previsto (28/9) cade prima della chiusura di questo corso (30/9) — valutare slittamento.
 
 ### Note di redazione rispetto alla bozza di timeline
 1. Corretto il refuso "percussori" → "percorsi" (Tappa 3).
