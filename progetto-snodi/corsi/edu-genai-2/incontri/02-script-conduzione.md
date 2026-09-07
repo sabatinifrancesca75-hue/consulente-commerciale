@@ -17,6 +17,10 @@
 | 17:55–18:20 | Dal prompt all'agente | Slide 8–9: scala di autonomia + demo live del flusso "Il lunedì se lo prepara l'agente" (Run now sulla riga demo) | Kit demo-agente |
 | 18:20–18:30 | Chiusura | Slide 10: consegne. Firma registro | — |
 
+## ⚠️ Modifica dall'incontro 1 (deck governance)
+
+L'esercitazione **"Rompere e riparare"** è stata spostata qui come **apertura pratica** (l'incontro 1 chiude ora con il Semaforo della Governance). Adattamento della scaletta: il blocco "L'evidenza" (15:35–15:45) si sposta dopo l'esercitazione; apertura 15:35–16:10 con Rompere e riparare in versione compatta (Parte A 12' + Parte B 8' + restituzione 10' — il Doc "Falsi trovati" è già nella cartella corsisti). Aggancio perfetto al tema del giorno: *prima di imparare a chiedere bene, avete visto perché non ci si fida della risposta*. I blocchi successivi si comprimono di conseguenza (anatomia del prompt 25', tecniche 25').
+
 ## Note di regia
 
 - Il confronto "prompt secco vs strutturato" è l'argomento più convincente dell'incontro: **prepararlo sullo stesso argomento** così la differenza sia tutta nel prompt.
