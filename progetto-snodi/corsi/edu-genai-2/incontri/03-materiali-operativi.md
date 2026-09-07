@@ -41,3 +41,44 @@ richiedano dati personali di studenti o di terzi.
 
 - Canvas: campi 1–3 completati per domani (mercoledì 16) — il compito autentico si rifinisce in aula all'incontro 4.
 - Portare domani un **caso-tipo**: profilo sintetico di uno studente in difficoltà sul vostro argomento (es. "studente di 4ª con DSA-dislessia, buone capacità orali, si blocca sui testi lunghi"). Nessuna persona reale.
+
+
+## Scheda 3c — Laboratorio alternativo "Slow AI": unplanning di una lezione familiare
+
+*(Da OECD Outlook 2026: "Slow AI" di R. Beghetto, cap. 5 pp. 117-120; teaming di M. Cukurova, cap. 7 pp. 130-142. Utilizzabile come apertura del laboratorio dell'incontro 3 o come attività ponte nella settimana 17-23/9.)*
+
+**Obiettivo:** vivere in prima persona il passaggio dalla "Fast AI" (scorciatoia che disattiva il pensiero) alla "Slow AI" (partner socratico che sfida le assunzioni e preserva l'agency del docente).
+
+**Fase 1 — La trappola della Fast AI (10')**
+1. Scegliete un argomento che insegnate da anni nello stesso modo.
+2. Prompt da "Fast AI": *"Scrivimi un piano di lezione dettagliato di 50 minuti per una classe terza di scuola superiore sul tema [argomento]. Includi obiettivi, attività minuto per minuto e un esercizio finale."*
+3. Analisi in coppia (3'): è corretto? Probabilmente sì. È *vostro*? Considera i vostri studenti reali? Vi sentite progettisti o esecutori di una ricetta?
+→ Avete appena simulato lo studente che chiede la soluzione a ChatGPT.
+
+**Fase 2 — La svolta della Slow AI (20')**
+Nuova chat, incollate lo "Slow Socratic Prompt" (personalizzando [argomento]):
+
+```
+Sei un Facilitatore Pedagogico Socratico, ispirato alla "Slow AI" di
+Ronald Beghetto e al "Teaming Sinergico" di Mutlu Cukurova. Il tuo unico
+obiettivo è aiutarmi a fare "unplanning" di una mia lezione tradizionale
+sul tema [argomento], introducendo elementi di "incertezza strutturata"
+e stimoli creativi per renderla memorabile per i miei studenti di scuola
+superiore. Regole rigorose:
+1. NON darmi mai un piano di lezione pronto o una risposta completa.
+2. Fammi UNA sola domanda alla volta, per stimolare la mia riflessione
+   e raccogliere contesto.
+3. Le tue risposte siano ostinatamente socratiche: proponi possibilità
+   con formule come "Cosa succederebbe se..." o "E se provassimo a...",
+   lasciando la piena proprietà delle idee nelle mie mani.
+4. Non procedere finché non ho risposto alla tua domanda precedente.
+5. Inizia presentandoti in questo ruolo e chiedimi quale aspetto "troppo
+   familiare" di questo argomento vorrei scardinare.
+```
+
+Conducete una vera negoziazione: rispondete, confutate le proposte inadatte alla vostra classe, esplorate contro-ipotesi ("e se partissi da un errore comune anziché dalla regola?").
+
+**Fase 3 — Debriefing metacognitivo (15')**
+1. *Agency:* in quale fase vi siete sentiti designer dell'apprendimento e in quale supervisori della macchina?
+2. *Fatica produttiva:* la Fase 2 è costata più sforzo — perché è l'unico sforzo che genera competenza (ed evita la pigrizia metacognitiva)?
+3. *Trasferimento:* come riprogettare i compiti perché anche gli studenti usino l'IA in modalità Slow (partner di pensiero) e non Fast (scorciatoia)?

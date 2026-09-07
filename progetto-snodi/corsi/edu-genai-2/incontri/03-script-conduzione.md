@@ -20,6 +20,7 @@
 
 - Preparare **2–3 argomenti di riserva** per chi arriva senza idea per l'UdA.
 - L'uso di Gemini per le varianti di compito autentico è il primo uso "da progettista": farlo notare esplicitamente.
+- **Variante di laboratorio "Slow AI"** (scheda 3c): se l'aula è già forte sul canvas, aprire con la sequenza Fast→Slow (15'+25') e passare al canvas dopo — l'unplanning socratico È backward design vissuto.
 - La consegna della rubrica il primo giorno di progettazione è una scelta didattica da dichiarare: modeling della trasparenza valutativa che useranno con gli studenti.
 - Nel giro finale tenere 30 secondi a testa, timer visibile.
 - Ricordare che l'incontro 4 è DOMANI (mercoledì 16): il **caso-tipo** (profilo sintetico di studente in difficoltà): servirà per il laboratorio sul tutor. Ribadire: profilo, non persona reale.

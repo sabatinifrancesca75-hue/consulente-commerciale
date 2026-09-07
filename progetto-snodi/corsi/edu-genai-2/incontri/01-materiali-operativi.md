@@ -40,6 +40,10 @@ Il rischio da nominare fin dal primo giorno: delegare i compiti cognitivi alla G
 4. **Perdita di autonomia** — uso intensivo e utilitaristico → da studenti-ricercatori a "marionette digitali".
 5. **Vale anche per i docenti** — automatizzare valutazione, feedback e pianificazione senza filtro critico è lo stesso discarico cognitivo: perdita di competenze e di qualità della relazione educativa.
 
+**Il dato che la rende tangibile (Outlook, pp. 21-22 e 134-135 — Kosmyna & Hauptmann):** memorizzazione del proprio saggio a un'ora di distanza: **89%** scrivendo da soli o con motore di ricerca, **12%** partendo dall'output dell'IA; le neuroimmagini mostrano ridotta connettività nei compiti esecutivi. (È il preprint MIT già schedato all'incontro 5 come caso mediatico: qui si cita **attraverso l'Outlook OCSE**, che lo riprende — precisarlo dà il modello di citazione corretta.) Nome d'aula del fenomeno: **"crutch effect"**, l'effetto stampella. La regola d'oro didattica che ne discende: **attivazione cognitiva individuale prima di accendere l'IA.**
+
+**Messaggio d'apertura consigliato (da dire con queste parole):** "L'obiettivo di questo corso non è insegnarvi a usare l'IA per fare i compiti al posto dei vostri studenti o per scrivere lezioni preconfezionate. I dati OCSE mostrano che l'uso passivo impoverisce lo studio dei ragazzi e svalorizza la nostra professione. Questo corso serve a riappropriarci del ruolo di registi del processo educativo: una didattica intenzionale in cui l'IA è un partner di pensiero, non una scorciatoia cognitiva."
+
 **Aggancio d'aula:** presentarla subito dopo "fluidità non è affidabilità" — insieme motivano il patto d'aula (la verifica come abitudine) e anticipano il perché del tutor con fading. Infografica dedicata (Gamma, stile del corso) nella cartella dell'incontro. Convergenza magisteriale: è la stessa preoccupazione del §146 di *Magnifica Humanitas* ("igiene dell'attenzione"), in linguaggio OCSE.
 
 ## Per approfondire (facoltativo)

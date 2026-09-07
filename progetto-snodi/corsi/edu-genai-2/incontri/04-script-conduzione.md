@@ -10,7 +10,7 @@
 |---|---|---|---|
 | 15:30–15:50 | Le 2 sigma | Slide 3: Bloom 1984, il problema antico; l'IA come ultimo candidato — da verificare | Slide |
 | 15:50–16:15 | Scaffolding e fading | Slide 4: ZPD, Wood-Bruner-Ross, "l'impalcatura serve per essere tolta"; delega cognitiva come contrario | Slide |
-| 16:15–16:40 | L'evidenza | Slide 5: Bastani (−17% alla prova senza IA) vs Kestin (apprendimento raddoppiato). Lettura corretta: il design | Slide |
+| 16:15–16:40 | L'evidenza | Slide 5: Bastani — in esercitazione +48% (GPT base) e +127% (GPT Tutor); all'esame senza IA: **−17%** il gruppo base, **pareggio col controllo** il gruppo tutor (il danno si azzera, i guadagni non si trasferiscono da soli: serve il fading). Kestin come contro-caso positivo. Rif.: Outlook p. 21 e p. 51, fig. 2.4 | Slide |
 | 16:40–17:05 | Il tutor socratico | Slide 6: le 3 regole + **demo live** del Gem del corso (provare a farsi dare la soluzione e fallire); aprire le istruzioni di sistema e leggerle insieme. Pausa 5' | Gem demo |
 | 17:10–17:30 | Profili, non persone | Slide 7: versioni alta leggibilità/base/potenziamento; PDP/PEI mai negli strumenti; assegnazione = docente | Slide |
 | 17:30–18:25 | **Laboratorio** | Slide 8 — costruisci il tuo tutor: 30' individuale sul caso-tipo, 15' test incrociato in coppia, 10' restituzione delle "regole aggiunte" | Scheda 4 |

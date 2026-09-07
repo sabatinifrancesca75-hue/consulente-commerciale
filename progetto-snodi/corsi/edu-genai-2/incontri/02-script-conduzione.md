@@ -9,7 +9,7 @@
 | Orario | Blocco | Conduzione | Materiali |
 |---|---|---|---|
 | 15:30–15:35 | Apertura | Verifica che tutti abbiano il proprio materiale didattico (chi non ce l'ha: sceglierà da 3 esempi di riserva) | Registro |
-| 15:35–15:45 | L'evidenza | Slide 3: trial EEF (−31% col metodo). "La guida = il template che costruirete oggi" | Slide |
+| 15:35–15:45 | L'evidenza | Slide 3: trial EEF (−31%: da 81,5 a 56,2 min/settimana, qualità invariata — Outlook p. 27 e 133) + PromptHive (co-creazione docente-IA: −50% carico cognitivo percepito, sviluppo contenuti da mesi a ore — p. 141). "La guida = il template che costruirete oggi" | Slide |
 | 15:45–16:15 | Anatomia del prompt | Slide 4: i 6 elementi + confronto live prompt secco vs strutturato sullo stesso argomento | Gemini |
 | 16:15–16:45 | Le tre tecniche | Slide 5: zero/few-shot/CoT. Demo few-shot: un esercizio del docente come esemplare → 3 nello stesso stile | Gemini |
 | 16:45–17:00 | Copyright e trasparenza | Slide 6: tre regole pratiche. Pausa 5' | Slide |
