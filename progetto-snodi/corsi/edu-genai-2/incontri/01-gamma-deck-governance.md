@@ -173,6 +173,20 @@ La regola d'oro del corso, da scrivere da qualche parte:
 *Le date dopo l'Omnibus (lug 2026): divieti già in vigore · trasparenza dal 2/8/2026 · obblighi alto rischio All. III (istruzione) dal **2/12/2027** — più tempo per adeguarsi, non un liberi tutti: la classificazione resta.*
 
 
+## Novità 2026: l'"AI Omnibus" (Reg. UE 2026/1744)
+
+*In vigore dal 27 luglio 2026: non cambia l'impianto dell'AI Act — ne ritocca scadenze e adempimenti.*
+
+| Cosa | Prima | Dopo l'Omnibus |
+| :-: | :-: | :-: |
+| **Divieti (art. 5)** — incl. emotion recognition a scuola | In vigore dal 2/2/2025 | **Confermati** + 2 nuovi divieti dal 2/12/2026: generazione di materiale intimo non consensuale e di abuso su minori |
+| **Alto rischio — Allegato III** (istruzione) | Obblighi dal 2/8/2026 | Obblighi dal **2/12/2027** — la classificazione resta: l'istruzione È alto rischio |
+| **Trasparenza (art. 50)** | Dal 2/8/2026 | **Confermata** dal 2/8/2026 |
+| **Art. 4 — alfabetizzazione IA** | "Garantire un livello sufficiente" | Riscritto: **"misure volte a sostenere lo sviluppo"** dell'alfabetizzazione — senza obbligo di un livello specifico; Commissione e Stati membri forniscono materiali e raccomandazioni |
+
+**La lettura giusta:** più tempo e meno burocrazia per adeguarsi — **non un liberi tutti**. I divieti valgono oggi, la scuola resta ambito ad alto rischio, e alfabetizzarsi resta un dovere: questo corso è una di quelle "misure di sostegno".
+
+
 ## La scuola è un "deployer" di IA
 
 - **AI Act**: l'istruzione è un ambito ad **alto rischio**
