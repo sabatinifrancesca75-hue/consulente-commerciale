@@ -70,7 +70,7 @@ Nessuna delle due domande ha una risposta giusta. Ma alla fine del corso, alla s
 
 Il trentasei per cento dei docenti OCSE ha usato l'IA nell'ultimo anno — uno su tre. [REGIA: sondaggio lampo] Contiamoci: un "sì" in chat da chi l'ha usata per lavoro quest'anno. [attendere, confrontare col 36%.] Ma tre docenti su quattro dichiarano di non sentirsi preparati a insegnare con l'IA. E non è una colpa: è una fotografia — la tecnologia è arrivata prima della formazione, come sempre. Questo corso esiste per quel settantacinque per cento.
 
-Intanto gli studenti sono già oltre: novanta per cento in Estonia, settanta in Svizzera, sessantotto negli Stati Uniti. E guardate il come, non solo il quanto: il trentuno per cento la usa per farsi dare la soluzione completa dei compiti. Solo il venti per organizzare lo studio. Uno su tre chiede la scorciatoia — e alla loro età, con quello strumento in tasca, l'avremmo fatto anche noi. La distanza tra questi due lati non si colma vietando: si colma con la competenza. La nostra prima, la loro poi.»
+Intanto gli studenti sono già oltre: novanta per cento in Estonia, settanta in Svizzera, sessantotto negli Stati Uniti. E il come conta più del quanto: uno su tre la usa per farsi dare la soluzione completa dei compiti; solo il venti per cento per organizzare lo studio. La scorciatoia — e alla loro età l'avremmo scelta anche noi. Questa distanza non si colma vietando: si colma con la competenza. La nostra prima, la loro poi.»
 
 ## ⏱ 16:00 — [CARD 9 · 12%]
 
@@ -79,6 +79,14 @@ Intanto gli studenti sono già oltre: novanta per cento in Estonia, settanta in 
 Dodici per cento. Del proprio saggio. Dopo un'ora.
 
 Da qui la regola che useremo per tutto il corso, e che vi chiedo di scrivere da qualche parte: attivazione cognitiva prima, IA dopo. Prima si pensa, si abbozza, si prova — poi, semmai, si accende la macchina. Vale per i vostri studenti e, vedrete, vale anche per noi.»
+
+## [CARD 9-bis · La regola ha un nome: Slow AI]
+
+«E questa regola ha un nome scientifico, ve lo do subito così ci accompagna per sei incontri: Slow AI — la propongono due studiosi della creatività, Beghetto e Glăveanu, proprio nel rapporto OCSE.
+
+La Fast AI è quella che avete appena visto nei numeri: domanda, risposta immediata, accettazione acritica — la scorciatoia che trasforma studenti e docenti in quelle che gli autori chiamano "marionette digitali". La Slow AI è l'opposto: interrogare l'IA come un collega di cui non ci si fida ciecamente — chiedere feedback, obiezioni, alternative. Mai il prodotto finito.
+
+E c'è una distopia da disinnescare, che gli autori descrivono così: senza approccio lento si arriva al punto in cui un'IA parla attraverso gli studenti a un'altra IA che parla attraverso i docenti — e la relazione educativa evapora. Noi no. All'ultimo incontro vivrete questo metodo in prima persona: è il modo in cui questo corso continuerà dopo il corso.»
 
 ---
 
@@ -277,6 +285,7 @@ Grazie a tutte e a tutti — e grazie al professor Bonelli. Ci vediamo venerdì 
 ## Contingenze e tagli d'emergenza
 
 - **Se alle 16:00 la Sonda-Clima ha mangiato minuti:** comprimere le due domande della card 7 a una sola (la prima) e recuperare 5 minuti.
+- **Se alle 16:05 siete in ritardo:** la card 9-bis si comprime a una frase ("questa regola ha un nome, Slow AI: la vivrete all'ultimo incontro") — la teoria completa torna il 30.
 - **Se alle 16:35 il blocco LLM è indietro:** saltare il giro facoltativo "tema pescato dalla chat" nella demo; i tre livelli di fiducia bastano.
 - **Se alle 17:30 le regole non sono finite:** ridurre DPO (card 26) a una frase ("il DPO c'è in ogni scuola: coinvolgetelo prima, non dopo — la tabella è nei materiali") e lo sguardo umanistico (card 27) alla sola citazione di Floridi.
 - **Se la demo Gemini non "sbaglia":** far comunque fare l'audit a Claude (spesso trova imprecisioni anche in titoli esistenti: edizione, anno, editore) + screenshot di riserva + la frase pronta: "stamattina era andata diversamente — e questa instabilità è essa stessa la lezione".
