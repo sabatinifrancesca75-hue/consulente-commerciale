@@ -31,6 +31,17 @@
 
 Da compilare in aula (Google Form predisposto dal tutor): genere, fascia d'età (18-29 / 30-54 / 55+), istituto di appartenenza, disciplina. I dati servono esclusivamente per il monitoraggio PNRR (indicatori C10I*) e sono trattati in forma aggregata.
 
+## La pigrizia metacognitiva (capsula per l'incontro 1 — da OECD Outlook 2026)
+
+Il rischio da nominare fin dal primo giorno: delegare i compiti cognitivi alla GenAI (*cognitive offloading*) fino a spegnere il monitoraggio del proprio apprendimento. Cinque facce:
+1. **Autoregolazione soppressa** — si implementa subito la risposta del chatbot, saltando diagnosi del bisogno, valutazione critica del feedback, iterazione.
+2. **Il miraggio della falsa maestria** — performance eccellente, apprendimento assente: rimosso lo strumento (esame a libro chiuso), le lacune emergono. È il ponte col dato Bastani (−17%) dell'incontro 4.
+3. **Addio "fatica produttiva"** — l'apprendimento profondo richiede sforzo (*productive struggle*): delegare brainstorming ed elaborazione atrofizza pensiero critico e argomentazione.
+4. **Perdita di autonomia** — uso intensivo e utilitaristico → da studenti-ricercatori a "marionette digitali".
+5. **Vale anche per i docenti** — automatizzare valutazione, feedback e pianificazione senza filtro critico è lo stesso discarico cognitivo: perdita di competenze e di qualità della relazione educativa.
+
+**Aggancio d'aula:** presentarla subito dopo "fluidità non è affidabilità" — insieme motivano il patto d'aula (la verifica come abitudine) e anticipano il perché del tutor con fading. Infografica dedicata (Gamma, stile del corso) nella cartella dell'incontro. Convergenza magisteriale: è la stessa preoccupazione del §146 di *Magnifica Humanitas* ("igiene dell'attenzione"), in linguaggio OCSE.
+
 ## Per approfondire (facoltativo)
 
 - Linee guida per l'introduzione dell'IA nelle scuole (DM 166/2025) — introduzione e principi (link nel Drive).
