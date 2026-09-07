@@ -1,5 +1,43 @@
 # Materiali operativi — Incontro 6
 
+## Scheda 8 — Laboratorio finale "Slow AI": unplanning di una lezione familiare
+
+*(Da OECD Digital Education Outlook 2026: "Slow AI" di R. Beghetto & V. Glăveanu, cap. 5 pp. 117-120. La regola del giorno 1 — "attivazione cognitiva prima, IA dopo" — qui scopre il suo nome e la sua teoria.)*
+
+**La cornice in quattro righe:** *Fast AI* = domanda → risposta immediata → accettazione acritica: crea dipendenza e trasforma studenti e docenti in "marionette digitali". *Slow AI* = interrogare l'IA in modo iterativo — feedback, obiezioni, alternative — come un collega di cui non ci si fida ciecamente. La distopia da disinnescare: *"un'IA parla attraverso gli studenti a un'altra IA che parla attraverso i docenti"*. I tre pilastri: (1) IA configurata in modo ostinatamente socratico; (2) **unplanning** — incertezza strutturata: vincoli e obiettivi rigidi, percorso aperto; (3) regola "Prima l'Umano".
+
+**Fase 1 — La trappola della Fast AI (5', demo della formatrice):** output di *"Scrivimi un piano di lezione dettagliato di 50 minuti su [argomento]"*. Corretto? Probabilmente sì. Vostro? No.
+
+**Fase 2 — Unplanning con lo Slow Socratic Prompt (17', individuale o in coppia):** scegliete un argomento che insegnate da anni nello stesso modo, aprite una nuova chat e incollate il prompt base + la missione del vostro ambito. Rispondete, confutate, esplorate contro-ipotesi. Se l'IA "corre" e vi sforna il piano completo: fermatela ("non darmi il piano: torna alla domanda") — addomesticare l'algoritmo è l'esercizio.
+
+**Prompt base (per tutti):**
+```
+Sei un Facilitatore Pedagogico Socratico, ispirato alla "Slow AI" di
+Ronald Beghetto. Il tuo unico obiettivo è aiutarmi a fare "unplanning"
+di una mia lezione tradizionale sul tema [argomento], introducendo
+"incertezza strutturata": vincoli e obiettivi rigidi, percorso aperto.
+Regole rigorose:
+1. NON darmi mai un piano di lezione pronto né una risposta completa.
+2. Fammi UNA sola domanda alla volta e attendi la mia risposta.
+3. Sii ostinatamente socratico: proponi possibilità con "Cosa
+   succederebbe se..." o "E se provassimo a...", lasciando la piena
+   proprietà delle idee nelle mie mani.
+4. Prima chiedimi: i 2-3 concetti irrinunciabili che gli studenti
+   devono padroneggiare e i vincoli reali della mia classe.
+5. Inizia presentandoti e chiedendomi quale aspetto "troppo familiare"
+   di questo argomento vorrei scardinare.
+[+ MISSIONE DEL MIO AMBITO — incollare una delle tre righe qui sotto]
+```
+
+**Le tre missioni disciplinari:**
+- **Umanistica (lettere, storia, filosofia, arte):** *"La tua missione: guidami a trovare una tensione etica o un dilemma storico-letterario che costringa gli studenti a prendere posizione, con l'obbligo di fondare ogni argomento sull'analisi di fonti primarie. Proponimi, una alla volta, possibili 'punti di rottura' in cui gli studenti hanno autonomia decisionale dentro vincoli di contenuto stringenti."*
+- **Scientifica (matematica, fisica, chimica, scienze):** *"La tua missione: spostare la mia lezione dall'applicazione di formule all'indagine attiva. Guidami verso scenari basati su anomalie reali, dati sporchi o strumentazioni imperfette, in cui gli studenti devono formulare ipotesi, progettare verifiche e argomentare l'errore — la 'fatica produttiva' del ricercatore."*
+- **Linguistica (lingue straniere, italiano L2):** *"La tua missione: rendere inutilizzabile il copia-incolla e la traduzione automatica. Guidami verso scenari di crisi comunicativa o mediazione interculturale in cui il successo dipende da scelte argomentative in tempo reale e dal rispetto di registri e vincoli pragmatici precisi."*
+
+**Fase 3 — Debriefing (10'):** 1. *Agency:* quando vi siete sentiti designer dell'apprendimento e quando supervisori della macchina? 2. *Fatica produttiva:* la Fase 2 è costata più sforzo — perché è l'unico sforzo che genera competenza (ed evita la pigrizia metacognitiva)? 3. *Trasferimento:* come riprogettare i compiti perché anche gli studenti usino l'IA in modalità Slow?
+
+**Autovalutazione dell'agency (1 minuto, per sé):** su una scala 1–5 — Ho mantenuto io la titolarità delle idee? Ho respinto almeno una proposta inadatta alla mia classe? Il risultato è qualcosa che *solo io* potevo progettare?
+
 ## Scheda 7 — Griglia di feedback per la peer review
 
 Una copia per ogni UdA che ascoltate. A fine incontro le griglie vanno all'autore.

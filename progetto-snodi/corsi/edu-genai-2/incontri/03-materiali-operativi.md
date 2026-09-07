@@ -45,7 +45,7 @@ richiedano dati personali di studenti o di terzi.
 
 ## Scheda 3c — Laboratorio alternativo "Slow AI": unplanning di una lezione familiare
 
-*(Da OECD Outlook 2026: "Slow AI" di R. Beghetto, cap. 5 pp. 117-120; teaming di M. Cukurova, cap. 7 pp. 130-142. Utilizzabile come apertura del laboratorio dell'incontro 3 o come attività ponte nella settimana 17-23/9.)*
+*(Da OECD Outlook 2026: "Slow AI" di R. Beghetto, cap. 5 pp. 117-120; teaming di M. Cukurova, cap. 7 pp. 130-142. **Nota: il laboratorio completo è ora programmato come attività finale dell'incontro 6 — vedi scheda 8, con prompt base + 3 missioni disciplinari.** Questa scheda resta come anticipazione teorica o attività ponte nella settimana 17-23/9.)*
 
 **La cornice (Beghetto & Glăveanu, in OECD Outlook 2026, cap. 5 pp. 117-120):**
 - **Fast AI** = domanda → risposta immediata → accettazione acritica: crea dipendenza e trasforma studenti e docenti in "marionette digitali" (*digital puppets*), portavoce di testi generati da algoritmi.
