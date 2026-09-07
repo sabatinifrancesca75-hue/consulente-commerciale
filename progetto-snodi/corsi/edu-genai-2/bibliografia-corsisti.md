@@ -7,7 +7,7 @@ Tutto ciò che viene citato in aula, in un unico posto. Le voci con ⭐ sono le 
 ## 1. Normativa e linee guida (le fonti che vincolano il nostro lavoro)
 
 - ⭐ **MIM — Linee guida per l'introduzione dell'Intelligenza Artificiale nelle scuole** (DM 166 del 09/08/2025). I quattro pilastri (centralità della persona, equità e inclusione, etica e responsabilità, trasparenza e spiegabilità) e il principio cardine: *l'IA non prende decisioni pedagogiche, valutative o disciplinari*.
-- **Regolamento (UE) 2024/1689 — AI Act**, pienamente applicabile dal 2 agosto 2026. Per noi: la piramide dei rischi, l'Allegato III (istruzione tra gli ambiti ad alto rischio), l'art. 5 (pratiche vietate, incluso il riconoscimento delle emozioni a scuola) e l'art. 4 (obbligo di alfabetizzazione all'IA per il personale — la ragione formale di questo corso).
+- **Regolamento (UE) 2024/1689 — AI Act**, come modificato dal **Reg. (UE) 2026/1744 "AI Omnibus"** (luglio 2026). Per noi: la piramide dei rischi, l'Allegato III (istruzione tra gli ambiti ad alto rischio — obblighi applicabili dal 2/12/2027), l'art. 5 (pratiche vietate già in vigore, incluso il riconoscimento delle emozioni a scuola) e l'art. 4 (misure per sostenere l'alfabetizzazione all'IA del personale — la ragione formale di questo corso).
 - **Legge 132/2025** — principi nazionali su IA, minori e istruzione.
 - **Garante Privacy — "La scuola a prova di privacy"** (vademecum): il quadro GDPR scolastico in linguaggio accessibile.
 - **Documentazione Google Workspace for Education** su Gemini e NotebookLM: i termini contrattuali per cui, nell'ambiente d'istituto, i dati non addestrano i modelli.

@@ -168,19 +168,21 @@ Ma non elimina la verifica: la rende possibile. Se caricate fonti sbagliate, avr
 
 «Bentornati. Trentacinque minuti di quadro normativo, e vi prometto tre cose: niente linguaggio da gazzetta ufficiale, poche ancore da ricordare, e la sorpresa promessa.
 
-Questa tabella è la vostra mappa, dal 2017 a oggi — non da memorizzare: da riconoscere. Tre colori, tre famiglie: le competenze digitali europee, verdi; la regolazione dell'IA, blu; l'educazione civica, viola. Notate solo il ritmo: fino al 2024 si parlava di competenze; dal 2024 in ventiquattro mesi sono arrivate la prima legge al mondo sull'IA, le linee guida ministeriali, una legge nazionale. Il quadro si è chiuso adesso — siete tra i primi a riceverlo ordinato.»
+Questa tabella è la vostra mappa, dal 2017 a oggi — non da memorizzare: da riconoscere. Tre colori, tre famiglie: le competenze digitali europee, verdi; la regolazione dell'IA, blu; l'educazione civica, viola. Notate solo il ritmo: fino al 2024 si parlava di competenze; dal 2024 in ventiquattro mesi sono arrivate la prima legge al mondo sull'IA, le linee guida ministeriali, una legge nazionale. E l'ultimo tassello è di quest'estate: il regolamento Omnibus del luglio 2026, che ha ritoccato scadenze e adempimenti dell'AI Act — ve ne dico subito le conseguenze pratiche. Il quadro si è chiuso adesso — siete tra i primi a riceverlo ordinato.»
 
 ## ⏱ 17:05 — [CARD 19 · La piramide del rischio]
 
-«Prima ancora: l'Europa non ha vietato l'intelligenza artificiale. L'ha classificata. L'AI Act — pienamente applicabile da poche settimane — funziona come una piramide: in cima le pratiche vietate, sempre; poi l'alto rischio, con obblighi severi; poi il rischio limitato, dove basta la trasparenza; alla base il rischio minimo, la maggior parte degli usi.
+«Prima ancora: l'Europa non ha vietato l'intelligenza artificiale. L'ha classificata. L'AI Act, in vigore dal 2024, funziona come una piramide: in cima le pratiche vietate, sempre; poi l'alto rischio, con obblighi severi; poi il rischio limitato, dove basta la trasparenza; alla base il rischio minimo, la maggior parte degli usi.
 
-E la sorpresa: tra le pratiche vietate — vietate, non regolate — c'è il riconoscimento delle emozioni a scuola. Un sistema che dalla webcam "legge" se lo studente è attento o annoiato: illegale nell'Unione Europea. Qualcuno lo vendeva già. E ripensate al tool magico di prima: la profilazione per l'orientamento, l'avete collocata da soli — è la fascia arancione, alto rischio. Non vietata: da governare.»
+E la sorpresa: tra le pratiche vietate — vietate, non regolate — c'è il riconoscimento delle emozioni a scuola. Un sistema che dalla webcam "legge" se lo studente è attento o annoiato: illegale nell'Unione Europea già da febbraio 2025. Qualcuno lo vendeva già. E i divieti si allargano: da dicembre di quest'anno saranno vietati anche i sistemi che generano immagini intime non consensuali o materiale di abuso su minori — il regolamento cresce dove crescono i rischi.
+
+Le date, con la precisione dell'Omnibus di luglio: i divieti valgono ora; gli obblighi di trasparenza sono partiti ad agosto; gli obblighi per l'alto rischio dell'Allegato III — quello che include l'istruzione — si applicheranno dal 2 dicembre 2027. Attenzione a come lo leggete: è più tempo per adeguarsi, non un liberi tutti — la classificazione resta, l'istruzione È alto rischio. E ripensate al tool magico di prima: la profilazione per l'orientamento l'avete collocata da soli — fascia arancione. Non vietata: da governare.»
 
 ## [CARD 20 · La scuola è un "deployer"]
 
 «Una parola dell'AI Act che vi riguarda: deployer. Quando una scuola adotta un sistema di IA non è un "utente" come chi scarica un'app per sé: è un soggetto che mette in uso quel sistema su altre persone — i nostri studenti. Il Dirigente è titolare del trattamento e deployer; e chi mette in uso ha obblighi propri: scegliere bene, informare, tracciare, supervisionare. La parola cambia la postura: da consumatori a responsabili.
 
-E c'è un articolo che vi riguarda personalmente, il quattro: chi usa sistemi di IA deve garantire l'alfabetizzazione del proprio personale. È un obbligo. Quindi quando il collega vi chiederà "ma perché fai questo corso?", risposta breve: articolo quattro. Voi oggi siete la scuola che si mette in regola — e molto di più.»
+E c'è un articolo che vi riguarda personalmente, il quattro — riscritto proprio quest'estate dall'Omnibus: chi fornisce o usa sistemi di IA adotta misure per sostenere lo sviluppo dell'alfabetizzazione del proprio personale. Non impone più di garantire un livello specifico, ma il dovere di attrezzarsi resta — e questo corso è esattamente una di quelle misure. Quindi quando il collega vi chiederà "ma perché fai questo corso?", risposta breve: articolo quattro. Voi oggi siete la scuola che si attrezza — prima ancora che scattino gli obblighi del 2027.»
 
 ## [CARD 21 · DM 166/2025: il principio che regge tutto]
 

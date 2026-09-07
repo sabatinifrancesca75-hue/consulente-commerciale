@@ -15,6 +15,7 @@ Percorso di letture per Edu-GenAI 2 (utile in larga parte anche per Ethic-AI 2).
 
 ### Incontro 1 — Ambiente protetto e regole d'ingaggio
 - **Regolamento (UE) 2024/1689 (AI Act)** — lettura mirata: definizioni, piramide dei rischi, Allegato III (istruzione tra gli ambiti ad alto rischio: perché i vostri usi restano fuori), obblighi di trasparenza per i sistemi a rischio limitato.
+- **Regolamento (UE) 2026/1744 "AI Omnibus"** (8/7/2026, GU L 24/7/2026, in vigore dal 27/7/2026) — le modifiche all'AI Act da conoscere per l'aula: alto rischio All. III rinviato al **2/12/2027** (All. I al 2/8/2028; la classificazione resta invariata); **art. 4 riscritto** ("misure volte a sostenere lo sviluppo dell'alfabetizzazione", senza obbligo di garantire un livello specifico); **art. 5 ampliato** con due nuovi divieti dal 2/12/2026 (generazione di materiale intimo non consensuale e di abuso su minori); trasparenza art. 50 confermata dal 2/8/2026. PDF nella cartella Drive delle fonti normative.
 - **Legge 132/2025** — principi nazionali su IA, minori e istruzione.
 - **Garante Privacy — *La scuola a prova di privacy*** (vademecum): il quadro GDPR scolastico in linguaggio accessibile.
 - Documentazione **Google Workspace for Education** su Gemini/NotebookLM e trattamento dati (i termini che ti permettono di dire "i dati non addestrano i modelli").

@@ -64,7 +64,7 @@ Da tenere a portata d'occhio durante la conduzione. Per ogni card: **concetto ch
 
 **30 · [Divisore] Le regole** — ponte: "20 minuti di quadro normativo, tre ancore, niente diritto per giuristi".
 
-**31 · La piramide del rischio** — *Concetto:* l'AI Act non vieta l'IA: la classifica per rischio. · Vietate (art. 5) / alto rischio / rischio limitato (trasparenza) / minimo. · *Esempio:* tra le pratiche vietate c'è il riconoscimento delle emozioni a scuola — sorprende sempre. · *Rif.:* Reg. UE 2024/1689, art. 5 e All. III; pienamente applicabile dal 2/8/2026.
+**31 · La piramide del rischio** — *Concetto:* l'AI Act non vieta l'IA: la classifica per rischio. · Vietate (art. 5) / alto rischio / rischio limitato (trasparenza) / minimo. · *Esempio:* tra le pratiche vietate c'è il riconoscimento delle emozioni a scuola — sorprende sempre. · *Rif.:* Reg. UE 2024/1689, art. 5 e All. III, come modificato dal Reg. UE 2026/1744 "AI Omnibus": divieti in vigore dal 2/2/2025 (+2 nuovi dal 2/12/2026); obblighi alto rischio All. III dal 2/12/2027; trasparenza dal 2/8/2026. La classificazione dell'istruzione come alto rischio resta invariata.
 
 **32 · L'istruzione è ad alto rischio** — *Concetto:* non è un giudizio sulla scuola ma sul peso delle decisioni educative. · Sistemi che valutano/ammettono/assegnano percorsi = alto rischio → supervisione, trasparenza, documentazione. · *Esempio:* il caso A-level 2020 (voti da algoritmo, −40%, proteste, dietrofront) è il *perché* storico di questa classificazione. · *Rif.:* AI Act, All. III (istruzione e formazione).
 

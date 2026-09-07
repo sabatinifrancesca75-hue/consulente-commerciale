@@ -156,6 +156,7 @@ La regola d'oro del corso, da scrivere da qualche parte:
 | ago 2025 | **DM 166/2025** (MIM) | Linee guida per l'IA nella scuola | 🔵 |
 | ott 2025 | **Legge 132/2025** | IA strategica; nuovo reato di *deepfake* | 🔵 |
 | nov 2025 | **DigComp 3.0** (JRC) | AI & data literacy, cybersicurezza, sostenibilità | 🟢 |
+| lug 2026 | **"AI Omnibus"** (Reg. UE 2026/1744) | Semplificazioni e nuove scadenze dell'AI Act | 🔵 |
 
 
 ## L'AI Act: la piramide del rischio
@@ -167,7 +168,9 @@ La regola d'oro del corso, da scrivere da qualche parte:
 | 🔵 **Rischio limitato** | Obblighi di trasparenza | Dichiarare l'IA, etichettare i contenuti sintetici |
 | 🟢 **Rischio minimo** | Uso libero | Gran parte delle applicazioni |
 
-*La sorpresa promessa: il riconoscimento delle emozioni a scuola non è "regolato" — è **vietato**. E qualcuno lo vendeva già.*
+*La sorpresa promessa: il riconoscimento delle emozioni a scuola non è "regolato" — è **vietato** (dal 2/2/2025). E qualcuno lo vendeva già.*
+
+*Le date dopo l'Omnibus (lug 2026): divieti già in vigore · trasparenza dal 2/8/2026 · obblighi alto rischio All. III (istruzione) dal **2/12/2027** — più tempo per adeguarsi, non un liberi tutti: la classificazione resta.*
 
 
 ## La scuola è un "deployer" di IA
@@ -176,7 +179,7 @@ La regola d'oro del corso, da scrivere da qualche parte:
 - Non è il tool a essere vietato: è **l'uso** a dover essere governato
 - Il **Dirigente Scolastico** è Titolare del trattamento e *deployer* dei sistemi di IA — e chi mette in uso su altre persone ha obblighi propri
 - Governare significa **scegliere, documentare, supervisionare** — da consumatori a responsabili
-- E l'**art. 4** obbliga all'alfabetizzazione IA del personale: questo corso è l'attuazione di un obbligo europeo
+- E l'**art. 4** (riscritto dall'Omnibus 2026): fornitori e deployer **adottano misure per sostenere l'alfabetizzazione IA** del personale — questo corso è esattamente una di quelle misure
 
 
 ## DM 166/2025: il principio che regge tutto

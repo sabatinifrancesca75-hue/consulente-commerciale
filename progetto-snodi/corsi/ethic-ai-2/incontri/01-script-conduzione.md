@@ -11,7 +11,7 @@
 | 15:00–15:05 | Accoglienza | Benvenuto, presenze, promemoria attestato (13 ore + UdA civica). Chi viene da Edu-GenAI 2 e chi no | Registro |
 | 15:05–15:20 | Il mandato civico | Slide 3: dato 62/30 (UNESCO-UNEVOC) + WEF 39% | Slide |
 | 15:20–16:00 | Algocrazia | Slide 4: dove decidono gli algoritmi (casi O'Neil + casi dall'aula) | Slide |
-| 16:00–16:35 | AI Act in pratica | Slide 5: piramide, pratiche vietate a scuola (emotion recognition!), alto rischio, art. 4. Pausa 5' | Slide |
+| 16:00–16:35 | AI Act in pratica | Slide 5: piramide, pratiche vietate a scuola (emotion recognition!), alto rischio, art. 4. **Nota Omnibus (Reg. UE 2026/1744, lug 2026):** divieti in vigore (+2 nuovi dal 2/12/2026: materiale intimo non consensuale e CSAM — molto rilevanti per questo corso); obblighi alto rischio All. III dal 2/12/2027 (classificazione invariata); art. 4 riscritto ("misure per sostenere l'alfabetizzazione"). Pausa 5' | Slide |
 | 16:40–17:05 | Copilota o decisore | Slide 6: automation bias, human-in-the-loop by design, citazione EDPS | Slide |
 | 17:05–17:50 | **Laboratorio** | Slide 7 — la mappa degli impatti: gruppi da 3-4, 35' + 10' restituzione | Scheda E1 |
 | 17:50–18:00 | Chiusura | Slide 8-9: bussola + consegne. Modulo indicatori PNRR in aula. Registro | Modulo |
