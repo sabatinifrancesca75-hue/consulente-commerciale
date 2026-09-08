@@ -28,7 +28,11 @@ E la scadenza vera da segnare oggi è una sola: lunedì 28 settembre, la consegn
 
 ## [CARD 3 · Sei incontri, un prodotto]
 
-«Perché quella consegna è così importante? Perché questo non è un corso su uno strumento: è un corso di progettazione. Alla fine delle diciotto ore ciascuno di voi avrà costruito una Unità di Apprendimento in cui è scritto, fase per fase, dove entra l'intelligenza artificiale e dove il pensiero resta allo studente. Quella UdA è anche il requisito per l'attestato, insieme al settanta per cento di frequenza: tredici ore.
+«Perché quella consegna è così importante? Perché questo non è un corso su uno strumento: è un corso di progettazione. Alla fine delle diciotto ore ciascuno di voi avrà costruito una Unità di Apprendimento in cui è scritto, fase per fase, dove entra l'intelligenza artificiale e dove il controllo resta al pensiero umano.
+
+E vi tolgo subito un'ansia: la vostra UdA non deve per forza far usare l'IA agli studenti. L'IA può entrare solo dal vostro lato — per progettare, differenziare, preparare materiali — e la scelta "in questa fase l'IA non entra affatto" è una scelta di progettazione pienamente legittima; per le competenze di base, spesso è la migliore. Ogni scuola ha condizioni diverse — ambienti, età, autorizzazioni — e la UdA si adatta alle vostre. Quello che conta è una cosa sola: che dove l'IA entra, o non entra, sia scritto — e sia scritto perché l'avete deciso voi.
+
+Quella UdA è anche il requisito per l'attestato, insieme al settanta per cento di frequenza: tredici ore.
 
 Quindi se stasera qualcuno vi chiede "che corso stai facendo?", la risposta giusta non è "un corso su ChatGPT". È: "un corso per riprogettare la mia didattica in un mondo dove l'IA c'è già".»
 

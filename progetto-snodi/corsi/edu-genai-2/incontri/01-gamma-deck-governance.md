@@ -11,7 +11,8 @@ Mercoledì 9 settembre 2026 · 15:30–18:30 · Google Meet
 ## Sei incontri, un prodotto
 
 - Questo **non è un corso su uno strumento**: è un corso di progettazione
-- Alla fine delle 18 ore: una **Unità di Apprendimento** in cui è scritto, fase per fase, dove entra l'IA e dove il pensiero resta allo studente
+- Alla fine delle 18 ore: una **Unità di Apprendimento** in cui è scritto, fase per fase, dove entra l'IA e dove il controllo resta al pensiero umano
+- L'uso dell'IA da parte degli studenti **non è obbligatorio**: può entrare solo sul lato docente — e "qui l'IA non entra" è una scelta di progettazione legittima
 - Attestato: **70% di frequenza (13 ore) + consegna della UdA**
 - La risposta giusta a "che corso stai facendo?": *"un corso per riprogettare la mia didattica in un mondo dove l'IA c'è già"*
 
