@@ -1,26 +1,53 @@
 # Materiali operativi — Incontro 2
 
-## Scheda 2 — Il tuo prompt-template professionale (laboratorio, 50')
+## Scheda 2 — Il tuo prompt-template professionale (laboratorio, 35')
 
 **Obiettivo:** trasformare un materiale che producete spesso in un prompt-template riusabile, nel vostro stile.
 
-**Checklist dei 6 elementi** (il vostro template li deve avere tutti):
+**La struttura del template: C.R.A.F.T. + Esemplare + 4R.**
 
 | Elemento | Domanda-guida | Esempio |
 |---|---|---|
-| RUOLO | Chi deve essere il modello? | "Sei un docente esperto di fisica del secondo ciclo…" |
-| CONTESTO | Classe, livello, cosa è già stato svolto? | "…per una 3ª che ha appena concluso la cinematica" |
-| COMPITO | Verbo preciso + oggetto preciso | "Produci una verifica di 6 esercizi su…" |
-| FORMATO | Struttura obbligatoria dell'output | "3 sezioni; soluzioni in coda separate; max 2 pagine" |
-| VINCOLI | Cosa NON deve fare | "Niente nomi reali; niente fonti citate se non verificabili; niente soluzioni in pagina" |
-| ESEMPI | Un esemplare del vostro stile (few-shot) | Incollate un vostro esercizio come modello |
+| **C** — Context | Disciplina, classe, cosa sanno già? | "Quarta liceo scientifico, appena conclusa la cinematica" |
+| **R** — Role | Chi deve essere il modello? | "Sei un docente esperto di fisica del secondo ciclo" |
+| **A** — Action | **Verbo forte** + oggetto preciso | "Genera una verifica di 6 esercizi su…" — mai "parlami di" |
+| **F** — Format | Struttura obbligatoria dell'output | "3 sezioni; soluzioni in coda separate; max 2 pagine" |
+| **T** — Target | Per chi / con quale obiettivo | "Valutare se sanno impostare, non solo risolvere" |
+| **+ Esemplare** | Un modello del vostro stile (few-shot) | Incollate un vostro esercizio come esemplare — è il passaggio che fa la differenza |
+| **+ 4R** | Almeno un filtro scritto nel template | Riferimenti ("usa solo il documento caricato, cita la pagina") e/o Restrizione ("niente nomi reali; se non puoi citare fonti verificabili, scrivilo") |
+
+**Versione tascabile (3C):** Contesto (=C+R) · Compito (=A) · Criteri (=F+T). Un modello, due marce: C.R.A.F.T. quando progettate con calma, 3C quando siete di corsa.
 
 **Procedura:**
 1. (5') Scegliete il materiale portato e identificate cosa lo rende "vostro" (stile delle consegne, gradualità, impaginazione).
-2. (15') Scrivete il template con i 6 elementi. L'esemplare few-shot è il passaggio che fa la differenza: incollate un pezzo del vostro materiale come modello di stile.
-3. (5') Generate con Gemini. Confrontate con l'originale: cosa manca? Aggiungete UN vincolo e rigenerate.
-4. (15') Scambio in coppia: eseguite il template del collega senza spiegazioni a voce. L'output è all'altezza? Un feedback su cosa funziona + un vincolo suggerito.
-5. (10') Salvate il template nel vostro Doc della Prompt-libreria: titolo, disciplina, cosa produce, il template completo, un esempio di output riuscito.
+2. (15') Scrivete il template: C.R.A.F.T. completo + esemplare + almeno una R.
+3. (5') Generate con Gemini. Confrontate con l'originale: cosa manca? Aggiungete UN vincolo e rigenerate (è la 4ª R, la Ripetizione).
+4. (10') Scambio in coppia: eseguite il template del collega senza spiegazioni a voce. L'output è all'altezza? Un feedback su cosa funziona + un vincolo suggerito. Poi salvate nella Prompt-libreria.
+
+## Scheda 2-bis — I filtri e i pattern (riferimento rapido)
+
+**Le 4R — i filtri di qualità:**
+- **Riferimenti** (anti-allucinazione): "usa solo il documento caricato e cita la pagina" — trasforma un generatore di verosimiglianza in un assistente di ricerca.
+- **Restrizione** (pertinenza): "max 200 parole", "escludi le date dopo il 1945".
+- **Revisione** (inclusività): "riscrivi per uno studente con dislessia: frasi brevi, niente subordinate".
+- **Ripetizione** (iterazione): il primo prompt è una bozza — "troppo lungo, dimezzalo", "adatta l'esempio alla mia classe". Non cercate il prompt perfetto: cercate la conversazione perfetta.
+
+**I pattern avanzati:**
+- **Catena** (*chain of thought*): "risolvi passo dopo passo, spiega il ragionamento, conclusione alla fine" — meno errori, e il ragionamento diventa materiale didattico ("dove ha ragionato bene? dove ha preso una scorciatoia?").
+- **Critico:** "analizza l'output che hai prodotto, trova i 3 punti più deboli, riscrivili" — la revisione come parte del pensiero.
+- **Context Conveyor** (per conversazioni lunghe): "all'interno dell'ambito X" · "considera Y" · "ignora Z" · "ricominciamo da capo".
+
+**La tassonomia inversa (per progettare consegne):** lo studente genera subito con l'IA, poi *scende*: analizza l'output, trova errori e bias, e attraverso la critica arriva alla comprensione. Lavora sull'output, non lo subisce.
+
+## Scheda 2-ter — T.A.P.E. e la checklist finale
+
+**T.A.P.E. — l'etica scritta dentro il prompt (micro-azioni pronte):**
+- **T**rasparenza: in coda al materiale → "assistenza IA usata per…, versione e data".
+- **A**ccuratezza: nel prompt → "se non puoi citare fonti verificabili, scrivi: SENZA FONTI VERIFICABILI".
+- **P**rivacy: nel prompt → "rileva eventuali dati personali e sostituiscili con [omissis]" — e sempre profili sintetici, mai nomi o diagnosi.
+- **E**quità: "elenca 3 possibili bias in questo testo e riscrivilo in modo inclusivo".
+
+**La checklist delle 7 domande (10 secondi, prima di usare qualunque output):** obiettivo didattico? ruolo autorevole? destinatario e livello? vincoli e criteri? fonti citate? privacy garantita? revisione personale fatta? — **Se anche una sola risposta è "no", quell'output non entra in classe.**
 
 **Formato standard per la Prompt-libreria:**
 ```
