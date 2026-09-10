@@ -179,6 +179,17 @@ Venerdì 11 settembre 2026 · 15:30–18:30 · Google Meet
 - *Avvertenza:* i pattern simulano la logica, non la possiedono. Il giudice ultimo restate voi
 
 
+## Il pattern più contro-intuitivo: l'Unplanning (Slow AI)
+
+*Ricordate la Slow AI di mercoledì? Ecco il suo pattern operativo — Beghetto & Glăveanu, OECD Outlook 2026*
+
+- **Unplanning** = decostruire una lezione che insegnate da anni nello stesso modo, introducendo **incertezza strutturata**: vincoli e obiettivi rigidi, percorso aperto
+- Il prompt è **ostinatamente socratico**: mai risposte pronte, UNA domanda alla volta, solo possibilità — *"Cosa succederebbe se…"*, *"E se provassimo a…"* — la proprietà delle idee resta a voi
+- La regola **"Prima l'Umano"**: l'IA mai come primo passo — prima la progettazione autonoma e il confronto tra colleghi, poi la macchina come cassa di risonanza sul blocco creativo
+- È il rovesciamento di tutti i pattern visti finora: qui **il prompt serve a impedire all'IA di rispondere** — e a costringere voi a pensare
+- Il prompt completo è nella scheda 2-bis · **l'esperienza integrale la vivrete all'ultimo incontro**
+
+
 ## Tenere il filo: il Context Conveyor
 
 *Nelle conversazioni lunghe l'IA "perde il filo". Quattro frasi da taschino:*

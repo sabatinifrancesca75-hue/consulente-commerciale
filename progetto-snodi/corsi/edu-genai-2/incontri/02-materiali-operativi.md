@@ -35,6 +35,17 @@
 **I pattern avanzati:**
 - **Catena** (*chain of thought*): "risolvi passo dopo passo, spiega il ragionamento, conclusione alla fine" — meno errori, e il ragionamento diventa materiale didattico ("dove ha ragionato bene? dove ha preso una scorciatoia?").
 - **Critico:** "analizza l'output che hai prodotto, trova i 3 punti più deboli, riscrivili" — la revisione come parte del pensiero.
+- **Unplanning / Socratico (Slow AI):** il pattern rovesciato — il prompt impedisce all'IA di rispondere e la costringe a fare domande. Versione compatta da provare:
+  ```
+  Sei un Facilitatore Pedagogico Socratico (Slow AI, R. Beghetto).
+  Aiutami a fare "unplanning" di una mia lezione tradizionale su
+  [argomento], introducendo incertezza strutturata. Regole: (1) non
+  darmi MAI un piano pronto né una risposta completa; (2) UNA domanda
+  alla volta, attendi la mia risposta; (3) solo possibilità: "Cosa
+  succederebbe se…", "E se provassimo a…"; (4) inizia chiedendomi quale
+  aspetto "troppo familiare" dell'argomento vorrei scardinare.
+  ```
+  (Il laboratorio completo, con le missioni disciplinari, è all'incontro 6 — scheda 8.)
 - **Context Conveyor** (per conversazioni lunghe): "all'interno dell'ambito X" · "considera Y" · "ignora Z" · "ricominciamo da capo".
 
 **La tassonomia inversa (per progettare consegne):** lo studente genera subito con l'IA, poi *scende*: analizza l'output, trova errori e bias, e attraverso la critica arriva alla comprensione. Lavora sull'output, non lo subisce.
