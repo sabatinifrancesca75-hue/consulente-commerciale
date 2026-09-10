@@ -65,6 +65,16 @@ Venerdì 11 settembre 2026 · 15:30–18:30 · Google Meet
 *E se è cieca, ha bisogno di qualcuno che veda per lei. Quel qualcuno siete voi.*
 
 
+## Questa condizione ha un nome: epistemia
+
+*Un termine che si sta affermando per descrivere il rischio del nostro tempo*
+
+- **Epistemia** = quando la **fluidità linguistica sostituisce la giustificazione della conoscenza**: leggo una risposta impeccabile e *sento* di sapere — senza aver fatto il lavoro di verificare
+- La fluidità è la scorciatoia che il nostro cervello usa da sempre per stimare la credibilità: *chi scrive bene, di solito, sa*. Con l'IA questa scorciatoia **si rompe** — è il "fluente ≠ vero" di mercoledì, portato alla scala della società
+- Il rischio collettivo: accettare la **coerenza formale** come sostituto della **verità fondata**
+- **La contromisura non è smettere di usare l'IA: è l'alfabetizzazione epistemica** — routine di verifica scritte *dentro* il prompt. Ed è esattamente il metodo di oggi: tutto ciò che vedrete serve a non cadere nell'epistemia
+
+
 ## Il docente come regista cognitivo
 
 - L'IA è **l'attore e la telecamera insieme**: potentissima, ma senza direzione non nasce un film — nasce materiale grezzo

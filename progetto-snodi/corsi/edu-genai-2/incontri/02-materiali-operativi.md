@@ -60,6 +60,44 @@
 
 **La checklist delle 7 domande (10 secondi, prima di usare qualunque output):** obiettivo didattico? ruolo autorevole? destinatario e livello? vincoli e criteri? fonti citate? privacy garantita? revisione personale fatta? — **Se anche una sola risposta è "no", quell'output non entra in classe.**
 
+## Scheda 2-quater — Epistemia e le frasi per l'igiene epistemica
+
+**Epistemia** — termine recente (non ancora standard in letteratura: presentarlo come *"un termine che si sta affermando"*) per la condizione in cui **la fluidità linguistica sostituisce la giustificazione della conoscenza**: la risposta impeccabile dà la *sensazione* di sapere senza il lavoro di verifica. È il "fluente ≠ vero" dell'incontro 1, elevato a rischio collettivo: accettare la coerenza formale come sostituto della verità fondata. La contromisura è l'**alfabetizzazione epistemica**: routine di verifica scritte dentro il prompt.
+
+**Le frasi per l'igiene epistemica** *(regola d'uso: nel prompt che conta, UNA frase per gruppo)*
+
+*Gruppo 1 — Monitorare l'incertezza* (estende la A di T.A.P.E.):
+- "Se non hai dati sufficienti o il tema è dibattuto, non dare una risposta univoca: scrivi INCERTO e spiega perché."
+- "Per ogni affermazione, indica il grado di confidenza: alto / medio / basso."
+- "Se non puoi citare fonti verificabili, scrivi: SENZA FONTI VERIFICABILI."
+- "Non riempire i vuoti: se un'informazione ti manca, dichiara che manca invece di stimarla."
+- "Quali parti della tua risposta potrebbero dipendere da dati che non possiedi o essere obsolete? Elencale a parte."
+
+*Gruppo 2 — Separare fatti e plausibilità* (è la R dei Riferimenti portata dentro la risposta):
+- "Etichetta ogni affermazione: [FATTO documentato] / [INTERPRETAZIONE] / [IPOTESI plausibile]."
+- "Dividi la risposta in due sezioni: 'ciò che è sostenuto da studi o documenti' e 'ciò che è opinione diffusa o tua generalizzazione'."
+- "Per ogni [FATTO], indicami dove potrei verificarlo: che tipo di fonte primaria dovrei cercare?"
+- "Dimmi quali esempi provengono da casi documentati e quali li hai costruiti tu per illustrare il concetto."
+- "Riscrivi la risposta togliendo tutto ciò che non sapresti difendere davanti a una verifica. Cosa resta?"
+
+*Gruppo 3 — Richiedere il contro-altare* (è il Pattern del Critico):
+- "Ora fai l'avvocato del diavolo: costruisci l'argomentazione contraria più forte possibile alla risposta che hai appena dato."
+- "Elenca i 3 punti più deboli della tua risposta e in quali condizioni si rivelerebbe sbagliata."
+- "In quali contesti questa soluzione NON ha funzionato o non funzionerebbe? Portane almeno due."
+- "Quali bias — nei dati o nella formulazione — potrebbero aver influenzato questa risposta? Elencali e riscrivila tenendone conto."
+- "Se un esperto della materia volesse smontare questa risposta, da dove comincerebbe?"
+
+**Approfondimento — le 7 "fratture epistemiche"** (le divergenze strutturali tra conoscere umano e generare artificiale, in versione semplice):
+1. **Ancoraggio:** noi conosciamo attraverso corpo, sensi e relazioni ("pioggia" = esserci stati sotto); l'IA conosce solo testo.
+2. **Lettura della situazione:** noi cogliamo intenzioni, tono, ironia; l'IA spezzetta il testo in token e calcola — cieca alla scena.
+3. **Esperienza:** noi attingiamo a ricordi e vita vissuta; l'IA a una mappa statistica di parole che compaiono insieme.
+4. **Motivazione:** noi siamo mossi da scopi, valori, paura di sbagliare; l'IA non vuole nulla — completa pattern.
+5. **Causalità:** noi ragioniamo per cause ed effetti ("cosa accadrebbe se…"); l'IA per correlazioni di superficie ("fiammifero" sta vicino a "fuoco").
+6. **Metacognizione:** noi sappiamo di non sapere e possiamo sospendere il giudizio; l'IA deve comunque produrre un output — con lo stesso tono sicuro.
+7. **Responsabilità:** il nostro giudizio ha conseguenze reali; la risposta dell'IA è una distribuzione di probabilità senza accountability.
+
+*Frase-sintesi per l'aula: "L'IA ricrea la forma della conoscenza combinando parole in modo perfetto — ma senza l'esperienza, la consapevolezza e la responsabilità di ciò che dice."*
+
 **Formato standard per la Prompt-libreria:**
 ```
 TITOLO: [es. Verifica graduata di grammatica latina]
