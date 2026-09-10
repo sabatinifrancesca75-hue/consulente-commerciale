@@ -98,6 +98,8 @@
 
 *Frase-sintesi per l'aula: "L'IA ricrea la forma della conoscenza combinando parole in modo perfetto — ma senza l'esperienza, la consapevolezza e la responsabilità di ciò che dice."*
 
+**Infografica "Epistemia: l'illusione della conoscenza nell'IA"** (lavagna NotebookLM, nella cartella dell'incontro): il colpo d'occhio dell'intera scheda — definizione, cervello vs rete statistica, 6 delle 7 fratture (in due riquadri) e le due contromisure (alfabetizzazione epistemica + audit dei processi). Uso consigliato: proiettarla alla card Epistemia o condividerla in chat come takeaway. Avvertenze di regia: (1) manca la frattura del *parsing* — aggiungerla a voce con l'esempio del sarcasmo; (2) "Random Walk Statistico" è un'immagine, non il termine tecnico: se serve precisione, "predizione probabilistica del token"; (3) "audit dei processi" = il nostro Pattern della Catena: chiedere i passaggi, non solo il risultato.
+
 **Formato standard per la Prompt-libreria:**
 ```
 TITOLO: [es. Verifica graduata di grammatica latina]
