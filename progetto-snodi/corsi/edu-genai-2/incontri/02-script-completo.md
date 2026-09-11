@@ -224,9 +224,21 @@ E, Equità: "elenca tre possibili bias in questo testo e riscrivilo in modo incl
 
 E siccome i vostri materiali stanno per entrare in una libreria condivisa, tre regole su copyright e licenze [CARD Copyright]. Uno: l'output puramente generato non ha tutela autorale — ma il vostro lavoro di selezione, correzione e adattamento sì: i materiali revisionati sono lavoro professionale vostro. Due: non incollate nei prompt testi integrali protetti di terzi — brani d'autore, eserciziari: riassunti, estratti brevi, materiali vostri. Tre: ciò che entra nella libreria dello Snodo viaggia con licenza Creative Commons — la consigliata è CC BY-NC-SA: riusabile dai colleghi, con attribuzione, non a fini commerciali, stessa licenza.»
 
+## [CARD 24-bis · L'audit: il controllo che ha un nome]
+
+«Prima dell'ultimo strumento, vi do la parola che tiene insieme tutto quello che avete visto oggi: audit. Viene dal mondo del controllo di qualità e significa una cosa precisa: verificare qualcosa contro criteri dichiarati — non rileggere a sensazione, non "mi sembra che vada bene": controllare punto per punto contro una lista di requisiti. E nel nostro mestiere con l'IA l'audit si fa in due direzioni.
+
+La prima: l'audit dell'input — il mio prompt è a norma? I criteri li avete imparati oggi: c'è il Contesto? il Ruolo? un verbo forte? il Formato? il Target? le fonti? la privacy? E qui il colpo elegante: questo controllo potete delegarlo alla macchina stessa. Guardate questa frase [leggerla dalla card]: "Prima di eseguire questo prompt, analizzalo: verifica se contiene Contesto, Ruolo, Azione con verbo forte, Formato e Target. Elenca gli elementi mancanti e proponi la versione migliorata. Non eseguire finché non approvo." È il Pattern del Critico applicato all'input invece che all'output: la macchina fa l'audit del vostro prompt, prima ancora di lavorare. Provatelo: è dieci secondi, e vi educa la mano.
+
+La seconda direzione: l'audit del processo — non giudico solo cosa mi ha risposto, ma come ci è arrivata. Gli strumenti li avete già: il Pattern della Catena — "mostra il ragionamento passo passo" — mi fa vedere dove sbaglia, non solo se sbaglia. E le citazioni — "indica fonte e pagina" — mi fanno risalire all'origine di ogni affermazione. La differenza è tutta qui: una risposta senza processo posso solo crederla o non crederla; una risposta col processo esposto posso verificarla pezzo per pezzo. Ve lo ricordate sull'infografica di oggi pomeriggio? "Non solo il risultato: valutare trasparenza e affidabilità del processo" — eccolo, l'audit dei processi.
+
+E notate la coerenza con mercoledì: è esattamente la postura del deployer — chi mette in uso sistemi su altre persone ha il dovere di documentare e supervisionare il processo, non solo di guardare i risultati. Dalla governance della scuola al singolo prompt, il principio è lo stesso: niente si accetta sulla fiducia della bella prosa. È l'antidoto all'epistemia.
+
+E allora, l'ultimo strumento di oggi è proprio questo: il vostro protocollo di audit dell'input, in sette domande.»
+
 ## [CARD 25 · La checklist finale]
 
-«E prima di usare qualunque output, sette domande — dieci secondi che salvano una lezione: ho definito l'obiettivo didattico? ho assegnato un ruolo autorevole? ho specificato destinatario e livello? ho inserito vincoli e criteri? ho chiesto di citare le fonti? ho garantito la privacy? e la più importante: ho revisionato personalmente l'output? [pausa] Se anche una sola risposta è no, quell'output non entra in classe.»
+«Eccole, e prima di usare qualunque output, sette domande — dieci secondi che salvano una lezione: ho definito l'obiettivo didattico? ho assegnato un ruolo autorevole? ho specificato destinatario e livello? ho inserito vincoli e criteri? ho chiesto di citare le fonti? ho garantito la privacy? e la più importante: ho revisionato personalmente l'output? [pausa] Se anche una sola risposta è no, quell'output non entra in classe.»
 
 ## ⏱ 18:15 — [CARD 26 · Dal prompt all'agente]
 
@@ -249,6 +261,7 @@ E chiudo tornando alla domanda dell'inizio: espande o sostituisce? Ora avete la 
 - **Se alle 16:10 la restituzione è lunga:** comprimere le card 9-10 (perché conta + interazione) a una frase ciascuna: "input di qualità = output di qualità" / "l'output è una bozza, l'interpretazione è vostra".
 - **Se alle 16:50 C.R.A.F.T. non è finito:** saltare la card 13 (3C) — recuperarla in una riga al lancio del laboratorio ("versione tascabile sulla scheda").
 - **Se alle 17:20 siete indietro:** Bloom (card 18) in 2 frasi; saltare la micro-demo unplanning (resta la card + "provatelo a casa"); Conveyor in 30 secondi.
+- **Se alle 18:10 il blocco etica è lungo:** la card audit si comprime a una frase-ponte ("questo controllo sistematico ha un nome, audit — sull'input è la checklist che segue, sul processo sono Catena e citazioni") e si passa alla checklist.
 - **Se la demo Romanticismo non allucina e fila liscia:** nessun problema — la lezione è la trasformazione, non l'errore. Se allucina: è la demo.
 - **Se il laboratorio parte lento:** i 3 materiali di riserva; obiettivo minimo un template a testa.
 - **Mai tagliare:** l'esercitazione d'apertura con la restituzione, C.R.A.F.T. con la prova del contrasto, il laboratorio, la checklist, le consegne.

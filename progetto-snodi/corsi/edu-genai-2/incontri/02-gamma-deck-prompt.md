@@ -257,6 +257,24 @@ NOTE D'USO: [cosa personalizzare, errori visti, versione]
 - I materiali che entrano nella libreria dello Snodo viaggiano con **licenza Creative Commons** (consigliata **CC BY-NC-SA**): riusabili dai colleghi, con attribuzione, non a fini commerciali, stessa licenza
 
 
+## L'audit: il controllo che ha un nome
+
+*Audit = verifica sistematica contro criteri dichiarati — non "rileggere a sensazione"*
+
+**Audit dell'INPUT — il mio prompt è a norma?**
+- Il protocollo è la checklist delle 7 domande (prossima card)
+- E si può delegare alla macchina stessa:
+
+> *«Prima di eseguire questo prompt, analizzalo: verifica se contiene Contesto, Ruolo, Azione con verbo forte, Formato e Target. Elenca gli elementi mancanti o vaghi e proponi la versione migliorata. Non eseguire finché non approvo.»*
+
+**Audit del PROCESSO — come ci è arrivata?**
+- **Catena**: "mostra il ragionamento passo passo" → controllo *dove* sbaglia, non solo *se* sbaglia
+- **Citazioni**: "indica fonte e pagina" → risalgo all'origine di ogni affermazione
+- Senza processo posso solo *credere* alla risposta; col processo esposto posso **verificarla pezzo per pezzo**
+
+**Il principio:** niente si accetta sulla fiducia della bella prosa — è l'antidoto all'epistemia. Ed è la postura del *deployer*: documentare e supervisionare il processo, non solo guardare i risultati.
+
+
 ## La checklist finale: 7 domande, 10 secondi
 
 1. Ho definito l'**obiettivo didattico**?
