@@ -218,6 +218,8 @@ Venerdì 11 settembre 2026 · 15:30–18:30 · Google Meet
 - **l'Esemplare** — incollate un pezzo di un vostro materiale come modello di stile: è il passaggio che fa la differenza
 - **le 4R** — almeno un Riferimento o una Restrizione scritti dentro il template
 
+**Il nome tecnico dell'Esemplare: few-shot** — "con pochi esempi". Fin qui era *zero-shot* (solo istruzioni); mostrare 1–2 esemplari del proprio stile invece di descriverlo fa salire la qualità di colpo: la macchina imita meglio di quanto ascolti. **Istruzioni + esemplari: la coppia professionale.**
+
 **Procedura:** (5') cosa rende "vostro" il materiale → (15') scrivete il template → (5') generate, confrontate con l'originale, aggiungete UN vincolo e rigenerate → (10') scambio in coppia: eseguite il template del collega *senza spiegazioni a voce* — l'output è all'altezza?
 
 
@@ -246,6 +248,13 @@ NOTE D'USO: [cosa personalizzare, errori visti, versione]
 | **E**quità | Controllare i bias | *"Elenca 3 possibili bias in questo testo e riscrivilo in modo inclusivo"* |
 
 *Non è un metodo personale: sono i principi delle linee guida ministeriali ed europee. La regola d'oro di mercoledì vive qui, dentro ogni prompt.*
+
+
+## Copyright e licenze: le tre regole
+
+- L'output **puramente generato non ha tutela autorale** — ma il vostro lavoro di selezione, correzione e adattamento **sì**: i materiali revisionati sono lavoro professionale vostro
+- **Non incollate nei prompt testi integrali protetti** di terzi (brani d'autore, eserciziari): riassunti, estratti brevi, materiali vostri
+- I materiali che entrano nella libreria dello Snodo viaggiano con **licenza Creative Commons** (consigliata **CC BY-NC-SA**): riusabili dai colleghi, con attribuzione, non a fini commerciali, stessa licenza
 
 
 ## La checklist finale: 7 domande, 10 secondi
