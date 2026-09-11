@@ -48,7 +48,7 @@ Secondo gesto: carico le fonti. Nella cartella del corso trovate due PDF pronti 
 
 Terzo gesto: scrivo la domanda qui in basso. [digitare una domanda d'esempio, es. "cosa dicono queste fonti sull'uso dell'IA nella valutazione degli studenti?"] E guardate la risposta: questi numeretti sono **citazioni** — le clicco, e mi porta al punto esatto del PDF. Questo, mercoledì, l'abbiamo chiamato grounding.
 
-E l'ultima mossa, la più istruttiva — non saltatela: quando avete finito, chiedetegli una cosa che nei vostri PDF *non c'è*. Guardate cosa fa. Ne parliamo alla restituzione.
+E l'ultima mossa, la più istruttiva — non saltatela: quando avete finito, chiedetegli una cosa che nei vostri PDF *non c'è*. E vi dico io cosa guardare, perché l'ho testato ieri sera: a un notebook caricato con documenti sul diritto d'autore ho chiesto la ricetta della carbonara — e me l'ha data. Quindi il guinzaglio non è assoluto: a volte risponde lo stesso, pescando dal modello generale. Il segnale affidabile è un altro: **le citazioni**. Se la risposta non ha i numeretti, non viene dalle vostre fonti — qualunque cosa dica. Fidatevi dei numeretti, non della prosa. Ne parliamo alla restituzione.
 
 [REGIA: incollare in chat la riga-promemoria: "PARTE A: Gemini (account istituto) → bibliografia 5 titoli tema di nicchia → verifica 3 → falso più bello nel Doc 'Falsi trovati' · PARTE B: notebooklm.google.com (account istituto) → nuovo notebook → carica i 2 PDF della cartella (o 2 tuoi) → stessa domanda → clicca le citazioni → chiedi una cosa che NON c'è"]
 
@@ -60,9 +60,11 @@ In coppia, nelle stanze: undici minuti per la Parte A, poi vi avviso in chat e p
 
 «Bentornati. Giro veloce: un falso esemplare per coppia — disciplina, prompt, il falso più bello. Trenta secondi ciascuna. [REGIA: giro a rotazione, annotare nel Doc. Se emergono "quasi giusti", sottolinearli: sono l'oro.]
 
-E ora la domanda che conta: nella Parte B, chi ha rifatto la stessa domanda in NotebookLM — cosa è cambiato? [raccogliere 2-3 risposte: citazioni, risposte più caute] E chi ha chiesto la cosa che nelle fonti non c'era — cosa ha fatto la macchina? [attendere: "ha detto che non c'è"]
+E ora la domanda che conta: nella Parte B, chi ha rifatto la stessa domanda in NotebookLM — cosa è cambiato? [raccogliere 2-3 risposte: citazioni, risposte più caute] E chi ha chiesto la cosa che nelle fonti non c'era — cosa ha fatto la macchina? [REGIA: gli esiti saranno misti — alcuni "ha detto che non c'è", altri "ha risposto lo stesso". Entrambi servono.]
 
-Eccolo, il punto. Stessa domanda, due risposte: una **inventata con sicurezza**, una **citata con la pagina** — e quando l'informazione mancava, ve l'ha detto. Cos'è cambiato tra la Parte A e la Parte B? Non la macchina: **il design**. Le abbiamo dato le fonti e le abbiamo vietato di uscirne. Tenetelo a mente per tutto il pomeriggio, perché la domanda vera di oggi è questa: e se il problema non fosse solo la macchina, ma **come le parliamo**? Da qui si parte.»
+Avete visto entrambi gli esiti, ed entrambi sono la lezione. Quando dice "nelle fonti non c'è": ottimo, è il guinzaglio che funziona. Quando risponde lo stesso — come la mia carbonara di ieri sera — guardate la risposta: **le citazioni non ci sono**. È il segnale: quella risposta non viene dalle vostre fonti, viene dal modello. La regola operativa del grounding è questa: **fidatevi dei numeretti, non della prosa**. Il grounding non elimina la verifica — la rende possibile e veloce.
+
+E allora, il punto del pomeriggio. Stessa domanda, due regimi: in A una risposta **inventata con sicurezza**, in B una risposta **citata con la pagina** — o smascherabile in un colpo d'occhio quando la pagina non c'è. Cos'è cambiato? Non la macchina: **il design**. Tenetelo a mente per tutto il pomeriggio, perché la domanda vera di oggi è questa: e se il problema non fosse solo la macchina, ma **come le parliamo**? Da qui si parte.»
 
 [→ si prosegue con la CARD "Espande o sostituisce?" — il testo parlato dei blocchi teorici è nel documento "Il prompt perfetto".]
 
