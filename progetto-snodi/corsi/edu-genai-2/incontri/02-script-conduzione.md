@@ -24,6 +24,48 @@
 | 18:15–18:25 | Dal prompt all'agente | Card 24: scala di autonomia + demo "Il lunedì se lo prepara l'agente" (Run now sulla riga demo). Piano B: i 3 Gems | Kit demo-agente |
 | 18:25–18:30 | Chiusura | Card 25: consegne (template in libreria entro lunedì 14; argomento UdA per mercoledì) + chiusura "Il genio non è la macchina: il genio siete voi". Firma registro | — |
 
+## Apertura parola per parola — 15:30–16:07
+
+*Il testo tra «virgolette» si pronuncia; le [parentesi] sono regia. Nodo risolto: le stanze restano aperte per A+B di seguito, quindi TUTTO il lancio — Parte A, frase ponte e micro-demo NotebookLM — si fa in plenaria prima di aprirle; il passaggio A→B lo scandisce un avviso in chat.*
+
+### ⏱ 15:30 — Apertura
+
+«Buon pomeriggio a tutte e a tutti, bentornati. Mercoledì vi ho mostrato io una macchina che inventa bibliografie perfette. Oggi si comincia al contrario: la rompete voi — e poi la riparate voi. Subito al lavoro; la teoria arriva dopo, quando ve la sarete guadagnata. Ecco la rotta del pomeriggio [CARD rotta, 30 secondi sui blocchi], e ora l'esercitazione.»
+
+### ⏱ 15:35 — Lancio di «Rompere e riparare» [CARD esercitazione]
+
+«L'esercitazione ha due parti, ve le spiego entrambe adesso perché nelle stanze lavorerete in autonomia.
+
+**Parte A — Rompere.** Aprite Gemini con l'account d'istituto — d'istituto, mi raccomando. Chiedete una bibliografia di cinque titoli, con autore, anno ed editore, sul tema più di nicchia della vostra disciplina che vi viene in mente: più è specifico, meglio funziona l'esperimento. Poi verificate i primi tre titoli con una ricerca vera. E annotate nel documento condiviso "Falsi trovati" il falso più interessante che scovate — occhio alla categoria regina: il "quasi giusto", autore vero e titolo inventato. È quello che passa le verifiche frettolose.
+
+E quando l'avrete rotta, non la cambiamo: **la ripariamo**. Stessa intelligenza artificiale, un vincolo in più — le diamo noi le fonti e le vietiamo di uscirne. Si chiama grounding, e lo strumento è NotebookLM. Ve lo mostro in un minuto, guardate lo schermo.
+
+[REGIA — micro-demo NotebookLM, schermo condiviso, 90 secondi, gesti lenti:]
+
+Primo gesto: vado su notebooklm.google.com — sempre con l'account d'istituto — e clicco "Nuovo notebook". Ecco: NotebookLM è un'IA con il guinzaglio — risponde *solo* dai documenti che le caricate voi. Niente oceano statistico: solo le vostre fonti.
+
+Secondo gesto: carico le fonti. Nella cartella del corso trovate due PDF pronti — "PDF 1", gli Orientamenti etici per gli educatori della Commissione europea, e "PDF 2", l'AI Act. Li trascino qui. [attendere l'elaborazione] Se preferite usare due PDF affidabili della vostra disciplina, sul tema che avete appena "rotto", ancora meglio.
+
+Terzo gesto: scrivo la domanda qui in basso. [digitare una domanda d'esempio, es. "cosa dicono queste fonti sull'uso dell'IA nella valutazione degli studenti?"] E guardate la risposta: questi numeretti sono **citazioni** — le clicco, e mi porta al punto esatto del PDF. Questo, mercoledì, l'abbiamo chiamato grounding.
+
+E l'ultima mossa, la più istruttiva — non saltatela: quando avete finito, chiedetegli una cosa che nei vostri PDF *non c'è*. Guardate cosa fa. Ne parliamo alla restituzione.
+
+[REGIA: incollare in chat la riga-promemoria: "PARTE A: Gemini (account istituto) → bibliografia 5 titoli tema di nicchia → verifica 3 → falso più bello nel Doc 'Falsi trovati' · PARTE B: notebooklm.google.com (account istituto) → nuovo notebook → carica i 2 PDF della cartella (o 2 tuoi) → stessa domanda → clicca le citazioni → chiedi una cosa che NON c'è"]
+
+In coppia, nelle stanze: undici minuti per la Parte A, poi vi avviso in chat e passate alla B. Ci rivediamo qui alle sedici meno un minuto. Via.»
+
+[REGIA: aprire le stanze ~15:41. Girare con il tutor. Alle 15:52 avviso in chat: "→ PASSATE ALLA PARTE B: NotebookLM". Alle 15:57: "2 minuti, poi si rientra".]
+
+### ⏱ 15:59 — Restituzione [Doc "Falsi trovati" proiettato]
+
+«Bentornati. Giro veloce: un falso esemplare per coppia — disciplina, prompt, il falso più bello. Trenta secondi ciascuna. [REGIA: giro a rotazione, annotare nel Doc. Se emergono "quasi giusti", sottolinearli: sono l'oro.]
+
+E ora la domanda che conta: nella Parte B, chi ha rifatto la stessa domanda in NotebookLM — cosa è cambiato? [raccogliere 2-3 risposte: citazioni, risposte più caute] E chi ha chiesto la cosa che nelle fonti non c'era — cosa ha fatto la macchina? [attendere: "ha detto che non c'è"]
+
+Eccolo, il punto. Stessa domanda, due risposte: una **inventata con sicurezza**, una **citata con la pagina** — e quando l'informazione mancava, ve l'ha detto. Cos'è cambiato tra la Parte A e la Parte B? Non la macchina: **il design**. Le abbiamo dato le fonti e le abbiamo vietato di uscirne. Tenetelo a mente per tutto il pomeriggio, perché la domanda vera di oggi è questa: e se il problema non fosse solo la macchina, ma **come le parliamo**? Da qui si parte.»
+
+[→ si prosegue con la CARD "Espande o sostituisce?" — il testo parlato dei blocchi teorici è nel documento "Il prompt perfetto".]
+
 ## Note di regia
 
 - **Rompere e riparare in apertura** è l'aggancio perfetto: *prima di imparare a chiedere bene, vedete perché non ci si fida della risposta*. Tenere i tempi stretti: la restituzione è un giro secco, il Doc "Falsi trovati" si riapre agli incontri 4-5.
