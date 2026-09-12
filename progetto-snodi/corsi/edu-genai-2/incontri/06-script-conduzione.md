@@ -13,7 +13,7 @@
 | 16:30–16:45 | Pausa attiva | Gallery walk: i canvas non presentati live aperti in Drive, commenti scritti coi post-it di Docs | Drive |
 | 16:45–17:25 | Presentazioni blocco 2 | 3 UdA × ~13' | Scheda 7 |
 | 17:25–18:00 | **Laboratorio finale "Slow AI"** | Slide nuove A–B: Fast vs Slow AI + unplanning di una lezione familiare con lo Slow Socratic Prompt (3 tracce disciplinari) | Scheda 8 |
-| 18:00–18:15 | Dopo il corso | Slide 5–6: repository dello Snodo, laboratori B (candidature a team), prompt-libreria, Ethic-AI 2 (avvio da riconfermare col nuovo calendario) | Slide |
+| 18:00–18:15 | Dopo il corso | Slide 5–6: repository dello Snodo, laboratori B (candidature a team), prompt-libreria, Ethic-AI 2 (avvio da riconfermare col nuovo calendario). **+ 5' "Oltre le Gem: gli agenti"** — panoramica della scala di autonomia (0→5, perimetro didattico 2–3, valutazione mai) e kit "Il lunedì se lo prepara l'agente" nella cartella, per chi vorrà sperimentare. Niente demo live: è il gradino successivo, non un obbligo | Slide, kit demo-agente |
 | 18:15–18:30 | Chiusura | Slide 7: requisiti attestato, **modulo di gradimento compilato in aula**, "cosa vi portate via", consegna finale repository (5/10). Ringraziamenti. Registro | Modulo |
 
 ## Laboratorio finale "Slow AI" (17:25–18:00) — conduzione
