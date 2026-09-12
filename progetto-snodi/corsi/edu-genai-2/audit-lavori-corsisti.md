@@ -74,15 +74,49 @@
 
 ---
 
+## 3 · SARA — Verifica di inglese (terza liceo scienze umane, storia/letteratura Tudor + grammatica B1, alunno disgrafico)
+
+**Percorso:** 1 prompt ben costruito con **due allegati** (verifica esemplare + griglie di valutazione d'istituto) → generazione fila standard + fila DSA + sezione griglie → richiesta PDF.
+
+### ✅ Cosa ha funzionato (da valorizzare)
+
+1. **Il miglior uso della R dei Riferimenti visto finora**: non uno ma due ancoraggi — l'esemplare per la struttura e le **griglie vere dell'istituto** per la valutazione. L'output cita le griglie della scuola invece di inventarne di generiche. Da mostrare in aula come modello.
+2. **L'adattamento DSA fa la cosa giusta per la disgrafia**: stessi contenuti e obiettivi (Tudor, sonetto, strutture B1), ma scrittura a mano ridotta al minimo — crocette, word box, completamenti. "Adattare la forma senza abbassare gli obiettivi", applicato.
+3. **Prompt singolo solido**: Ruolo, Azione, Restrizioni (60', stesso numero di esercizi, livello B1, profilo DSA). Contenuti storico-letterari verificati quasi tutti corretti (Bosworth, Act of Supremacy 1534, Book of Common Prayer/Edoardo VI, Maria I–Filippo II, sonetto 3 quartine + distico, ABAB CDCD EFEF GG, Fair Youth/Dark Lady); distrattori V/F ben costruiti.
+
+### ⚠️ Errori e rilievi verificati
+
+1. **Il vincolo "B1" non è rispettato item per item**: nella fila standard, Task 2, compaiono il **past perfect** ("by the time Elizabeth died, Shakespeare *had written*…") e il **periodo ipotetico di 3° tipo** ("If Henry VIII *had not wanted*… *might not have happened*") — strutture B1+/B2. Chi svolge una verifica dichiarata B1 viene valutato su strutture mai richieste. Le domande etichettate "Grammar B1" del Task 1 invece sono davvero B1 (present perfect vs past simple, passivo, 1° tipo): la deriva è nei quesiti non etichettati.
+2. **I 10 punti fantasma**: i task valgono 24+6+5+5 = **40**, ma il box finale dice "/40 + 10 (Structure) = /50" e la tabella di conversione è su /50. Nessun esercizio attribuisce quei 10 punti; presumibilmente sono i 5+5 delle griglie (conoscenza + competenza linguistica), ma **non è scritto come assegnarli**: così il voto non è calcolabile.
+3. **Punteggio DSA ambiguo**: Task 1 DSA "4 marks for each correct item" × 6 item = 24, ma gli item contengono da 1 a 3 spazi ciascuno (10 in tutto): quanto vale un item con 2 lacune giuste su 3? Nessuna regola di punteggio parziale.
+4. **Nessuna chiave di correzione** — per le domande aperte del Task 1 standard (4 punti l'una) mancano risposte attese e descrittori. Pattern d'aula ormai stabile.
+5. **Misure DSA da catalogo, non dal profilo**: la scheda elenca OpenDyslexic e "non si valutano gli errori ortografici" — misure per dislessia/disortografia, non per **disgrafia**. La misura centrale (ridurre la scrittura) per fortuna è quella giusta; ma il tempo è lasciato come alternativa non decisa ("fino al 30% in più *o* riduzione dei quesiti") e la fila DSA non dichiara la propria durata. Da scegliere e scrivere: 60' con item ridotti, oppure 75–80'.
+6. **Font dichiarato, da verificare sul file**: il riepilogo promette "carattere ad alta leggibilità (Verdana)" nel PDF. Precedente Manuela: dichiarava Verdana, il file era in Noto Sans. Prima dell'uso: due minuti sulle proprietà del PDF.
+7. *(minore)* "The Spanish Armada **attacked** the English fleet in 1588": storicamente approssimativo — l'Armada veniva a scortare l'invasione e furono soprattutto gli inglesi ad attaccare (brulotti, Gravelines). In una verifica la frase diventa un "fatto": meglio "was defeated by" (come nella fila DSA, che infatti è corretta).
+
+### 🔧 Audit del prompt — la riscrittura
+
+> "Sei un docente di lingua e letteratura inglese del triennio di un liceo delle scienze umane. Partendo dalla verifica allegata (stessa struttura: 4 task, stessi pesi), genera una verifica di 60 minuti sugli stessi argomenti, con quesiti di grammatica **solo di livello B1** — ammessi: present perfect vs past simple, passivo, periodo ipotetico di 1° tipo; **esclusi**: past perfect, 3° tipo. Aggiungi la fila per un alunno **disgrafico**: stessi obiettivi e contenuti, scrittura a mano ridotta al minimo (scelte multiple, word box), misura sul tempo dichiarata (scegli: quesiti ridotti in 60' oppure +30%). Per entrambe le file: chiave di correzione completa con risposte attese, regola per i punteggi parziali nei completamenti, e somma dei punteggi che torni esattamente col totale della tabella di conversione — se prevedi punti non legati ai task, spiega chi li attribuisce e come, agganciandoli alle griglie allegate."
+
+### 💬 Spunti da restituire (in positivo)
+
+1. "Hai allegato le griglie vere della scuola invece di farle inventare: è l'uso più maturo della R dei Riferimenti che ho visto nel corso — l'output parla la lingua del tuo istituto. Da copiare tutti."
+2. "Il vincolo 'B1' va collaudato item per item: nella fila standard sono entrati past perfect e 3° tipo, che B1 non sono — e chi corregge penalizzerebbe errori su strutture mai dichiarate. Nel prompt, il livello si scrive come lista: 'ammesse queste strutture, escluse queste'."
+3. "Rifai sempre i conti del punteggio: i task valgono 40 ma il totale è 50 — quei 10 punti 'Structure' non li assegna nessun esercizio. È lo stesso collaudo della griglia di Caterina: la somma la verifichiamo noi."
+
+---
+
 ## Pattern ricorrenti dell'aula (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
 |---|---|---|
 | "Correggi" generico → la macchina rigenera invece di correggere (e perde pezzi) | Caterina | Il Critico va sempre con una Restrizione + richiesta di elencare le modifiche (audit di conformità) |
-| Griglia/soluzioni accettate senza ricalcolo (contraddizioni interne non viste) | Caterina | Checklist domanda 7: la verifica sulla fonte primaria — qui, rifare i calcoli |
-| Dichiarazioni sul formato non mantenute nel file (font, layout) | Manuela | Verificare le proprietà del file, non la prosa — la "carbonara" tipografica |
-| Verifiche generate senza soluzioni svolte → esercizi mal posti non emergono | Manuela | Chiedere sempre le soluzioni passo passo come collaudo: "la verifica che non sai risolvere tu non entra in classe" |
+| Griglia/punteggi accettati senza ricalcolo (contraddizioni, somme che non tornano) | Caterina · Sara (i 10 punti "Structure" che nessun task assegna) | Checklist domanda 7: la verifica sulla fonte primaria — rifare i calcoli e le somme |
+| Dichiarazioni sul formato non mantenute nel file (font, layout) | Manuela · Sara (da verificare: "Verdana" promesso nel PDF) | Verificare le proprietà del file, non la prosa — la "carbonara" tipografica |
+| Verifiche generate senza soluzioni svolte → esercizi mal posti non emergono | Manuela · Sara | Chiedere sempre chiave e soluzioni passo passo come collaudo: "la verifica che non sai risolvere tu non entra in classe" |
 | Rifiuti infondati dello strumento ("non posso, sono solo un modello") | Manuela | Riprovare/riformulare: l'instabilità è normale, non è un verdetto |
+| Vincolo di livello dichiarato ma non rispettato item per item (B1 → strutture B2) | Sara | Il livello è una Restrizione da scrivere come lista chiusa ("ammesse… escluse…") e da collaudare quesito per quesito |
+| Misure DSA da catalogo, non calibrate sul profilo specifico | Caterina (v2) · Sara (misure per dislessia su un profilo disgrafico; tempo lasciato come alternativa) | La misura si sceglie dal profilo (disgrafia ≠ dislessia ≠ disortografia) e si dichiara per iscritto — mai lasciata come "oppure" |
 | *(in attesa dei prossimi lavori)* | | |
 
 ---
