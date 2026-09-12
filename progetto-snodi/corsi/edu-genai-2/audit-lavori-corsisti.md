@@ -106,6 +106,42 @@
 
 ---
 
+## 4 · ILARIA — Sintesi didattica con NotebookLM (Impressionismo, quinta liceo scientifico, 2 BES + 1 DSA) — *audit parziale: da screenshot*
+
+**Percorso:** notebook "Impressionismo" con **una fonte** (Impressionismo.pdf) → prompt di sintesi calibrata sulla classe → risposta strutturata ("Mappa di Sintesi Didattica") + artefatti Studio generati (Scheda di Verifica e Mappe, presentazione "The Primacy of the Eye", infografica, mappa mentale).
+
+**Unico caso NotebookLM dell'aula finora: l'audit qui è sul grounding** (perimetro delle fonti e citazioni), non sul calcolo.
+
+### ✅ Cosa ha funzionato (da valorizzare)
+
+1. **Il prompt più ricco di contesto del corso**: ruolo (docente di storia dell'arte), classe (quinta scientifico, livello medio), profilo dell'aula (2 BES + 1 DSA) e — raro — un **obiettivo didattico vero**: "linguaggio chiaro che sviluppi senso critico e confronto tra artisti e con le epoche precedenti". Non chiede un riassunto: chiede un *perché*.
+2. **Privacy ✓**: numeri e categorie ("2 bes e un dsa"), nessun nome né diagnosi.
+3. **Strumento giusto per il compito**: sintesi ancorata al *proprio* materiale → NotebookLM, non la chat aperta. E ha esplorato lo Studio (verifica, mappa, infografica): uso maturo dell'ambiente.
+
+### ⚠️ Rilievi (da verificare sul testo completo)
+
+1. **Una sola fonte vs. il confronto richiesto**: il prompt chiede il "confronto con le epoche artistiche precedenti", ma il perimetro è un solo PDF sull'Impressionismo. Se il PDF non copre Realismo/Romanticismo, il notebook o attinge **fuori dalle fonti** (la "carbonara": prosa plausibile senza ancoraggio) o produce un confronto debole. **L'audit decisivo: cercare i numeretti delle citazioni proprio nei passaggi di confronto** — se lì non ci sono, quel contenuto non viene dal suo materiale.
+2. **L'autocertificazione inclusiva**: la risposta promette "grafica e linguaggio ad alta accessibilità… ideali per garantire l'inclusione degli studenti con BES e DSA". Ma "2 BES e un DSA" è troppo generico per calibrare qualcosa: quali bisogni? La macchina ha risposto con misure da catalogo (grassetti, frasi brevi, schemi) e un'etichetta rassicurante. Il claim va verificato contro i PDP reali degli studenti — pattern già visto (Caterina v2, Sara).
+3. **Gli artefatti Studio vanno auditati come le verifiche**: la "Scheda di Verifica" generata segue la stessa regola dei lavori di Caterina e Sara — chiave, punteggi, collaudo. E la presentazione è uscita con **titolo in inglese** ("The Primacy of the Eye") per una classe italiana: controllare lingua e contenuto prima dell'uso.
+4. **Nel prompt mancano Format e Restrizioni**: quanto lunga la sintesi? in che forma (scheda, mappa, dispensa)? cosa lasciare fuori? Senza, la macchina decide da sola (e infatti ha scelto lei: "Mappa di Sintesi Didattica").
+5. *(dallo screenshot non verificabile)* Nella porzione visibile della risposta **non si vedono citazioni** — ma è l'introduzione, che spesso non ne porta. Serve il testo completo per il verdetto.
+
+### 🔧 Audit del prompt — la riscrittura
+
+> "Sono una docente di storia dell'arte in una quinta del liceo scientifico. **Basandoti solo sulle fonti caricate**, sintetizza il materiale in una scheda di massimo 2 pagine per una classe di livello medio: frasi brevi, concetti chiave in grassetto, una tabella comparativa tra gli artisti trattati. Obiettivo: sviluppare senso critico e confronto. **Se il confronto con le epoche precedenti non è coperto dalle fonti, dimmelo esplicitamente invece di integrarlo da altrove.** In coda: elenca i punti del materiale che NON hai incluso nella sintesi, così decido io se reintegrarli."
+
+*(La frase in grassetto è igiene epistemica applicata a NotebookLM: delimitare il perimetro e chiedere la dichiarazione di ciò che resta fuori.)*
+
+### 💬 Spunti da restituire (in positivo)
+
+1. "Il tuo prompt ha la cosa che manca a quasi tutti: un obiettivo didattico, non solo una consegna. 'Sviluppare senso critico e confronto' orienta tutta la risposta — tienilo sempre."
+2. "Hai chiesto un confronto con le epoche precedenti a un notebook che ha una sola fonte sull'Impressionismo: è la domanda perfetta per il test dei numeretti. Vai sui paragrafi di confronto: se lì le citazioni non ci sono, quella parte non viene dal tuo PDF — è la carbonara. Soluzione: o aggiungi una fonte sulle epoche precedenti, o chiedi al notebook di dichiarare cosa non può coprire."
+3. "La risposta si autocertifica 'ideale per BES e DSA': è un'etichetta, non una verifica. L'idoneità la decidono i PDP dei tuoi studenti, non la macchina."
+
+**Da chiedere a Ilaria per chiudere l'audit:** il testo completo della risposta (per il controllo citazioni, specie nei confronti), cosa copre Impressionismo.pdf, e la Scheda di Verifica generata dallo Studio.
+
+---
+
 ## Pattern ricorrenti dell'aula (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
@@ -116,7 +152,8 @@
 | Verifiche generate senza soluzioni svolte → esercizi mal posti non emergono | Manuela · Sara | Chiedere sempre chiave e soluzioni passo passo come collaudo: "la verifica che non sai risolvere tu non entra in classe" |
 | Rifiuti infondati dello strumento ("non posso, sono solo un modello") | Manuela | Riprovare/riformulare: l'instabilità è normale, non è un verdetto |
 | Vincolo di livello dichiarato ma non rispettato item per item (B1 → strutture B2) | Sara | Il livello è una Restrizione da scrivere come lista chiusa ("ammesse… escluse…") e da collaudare quesito per quesito |
-| Misure DSA da catalogo, non calibrate sul profilo specifico | Caterina (v2) · Sara (misure per dislessia su un profilo disgrafico; tempo lasciato come alternativa) | La misura si sceglie dal profilo (disgrafia ≠ dislessia ≠ disortografia) e si dichiara per iscritto — mai lasciata come "oppure" |
+| Misure DSA da catalogo, non calibrate sul profilo specifico | Caterina (v2) · Sara (misure per dislessia su un profilo disgrafico; tempo lasciato come alternativa) · Ilaria (output "autocertificato" ideale per BES/DSA generici) | La misura si sceglie dal profilo (disgrafia ≠ dislessia ≠ disortografia) e si dichiara per iscritto — mai lasciata come "oppure"; l'idoneità la decidono i PDP, non l'etichetta della macchina |
+| Domande oltre il perimetro delle fonti → risposta plausibile senza ancoraggio ("carbonara") | Ilaria (confronto con epoche precedenti chiesto a un notebook con 1 fonte — da verificare) | Il test dei numeretti: le citazioni si controllano proprio nei passaggi "di frontiera"; delimitare il perimetro nel prompt e chiedere di dichiarare cosa resta fuori |
 | *(in attesa dei prossimi lavori)* | | |
 
 ---
