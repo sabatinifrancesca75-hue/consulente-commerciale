@@ -44,12 +44,45 @@
 
 ---
 
+## 2 · MANUELA — Verifica di matematica per alunna ipovedente (quarta liceo scientifico, geometria nello spazio)
+
+**Percorso:** 3 prompt — generazione da documento esemplare con vincoli di accessibilità → "trasforma in PDF" (rifiutato con motivazione falsa) → secondo tentativo riuscito. PDF finale analizzato tecnicamente.
+
+### ✅ Cosa ha funzionato (da valorizzare)
+
+1. **I vincoli di accessibilità più precisi dell'aula**: Verdana 22, 2 ore, "usa strumenti digitali" — Format e Target da manuale; e la scelta giusta di adattare la forma senza abbassare gli obiettivi.
+2. **Riferimenti**: partita dal documento esemplare.
+3. **Privacy**: "un'alunna ipovedente, classe quarta" — profilo sintetico, nessun nome.
+4. **Instabilità gestita bene**: al primo "trasforma in PDF" Gemini ha risposto "non posso, sono solo un modello linguistico" (falso); lei ha riprovato e ha ottenuto il file.
+
+### ⚠️ Errori e rilievi verificati
+
+1. **Il PDF non mantiene la promessa (verificato sul file)**: Gemini dichiara "Verdana a 22 punti"; l'analisi tecnica del PDF dà corpo 22 pt ✓ ma font **Noto Sans, non Verdana** ✗. Funzionalmente accettabile (sans-serif leggibile), ma se il PDP prescrive Verdana il documento non è conforme. Punto formativo: la macchina ha dichiarato una proprietà verificabile del file, ed è falsa.
+2. **Esercizio 2 matematicamente MAL POSTO — da rifare**: chiede la retta per P(1;−1;2) parallela al piano x−y+2z+1=0 E perpendicolare alla retta r di direzione (1;−1;2). Normale del piano e direzione di r sono lo stesso vettore: le due condizioni coincidono → **infinite soluzioni**, nessuna retta unica.
+3. **Mancano le soluzioni svolte**: rubrica vuota (senza descrittori né punteggi) e nessuna griglia. Se le soluzioni fossero state chieste, l'IA si sarebbe incagliata sull'Es. 2 e l'errore sarebbe emerso prima della classe.
+4. **Da chiarire con la corsista**: l'esemplare citato è una "Verifica PEI obiettivi minimi", ma la verifica generata è a difficoltà piena (con calcoli pesanti: punto di tangenza T(7/9; −20/9; 10/9)). Corretto per ipovisione senza bisogni cognitivi — ma cosa prevede il PEI/PDP dell'alunna? Il salto di difficoltà deve deciderlo la docente.
+
+### 🔧 Audit del prompt — la riscrittura
+
+> "Sei un docente di matematica del triennio del liceo scientifico, esperto di didattica accessibile. Partendo dal documento allegato, genera una verifica di geometria nello spazio con lo stesso numero di esercizi, per un'alunna ipovedente di quarta che svolge la prova con strumenti digitali. Vincoli: font Verdana 22, interlinea 1,5, equazioni linearizzate senza parentesi graffe di sistema; durata 2 ore; ogni esercizio deve avere una e una sola soluzione; difficoltà: [conforme al PEI: obiettivi minimi / programma standard]. In coda: soluzioni complete svolte passo passo e rubrica con descrittori e punteggi. Dopo la generazione, verifica tu stesso di saper risolvere ogni esercizio e segnala eventuali quesiti mal posti."
+
+### 💬 Spunti da restituire (in positivo)
+
+1. "I tuoi vincoli di accessibilità sono i migliori che ho visto: precisi, misurabili. Proprio perché misurabili, misurali: il PDF dice Verdana 22 ma il font vero è un altro (la dimensione sì, è giusta). Due minuti sulle proprietà del file — fidati del file, non della prosa."
+2. "Chiedi sempre le soluzioni svolte insieme alla verifica: non per risparmiarti i calcoli, ma come collaudo — l'esercizio 2 non ha soluzione unica, e se l'IA avesse dovuto risolverlo se ne sarebbe accorta lei per prima. La verifica che non sai risolvere tu, non entra in classe."
+
+
+---
+
 ## Pattern ricorrenti dell'aula (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
 |---|---|---|
 | "Correggi" generico → la macchina rigenera invece di correggere (e perde pezzi) | Caterina | Il Critico va sempre con una Restrizione + richiesta di elencare le modifiche (audit di conformità) |
 | Griglia/soluzioni accettate senza ricalcolo (contraddizioni interne non viste) | Caterina | Checklist domanda 7: la verifica sulla fonte primaria — qui, rifare i calcoli |
+| Dichiarazioni sul formato non mantenute nel file (font, layout) | Manuela | Verificare le proprietà del file, non la prosa — la "carbonara" tipografica |
+| Verifiche generate senza soluzioni svolte → esercizi mal posti non emergono | Manuela | Chiedere sempre le soluzioni passo passo come collaudo: "la verifica che non sai risolvere tu non entra in classe" |
+| Rifiuti infondati dello strumento ("non posso, sono solo un modello") | Manuela | Riprovare/riformulare: l'instabilità è normale, non è un verdetto |
 | *(in attesa dei prossimi lavori)* | | |
 
 ---
