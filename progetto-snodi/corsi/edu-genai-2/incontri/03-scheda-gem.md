@@ -9,7 +9,7 @@ Venerdì avete costruito un **prompt-template**: funziona, ma va incollato in ch
 ## Come si costruisce (3 passi, con l'account d'istituto)
 
 1. **gemini.google.com → Gems → "Nuova Gem"** (o "Gem manager").
-2. **Nome + Istruzioni**: incollate le istruzioni (qui sotto ne trovate 4 pronte). Le istruzioni sono il "contratto permanente" della Gem: ruolo, procedura, regole, stile.
+2. **Nome + Istruzioni**: incollate le istruzioni (qui sotto ne trovate 5 pronte). Le istruzioni sono il "contratto permanente" della Gem: ruolo, procedura, regole, stile.
 3. *(Facoltativo)* **Conoscenza**: allegate file su cui la Gem deve basarsi (es. il DM 166, il vostro programma). Salvate: la Gem compare nel menu laterale, per sempre.
 
 **Regole di governance (valgono anche qui):** account d'istituto · mai dati personali di studenti nelle istruzioni o nei file · la Gem si dichiara come ogni altro uso dell'IA · l'output resta una bozza da revisionare.
@@ -116,6 +116,45 @@ Regole:
    incollare nel documento del corso.
 ```
 
+## GEM 5 — Prof della mia materia (la Gem personale, con i vostri documenti)
+
+*Questa è la Gem "su misura": si costruisce con i **propri** documenti come Conoscenza. Prima di crearla, tenete a portata di mano: Indicazioni nazionali/Linee guida della disciplina per il vostro indirizzo, curricolo d'istituto o programmazione di dipartimento, la vostra programmazione annuale, le griglie di valutazione, 1–2 vostre UdA o verifiche degli anni passati (il materiale "non fatto con AI"). **Da NON caricare:** il libro di testo intero o capitoli scansionati (la licenza non lo consente — solo l'indice), e qualunque documento con dati personali di studenti (PEI, PDP, elenchi: la Gem conosce la materia, non le persone).*
+
+*Nelle istruzioni, sostituite le parti tra [parentesi quadre] con i vostri dati.*
+
+```
+Sei il "Prof di [DISCIPLINA]", assistente didattico personale di un
+docente di [DISCIPLINA] in un [INDIRIZZO], classi [ANNI DI CORSO],
+[N] ore settimanali. Lavori SEMPRE ancorato ai file di conoscenza
+caricati: Indicazioni nazionali, curricolo d'istituto, programmazione
+annuale, griglie di valutazione e materiali d'esempio del docente.
+
+Regole permanenti:
+1. Ogni proposta (lezione, UdA, verifica, esercizi) si aggancia
+   esplicitamente ai file caricati: cita le competenze del
+   PECUP/curricolo e, dove serve, la griglia di valutazione. Se una
+   richiesta esce dal perimetro dei file, dichiaralo prima di
+   rispondere invece di integrare da altrove.
+2. Imita lo stile dei materiali d'esempio del docente (struttura
+   delle consegne, tono, impaginazione): sono il tuo modello.
+3. Metodologie preferite del docente: [2-3 METODOLOGIE]. Proponile
+   per prime, offrendo sempre un'alternativa.
+4. Regole non negoziabili: ogni verifica esce con chiave di
+   correzione, soluzioni svolte passo passo e punteggi la cui somma
+   torna esattamente col totale; [ALTRE REGOLE PERSONALI, es.
+   "sempre una versione ad alta leggibilità"].
+5. Se dichiari un livello o un vincolo (es. B1, obiettivi minimi,
+   un font), rispettalo in OGNI singolo quesito e segnala tu stesso
+   gli item che lo superano.
+6. Le classi si descrivono solo con profili sintetici. Se ricevi
+   nomi, diagnosi o dati riconducibili a persone reali, fermati e
+   chiedi di riformulare.
+7. Ogni output è una bozza: chiudi sempre con 2 righe di "Da
+   verificare in classe" per il docente.
+```
+
+*Nota per l'aula: la regola 5 nasce dai vostri lavori — il vincolo dichiarato (un livello, un font, un punteggio) è la prima cosa da collaudare, quesito per quesito.*
+
 ---
 
 ## Note di conduzione del blocco Gem
@@ -124,6 +163,7 @@ Regole:
 - **Test immediato sensato:** ciascuno dà in pasto al proprio Prompt Doctor il template scritto venerdì — la Gem lo audita, e il cerchio col laboratorio precedente si chiude.
 - **Il Progettista di UdA si usa in plenaria** (co-progettazione del modulo d'esempio) e resta a disposizione nel laboratorio: ma la regola detta ad alta voce è "la Gem fa domande e propone opzioni — il canvas lo riempite voi".
 - Anticipare l'incontro 4: domani il Facilitatore Socratico e l'Adattatore Inclusivo diventano protagonisti (tutor con guardrail e personalizzazione).
+- **La GEM 5 "Prof della mia materia" si lancia oggi come compito-ponte**: in aula si mostra la struttura e la lista dei documenti; la costruzione vera la fa ciascuno con i propri file (Indicazioni nazionali, curricolo, programmazione, griglie, proprie UdA). È la R dei Riferimenti resa permanente — e sarà la base naturale del project work.
 
 ---
 *Materiale del corso Edu-GenAI 2 — Snodo VOLTERRA AI-MASTER HUB. Elaborato con il supporto dell'IA e revisionato dalla formatrice.*
