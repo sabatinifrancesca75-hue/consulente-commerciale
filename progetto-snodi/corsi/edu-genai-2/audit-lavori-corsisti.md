@@ -142,17 +142,50 @@
 
 ---
 
+## 5 · MARIAGRAZIA — Verifica di letteratura inglese stile Cambridge (quinta liceo, Epiphany Joyce/Woolf, 1 alunno DSA)
+
+**Percorso:** compito dell'11 settembre (il laboratorio "prompt-template professionale") — 1 prompt con il proprio materiale allegato (il testo sull'Epiphany, come immagine) → verifica in 4 parti + nota metodologica DSA → PDF.
+
+### ✅ Cosa ha funzionato (da valorizzare)
+
+1. **Il compito del laboratorio è stato svolto davvero**: misurato sui criteri di venerdì (C.R.A.F.T. + Esemplare + almeno una R nel template), il suo prompt ha l'**Esemplare** (il proprio materiale allegato come modello — few-shot applicato), la **R dei Riferimenti** (la verifica nasce dal *suo* testo, non dal mare aperto) e una **Restrizione di formato** tra le più precise viste finora: "4 parti su modello Cambridge, quesiti strutturati e semistrutturati".
+2. **Scelta di design universale**: una **sola versione accessibile per tutta la classe** invece della fila separata per l'alunno DSA — quesiti chiusi e guidati, help box con parole chiave, writing breve e strutturato. È una scelta inclusiva difendibile (UDL), da valorizzare in aula.
+3. **Contenuti verificati: tutti corretti.** Le risposte tornano (Part 1: B-C-C-B; Part 2: awareness/trivial/passive/being; Part 3: C-D-A-B), i distrattori sono plausibili, il quadro letterario è giusto (origine religiosa dell'epifania, Dubliners, "moments of being", Mrs Dalloway).
+4. **Nota metodologica sensata**: +30% di tempo, lettura vocale, valutazione su efficacia comunicativa e keyword invece che su ortografia — misure appropriate.
+
+### ⚠️ Errori e rilievi verificati
+
+1. **Punteggi del tutto assenti**: nessun punto per le parti, nessun totale, nessuna soglia, nessuna griglia. Così com'è la verifica non è valutabile — è il caso più netto del pattern (Caterina aveva la griglia sbagliata, Sara i punti che non tornavano, qui non ci sono proprio).
+2. **Il formato promesso non è nel file (verificato tecnicamente)**: la premessa dichiara "font ad alta leggibilità, **dimensione min. 12-14pt**, interlinea 1.5"; l'analisi del PDF dà corpo del testo **Arial 11 pt**. Font di famiglia giusta ✓, dimensione sotto il minimo promesso ✗ — speculare al caso di Manuela (§2: lì la dimensione era giusta e il font no). Il pattern è ormai una legge d'aula: **fidatevi del file, non della prosa**.
+3. **L'etichetta Cambridge promette più di quanto mantiene**: la Part 3 si intitola "Word Formation / Sentence Matching" ma di word formation non c'è nulla (è solo matching — e nel vero Use of English la Part 3 È word formation); il cloze ha 3 opzioni invece delle 4 canoniche; il writing è 30–50 parole contro le 140–190 del B2 (scelta legittima per l'accessibilità — ma allora non dichiararla "B2 First/C1 Advanced style"). Stesso pattern del livello di Sara, in forma soft: il vincolo dichiarato va collaudato voce per voce.
+4. **Forte ridondanza → la verifica misura la lettura, non la letteratura**: le stesse tre nozioni (rivelazione da dettagli banali; personaggi consapevoli ma passivi; moments of being) sono chieste tre volte in tre formati, e le risposte del cloze sono quasi tutte già scritte nel testo della Part 1. Per l'alunno DSA la ridondanza è scaffolding; per la classe intera di quinta la prova è molto facile e non richiede studio, solo comprensione del testo fornito. Da decidere con la corsista: **cosa vuole valutare?** (Se conoscenza letteraria: servono item non deducibili dal solo testo.)
+5. **DSA generico**: "un alunno DSA" — quale profilo? Le misure sono corrette ma da catalogo; la calibrazione vera la fa il PDP.
+6. *(minori)* Manca la durata della prova; manca il Ruolo assegnato all'IA nel prompt.
+
+### 🔧 Audit del prompt — la riscrittura
+
+> "Sei un docente di lingua e letteratura inglese di quinta liceo, esperto di valutazione in formato Cambridge. Partendo dal testo allegato (Epiphany — Joyce/Woolf), prepara una verifica di 60 minuti in 4 parti sul modello B2 First: Reading a 4 opzioni; cloze a 4 opzioni; word formation vera; writing guidato. Almeno metà degli item deve richiedere collegamenti NON presenti letteralmente nel testo (studio, non sola lettura). Ogni parte con punteggio; in coda: totale, soglia di sufficienza, chiave di correzione completa e descrittori per il writing. In classe c'è un alunno con [profilo DSA specifico]: progetta un'unica versione accessibile per tutti — font realmente a corpo 12-14, interlinea 1,5 — più una nota con le misure per quel profilo. Dopo la generazione, verifica tu stesso che ogni etichetta (livello, formato Cambridge, dimensioni del font) corrisponda a ciò che l'esercizio contiene davvero."
+
+### 💬 Spunti da restituire (in positivo)
+
+1. "Il compito di venerdì l'hai centrato: Esemplare allegato, formato preciso, materiale tuo come riferimento. La struttura in 4 parti Cambridge è la Restrizione di formato migliore che ho visto."
+2. "La tua scelta di un'unica versione accessibile per tutti, invece della fila separata, è design universale: tienila e dichiarala — è un punto di forza, non una scorciatoia."
+3. "Due collaudi prima dei banchi: i punteggi (ora non ci sono proprio: la verifica non è valutabile) e il file (promette corpo 12-14, è un 11 — terza volta che succede nell'aula: fidatevi del file, non della prosa)."
+4. "Domanda da farti: questa prova la supera anche chi non ha studiato, solo leggendo il testo in cima? Se sì, stai misurando la lettura, non la letteratura. Chiedi alla macchina item che richiedano collegamenti fuori dal testo."
+
+---
+
 ## Pattern ricorrenti dell'aula (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
 |---|---|---|
 | "Correggi" generico → la macchina rigenera invece di correggere (e perde pezzi) | Caterina | Il Critico va sempre con una Restrizione + richiesta di elencare le modifiche (audit di conformità) |
-| Griglia/punteggi accettati senza ricalcolo (contraddizioni, somme che non tornano) | Caterina · Sara (i 10 punti "Structure" che nessun task assegna) | Checklist domanda 7: la verifica sulla fonte primaria — rifare i calcoli e le somme |
-| Dichiarazioni sul formato non mantenute nel file (font, layout) | Manuela · Sara (da verificare: "Verdana" promesso nel PDF) | Verificare le proprietà del file, non la prosa — la "carbonara" tipografica |
-| Verifiche generate senza soluzioni svolte → esercizi mal posti non emergono | Manuela · Sara | Chiedere sempre chiave e soluzioni passo passo come collaudo: "la verifica che non sai risolvere tu non entra in classe" |
+| Griglia/punteggi accettati senza ricalcolo (contraddizioni, somme che non tornano, o punteggi del tutto assenti) | Caterina · Sara (i 10 punti "Structure" che nessun task assegna) · Mariagrazia (nessun punteggio in tutta la prova) | Checklist domanda 7: la verifica sulla fonte primaria — rifare i calcoli e le somme; se i punti non ci sono, chiederli nel prompt |
+| Dichiarazioni sul formato non mantenute nel file (font, layout) | Manuela (font ✗, corpo ✓) · Sara (da verificare: "Verdana" promesso nel PDF) · Mariagrazia (font ✓, corpo ✗: promesso 12-14, reale 11) | Verificare le proprietà del file, non la prosa — la "carbonara" tipografica |
+| Verifiche generate senza soluzioni svolte → esercizi mal posti non emergono | Manuela · Sara · Mariagrazia (chiave assente) | Chiedere sempre chiave e soluzioni passo passo come collaudo: "la verifica che non sai risolvere tu non entra in classe" |
 | Rifiuti infondati dello strumento ("non posso, sono solo un modello") | Manuela | Riprovare/riformulare: l'instabilità è normale, non è un verdetto |
-| Vincolo di livello dichiarato ma non rispettato item per item (B1 → strutture B2) | Sara | Il livello è una Restrizione da scrivere come lista chiusa ("ammesse… escluse…") e da collaudare quesito per quesito |
-| Misure DSA da catalogo, non calibrate sul profilo specifico | Caterina (v2) · Sara (misure per dislessia su un profilo disgrafico; tempo lasciato come alternativa) · Ilaria (output "autocertificato" ideale per BES/DSA generici) | La misura si sceglie dal profilo (disgrafia ≠ dislessia ≠ disortografia) e si dichiara per iscritto — mai lasciata come "oppure"; l'idoneità la decidono i PDP, non l'etichetta della macchina |
+| Vincolo di livello dichiarato ma non rispettato item per item (B1 → strutture B2; etichette Cambridge/B2 senza il contenuto corrispondente) | Sara · Mariagrazia ("Word Formation" senza word formation; "B2 style" con item da lettura guidata) | Il livello è una Restrizione da scrivere come lista chiusa ("ammesse… escluse…") e da collaudare quesito per quesito |
+| Misure DSA da catalogo, non calibrate sul profilo specifico | Caterina (v2) · Sara (misure per dislessia su un profilo disgrafico; tempo lasciato come alternativa) · Ilaria (output "autocertificato" ideale per BES/DSA generici) · Mariagrazia ("un alunno DSA" senza profilo) | La misura si sceglie dal profilo (disgrafia ≠ dislessia ≠ disortografia) e si dichiara per iscritto — mai lasciata come "oppure"; l'idoneità la decidono i PDP, non l'etichetta della macchina |
 | Domande oltre il perimetro delle fonti → risposta plausibile senza ancoraggio ("carbonara") | Ilaria (confronto con epoche precedenti chiesto a un notebook con 1 fonte — da verificare) | Il test dei numeretti: le citazioni si controllano proprio nei passaggi "di frontiera"; delimitare il perimetro nel prompt e chiedere di dichiarare cosa resta fuori |
 | *(in attesa dei prossimi lavori)* | | |
 
