@@ -175,6 +175,37 @@
 
 ---
 
+## 6 · CATIA PARADISI — Infografica "Elizabeth I vs James I" (Gemini, immagine generata)
+
+**Percorso:** 2 prompt identici in inglese ("Can u make an infographic on the differences between Elizabeth I and James I") → due infografiche-immagine molto diverse tra loro (creato con Gemini 3.6 Flash, condiviso con link pubblico).
+
+### ✅ Cosa ha funzionato (da valorizzare)
+
+1. **La Ripetizione d'istinto (4ª R)**: stesso prompt due volte → due versioni strutturalmente diverse, la seconda molto più pulita della prima. Avere due output da confrontare È già una pratica di audit: si vede a occhio che la macchina non è deterministica, e si sceglie il migliore.
+2. **Tema agganciato al programma**: il confronto Elizabeth/James è la stessa unità Tudor-Stuart che circola nell'aula (v. §5) — materiale davvero spendibile, non esercizio astratto.
+3. **Contenuti in gran parte corretti (verificati)**: date dei regni ✓ (1558–1603, 1603–1625), Act of Supremacy elisabettiano 1559 ✓, Union of the Crowns ✓, True Law of Free Monarchies ✓, Treaty of London 1604 ✓, Jamestown 1607 ✓, King James Bible 1611 ✓, Basilikon Doron ✓, Rex Pacificus ✓.
+
+### ⚠️ Errori e rilievi verificati
+
+1. **Errore fattuale nella v1 — da non proiettare così**: il **Gunpowder Plot (1605) è messo come esempio di "Puritan Dissent"**. È l'opposto: fu una congiura **cattolica**, figlia proprio della repressione anti-cattolica di Giacomo. Una terza liceo se lo porterebbe nel quaderno. (Nella v2 la formulazione è ambigua ma meno sbagliata.)
+2. **Il problema strutturale: l'infografica è un'IMMAGINE.** Conseguenze visibili nel file: **blocchi di testo duplicati** nella colonna di Elizabeth (gli stessi bullet ripetuti due volte in più sezioni), un'intestazione **troncata** ("DOMESTIC POLICY & DO?"), refusi tipografici da generazione. E conseguenze invisibili ma più gravi: il testo dentro un'immagine **non si può correggere** (l'errore sul Gunpowder Plot è "cotto" dentro), **non è accessibile** (niente screen reader, niente adattamento font per DSA — paradosso per quest'aula), non si può citare né aggiornare. La regola da dare: **all'IA si chiede il contenuto, l'impaginazione si tiene in uno strumento editabile** (Canva, Docs, l'infografica di NotebookLM) — o almeno si rilegge ogni singola parola dell'immagine prima di proiettarla.
+3. **Prompt minimo**: solo l'Azione. Niente classe/livello (l'output è in inglese a densità da manuale universitario — scelto dalla macchina, non da lei), niente perimetro (quali differenze? ha deciso l'IA: religione, Parlamento, politica estera…), niente formato editabile richiesto. Con un C.R.A.F.T. anche solo abbozzato le due versioni sarebbero state confrontabili su criteri suoi.
+4. *(nota di governance, leggera)* Il link è una condivisione pubblica di Gemini consumer (share.gemini.google): per materiale senza dati personali va bene, ma verificare con lei da quale account lavora — la regola dell'account d'istituto vale anche per i materiali di contenuto.
+
+### 🔧 Audit del prompt — la riscrittura
+
+> "Sei un docente di inglese di terza liceo (livello B1/B2). Prepara il CONTENUTO di un'infografica di confronto tra Elizabeth I e James I: tabella a due colonne, sei sezioni (regno e casata, religione, rapporto col Parlamento, politica estera, economia, cultura), massimo 15 parole per cella, date verificate, lessico B1. Segnala a parte le affermazioni storicamente semplificate. NON generare l'immagine: il testo lo impagino io in uno strumento editabile, così posso correggerlo e renderlo accessibile."
+
+*(Se si vuole comunque l'immagine: generarla DOPO aver approvato il contenuto testuale, e rileggerla parola per parola — le immagini AI duplicano e troncano il testo.)*
+
+### 💬 Spunti da restituire (in positivo)
+
+1. "Hai fatto due generazioni e le hai confrontate: è la Ripetizione, la quarta R, usata d'istinto — e infatti la seconda versione è migliore. Il passo in più: dichiarare i criteri del confronto nel prompt, così scegli tu invece di sperare."
+2. "Occhio alla v1: il Gunpowder Plot come 'dissenso puritano' è un errore vero — era una congiura cattolica. E siccome è dentro un'immagine, non puoi correggerlo: puoi solo rigenerare tutto. È il motivo per chiedere prima il contenuto in tabella e poi impaginarlo tu."
+3. "Guarda la colonna di Elizabeth nella v1: gli stessi bullet compaiono due volte, e un titolo è troncato. Le immagini AI 'cuociono' il testo con i suoi difetti dentro — prima dei banchi, si rilegge ogni parola."
+
+---
+
 ## Pattern ricorrenti dell'aula (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
@@ -187,6 +218,8 @@
 | Vincolo di livello dichiarato ma non rispettato item per item (B1 → strutture B2; etichette Cambridge/B2 senza il contenuto corrispondente) | Sara · Mariagrazia ("Word Formation" senza word formation; "B2 style" con item da lettura guidata) | Il livello è una Restrizione da scrivere come lista chiusa ("ammesse… escluse…") e da collaudare quesito per quesito |
 | Misure DSA da catalogo, non calibrate sul profilo specifico | Caterina (v2) · Sara (misure per dislessia su un profilo disgrafico; tempo lasciato come alternativa) · Ilaria (output "autocertificato" ideale per BES/DSA generici) · Mariagrazia ("un alunno DSA" senza profilo) | La misura si sceglie dal profilo (disgrafia ≠ dislessia ≠ disortografia) e si dichiara per iscritto — mai lasciata come "oppure"; l'idoneità la decidono i PDP, non l'etichetta della macchina |
 | Domande oltre il perimetro delle fonti → risposta plausibile senza ancoraggio ("carbonara") | Ilaria (confronto con epoche precedenti chiesto a un notebook con 1 fonte — da verificare) | Il test dei numeretti: le citazioni si controllano proprio nei passaggi "di frontiera"; delimitare il perimetro nel prompt e chiedere di dichiarare cosa resta fuori |
+| Contenuto chiesto direttamente come immagine → testo non correggibile, glitch (duplicazioni, troncamenti), inaccessibile | Catia (infografica con bullet duplicati, titolo troncato, errore storico "cotto" dentro) | Prima il contenuto in testo/tabella (verificabile e correggibile), poi l'impaginazione in uno strumento editabile; l'immagine AI si rilegge parola per parola |
+| Errori fattuali plausibili dentro materiali ben confezionati | Catia (Gunpowder Plot etichettato come dissenso puritano — era una congiura cattolica) | La confezione bella non è una garanzia: la verifica sulla fonte vale anche per i contenuti disciplinari, non solo per i calcoli |
 | *(in attesa dei prossimi lavori)* | | |
 
 ---
