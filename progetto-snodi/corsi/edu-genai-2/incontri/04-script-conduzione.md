@@ -1,33 +1,42 @@
-# Script di conduzione — Incontro 4: Scaffolding mediato e personalizzazione
+# Script di conduzione — Incontro 4: Il tutor che non dà la risposta
 
-**Mercoledì 16 settembre 2026, 16:00–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini • Tutor: Prof. Bonelli
+**Mercoledì 16 settembre 2026, 15:30–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini • Tutor: Prof. Bonelli
 
-**Obiettivi:** i corsisti padroneggiano ZPD/scaffolding/fading come lessico professionale; conoscono l'evidenza Bastani-Kestin ("il design conta"); costruiscono e testano un Gem tutor socratico per la propria disciplina; sanno differenziare per profili (mai per persone).
+**Impianto aggiornato dopo l'incontro 3:** il blocco Gem è stato fatto ieri (tutti hanno già costruito il Prompt Doctor), quindi oggi si va diritti alla **specializzazione**: il tutor socratico come Gem. Entra un blocco nuovo — **"personalizzare su cosa?"** — nato dai pattern emersi negli audit dei lavori dei corsisti (misure prese dal catalogo invece che dal profilo; costrutti fragili accettati senza verifica).
+
+**Obiettivi:** i corsisti padroneggiano ZPD/scaffolding/fading come lessico professionale; conoscono l'evidenza Bastani–Kestin ("senza design fa danno, con design il danno si azzera"); distinguono profilo-ostacolo da etichetta; costruiscono e collaudano un tutor socratico per la propria disciplina.
 
 ## Scaletta
 
 | Orario | Blocco | Conduzione | Materiali |
 |---|---|---|---|
-| 15:30–15:50 | Le 2 sigma | Slide 3: Bloom 1984, il problema antico; l'IA come ultimo candidato — da verificare | Slide |
-| 15:50–16:15 | Scaffolding e fading | Slide 4: ZPD, Wood-Bruner-Ross, "l'impalcatura serve per essere tolta"; delega cognitiva come contrario | Slide |
-| 16:15–16:40 | L'evidenza | Slide 5: Bastani — in esercitazione +48% (GPT base) e +127% (GPT Tutor); all'esame senza IA: **−17%** il gruppo base, **pareggio col controllo** il gruppo tutor (il danno si azzera, i guadagni non si trasferiscono da soli: serve il fading). Kestin come contro-caso positivo. Rif.: Outlook p. 21 e p. 51, fig. 2.4 | Slide |
-| 16:40–17:05 | Il tutor socratico | Slide 6: le 3 regole + **demo live** del Gem del corso (provare a farsi dare la soluzione e fallire); aprire le istruzioni di sistema e leggerle insieme. Pausa 5' | Gem demo |
-| 17:10–17:30 | Profili, non persone | Slide 7: versioni alta leggibilità/base/potenziamento; PDP/PEI mai negli strumenti; assegnazione = docente | Slide |
-| 17:30–18:25 | **Laboratorio** | Slide 8 — costruisci il tuo tutor: 30' individuale sul caso-tipo, 15' test incrociato in coppia, 10' restituzione delle "regole aggiunte" | Scheda 4 |
-| 18:25–18:30 | Chiusura | Slide 9: consegne (elaborato anonimizzato per giovedì 24). Registro | — |
+| 15:30–15:45 | Rientro | [CARD 1–2] Cosa è successo ieri (Prompt Doctor, canvas partito); **verifica del caso-tipo** e primo test: è un ostacolo o un'etichetta? | Deck |
+| 15:45–16:10 | Le 2 sigma e l'evidenza | [CARD 3–5] Bloom 1984 e il problema del costo; Bastani 2024: +48%/+127% in esercitazione, **−17%** all'esame per il gruppo base, pareggio per il gruppo Tutor; Kestin come contro-caso positivo. Lettura corretta: **senza design fa danno** | Deck |
+| 16:10–16:30 | Scaffolding e fading | [CARD 6–8] ZPD (le tre zone), scaffolding, **"l'impalcatura serve per essere tolta"**; delega cognitiva come contrario — si distingue solo guardando il processo | Deck |
+| 16:30–16:55 | **Personalizzare su cosa?** | [CARD 9–13] Profili-ostacolo vs etichette; **il tagliando del costrutto** (caso stili di apprendimento, anonimo); la misura si sceglie dal profilo non dal catalogo; PDP/PEI mai negli strumenti. Pausa 5' | Scheda 4 |
+| 17:00–17:20 | Il tutor socratico | [CARD 14–15] Le 6 regole + **demo live a 4 mosse**: soluzione negata · correzione ritardata · fading in diretta · stop sui dati personali. Poi si aprono le istruzioni e si leggono insieme | Gem demo |
+| 17:20–18:05 | **Laboratorio** | [CARD 16] Costruisci il tuo tutor sul caso-tipo; la regola 6 (errori tipici) è la parte d'autore; collaudo "prova a fregarlo". In parallelo, facoltativo: l'Adattatore Inclusivo | Scheda 4 |
+| 18:05–18:20 | Test incrociato | [CARD 17] In coppia: si recita il caso-tipo del collega; due feedback, UNA regola da aggiungere, aggiornata subito | — |
+| 18:20–18:30 | Chiusura | [CARD 18–19] Consegne per il 24 (tutor nel canvas + elaborato anonimizzato). Registro | — |
 
 ## Note di regia
 
-- La **demo del Gem tutor è il momento più convincente del corso**: collaudarla il giorno prima. Copione: chiedere la soluzione (rifiuta), sbagliare un passaggio apposta (rimanda al punto critico), mostrare il fading chiedendo un esercizio simile dopo un successo.
-- Sull'evidenza: insistere sulla lettura corretta — non "l'IA fa male/bene" ma "senza design fa male, con design può fare molto bene". Il −17% è ritenzione: l'aiuto non interiorizzato evapora.
-- Nel test incrociato, chi fa lo studente deve **recitare il caso-tipo del collega**: è lì che si scoprono i buchi delle istruzioni.
-- Legittimazione teorica del laboratorio (Beghetto, Outlook cap. 5): la vera AI literacy non si impara discutendo astrattamente di etica, ma **costruendo e tarando i propri strumenti** — scrivere le regole del proprio Gem è riappropriarsi dell'agency professionale, capire la macchina "sotto il cofano" per governarla e non esserne governati. Dirlo in apertura del laboratorio: nobilita l'esercizio.
+- **La demo del tutor è il momento più convincente del corso**: collaudarla il giorno prima col copione a quattro mosse. Se durante la demo il tutor cede e dà la soluzione, è un regalo: si ripara in diretta davanti a tutti ed è più formativo della demo riuscita.
+- **Sull'evidenza, insistere sulla lettura corretta**: non "l'IA fa male/bene" ma "senza design fa danno, con design il danno si azzera". E non tacere il dettaglio scomodo: il +127% **non si è trasferito**. L'aiuto non interiorizzato evapora — è il senso del fading.
+- **Il blocco "personalizzare su cosa" nasce dai loro lavori**: va condotto con enorme rispetto e sempre in anonimo. Il caso del costrutto fragile riguarda il lavoro *tecnicamente migliore* ricevuto: dirlo, e dirlo per primo. Se l'autrice si autodenuncia, ringraziarla pubblicamente e indicare il riposizionamento che salva il materiale.
+- **Il momento più utile del pomeriggio dura due minuti**: riscrivere insieme un caso-tipo-etichetta in caso-tipo-ostacolo. Cercarlo attivamente girando tra i corsisti.
+- Nel test incrociato, chi fa lo studente **deve recitare il caso-tipo del collega**: è lì che si scoprono i buchi delle istruzioni.
+- **Legittimazione teorica del laboratorio** (Beghetto, OECD Outlook 2026, cap. 5): la vera AI literacy non si impara discutendo astrattamente di etica, ma **costruendo e tarando i propri strumenti**. Dirlo in apertura del laboratorio: nobilita l'esercizio.
 - Raccogliere le migliori "regole aggiunte" nel template comune: il tutor del corso migliora a ogni edizione.
-- Promemoria da mandare lunedì 21: elaborato anonimizzato per giovedì 24, con le istruzioni di anonimizzazione (togliere nome, classe, riferimenti riconoscibili).
+- Promemoria da mandare **lunedì 21**: elaborato anonimizzato per giovedì 24, con le istruzioni di anonimizzazione.
 
 ## Checklist pre-incontro
 
-- [ ] Gem "Tutor di matematica" del corso collaudato (copione demo provato)
-- [ ] Scheda 4 (template istruzioni tutor) nei materiali
-- [ ] Verificare che tutti abbiano il caso-tipo (sollecito stasera in chiusura dell'incontro 3)
-- [ ] Le tre versioni della demo agente pronte da mostrare come esempio di profili
+- [ ] Gem tutor della formatrice collaudata col **copione a 4 mosse**
+- [ ] Scheda 4 (istruzioni + 3 profili di riserva + tagliando del costrutto) nei materiali
+- [ ] Verificato chi ha il caso-tipo (sollecitato in chiusura dell'incontro 3)
+- [ ] Deck def_Incontro 4 aperto e condivisibile
+- [ ] Un materiale proprio pronto per l'eventuale demo dell'Adattatore Inclusivo
+- [ ] Promemoria di lunedì 21 già scritto
+
+> **Lo script parola per parola è in `04-script-completo.md`.**
