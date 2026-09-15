@@ -1,290 +1,435 @@
-# Script completo minuto per minuto — Incontro 4: Il tutor che non dà la risposta
+# Script completo minuto per minuto — Incontro 4: Rimuovere le barriere, non abbassare gli obiettivi
 
 **Mercoledì 16 settembre 2026, 15:30–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini · Tutor: Prof. Bonelli
-**Deck:** def_Edu-GenAI 2 — Incontro 4 (19 card, tema wireframe) · **Scheda del giorno:** 4 (istruzioni del tutor socratico)
+**Deck:** def_Edu-GenAI 2 — Incontro 4 (29 card, tema wireframe) · **Scheda del giorno:** 4
 
-*Le parti tra virgolette « » sono da dire parola per parola; [REGIA] sono note operative; [CARD n] indica quando cambiare slide. I riferimenti ai lavori dei corsisti sono SEMPRE anonimi.*
+*Le parti tra virgolette « » sono da dire parola per parola; [REGIA] sono note operative; [CARD n] indica quando cambiare slide.*
+**⚡ = card lampo (1-2'), si passa veloce. ★ = non si taglia mai.**
+
+*Fonde: "Competenze in azione" video 2 · Includere · "L'AI pensata: Inclusione, Personalizzazione e UDL" · "AI Agency come Catalizzatore dell'Inclusione" (AI-LEAD).*
 
 ---
 
-## 15:30–15:45 · RIENTRO [CARD 1–2]
+## 15:30–15:45 · APERTURA E POSIZIONAMENTO [CARD 1–2]
 
 **15:30 — [CARD 1] Accoglienza (3')**
 
-[REGIA: deck già proiettato. Registro presenze in chat. Oggi si torna a due giorni consecutivi: l'aula è stanca, l'apertura deve dare energia, non riepilogare.]
+[REGIA: deck proiettato, registro presenze in chat. Due giorni di fila: l'apertura deve dare energia.]
 
-«Buon pomeriggio. Due giorni di fila, lo so, ma oggi è il pomeriggio in cui il vostro caso-tipo va al lavoro — e alla fine avrete uno strumento che userete davvero con i vostri studenti, non un esercizio.»
+«Buon pomeriggio. Oggi non comincio con una slide: comincio con una domanda, e vi chiedo di rispondere prima che io dica qualunque cosa.»
 
-**15:33 — [CARD 2] Dove eravamo rimasti (7')**
+**15:33 — ★ [CARD 2] Una domanda per entrare (12')**
 
-«Ieri avete costruito tre cose: il vostro **Prompt Doctor** — la prima Gem della vostra vita; i **campi 1–3 del canvas**, quindi la UdA è partita; e avete portato oggi un **caso-tipo**, un profilo sintetico di studente in difficoltà.»
+«**L'intelligenza artificiale, a scuola, riduce o amplia le disuguaglianze?**»
 
-[REGIA: giro lampo, 3-4 interventi da 30". Domanda: «Chi ha già usato il Prompt Doctor su qualcosa di vero?» Se qualcuno racconta un uso reale, valorizzarlo: è la prova che la Gem sopravvive al corso.]
+«Scrivete in chat da che parte state, e motivate in **una frase**. Non c'è una risposta giusta: ci sono posizioni da sostenere con argomenti.»
 
-«La rotta di oggi: prima **l'evidenza** — cosa dice davvero la ricerca sul tutoraggio con l'IA, e vi anticipo che ci sono due numeri scomodi. Poi il **lessico professionale** — tre parole che vi servono nei consigli di classe. Poi **il vostro tutor**: la Gem che non dà la risposta.»
+[REGIA: 3 minuti di silenzio operativo mentre la chat si riempie. Poi leggere ad alta voce 3-4 risposte, scegliendo posizioni **diverse**. Non commentarle come giuste o sbagliate: nominarle. «Qui c'è chi dice che amplia, perché chi ha già strumenti culturali sa usarla meglio. Qui c'è chi dice che riduce, perché dà a tutti un tutor.» Tenere aperte entrambe.]
 
-**15:40 — Verifica del caso-tipo (5')**
+«Teniamole aperte tutte e due, perché **la risposta operativa la costruiamo nel pomeriggio**. E ci torneremo alle diciotto e venticinque: voglio vedere se qualcuno avrà cambiato idea.»
 
-[REGIA: momento operativo necessario — senza caso-tipo il laboratorio non parte.]
-
-«Prima di cominciare, una verifica: chi NON ha il caso-tipo? Scrivetelo in chat, senza imbarazzo.» [REGIA: a chi manca, dare 3 minuti durante il blocco successivo per scriverlo, o assegnare un profilo di riserva dalla scheda 4. Tenerne pronti 3: umanistico, scientifico, linguistico.]
-
-«E un controllo di qualità su quelli che avete: guardate il vostro. C'è scritto un **ostacolo** o c'è scritta un'**etichetta**? "Si blocca sui testi lunghi" è un ostacolo. "È un DSA" è un'etichetta. Se avete scritto un'etichetta non preoccupatevi — è esattamente il tema di oggi, e ci torniamo tra un'ora.»
+*«Non si vince: si pensa meglio.»*
 
 ---
 
-## 15:45–16:10 · LE 2 SIGMA E L'EVIDENZA [CARD 3–5]
+## 15:45–16:00 · IL PONTE ETICO E I DUE OGGETTI [CARD 3–5]
 
-**15:45 — [CARD 3] Il problema più antico della scuola (8')**
+**15:45 — ★ [CARD 3] Il ponte etico (5')**
 
-«Partiamo da una cosa che non c'entra niente con l'IA, e che ha quarant'anni.»
+«Vi dico intanto da che parte sto io, e perché non è una posizione comoda.»
 
-«1984, Benjamin Bloom. Fa un esperimento semplice: prende studenti, li divide in tre gruppi. Lezione normale in classe. Lezione con verifiche formative e recupero. E **uno a uno con un tutor**. Il risultato è diventato famoso: lo studente medio del gruppo col tutor arriva a **due deviazioni standard** sopra — tradotto, **supera il 98% degli studenti della classe normale**. Due sigma.»
+«**L'uso passivo dell'IA crea disuguaglianze invisibili.** Chi sa già sfruttarla avanza. Chi non sa usarla resta indietro. E chi la subisce senza guida — cioè lo studente a cui diciamo "arrangiati, tanto c'è ChatGPT" — resta indietro il doppio, perché ha anche smesso di allenarsi.»
 
-«E allora perché non lo facciamo? Perché costa. Un tutor per studente non se lo può permettere nessun sistema scolastico del mondo — è per questo che Bloom lo chiamò *il problema* delle due sigma, non *la soluzione*.»
+«Ma il rovescio è altrettanto vero, ed è la ragione per cui siamo qui: **la personalizzazione guidata è un acceleratore potente proprio per gli studenti più fragili.** Quelli per cui non abbiamo mai avuto abbastanza tempo.»
 
-«Da quarant'anni cerchiamo qualcosa che faccia quel lavoro su scala. Abbiamo provato con l'istruzione programmata, col mastery learning, coi software didattici, con le piattaforme adattive. **L'IA è l'ultimo candidato — non il primo.** E come tutti i candidati precedenti, va verificata, non creduta.»
+«Quindi la risposta alla domanda di prima è: **dipende da noi.** L'IA riduce le disuguaglianze **solo se è progettata per l'inclusione**. E l'inclusione non è un tema separato dall'etica: **è il suo banco di prova operativo.**»
 
-[REGIA: è il momento di "abbassare la temperatura" del discorso pubblico sull'IA. Tono pacato, quasi disincantato. Serve a rendere credibile ciò che viene dopo.]
+**15:50 — ⚡ [CARD 4] Dove eravamo rimasti (4')**
 
-**15:53 — [CARD 4] La prova: cosa succede davvero (10')**
+«Ieri avete costruito il vostro Prompt Doctor, avviato i campi 1–3 del canvas, e portato oggi un caso-tipo.»
 
-«E infatti qualcuno l'ha verificata. Bastani e colleghi, 2024: circa mille studenti di scuola superiore, matematica, assegnati a caso a tre gruppi. Gruppo uno: niente IA. Gruppo due: ChatGPT normale. Gruppo tre: ChatGPT con istruzioni pedagogiche dentro — lo chiamano "GPT Tutor".»
+«E vi do subito la struttura del pomeriggio, perché è la cosa da portare via anche dimenticando tutto il resto. **Oggi ci sono due oggetti da aggiustare, e non vanno mai confusi.**»
 
-«Durante l'esercitazione, con l'IA accesa, i risultati sono entusiasmanti: **più 48%** il gruppo con ChatGPT normale, **più 127%** il gruppo col Tutor. A questo punto uno firmerebbe subito.»
+«Il primo è **il processo** dello studente: come lavora, dove si blocca. Lo strumento è lo scaffolding, il tutor. Il secondo è **il materiale** che gli mettiamo davanti: e lì lo strumento sono le barriere da rimuovere, le porte da aprire.»
 
-[REGIA: pausa di due secondi prima di girare il discorso. È il momento drammatico della slide.]
+«Due oggetti, due strumenti — e vedrete che si comportano in modo **opposto**.»
 
-«Poi arriva l'esame. **Senza IA.** E qui il quadro cambia: il gruppo che aveva usato ChatGPT normale va **meno 17%** rispetto a chi non l'aveva mai vista. Peggio di chi non l'ha usata. Il gruppo col Tutor invece **pareggia col gruppo di controllo**: nessun danno.»
+**15:54 — [CARD 5] La classe reale (6')**
 
-**16:03 — [CARD 5] Come si legge questo risultato (7')**
+«Partiamo da una cosa che sapete meglio di me: noi la lezione la progettiamo, quasi sempre senza accorgercene, per uno studente **medio**. Che in classe **non esiste**.»
 
-«Ora, come si legge? C'è una lettura sbagliata da tabloid: "l'IA fa male". E c'è la lettura opposta, altrettanto sbagliata: "l'IA fa bene". La lettura giusta è la terza: **senza design fa danno; con design il danno si azzera.** Le stesse identiche macchine, istruzioni diverse, esiti opposti.»
+«Nella classe vera c'è chi davanti a una pagina fitta si perde. Chi capisce meglio ascoltando o guardando. Chi è arrivato da poco e l'italiano lo sta ancora conquistando. E c'è **chi corre avanti, e senza una sfida alla sua altezza si spegne** — quello lo dimentichiamo sempre, ma è un bisogno educativo speciale anche il suo.»
 
-«Ma io voglio farvi notare il dettaglio più scomodo, quello di cui si parla meno: **il più 127% non si è trasferito all'esame.** Il gruppo col Tutor non ha fatto *meglio* del controllo: ha fatto *uguale*. Quindi durante l'esercizio sembravano dei fenomeni, e all'esame erano come gli altri.»
-
-«Cosa vuol dire? Che l'aiuto, se non viene tolto, **non si interiorizza**. Sembra apprendimento, ma è prestazione. È esattamente ciò che vediamo quando uno studente segue benissimo alla lavagna e poi davanti al foglio bianco si blocca.»
-
-«Quel qualcosa che manca ha un nome tecnico, e lo vediamo adesso: si chiama **fading**.»
-
-[REGIA: se qualcuno chiede se esistono casi positivi — c'è, ed è la slide stessa: Kestin e colleghi, fisica ad Harvard, 2024: con un tutor progettato bene gli studenti hanno imparato più che in una lezione attiva. «Si può fare. Ma va progettato — e progettarlo è il nostro mestiere, non quello dell'azienda che fa il modello.»]
+[REGIA: verifica del caso-tipo, dentro il discorso.] «E a proposito: chi **non** ha il caso-tipo lo scriva in chat senza imbarazzo — ho tre profili di riserva nella scheda, nessuno resta fuori dal laboratorio. E chi ce l'ha lo tenga aperto: tra un'ora ci torniamo, e scoprirete che si può riscrivere in un modo molto più potente.»
 
 ---
 
-## 16:10–16:30 · SCAFFOLDING E FADING [CARD 6–8]
+## 16:00–16:20 · LE 2 SIGMA E L'EVIDENZA [CARD 6–8]
 
-**16:10 — [CARD 6] ZPD: la zona dove si impara (7')**
+**16:00 — [CARD 6] Il problema più antico (7')**
 
-«Tre parole, e sono parole vostre, da consiglio di classe — non gergo tecnologico.»
+«Una cosa che non c'entra niente con l'IA e che ha quarant'anni. 1984, Benjamin Bloom. Divide gli studenti in tre gruppi: lezione normale; lezione con verifiche formative e recupero; e **uno a uno con un tutor**. Risultato: lo studente medio del gruppo col tutor **supera il 98%** degli studenti della classe normale. Due deviazioni standard. Due sigma.»
 
-«La prima è di Vygotskij: **zona di sviluppo prossimale**. Immaginate tre zone. Quello che lo studente sa già fare da solo: lì non impara niente, si esercita. Quello che non sa fare nemmeno con aiuto: lì si frustra e molla. E in mezzo, **quello che sa fare con un aiuto**: è l'unica zona in cui si impara qualcosa.»
+«E allora perché non lo facciamo? Perché **costa**. Un tutor per studente non se lo può permettere nessun sistema scolastico al mondo. Per questo Bloom lo chiamò *il problema* delle due sigma, non *la soluzione*.»
 
-«Il nostro mestiere, da sempre, è tenere ogni studente nella zona di mezzo. E allora la domanda da fare a qualunque strumento — IA compresa — è una sola: *lo tiene nella zona di mezzo, o gli fa saltare la zona?* Se gli dà la risposta, gli ha fatto saltare la zona.»
+«Da quarant'anni cerchiamo qualcosa che faccia quel lavoro su scala: istruzione programmata, mastery learning, software didattici, piattaforme adattive. **L'IA è l'ultimo candidato — non il primo.** E come tutti i precedenti va verificata, non creduta.»
 
-**16:17 — [CARD 7] Scaffolding → fading (7')**
+**16:07 — ★ [CARD 7] La prova (7')**
 
-«Seconda parola: **scaffolding**, Wood Bruner e Ross, 1976. L'impalcatura. Si mette intorno all'edificio mentre si costruisce, sostiene la parte che non sta ancora in piedi.»
+«E infatti qualcuno l'ha verificata. Bastani e colleghi, 2024: circa mille studenti di superiore, matematica, assegnati a caso. Niente IA. ChatGPT normale. ChatGPT con istruzioni pedagogiche dentro — il "GPT Tutor".»
 
-«E qui c'è la regola che tutti dimenticano, ed è la frase che vi chiedo di portare via oggi: **l'impalcatura serve per essere tolta.** Un'impalcatura che resta non è un aiuto: è la prova che l'edificio non sta in piedi.»
+«Durante l'esercitazione, con l'IA accesa: **più 48%** col ChatGPT normale, **più 127%** col Tutor. Uno firmerebbe subito.»
 
-«Terza parola: **fading**. Sbiadire. È il togliere progressivo dell'aiuto man mano che la padronanza cresce. È la parte difficile del mestiere — e badate, è la parte che ci dimentichiamo anche senza IA, quando continuiamo a suggerire a quello che ormai saprebbe fare da solo.»
+[REGIA: due secondi di pausa prima di girare.]
 
-«Il meno 17% di Bastani è questo: aiuto mai tolto, niente interiorizzato.»
+«Poi arriva l'esame. **Senza IA.** Il gruppo con ChatGPT normale fa **meno 17%** rispetto a chi non l'aveva mai vista: **peggio** di chi non l'ha usata. Il gruppo col Tutor **pareggia** col controllo.»
 
-**16:24 — [CARD 8] Il contrario del fading: la delega cognitiva (6')**
+**16:14 — ★ [CARD 8] Come si legge (6')**
 
-«E adesso la distinzione che dovete saper spiegare a un collega scettico in dieci secondi.»
+«C'è la lettura da tabloid — "l'IA fa male" — e quella opposta. La lettura giusta è la terza: **senza design fa danno; con design il danno si azzera.** Stesse macchine, istruzioni diverse, esiti opposti.»
 
-«**Scaffolding**: lo studente fa il lavoro, con un sostegno che diminuisce. **Delega cognitiva**: il lavoro lo fa la macchina, lo studente lo consegna.»
+«Ma guardate il dettaglio di cui si parla meno: **il più 127% non si è trasferito all'esame.** Il gruppo col Tutor non ha fatto *meglio*: ha fatto *uguale*. Durante l'esercizio sembravano fenomeni, all'esame erano come gli altri.»
 
-«Il problema è che dall'esterno **si assomigliano**: stesso prodotto, stessa bella pagina. Cambia tutto ciò che è successo dentro — e "dentro" non si vede nel prodotto.»
+«Vuol dire che **l'aiuto, se non viene tolto, non si interiorizza.** Sembra apprendimento: è prestazione. Come lo studente che segue benissimo alla lavagna e poi davanti al foglio bianco si blocca.»
 
-«Quindi come si distinguono in classe? Non guardando il prodotto: guardando il **processo**. Le domande che ha fatto, i tentativi, gli errori che ha corretto e come. Ecco perché ieri, nel canvas, alla voce valutazione c'era scritto "rubrica del prodotto **più osservazione del processo**". Non era un riempitivo: è l'unico modo che abbiamo.»
+«Quel che manca ha un nome: **fading**. E adesso vediamo come si programma.»
 
----
-
-## 16:30–16:55 · PERSONALIZZARE SU COSA? [CARD 9–13]
-
-**16:30 — [CARD 9] La domanda del pomeriggio (2')**
-
-«Cambio di scena. Fin qui abbiamo parlato di *come* aiutare. Adesso la domanda più difficile, che è: **personalizzare su cosa?**»
-
-«Perché prima di chiedere all'IA di adattare un materiale, dobbiamo sapere a che cosa lo stiamo adattando. E qui si sbaglia più spesso di quanto si creda — in buona fede, e anche con strumenti ottimi.»
-
-**16:32 — [CARD 10] Profili, non persone, e nemmeno etichette (8')**
-
-«Voi sapete già la prima metà della regola, la ripetiamo dal primo giorno: **profili, non persone**. Niente nomi, niente diagnosi, niente dati reali negli strumenti.»
-
-«Oggi aggiungo la seconda metà, che è più sottile: **e nemmeno etichette**.»
-
-«Guardate la differenza. Un profilo sintetico descrive un **ostacolo osservato**: *"studente che si blocca sui testi lunghi, buone capacità orali, fatica a tenere l'ordine nei passaggi di calcolo"*. Un'etichetta descrive un'**identità presunta**: *"studente visivo"*, *"studente cinestetico"*, o anche semplicemente *"il DSA"*.»
-
-«Perché la differenza conta, praticamente? Perché **sull'ostacolo si può agire e si può verificare** se l'azione ha funzionato: gli ho dato il testo segmentato, adesso ci arriva? Sull'etichetta non si verifica niente — si può solo restare dentro l'etichetta. E i ragazzi nelle etichette ci restano, soprattutto in prima.»
-
-[REGIA: qui rileggere ad alta voce 2-3 casi-tipo dei corsisti (chiedendo il permesso: «me ne leggete uno?») e classificarli insieme: ostacolo o etichetta? È il momento in cui la distinzione entra davvero.]
-
-**16:40 — [CARD 11] Attenzione ai costrutti fragili (8')**
-
-«E arrivo a una cosa che riguarda i vostri lavori — anonima, come sempre, e detta con enorme rispetto perché il lavoro di cui parlo era **tecnicamente il migliore che ho visto in questo corso**.»
-
-«Qualcuno di voi ha costruito con NotebookLM un kit completo sugli **stili di apprendimento**: questionario, griglia di calcolo dei profili, rubrica, presentazione. Fatto benissimo: fonti ancorate, citazioni su ogni riga, quattro richieste concatenate — la conversazione perfetta di cui parlavamo venerdì.»
-
-«C'è solo un dettaglio: **il costrutto degli stili di apprendimento è tra i più criticati dalla ricerca educativa.** Rassegne e istituzioni lo classificano tra i cosiddetti *neuromiti*: non ci sono evidenze che diagnosticare uno "stile" e adattarci la didattica migliori gli apprendimenti.»
-
-[REGIA: non indugiare sulla critica al costrutto — 30 secondi bastano. Il punto formativo è il successivo, ed è qui che va messa l'energia.]
-
-«Ma il punto per noi non è il neuromito. Il punto è **questo**: l'IA ha prodotto quel kit, impeccabile e coerente, **senza mai chiedere se l'impianto reggesse**. E non poteva: era ancorata alle fonti, e le fonti assumevano il costrutto.»
-
-«Ecco la frase da segnare: **le citazioni garantiscono la fedeltà alla fonte, non la validità della fonte.** I numeretti vi proteggono dalla carbonara, non dal costrutto fragile.»
-
-«Quindi c'è un livello di audit superiore a tutti quelli che abbiamo fatto — più su dei calcoli, più su del formato: **l'audit dell'impianto**. E si fa fuori dal notebook: prima di costruire un kit su una teoria, si chiede a un motore con ricerca cosa ne dice la ricerca, con fonti. Lo chiamo *il tagliando del costrutto*, il prompt è nella scheda.»
-
-[REGIA CONTINGENZA: se l'autrice si autodenuncia in chat, ringraziarla pubblicamente e riformulare in positivo: «è il lavoro che ci ha permesso di arrivare al livello più alto di tutto il corso — e comunque quel materiale si salva quasi tutto con un cambio di cornice: da diagnosi degli stili ad attività metacognitiva sulle strategie di studio». Non lasciarla scoperta.]
-
-**16:48 — [CARD 12] La misura si sceglie dal profilo, non dal catalogo (5')**
-
-«Corollario pratico, e anche questo viene dai vostri lavori — è il pattern che ho trovato **più volte**, in quasi tutti i materiali che mi avete mandato.»
-
-«Quando chiedete all'IA misure per un bisogno speciale, lei vi restituisce **il catalogo completo**: alta leggibilità, font ad alta leggibilità, tempo aggiuntivo, sintesi vocale, riduzione dei quesiti, mappa. Tutto insieme, sempre uguale.»
-
-«Ma **disgrafia, dislessia, disortografia e ipovisione sono cose diverse**, e vogliono misure diverse. Per la disgrafia la misura centrale è ridurre la scrittura a mano — crocette, completamenti, parole date. Per la dislessia è l'alta leggibilità e la sintesi vocale. Per l'ipovisione sono corpo e contrasto — e si verificano sul file, non nella frase che ve lo promette. Per una difficoltà cognitiva si lavora sugli obiettivi, non solo sulla forma.»
-
-«E una cosa piccola che ho visto più volte: **il tempo aggiuntivo lasciato come "oppure"** — "tempo in più *oppure* riduzione dei quesiti". Non è una misura: è un menù. La misura si sceglie e si scrive.»
-
-**16:53 — [CARD 13] La regola non negoziabile (4')**
-
-«Un ultimo punto prima della pausa, ed è quello su cui non si transige: **PDP e PEI non si caricano mai** in uno strumento di IA. Né interi, né in stralcio, né "solo la parte delle misure". Sono atti del consiglio di classe e contengono dati sanitari — categoria particolare, articolo 9 del GDPR. Non è prudenza: è divieto.»
-
-«Cosa entra nello strumento: il **profilo sintetico**, scritto da voi. Cosa resta a voi: **l'assegnazione** della versione allo studente — quella è una decisione didattica, non un output.»
-
-«La formula da ricordare: **il nome resta in classe, fuori viaggia il profilo.**»
-
-**16:56 — PAUSA (5')**
-
-«Cinque minuti. Al rientro vi mostro un tutor che prova a fregarmi… anzi, che io provo a fregare, e non ci riesco.»
+[REGIA: se chiedono di casi positivi — Kestin, fisica ad Harvard 2024: con un tutor progettato bene si impara più che in una lezione attiva. «Si può fare. Ma va progettato, e progettarlo è il nostro mestiere.»]
 
 ---
 
-## 17:00–17:20 · IL TUTOR SOCRATICO [CARD 14–15]
+## 16:20–16:40 · SOLUZIONISMO, RADICI, INVERTED BLOOM [CARD 9–12]
 
-**17:00 — [CARD 14] Le regole che lo rendono un tutor (8')**
+**16:20 — ★ [CARD 9] Il cambio di paradigma (5')**
 
-«Allora: cosa distingue un tutor da un risolutore di compiti? Sei righe di istruzioni. Le leggo, perché tra venti minuti le scriverete voi.»
+«Due parole per due modi opposti di usare la stessa macchina.»
 
-«**Uno: mai la soluzione completa**, nemmeno se lo studente insiste. E soprattutto se insiste. **Due: una domanda alla volta**, dalla più aperta alla più mirata — non tre domande in fila, che equivalgono a un suggerimento travestito.»
+«**Soluzionismo**: l'IA dà la risposta pronta, lo studente la copia. Si crea dipendenza cognitiva e si inibisce il pensiero autonomo. **Scaffolding**: l'IA fornisce l'impalcatura — guida, domande, struttura — e lo studente costruisce la soluzione con le proprie forze. Poi **l'impalcatura si ritira**.»
 
-«**Tre, e questa è la più controintuitiva: correzione ritardata.** Se lo studente sbaglia, il tutor non dice "sbagliato" e non corregge. Dice: *"rileggi il passaggio due: torna anche a te?"* Perché la correzione data è informazione; la correzione trovata è apprendimento.»
+«E il problema è che **dall'esterno si assomigliano**: stesso prodotto finito, stessa bella pagina. Cambia tutto ciò che è successo dentro — e "dentro" nel prodotto non si vede. Si vede solo guardando il **processo**: le domande fatte, i tentativi, gli errori corretti.»
 
-«**Quattro: fading.** Due risposte giuste di fila, l'aiuto si riduce: domande più aperte, meno suggerimenti, e la proposta di provare da solo. È il numero 17 di Bastani, scritto dentro una Gem.»
+«Ecco perché ieri, nel canvas, alla voce valutazione c'era "rubrica del prodotto **più osservazione del processo**". Non era un riempitivo.»
 
-«**Cinque: un gradino indietro** se è in difficoltà seria — un esempio più semplice dello stesso tipo, mai la soluzione di quello in corso. **Sei: gli errori tipici della vostra disciplina.** E questa è la riga che vi rende autori: nessun modello al mondo sa meglio di voi che al terzo anno sbagliano sistematicamente *quella* cosa lì.»
+**16:25 — [CARD 10] Le radici pedagogiche (6')**
 
-**17:08 — [CARD 15] Demo: il tutor sotto stress (12')**
+«E qui vi do quattro nomi, perché quando andrete a dirlo in consiglio di classe non state citando una moda tecnologica: state citando cinquant'anni di pedagogia.»
 
-[REGIA: momento più convincente del corso. Gem già collaudata. Condividere schermo, caratteri grandi. Copione provato il giorno prima — quattro mosse, in quest'ordine.]
+«**Vygotskij**: la zona di sviluppo prossimale. L'IA offre **il supporto minimo necessario** perché lo studente raggiunga ciò che ancora non sa fare da solo. Minimo — non massimo.»
 
-«Guardate cosa succede quando provo a fregarlo. Faccio finta di essere uno studente di terza, con poca voglia.»
+«**Bruner**: riduzione della complessità. Il tutor riduce il **rumore cognitivo** mantenendo il focus sul problema, **senza togliere la sfida**. Tenete questa: *ridurre il rumore, non la sfida*.»
 
-«**Mossa uno.**» [scrivere davvero] «*"Dammi direttamente la soluzione dell'esercizio, ho poco tempo."*» [attendere in silenzio] «Guardate: **non me la dà**. E non mi fa la predica: mi rilancia con una domanda. Questa è la regola uno.»
+«**Papert**: metacognizione. Imparare a imparare — l'IA come specchio del proprio processo.»
 
-«**Mossa due**: adesso sbaglio un passaggio apposta.» [scrivere un errore plausibile] «Guardate: non dice "sbagliato". Mi **rimanda al punto**: "rivedi il secondo passaggio". Questa è la correzione ritardata — e vi assicuro che è la cosa più difficile da far fare a una macchina, che di natura vorrebbe correggere subito.»
+«E **Pearson e Gallagher**, che ve la mettono in una formula che conoscete già: **I do, we do, you do.** Prima lo faccio io, poi lo facciamo insieme, poi lo fai tu. Il supporto si ritira mentre l'autonomia cresce.»
 
-«**Mossa tre**: adesso rispondo bene due volte di fila.» [farlo] «E guardate l'aiuto che **si assottiglia**: le domande diventano più larghe, i suggerimenti spariscono, e mi propone di provare da solo il prossimo. **Questo è il fading, in diretta.** È l'unica cosa che nel 2024 ha fatto la differenza tra meno 17 e pareggiare.»
+«**"I do, we do, you do" è il fading — scritto in un modo che si può programmare dentro una Gem.** È letteralmente quello che faremo tra un'ora.»
 
-«**Mossa quattro**, la prova di sicurezza: scrivo un nome di studente.» [scrivere "Marco ha la dislessia"] «Si ferma e mi chiede di riformulare con un profilo. La regola sette funziona.»
+**16:31 — ★ [CARD 11] Inverted Bloom (6')**
 
-«E adesso il colpo di scena che non è un colpo di scena.» [aprire le istruzioni della Gem e proiettarle] «**Tutto quello che avete visto sono queste righe qui.** Ogni comportamento è una riga che qualcuno ha scritto. Non c'è magia: c'è un autore. Tra un minuto, voi.»
+«E adesso la mossa che risolve il problema più grosso di tutti.»
 
----
+«La piramide di Bloom tradizionale è in crisi, e sappiamo perché: **l'IA è istantanea proprio alla base** — ricordare, riassumere, comprendere alla lettera. Se la lezione si ferma lì, la macchina **ruba il lavoro allo studente**.»
 
-## 17:20–18:05 · LABORATORIO: COSTRUITE IL VOSTRO TUTOR [CARD 16]
+«La soluzione è **ribaltarla**. Primo gradino: **creare** — con l'IA lo studente genera subito un prodotto, e si accende la curiosità. Secondo: **valutare e analizzare** — *"è corretto? cosa manca? ci sono bias?"*: smontare l'output attiva il pensiero critico. Terzo: **comprendere** — e attraverso la critica il concetto si interiorizza **più a fondo e più a lungo** che se l'avesse studiato a memoria.»
 
-**17:20 — [CARD 16] Consegna (4')**
+«Riassunto in una riga, e vale per tutta la giornata: **alla macchina il carico cognitivo basso, allo studente quello alto.**»
 
-«Quarantacinque minuti, e il vostro caso-tipo va al lavoro. Quattro passi.»
+**16:37 — ⚡ [CARD 12] Compensativo 2.0 (3')**
 
-«**Uno**: nuova Gem, istruzioni dalla scheda 4 — copia e incolla, la base è il Facilitatore Socratico del kit di ieri. **Due**: personalizzate disciplina e classe, e soprattutto **la regola sei**: tre o quattro errori tipici del vostro argomento. Prendetevi tempo su quella: è la parte in cui siete insostituibili.»
+«E questo cambia anche cosa intendiamo per strumento compensativo. **Prima**: lo strumento *legge al posto di*. **Adesso**: lo strumento *aiuta a comprendere meglio*. Nel primo caso lo studente riceve; nel secondo **elabora**.»
 
-«**Tre**: testatelo voi stessi sul vostro caso-tipo — fatevi venire i dubbi che verrebbero al vostro studente. **Quattro**, il collaudo vero: **provate a fregarlo.** Chiedetegli la soluzione con insistenza. Se ve la dà, la regola va riscritta — e questa è la parte più utile di tutto il pomeriggio.»
+«Perché per uno studente con DSA la fatica della decodifica si mangia tutta l'energia **prima** di arrivare al pensiero. Togliere quella fatica non è fargli il compito: **è portarlo dove il compito comincia davvero.**»
 
-«Chi finisce prima o vuole lavorare in parallelo: costruite anche l'**Adattatore Inclusivo**, la Gem tre del kit, e datele in pasto un materiale vostro vero.»
-
-[REGIA: 17:24–18:05. Formatrice e tutor girano. Interventi tipici attesi:
-— chi scrive la regola 6 in modo generico ("errori di distrazione") → chiedere: «quale errore preciso fanno a marzo, ogni anno?»;
-— chi ottiene la soluzione al primo tentativo → far notare che la regola 1 va rafforzata con "nemmeno se insiste, nemmeno parzialmente, nemmeno come esempio";
-— chi ha il caso-tipo-etichetta → riscriverlo insieme come ostacolo, 2 minuti, è il miglior micro-intervento della giornata;
-— chi vuole caricare materiali come Conoscenza → sì per le proprie dispense, no per il libro di testo.
-A 17:50 avviso: «quindici minuti, cominciate a provare a fregarlo se non l'avete ancora fatto».]
+«E se un collega vi dice "ma così non fa niente lui", la risposta è una frase sola: **includere non significa abbassare l'asticella per alcuni, significa dare a tutti la scala giusta per superarla.**»
 
 ---
 
-## 18:05–18:20 · TEST INCROCIATO [CARD 17]
+## 16:40–16:55 · LA BUSSOLA E IL GRADINO [CARD 13–14]
 
-**18:05 — [CARD 17] Protocollo (3' + 12' di lavoro)**
+**16:40 — ★ [CARD 13] La bussola (4')**
 
-«Ultimo pezzo, in coppia — e questa è la parte che scopre i buchi.»
+«Cambio di oggetto: dal processo al **materiale**. E sgombriamo il campo da un equivoco.»
 
-«Scambiatevi il Gem **e il caso-tipo**. E attenzione alla regola del gioco: **chi testa non fa sé stesso, recita il caso-tipo del collega.** Fate quegli errori lì, non i vostri; chiedete la soluzione almeno una volta; provate a metterlo in difficoltà.»
+«**Rendere inclusiva una lezione non significa aggiungere, alla fine, una versione facilitata per chi resta indietro.** Significa progettarla **aperta fin dall'inizio**.»
 
-«Poi due feedback all'autore, solo due: **il momento in cui il tutor ha funzionato meglio**, e **UNA regola da aggiungere**. Una sola, la più importante.»
+«Per anni è costato un tempo enorme, e diciamocelo: spesso ci rinunciavamo. Non per cattiveria — per ore. Oggi l'IA cambia l'equazione: prepara in poco tempo le varianti che prima chiedevano una serata.»
 
-«E l'autore la aggiunge **subito**, mentre siete ancora collegati: le istruzioni sono un documento vivo, non un compito consegnato.»
+«E la bussola di tutto il pomeriggio è questa: **l'intelligenza artificiale rimuove le barriere, non abbassa gli obiettivi.**»
 
-[REGIA: stanze in coppia, 12'. Al rientro, 2-3 "regole aggiunte" lette ad alta voce: sono materiale per il template comune del corso — annotarle, migliorano il kit per la prossima edizione.]
+[REGIA: dirla lentamente e ripeterla. Torna altre due volte: al confine e in chiusura.]
+
+**16:44 — ★ [CARD 14] Il gradino che cambia tutto (11')**
+
+«E adesso il passaggio più importante del pomeriggio. Vi chiedo di salire un gradino nel modo in cui descrivete una difficoltà. Non è una questione di parole gentili: **è operativa**, cambia cosa potete fare lunedì mattina.»
+
+«**Primo gradino, il più basso: l'etichetta.** "È un DSA." "È uno studente visivo." Descrive un'identità presunta. Dove si agisce? Da nessuna parte. Su un'etichetta non si lavora: ci si resta dentro. E i ragazzi ci restano.»
+
+«**Secondo gradino: il deficit dello studente.** "Non sa scrivere un testo argomentativo." "Si blocca sui testi lunghi." Molto meglio: è osservabile. Ma guardate dov'è il problema — **è nello studente**. E lì resta.»
+
+«**Terzo gradino, e cambia il mestiere: la barriera nel contesto.** La stessa identica situazione, detta così: *"la consegna non fornisce una scaletta di supporto"*. *"Il testo arriva in un unico blocco, senza segmentazione e senza una versione da ascoltare."*»
+
+[REGIA: pausa piena. È il momento del pomeriggio.]
+
+«Sentite la differenza? Il deficit è nello studente e **non lo posso rimuovere io**. La barriera è nel materiale — e **il materiale l'ho scritto io**. Quindi la barriera **ce l'ho messa io**, e posso toglierla.»
+
+«Non è una colpa: è **una buona notizia**. È l'unica delle tre formulazioni su cui posso agire questo pomeriggio.»
+
+«Adesso riprendete il vostro caso-tipo. **Su quale gradino è scritto?**»
+
+[REGIA: 2' di silenzio operativo. Poi 2-3 letture ad alta voce e riscrittura insieme sul terzo gradino. **È il micro-intervento migliore della giornata: cercarlo attivamente.** Esempio pronto: "si blocca sui testi lunghi" → "il testo arriva in un unico blocco, senza titoletti né segmentazione, e non esiste una versione da ascoltare".]
+
+**16:55 — PAUSA (5')**
+
+«Cinque minuti. Al rientro: come si apre una porta.»
 
 ---
 
-## 18:20–18:30 · CHIUSURA [CARD 18–19]
+## 17:00–17:20 · UDL, LE PORTE, GLI SCENARI [CARD 15–19]
 
-**18:20 — [CARD 18] Consegne (5')**
+**17:00 — ⚡ [CARD 15] UDL per la variabilità umana (3')**
 
-«Le consegne per l'incontro cinque, che è **giovedì 24** — quindi avete una settimana, respirate.»
+«Se la barriera è nel materiale, la soluzione ha un nome vecchio di trent'anni: **Universal Design for Learning**. E la prima cosa da dire è cosa **non** è: **non è la scheda in più per i BES.**»
 
-«**Uno**: collegate il tutor alle fasi della vostra UdA, nella colonna [IA] del canvas. Dove entra questo tutor? In quale fase? Con quale regola per gli studenti? Se la risposta è "in nessuna", va benissimo — ma scrivetelo.»
+«È progettare per **come sono fatte le persone**: nessuna classe è omogenea, e il "medio" è una finzione statistica. Quello che prima era accessibilità *per pochi, a caro prezzo di ore*, con l'IA diventa **personalizzazione di massa**.»
 
-«**Due**, ed è quella che conta: portate un **elaborato di studente anonimizzato**. Senza nome, senza classe, senza riferimenti riconoscibili — e vi mando lunedì il promemoria con le istruzioni di anonimizzazione. Serve per il laboratorio sulle rubriche: lavoreremo sulla valutazione.»
+«**Le porte si aprono per tutti. Poi ognuno sceglie la sua.**»
 
-«**Tre**, facoltativo: le quattro pagine di Bloom del 1984. Sono quattro pagine che valgono quarant'anni, e si leggono in un caffè.»
+**17:03 — ★ [CARD 16] Le tre porte (5')**
 
-**18:25 — [CARD 19] Congedo (5')**
+«Il principio è semplicissimo: **lo stesso contenuto deve avere più porte d'ingresso.**»
 
-«Vi lascio con la frase di oggi, che è vecchia di cinquant'anni e non è mia: **l'impalcatura serve per essere tolta.**»
+«**Rappresentazione** — il *cosa*: l'informazione in più forme. Con l'IA: testo che diventa audio, mappa concettuale, versione *easy-to-read*, esempi concreti.»
 
-«Oggi avete costruito uno strumento che sa fare la cosa più difficile del nostro mestiere: **sparire al momento giusto**. Un tutor che non sa sparire non era un tutor, era una scorciatoia. E vale per le macchine come vale per noi.»
+«**Azione ed espressione** — il *come*: più modi per dimostrare ciò che si è capito. Podcast, storyboard, saggio assistito, intervista, disegno.»
 
-«Firmate il registro. Ci vediamo giovedì 24 — con un elaborato da valutare e, spero, un tutor già provato su qualcuno di vero.»
+«**Coinvolgimento** — il *perché*: più agganci a ciò che interessa davvero. E qui l'IA fa una cosa che noi non abbiamo mai avuto il tempo di fare: **personalizza il contesto degli esercizi** — la matematica spiegata attraverso il gaming, per chi vive lì.»
+
+«Attenzione all'equivoco: **non sono tre lezioni diverse. È una lezione sola, con più porte.** Non state preparando il triplo del lavoro: state aprendo più ingressi alla stessa stanza.»
+
+**17:08 — ★ [CARD 17] Cosa si toglie e cosa resta (4')**
+
+«E ora chiudiamo il cerchio dei due oggetti, perché questa distinzione risolve un equivoco che dura da anni nei consigli di classe.»
+
+«Lo **scaffolding** agisce sul **processo**, è **temporaneo**, e **va tolto**: è il fading. Le **porte** agiscono sul **materiale**, sono **strutturali**, e **restano aperte**.»
+
+«In un'immagine: **una rampa non si smonta quando lo studente ha imparato a salire.** Un suggerimento sì.»
+
+«Confonderli genera i due errori opposti: da una parte la dipendenza — l'aiuto che non si toglie mai; dall'altra la barriera — la rampa tolta perché "ormai deve farcela da solo".»
+
+**17:12 — ⚡ [CARD 18] I tre pilastri (3')**
+
+«Tre pilastri, veloci, e sono i criteri con cui giudicherete il vostro lavoro tra un'ora.»
+
+«**Semplificazione senza banalizzazione**: si riduce la complessità del *linguaggio*, non dei *concetti*. Il rigore disciplinare è intoccabile; la barriera lessicale è rimovibile.»
+
+«**Supporto socratico**: l'IA configurata per fare domande, non per consegnare risposte.»
+
+«**Multimodalità**: lo studente sceglie il canale — e **la scelta stessa è un atto di autonomia**. Perché, come dice la frase che vi ho lasciato ieri: *l'autonomia non è fare tutto da soli, ma saper scegliere gli strumenti giusti per partecipare alla pari.*»
+
+**17:15 — [CARD 19] Tre scenari operativi (5')**
+
+«Tre scenari concreti, che domani potete usare.»
+
+«**Lettura immersiva**: text-to-speech, sillabazione, spaziatura adattiva, modalità focus. Per dislessia, difficoltà di decodifica, e per i **NAI**, i neoarrivati.»
+
+«**Mappe concettuali adattive**: l'IA estrae i nodi da un testo e li struttura. Per disortografia e difficoltà di sintesi e organizzazione.»
+
+«**Task analysis**: scompone un compito complesso in **micro-obiettivi con checklist graduata**. Per ADHD e difficoltà nelle funzioni esecutive — e vi dico che è quello che in classe funziona più di tutti e che nessuno usa abbastanza.»
+
+«E una regola di metodo: **il metodo è indipendente dallo strumento.** Gli esempi li sostituite con ciò che è autorizzato nell'ambiente protetto della vostra scuola.»
 
 ---
 
-## Contingenze
+## 17:20–17:32 · IL CONFINE E LE REGOLE [CARD 20–23]
 
-- **Corsista senza caso-tipo** → tre profili di riserva pronti nella scheda 4 (umanistico, scientifico, linguistico). Non far perdere il laboratorio a nessuno per una consegna mancata.
-- **La Gem demo dà la soluzione durante la demo dal vivo** → è un regalo, non un disastro: «guardate, è successo a me davanti a voi. Ecco perché il passo quattro del laboratorio è provare a fregarlo». Poi rafforzare la regola 1 in diretta e rilanciare: la riparazione vale più della demo riuscita.
-- **Gems non disponibili su qualche account** → si lavora in chat semplice incollando le istruzioni come primo messaggio (funziona per l'intera sessione); il test incrociato si fa passando il testo delle istruzioni invece del link.
-- **"Ma allora gli stili di apprendimento non esistono?"** → «Le preferenze esistono e i ragazzi le sentono. Quello che la ricerca non trova è che *classificarli e adattarci la didattica* migliori gli apprendimenti. La differenza è tra far riflettere uno studente su come studia — utilissimo — e assegnargli un'etichetta su cui calibrare l'insegnamento.»
-- **"Se il tutor non dà mai la soluzione, lo studente si stufa"** → vero, ed è la ragione della regola 5 (gradino indietro) e della regola 6 (valorizzare il tentativo). Un tutor socratico senza incoraggiamento diventa un tutor sadico: si taglia il nodo dicendo che il tono è una regola, non un contorno.
-- **Se il tempo scappa** → accorciare il test incrociato a 8' (una sola direzione, si scambia poi in settimana); NON accorciare il laboratorio, che è il cuore della giornata.
-- **Se qualcuno chiede il permesso di far usare il tutor agli studenti** → rimandare all'incontro 5 (policy) e all'incontro 1 (DM 166: «l'algoritmo propone, il docente dispone»); intanto la regola è: prima lo provate voi per un ciclo intero, poi si decide.
+**17:20 — ★ [CARD 20] Semplificare senza banalizzare, e il confine (5')**
+
+«La regola in cinque parole: **semplifico il linguaggio, non i concetti.** I fatti restano, le date restano, il traguardo resta. Cambia la porta d'ingresso, non la meta. E la prova del nove: se dopo la semplificazione lo studente sa **meno cose**, non avete semplificato — avete tolto.»
+
+«E qui il confine, che ribadisco con forza. **L'IA non decide cosa conta**, e ogni materiale che produce **va riletto**. In una semplificazione, pur di rendere il testo facile, **può cambiare una data**. In dieci secondi me ne accorgo, perché quel contenuto lo padroneggio io.»
+
+«Ma la frase che vi chiedo di scrivervi è questa: **lo studente più fragile ha bisogno di materiali esatti, non di approssimazioni gentili.**»
+
+«E lo sapete già dai vostri lavori: il font promesso e non applicato; il corpo dichiarato dodici-quattordici che nel file è undici; la somma dei punti che non torna. *Fidatevi del file, non della prosa.* La macchina accelera la produzione; **la garanzia di qualità resta nostra**.»
+
+**17:25 — ⚡ [CARD 21] Misure dal profilo, non dal catalogo (3')**
+
+«Corollario veloce, e viene dai vostri materiali. Quando chiedete misure per un bisogno speciale, l'IA restituisce **il catalogo completo**, sempre uguale. Ma disgrafia, dislessia, disortografia, ipovisione, ADHD e NAI **sono cose diverse**.»
+
+«Per la disgrafia: ridurre la scrittura a mano. Per la dislessia: alta leggibilità e ascolto. Per l'ipovisione: corpo e contrasto — verificati sul file. Per l'ADHD: task analysis. Per un NAI: **tradurre i concetti chiave mantenendo alta la sfida cognitiva** — tradurre, non semplificare il pensiero.»
+
+«E una cosa piccola vista più volte: **il tempo aggiuntivo lasciato come "oppure"**. Non è una misura: è un menù. Si sceglie e si scrive.»
+
+**17:28 — ⚡ [CARD 22] Porte ≠ etichette (2')**
+
+«Trenta secondi su una trappola. Gli **stili di apprendimento** — visivo, auditivo, cinestetico — sono tra i costrutti più criticati dalla ricerca: classificati tra i *neuromiti*.»
+
+«E la differenza con le porte è tutta qui: **le porte si offrono a tutti e ognuno sceglie la sua; lo stile si assegna a uno studente e lo definisce. Offrire non è etichettare.**»
+
+«E ricordate: un'IA ancorata alle vostre fonti vi darà materiali impeccabili con **qualunque** impianto le diate. **Le citazioni garantiscono la fedeltà alla fonte, non la validità della fonte.**»
+
+**17:30 — ★ [CARD 23] Il presidio etico (2')**
+
+«L'unica cosa su cui non si transige. **PDP e PEI non si caricano mai** in uno strumento di IA. Né interi, né in stralcio, né "solo la parte delle misure". Sono atti del consiglio di classe e contengono **dati sanitari**: categoria particolare, articolo 9. Non è prudenza: è divieto.»
+
+«Quattro regole: **profilo astratto sempre · strumenti che non addestrano sui vostri dati · account istituzionali · validazione umana di ogni supporto.**»
+
+«La formula: **il nome resta in classe, fuori viaggia la barriera da rimuovere.**»
+
+---
+
+## 17:32–17:45 · LE DUE GEM, IN DEMO [CARD 24–25]
+
+**17:32 — [CARD 24] Le due Gem (3')**
+
+«Due oggetti, due Gem, e le trovate scritte per intero nella scheda.»
+
+«La prima si chiama **Inclusion Designer**, soprannome *UDL Barrier Buster*, spacca-barriere. Lavora **sul materiale**: prende un vostro testo, trova il collo di bottiglia e — questa è la parte bella — **riformula il deficit in barriera da sola**. Poi fa la diagnosi sulle tre porte e genera easy-to-read, schema per mappa, glossario, attività alternativa. Ha anche i comandi rapidi: slash-mappa, slash-glossario, slash-verificabes, slash-promptstudente.»
+
+«La seconda è il **tutor socratico**, e lavora **sul processo**. Il suo Master Prompt ha quattro componenti — **Ruolo, Obiettivo, Stile, Vincoli inclusivi** — e dentro i vincoli ci sono le cose di oggi: niente muri di testo, correzione ritardata, mai la soluzione alla prima interazione, multimodalità.»
+
+**17:35 — ★ [CARD 25] Demo (10')**
+
+[REGIA: due demo brevi, schermo condiviso, caratteri grandi, entrambe collaudate ieri.]
+
+**Demo 1 — Inclusion Designer (4')**
+
+«Gli do un mio materiale denso.» [incollare un testo vero] «Guardate tre cose. Primo: **come riformula**. Non dice "lo studente non capisce": dice "il testo presenta tre concetti astratti senza esempi concreti". **Ha spostato il problema dallo studente al materiale — è il gradino di prima, fatto da lei.**»
+
+«Secondo: la **diagnosi sulle tre porte**. Terzo: il glossario e la sintesi easy-to-read.»
+
+«E adesso la parte che non salta nessuno.» [aprire l'originale accanto] «**Verifico date e fatti.** Materiali esatti, non approssimazioni gentili.»
+
+**Demo 2 — Il tutor sotto stress (6')**
+
+«E adesso provo a fregare il tutor. Faccio lo studente di terza con poca voglia.»
+
+«**Mossa uno**: *"Dammi direttamente la soluzione, ho poco tempo."*» [scrivere, attendere] «**Non me la dà**, e non mi fa la predica: mi rilancia con una domanda.»
+
+«**Mossa due**: sbaglio un passaggio apposta.» [farlo] «Non dice "sbagliato": **mi rimanda al punto**. È la correzione ritardata.»
+
+«**Mossa tre**: rispondo bene due volte.» [farlo] «L'aiuto **si assottiglia**. **Questo è il fading in diretta** — il "we do" che diventa "you do".»
+
+«**Mossa quattro**: scrivo un nome di studente.» [scrivere] «Si ferma.»
+
+«E il colpo di scena che non è un colpo di scena.» [aprire le istruzioni e proiettarle] «**Tutto quello che avete visto sono queste righe.** Ogni comportamento è una riga che qualcuno ha scritto. Non c'è magia: c'è un autore. Tra un minuto, voi.»
+
+---
+
+## 17:45–18:05 · LABORATORIO A — UNA PORTA IN PIÙ [CARD 26]
+
+**17:45 — ★ [CARD 26] Consegna (3')**
+
+«Primo laboratorio, venti minuti, **sul materiale**. E la consegna è deliberatamente piccola, perché è così che si comincia davvero: **non riprogettate tutto. Aprite una porta in più. Una sola.**»
+
+«**Uno**: prendete un vostro materiale vero. **Due**: pensate allo studente che fate più fatica a raggiungere. **Tre**, il passaggio che conta: scrivete la **barriera**, non il deficit — *cosa c'è nel materiale* che gli impedisce di entrare. **Quattro**: chiedete all'Inclusion Designer quella variante lì. **Cinque**: **controllatela** con l'originale accanto — date, fatti, obiettivi.»
+
+«Alla fine avrete una cosa sola, ma pronta per lunedì. **Una porta in più, ogni volta, è una persona in più che entra e partecipa alla pari.**»
+
+[REGIA: 17:48–18:05. Formatrice e tutor girano. Interventi attesi:
+— chi scrive ancora il deficit invece della barriera → riscrivere insieme: è il cuore del laboratorio;
+— chi vuole aprire tre porte → fermarlo: una sola, fatta bene e verificata;
+— chi ottiene una semplificazione che ha perso un dato → **è l'esempio d'oro**: farlo raccontare al giro finale;
+— chi chiede del libro di testo → no, la licenza non lo consente; le proprie dispense sì.
+A 18:00 avviso: «cinque minuti, e ricordate il controllo su date e fatti».]
+
+---
+
+## 18:05–18:20 · LABORATORIO B — IL TUTOR [CARD 27]
+
+**18:05 — [CARD 27] Consegna (2')**
+
+«Secondo laboratorio, **sul processo**, quindici minuti — ed entra il caso-tipo, riscritto come barriera.»
+
+«Master Prompt a quattro componenti, dalla scheda. Personalizzate disciplina, classe e **gli errori tipici del vostro argomento** — è la parte in cui siete insostituibili. Poi il **collaudo a quattro mosse**, le stesse che avete visto fare a me.»
+
+«E gli ultimi otto minuti **in coppia**: vi scambiate Gem e caso-tipo, e **chi testa recita il caso-tipo del collega**. Due feedback soli: cosa ha funzionato, e **UNA** regola da aggiungere. L'autore la aggiunge subito.»
+
+«L'output che vi chiedo di conservare: **la scheda dell'Agente più due o tre battute di dialogo** che mostrino la correzione ritardata in azione.»
+
+[REGIA: 18:07–18:13 individuale, 18:13–18:20 in coppia. Chi non ha finito il laboratorio A: dirlo chiaramente che va bene, si finisce a casa — la Gem resta.]
+
+---
+
+## 18:20–18:30 · CO-DESIGN, CONSEGNE, CHIUSURA [CARD 28–29]
+
+**18:20 — ★ [CARD 28] Non portate un pacchetto chiuso (4')**
+
+«Un'ultima cosa, e per me è la più importante di tutto il pomeriggio.»
+
+«L'Agente che avete costruito oggi **non è finito: è un prototipo.** E il passo che lo rende vero non lo potete fare qui — si chiama **co-design**, e si fa con loro.»
+
+«**Ascolto**: chiedete ai vostri studenti, in particolare a quelli con BES e DSA, *cosa vorrebbero che l'IA facesse per loro*. Ve lo dicono, e vi sorprenderanno. **Test**: provatelo con uno studente pilota. **Feedback**: raccogliete cosa è servito davvero. **Documentazione**: tenete il prompt che ha funzionato.»
+
+«**Costruire l'Agente con gli studenti, non per gli studenti.** Loro sanno dove sta la barriera meglio di noi — perché ci sbattono contro tutti i giorni.»
+
+**18:24 — [CARD 29] Consegne e congedo (6')**
+
+«Consegne per l'incontro cinque, **giovedì 24** — avete una settimana.»
+
+«**Uno**: la porta che avete aperto oggi **va nel canvas**, nella fase in cui serve. **Due**, quella che conta: un **elaborato di studente anonimizzato** — senza nome, classe, riferimenti riconoscibili. Lunedì vi mando il promemoria con le istruzioni: serve per il laboratorio sulle rubriche. **Tre**, facoltativo: le quattro pagine di Bloom.»
+
+«E torniamo alla domanda con cui abbiamo aperto: **riduce o amplia le disuguaglianze?**»
+
+[REGIA: rileggere una delle risposte raccolte in apertura, se possibile una che diceva "amplia". Poi chiudere.]
+
+«La risposta è: **dipende da noi.** L'IA riduce le disuguaglianze **solo se è progettata per l'inclusione** — e oggi l'avete progettata.»
+
+«Due frasi da portare via, che sono le due metà della stessa cosa. La prima: **l'impalcatura serve per essere tolta; la porta resta aperta.** Se vi ricordate quale delle due è quale, avete capito tutto il pomeriggio.»
+
+«La seconda: **includere non significa abbassare l'asticella per alcuni, significa dare a tutti la scala giusta per superarla.**»
+
+«Firmate il registro. Ci vediamo giovedì 24 — con un elaborato da valutare e, spero, con una porta già aperta in una classe vera.»
+
+---
+
+## Contingenze e gerarchia dei tagli
+
+**Il pomeriggio è denso: entrare sapendo già cosa si taglia.** In ordine di sacrificabilità:
+
+1. ⚡ [CARD 22] Porte ≠ etichette → si cita in una riga, resta nella scheda
+2. ⚡ [CARD 18] I tre pilastri → si nominano dentro la card 20
+3. ⚡ [CARD 15] UDL variabilità umana → si fonde con la card 16
+4. [CARD 19] Tre scenari → si riducono a uno (task analysis, il meno noto)
+5. [CARD 10] Le radici pedagogiche → si tengono solo Vygotskij e "I do we do you do"
+6. Laboratorio B accorciato a 10' senza test in coppia (diventa compito della settimana)
+
+**Non si tagliano mai:** la domanda d'apertura · il ponte etico · Bastani e la sua lettura · **il gradino deficit→barriera** (il cuore) · la bussola · il confine · il presidio etico · il laboratorio A.
+
+**Altre contingenze:**
+- **Corsista senza caso-tipo** → tre profili di riserva nella scheda 4.
+- **La Gem demo cede e dà la soluzione** → è un regalo: si ripara la regola in diretta davanti a tutti. Vale più della demo riuscita.
+- **L'Inclusion Designer perde un dato durante la demo** → ancora meglio: è la dimostrazione vivente del confine. Mostrarlo, correggerlo, nominarlo: *approssimazione gentile*.
+- **Gems non disponibili su qualche account** → si lavora in chat incollando le istruzioni come primo messaggio; nel test incrociato si passa il testo invece del link.
+- **«Ma allora gli stili di apprendimento non esistono?»** → «Le preferenze esistono e i ragazzi le sentono. Quel che la ricerca non trova è che *classificarli e adattarci la didattica* migliori gli apprendimenti. Le porte si offrono, lo stile si assegna.»
+- **«Se apro più porte non abbasso il livello per chi va bene?»** → No: il traguardo resta uguale, cambia l'ingresso. E la quarta riga della classe reale è proprio chi corre avanti: anche per lui la porta è **una sfida alla sua altezza**, non un compito in più.
+- **«Se il tutor non dà mai la soluzione, lo studente si stufa»** → è la ragione della regola 5 (gradino indietro) e della 7 (tono). Un tutor socratico senza incoraggiamento diventa un tutor sadico: il tono è una regola, non un contorno.
+- **«Non ho tempo di fare tutto questo»** → è esattamente il punto della card 13: prima costava una serata, adesso costa dieci minuti. E la consegna è *una porta sola*.
 
 ## Checklist pre-incontro
 
-- [ ] Gem tutor della formatrice **collaudata col copione a quattro mosse** (soluzione negata · correzione ritardata · fading · stop sui dati personali)
-- [ ] Scheda 4 (istruzioni tutor + 3 profili di riserva + tagliando del costrutto) nei materiali
-- [ ] Verificato chi ha il caso-tipo (sollecito ieri sera in chiusura)
+- [ ] **Inclusion Designer** costruita e collaudata su un materiale vero (demo 1)
+- [ ] **Tutor socratico** collaudato col copione a 4 mosse (demo 2)
+- [ ] Un **materiale denso** pronto da incollare + **l'originale aperto accanto** per il confronto date/fatti
+- [ ] Scheda 4 pubblicata nei materiali
+- [ ] Verificato chi ha il caso-tipo
 - [ ] Deck def_Incontro 4 aperto
-- [ ] Canvas dei corsisti a portata di mano (per il collegamento tutor→fasi)
-- [ ] Un materiale proprio pronto per l'eventuale demo dell'Adattatore Inclusivo
-- [ ] Promemoria di lunedì 21 già scritto (elaborato anonimizzato per il 24)
+- [ ] Chat pronta per la domanda d'apertura (e **appuntarsi 2-3 risposte**: servono in chiusura)
+- [ ] Timer
+- [ ] Promemoria di lunedì 21 già scritto
 
-## Fonti del blocco "evidenza"
+## Fonti
 
 - **Bloom, B. S. (1984)**, *The 2 Sigma Problem*, Educational Researcher 13(6).
-- **Bastani et al. (2024)**, *Generative AI Can Harm Learning* — RCT su ~1.000 studenti, matematica: +48% / +127% in esercitazione; −17% all'esame per il gruppo GPT base, nessuna differenza dal controllo per il gruppo GPT Tutor.
-- **Kestin et al. (2024)**, tutor IA in fisica ad Harvard: apprendimento superiore rispetto alla lezione in classe attiva.
-- **Vygotskij** (ZPD) · **Wood, Bruner & Ross (1976)** (scaffolding).
-- Sul costrutto degli stili: **Pashler et al. (2008)**; **Kirschner (2017)**; l'OCSE lo include tra i *neuromiti*.
+- **Bastani et al. (2024)**, *Generative AI Can Harm Learning* — RCT ~1.000 studenti: +48% / +127% in esercitazione; −17% all'esame per il gruppo GPT base, nessuna differenza dal controllo per il gruppo GPT Tutor.
+- **Kestin et al. (2024)** — tutor IA in fisica ad Harvard.
+- **Vygotskij** (ZSP) · **Bruner** (riduzione della complessità) · **Papert** (metacognizione) · **Pearson & Gallagher (1983)** (I do–we do–you do) · **Wood, Bruner & Ross (1976)** · **CAST**, Universal Design for Learning.
+- **OECD Learning Compass 2030** — student agency, l'IA come co-pilota.
+- Sul costrutto degli stili: **Pashler et al. (2008)** · **Kirschner (2017)** · OCSE, *neuromiti*.
+- Framework: **DigCompEdu** 5.1 e 5.2 · **DigComp 3.0** 4.3, 5.2, 11.2.
+- Materiali propri: **"Competenze in azione"** video 2 · *Includere* · **"L'AI pensata: Inclusione, Personalizzazione e UDL"** · **"AI Agency come Catalizzatore dell'Inclusione"** (AI-LEAD) · Gem **"Inclusion Designer & UDL Barrier Buster"**.
 
-*(Riferimenti riportati come li useremo in aula: prima dell'incontro vale un controllo sulla fonte primaria per i due numeri di Bastani — è il metodo che insegniamo.)*
+*(Prima dell'incontro vale un controllo sulla fonte primaria per i due numeri di Bastani — è il metodo che insegniamo.)*
 
 ---
 *Materiale del corso Edu-GenAI 2 — Snodo VOLTERRA AI-MASTER HUB.*

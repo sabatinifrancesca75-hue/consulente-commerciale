@@ -1,20 +1,46 @@
-# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 4 (19 card, tema wireframe)
+# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 4 (26 card, tema wireframe)
 
 *Generato con: textMode=preserve, cardSplit=inputTextBreaks, themeId=wireframe, language=it.*
+*Fonde: "Competenze in azione" video 2 · Includere · "L'AI pensata: Inclusione, Personalizzazione e UDL" · "AI Agency come Catalizzatore dell'Inclusione" (AI-LEAD) · Gem "Inclusion Designer & UDL Barrier Buster".*
 
 ---
 
-# Il tutor che non dà la risposta
+# Rimuovere le barriere, non abbassare gli obiettivi
 
 **Edu-GenAI 2 · Incontro 4 di 6**
 
-Scaffolding mediato e personalizzazione
+L'IA pensata: scaffolding, inclusione e personalizzazione
 
 Mercoledì 16 settembre 2026 · 15:30–18:30 · Google Meet
 
 Formatrice: Prof.ssa Francesca Sabatini · Tutor: Prof. Bonelli
 
 Snodo Formativo VOLTERRA AI-MASTER HUB · PNRR — CUP I84D25003890006
+
+---
+
+# Una domanda per entrare
+
+# «L'intelligenza artificiale, a scuola, **riduce** o **amplia** le disuguaglianze?»
+
+Posizionatevi in chat e motivate in **una frase**.
+
+Non c'è una risposta giusta: ci sono posizioni da sostenere con argomenti. Ne raccogliamo due o tre e le teniamo aperte — **la risposta operativa la costruiamo insieme nel pomeriggio.**
+
+*Non si vince: si pensa meglio.*
+
+---
+
+# Il ponte etico
+
+**L'uso passivo dell'IA crea disuguaglianze invisibili:**
+
+chi sa sfruttarla avanza · chi non sa usarla resta indietro · chi la subisce senza guida **resta indietro il doppio**.
+
+**La personalizzazione guidata, invece, è un acceleratore potente proprio per gli studenti più fragili.**
+
+> **L'IA riduce le disuguaglianze solo se è progettata per l'inclusione.**
+> L'inclusione non è un tema separato dall'etica: **è il suo banco di prova operativo.**
 
 ---
 
@@ -26,11 +52,25 @@ Snodo Formativo VOLTERRA AI-MASTER HUB · PNRR — CUP I84D25003890006
 - I **campi 1–3 del canvas**: la UdA è partita
 - Un **caso-tipo**: il profilo sintetico che avete portato oggi
 
-**Oggi il caso-tipo lavora.** Tre tappe:
+**Oggi ci sono due oggetti da aggiustare, e non vanno confusi:**
 
-1. **L'evidenza** — cosa dice la ricerca sul tutoraggio con l'IA
-2. **Il lessico** — ZPD, scaffolding, fading
-3. **Il vostro tutor** — la Gem che non dà la risposta
+1. Il **processo** dello studente → lo scaffolding, il tutor
+2. Il **materiale** che gli mettiamo davanti → le barriere, le porte
+
+---
+
+# La classe reale
+
+La lezione la progettiamo per uno studente **medio**.
+
+Che in classe **non esiste**.
+
+Nella classe vera c'è:
+
+- 📄 chi davanti a una pagina fitta **si perde**
+- 🎧 chi capisce meglio **ascoltando o guardando**
+- 🔤 chi **l'italiano lo sta ancora conquistando**
+- ➡️ chi **corre avanti**, e senza una sfida si spegne
 
 ---
 
@@ -38,29 +78,27 @@ Snodo Formativo VOLTERRA AI-MASTER HUB · PNRR — CUP I84D25003890006
 
 **Benjamin Bloom, 1984 — "The 2 Sigma Problem"**
 
-Uno studente seguito **uno a uno** da un tutor impara fino a **due deviazioni standard** meglio di uno in classe.
+Uno studente seguito **uno a uno** da un tutor impara fino a **due deviazioni standard** meglio di uno in classe: lo studente medio del gruppo con tutor supera il **98%** della classe normale.
 
-Tradotto: lo studente medio del gruppo con tutor supera il **98%** degli studenti della classe normale.
+**Il problema non è mai stato l'efficacia. È il costo.**
 
-**Il problema non è mai stato l'efficacia. È il costo.** Nessun sistema scolastico al mondo può permettersi un tutor per studente.
-
-> Da quarant'anni cerchiamo qualcosa che faccia quel lavoro su scala. L'IA è **l'ultimo candidato** — non il primo.
+> Da quarant'anni cerchiamo qualcosa che faccia quel lavoro su scala. L'IA è **l'ultimo candidato** — non il primo. E come tutti i precedenti, va verificata.
 
 ---
 
 # La prova: cosa succede davvero
 
-**Bastani et al., 2024 — 1.000 studenti, matematica, scuola superiore**
+**Bastani et al., 2024 — ~1.000 studenti, matematica, scuola superiore**
 
 **Durante l'esercitazione, con l'IA accesa:**
 
-- 🟢 Gruppo con **ChatGPT base**: **+48%**
-- 🟢 Gruppo con **ChatGPT Tutor** (istruzioni pedagogiche): **+127%**
+- 🟢 **ChatGPT base**: **+48%**
+- 🟢 **ChatGPT Tutor** (con istruzioni pedagogiche): **+127%**
 
 **All'esame successivo, senza IA:**
 
-- 🔴 Gruppo **ChatGPT base**: **−17%** rispetto a chi non l'aveva mai usata
-- 🟡 Gruppo **ChatGPT Tutor**: **pari al gruppo di controllo**
+- 🔴 **ChatGPT base**: **−17%** rispetto a chi non l'aveva mai usata
+- 🟡 **ChatGPT Tutor**: **pari al gruppo di controllo**
 
 ---
 
@@ -70,174 +108,297 @@ Tradotto: lo studente medio del gruppo con tutor supera il **98%** degli student
 
 **La lettura giusta: senza design fa danno; con design il danno si azzera.**
 
-E attenzione al dettaglio più scomodo: **il +127% in esercitazione non si è trasferito all'esame.** Il guadagno non passa da solo. Serve qualcosa che lo faccia interiorizzare.
+E il dettaglio più scomodo: **il +127% non si è trasferito all'esame.** Il guadagno non passa da solo.
 
-> Quel qualcosa ha un nome, e lo vediamo tra cinque minuti: si chiama **fading**.
+> Quel che manca ha un nome: si chiama **fading**.
 
-*(Il contro-caso positivo: Kestin et al. 2024, fisica ad Harvard — con un tutor progettato bene si impara più che in una lezione attiva. Si può fare. Ma va progettato.)*
+*(Contro-caso positivo: Kestin et al. 2024, fisica ad Harvard — con un tutor progettato bene si impara più che in una lezione attiva. Si può fare. Ma va progettato.)*
 
 ---
 
-# ZPD: la zona dove si impara davvero
+# Il cambio di paradigma
 
-**Lev Vygotskij** — tre zone:
-
-| Zona | Cosa succede |
+| ❌ **Soluzionismo** | ✅ **Scaffolding** |
 |---|---|
-| **Ciò che so già fare da solo** | Nessun apprendimento: solo esercizio |
-| **Ciò che so fare con aiuto** ⭐ | **Qui si impara** — la zona di sviluppo prossimale |
-| **Ciò che non so fare comunque** | Frustrazione, abbandono |
+| L'IA **dà la risposta pronta** | L'IA fornisce **l'impalcatura**: guida, domande, struttura |
+| Lo studente la copia | Lo studente costruisce la soluzione **con le proprie forze** |
+| Dipendenza cognitiva, pensiero autonomo inibito | E l'impalcatura **si ritira** (fading) |
 
-**Il mestiere dell'insegnante è tenere lo studente nella zona di mezzo.** Né troppo facile né impossibile.
+**Dall'esterno si assomigliano:** stesso prodotto finito. Cambia tutto ciò che è successo dentro — e "dentro" si vede solo guardando il **processo**.
 
-**La domanda per l'IA è una sola:** questo strumento lo tiene nella zona di mezzo, o gli fa saltare la zona?
-
----
-
-# Scaffolding → fading
-
-**Scaffolding** (Wood, Bruner & Ross, 1976): l'impalcatura che sostiene finché la struttura non regge da sola.
-
-**La regola che tutti dimenticano:**
-
-> **L'impalcatura serve per essere tolta.**
-> Un'impalcatura che resta è un edificio che non sta in piedi.
-
-**Fading** = ridurre l'aiuto man mano che la padronanza cresce. È la parte difficile, ed è quella che il −17% di Bastani misura: aiuto mai tolto = niente interiorizzato.
+> Per il secondo ciclo l'obiettivo è **l'autoefficacia** nella gestione di contenuti complessi. **L'IA sostiene il pensiero, non lo sostituisce.**
 
 ---
 
-# Il contrario del fading: la delega cognitiva
+# Le radici pedagogiche dello scaffolding
 
-**Scaffolding:** lo studente fa il lavoro, con un sostegno che diminuisce.
+| | |
+|---|---|
+| **Vygotskij** — Zona di Sviluppo Prossimale | L'IA offre **il supporto minimo necessario** perché lo studente raggiunga ciò che ancora non sa fare da solo |
+| **Bruner** — Riduzione della complessità | Riduce il **rumore cognitivo** mantenendo il focus sul problema — **senza togliere la sfida** |
+| **Papert** — Metacognizione | "Imparare a imparare": strumento di riflessione sul proprio processo |
+| **Pearson & Gallagher** — Responsabilità graduale | **I do · We do · You do**: il supporto si ritira mentre l'autonomia cresce |
 
-**Delega cognitiva:** il lavoro lo fa la macchina, e lo studente lo consegna.
-
-Dall'esterno si assomigliano: **stesso prodotto finito.** Cambia tutto ciò che è successo dentro.
-
-**Come si distinguono in classe?** Non guardando il prodotto — guardando il **processo**: le domande fatte, i tentativi, gli errori corretti. È per questo che nel canvas valutiamo anche il processo.
-
----
-
-# La domanda del pomeriggio
-
-# Personalizzare **su cosa**?
-
-Prima di chiedere all'IA di adattare un materiale, dobbiamo sapere a che cosa lo stiamo adattando.
-
-E qui si sbaglia più spesso di quanto si creda — **anche in buona fede, anche con ottimi strumenti.**
+**"I do, we do, you do" è il fading, scritto in modo che si può programmare.**
 
 ---
 
-# Profili, non persone — e nemmeno etichette
+# Inverted Bloom: ribaltare la piramide
 
-**✅ Un profilo sintetico descrive un OSTACOLO osservato:**
+**La piramide tradizionale è in crisi:** l'IA è istantanea proprio **alla base** (ricorda, riassume). Se ci fermiamo lì, **ruba il lavoro allo studente**.
 
-*"Studente che si blocca sui testi lunghi, buone capacità orali, fatica a tenere l'ordine nei passaggi di calcolo."*
+**La soluzione è ribaltarla:**
 
-**🔴 Un'etichetta descrive un'IDENTITÀ presunta:**
+**1 · Creare** *(l'innesco)* — con l'IA lo studente genera subito un prodotto: si accende curiosità e agency
 
-*"Studente visivo." · "Studente cinestetico." · "Lo studente DSA."*
+**2 · Valutare / Analizzare** — *"È corretto? Ci sono bias? Cosa manca?"*: smontare l'output attiva il pensiero critico
 
-**Perché la differenza conta:** sull'ostacolo si può agire e si può verificare se l'azione ha funzionato. Sull'etichetta no — si può solo restare dentro l'etichetta.
+**3 · Comprendere / Ricordare** — attraverso la critica, il concetto si interiorizza **più a fondo e più a lungo**
+
+> **Alla macchina il carico cognitivo basso. Allo studente quello alto.**
 
 ---
 
-# Attenzione ai costrutti fragili
+# Compensativo 2.0
 
-**Il caso degli "stili di apprendimento"** (visivo / auditivo / cinestetico)
+**Prima:** lo strumento compensativo **legge al posto di**.
 
-È tra i costrutti **più criticati dalla ricerca educativa**: rassegne e istituzioni lo classificano tra i *neuromiti*. Nessuna evidenza che adattare la didattica allo "stile" diagnosticato migliori gli apprendimenti.
+**Adesso:** lo strumento **aiuta a comprendere meglio**.
 
-**Ma il punto per noi è un altro, ed è più importante:**
+Per uno studente con DSA la fatica della decodifica si mangia tutta l'energia **prima** di arrivare al pensiero. Togliere quella fatica non è fare il compito al posto suo: **è portarlo dove il compito comincia davvero.**
 
-> Un'IA ancorata alle vostre fonti vi darà materiali **impeccabili e coerenti** con qualunque impianto le diate — **senza mai chiedervi se l'impianto regge.**
-> Le citazioni garantiscono la fedeltà alla fonte. **Non la validità della fonte.**
+> **Includere non significa abbassare l'asticella per alcuni:**
+> **significa dare a tutti la scala giusta per superarla.**
 
-**Il tagliando del costrutto:** prima di costruire un kit su una teoria, chiedete *fuori* dal notebook cosa ne dice la ricerca.
+---
+
+# La bussola di tutto il pomeriggio
+
+# L'IA rimuove le barriere, **non abbassa gli obiettivi**
+
+Rendere inclusiva una lezione **non** significa aggiungere alla fine una versione facilitata per chi resta indietro.
+
+Significa **progettarla aperta fin dall'inizio**.
+
+Per anni è costato un tempo enorme, e spesso ci rinunciavamo. **L'IA cambia l'equazione:** prepara in poco tempo le varianti che prima chiedevano ore.
+
+---
+
+# Il gradino che cambia tutto
+
+**Salite di un gradino. La differenza non è linguistica: è operativa.**
+
+| | Come suona | Dove si agisce |
+|---|---|---|
+| 🔴 **Etichetta** | "È un DSA" · "È uno studente visivo" | Da nessuna parte |
+| 🟠 **Deficit dello studente** | "Non sa scrivere un testo argomentativo" | Sullo studente — e resta suo |
+| 🟢 **Barriera nel contesto** | "La consegna non fornisce una scaletta di supporto" | **Sul materiale — e la rimuovo io** |
+
+> La barriera **si rimuove**. Il deficit no.
+> E il materiale l'abbiamo scritto noi: quindi la barriera **ce l'abbiamo messa noi**.
+
+---
+
+# UDL: non "per i BES". Per la variabilità umana.
+
+**Universal Design for Learning** non è la scheda in più per qualcuno.
+
+È progettare per **come sono fatte le persone**: nessuna classe è omogenea, e il "medio" è una finzione statistica.
+
+**L'IA lo rende finalmente sostenibile:** quello che prima era accessibilità *per pochi, a caro prezzo di ore*, diventa **personalizzazione di massa**.
+
+> Le porte si aprono per tutti. **Poi ognuno sceglie la sua.**
+
+---
+
+# Le tre porte (UDL), con l'IA
+
+| Porta | Che cosa significa | Cosa fa l'IA |
+|---|---|---|
+| **Rappresentazione** — *cosa* | L'informazione in più forme | Testo → audio · mappa concettuale · *easy-to-read* · esempi concreti |
+| **Azione ed espressione** — *come* | Più modi per dimostrare ciò che si è capito | Podcast, storyboard, saggio assistito, intervista, disegno |
+| **Coinvolgimento** — *perché* | Più agganci a ciò che interessa | Personalizza il **contesto** degli esercizi (la matematica spiegata col gaming) |
+
+**Non sono tre lezioni diverse: è una lezione sola, con più porte.**
+
+---
+
+# Scaffolding e porte: cosa si toglie, cosa resta
+
+Due strumenti, **due oggetti diversi** — e si comportano in modo opposto:
+
+| | **Scaffolding / tutor** | **Porte / UDL** |
+|---|---|---|
+| Agisce sul | **processo** dello studente | **materiale** |
+| È | temporaneo | strutturale |
+| Va | **tolto** (fading) | **lasciato aperto** |
+
+**Una rampa non si smonta quando lo studente ha imparato a salire.** Un suggerimento sì.
+
+> Confondere i due genera i due errori opposti: la dipendenza da una parte, la barriera dall'altra.
+
+---
+
+# I tre pilastri dell'autonomia inclusiva
+
+**1 · Semplificazione senza banalizzazione**
+Si riduce la complessità **del linguaggio, non dei concetti**. Il rigore disciplinare è intoccabile; la barriera lessicale e sintattica è rimovibile.
+
+**2 · Supporto socratico**
+L'IA configurata per **fare domande**, non per consegnare risposte. Ogni risposta è un'altra domanda.
+
+**3 · Multimodalità**
+Lo studente sceglie il canale: testo, voce, immagine, mappa. **E la scelta stessa è un atto di autonomia.**
+
+> *«L'autonomia non è fare tutto da soli, ma saper scegliere gli strumenti giusti per partecipare alla pari.»*
+
+---
+
+# Tre scenari operativi in aula
+
+**🎧 Lettura immersiva / TTS** — text-to-speech, sillabazione, spaziatura adattiva, modalità focus
+*Per chi:* dislessia, difficoltà di decodifica, **NAI** (neoarrivati)
+
+**🗺 Mappe concettuali adattive** — estrae i nodi da un testo e li struttura con icone e voce guida
+*Per chi:* disortografia, difficoltà di sintesi e organizzazione
+
+**✅ Task analysis** — scompone un compito complesso in **micro-obiettivi con checklist graduata**
+*Per chi:* ADHD, difficoltà nelle funzioni esecutive
+
+> **Il metodo è indipendente dallo strumento:** gli esempi si sostituiscono con ciò che è autorizzato nell'ambiente protetto della vostra scuola.
+
+---
+
+# Semplificare senza banalizzare — e il confine
+
+# Semplifico il **linguaggio**, non i **concetti**
+
+I fatti restano. Le date restano. Il traguardo resta. Cambia la porta d'ingresso, non la meta.
+
+**Ma l'IA non decide cosa conta, e ogni materiale va riletto.** In una semplificazione, pur di rendere il testo facile, **può cambiare una data**.
+
+> **Lo studente più fragile ha bisogno di materiali esatti, non di approssimazioni gentili.**
+
+**E lo sapete dai vostri lavori:** il font promesso e non applicato · il corpo 12-14 che nel file è 11 · la somma che non torna. *Fidatevi del file, non della prosa.*
 
 ---
 
 # La misura si sceglie dal profilo, non dal catalogo
 
-**Disgrafia ≠ dislessia ≠ disortografia ≠ ipovisione.** Bisogni diversi, misure diverse.
+**Disgrafia ≠ dislessia ≠ disortografia ≠ ipovisione ≠ ADHD ≠ NAI.** Bisogni diversi, misure diverse.
 
-- Per la **disgrafia**: ridurre la scrittura a mano (crocette, completamenti, word box)
-- Per la **dislessia**: alta leggibilità, sintesi vocale, tempi
-- Per l'**ipovisione**: corpo e contrasto reali — e si verificano sul file
-- Per una **difficoltà cognitiva**: si lavora sugli obiettivi, non solo sulla forma
+- **Disgrafia** → ridurre la scrittura a mano (crocette, completamenti, word box)
+- **Dislessia** → alta leggibilità, sintesi vocale, testo segmentato
+- **Ipovisione** → corpo e contrasto reali, **da verificare sul file**
+- **ADHD** → task analysis: micro-obiettivi e checklist
+- **NAI** → tradurre i concetti chiave **mantenendo alta la sfida cognitiva**
 
-**L'IA vi proporrà il catalogo completo, sempre.** Sceglierne una e scriverla — *questa* misura, per *questo* ostacolo — è il vostro lavoro. E il tempo aggiuntivo si dichiara: mai lasciato come "oppure".
-
----
-
-# La regola non negoziabile
-
-🔴 **PDP e PEI non si caricano mai** in uno strumento di IA — né interi, né in stralcio, né "solo la parte delle misure".
-
-Sono atti del consiglio di classe e contengono dati sanitari.
-
-**Cosa entra nello strumento:** il profilo sintetico, scritto da voi.
-
-**Cosa resta a voi:** l'assegnazione della versione allo studente. È una decisione didattica, non un output.
-
-> **Il nome resta in classe. Fuori viaggia il profilo.**
+**L'IA vi proporrà il catalogo completo, sempre.** Sceglierne una e scriverla è il vostro lavoro. E il tempo aggiuntivo si dichiara: mai lasciato come *"oppure"*.
 
 ---
 
-# Il tutor socratico: le regole che lo rendono un tutor
+# Porte ≠ etichette
 
-Senza queste istruzioni è un risolutore di compiti. Con queste, è un tutor:
+**Il caso degli "stili di apprendimento"** (visivo / auditivo / cinestetico) è tra i costrutti **più criticati dalla ricerca**: classificato tra i *neuromiti*.
 
-1. **Mai la soluzione completa** — nemmeno se insiste
-2. **Una domanda alla volta**, dalla più aperta alla più mirata
-3. **Correzione ritardata**: non "sbagliato", ma *"rileggi il passaggio 2: torna anche a te?"*
-4. **Fading**: due risposte giuste di fila → meno aiuto, più autonomia
-5. **Un gradino indietro** se è in difficoltà seria — mai la soluzione di quello in corso
-6. **Gli errori tipici della vostra disciplina** ← la parte che vi rende autori
+**La differenza con le porte UDL è tutta qui:**
 
----
+- Le **porte** si offrono **a tutti**, e ognuno sceglie la sua
+- Lo **stile** si **assegna** a uno studente, e lo definisce
 
-# Proviamo: il tutor sotto stress
-
-**Demo dal vivo — guardate cosa succede quando provo a fregarlo:**
-
-1. *"Dammi direttamente la soluzione, ho poco tempo."* → rifiuta e rilancia con una domanda
-2. Sbaglio un passaggio apposta → non mi corregge: **mi rimanda al punto**
-3. Rispondo bene due volte → **l'aiuto si assottiglia**: è il fading, in diretta
-4. Scrivo un nome di studente → **si ferma** e chiede di anonimizzare
-
-**Poi apriamo le istruzioni e le leggiamo insieme:** ogni comportamento che avete visto è una riga che qualcuno ha scritto. Tra poco, voi.
+> **Offrire non è etichettare.**
+> E un'IA ancorata alle vostre fonti vi darà materiali impeccabili con qualunque impianto le diate: **le citazioni garantiscono la fedeltà alla fonte, non la validità della fonte.**
 
 ---
 
-# Laboratorio: costruite il vostro tutor
+# Il presidio etico non negoziabile
 
-**17:20–18:05 · il caso-tipo che avete portato entra in scena**
+🔴 **PDP e PEI non si caricano mai** in uno strumento di IA — né interi, né in stralcio, né "solo la parte delle misure". Sono atti del consiglio di classe e contengono **dati sanitari** (art. 9 GDPR).
 
-1. **Nuova Gem** → istruzioni dalla scheda 4 (la base è la GEM 2 del kit di ieri)
-2. **Personalizzate**: disciplina, classe, e soprattutto la **regola 6** — i 3-4 errori tipici del vostro argomento
-3. **Testatelo voi stessi** sul vostro caso-tipo: fatevi venire i dubbi del vostro studente
-4. **Provate a fregarlo**: chiedetegli la soluzione. Se ve la dà, la regola va riscritta
+**Le quattro regole del presidio:**
 
-*(Chi vuole, in parallelo: l'**Adattatore Inclusivo** sul materiale di oggi — la GEM 3.)*
+- **Profilo astratto**, sempre — mai dati reali dello studente
+- **Strumenti che non addestrano** sui vostri dati
+- **Account istituzionali**
+- **Validazione umana** di ogni supporto prodotto
+
+> **Il nome resta in classe. Fuori viaggia la barriera da rimuovere.**
 
 ---
 
-# Test incrociato: recitate il collega
+# Le due Gem di oggi
 
-**18:05–18:20 · in coppia**
+**1 · Inclusion Designer — "UDL Barrier Buster"** *(sul materiale)*
 
-Scambiatevi il Gem **e il caso-tipo**.
+Riformula il deficit in barriera · diagnosi sulle tre porte · genera *easy-to-read*, schema per mappa, glossario minimo, attività alternativa. Comandi rapidi: `/mappa` `/glossario` `/verificabes` `/promptstudente`
 
-**Chi testa non fa sé stesso: recita il caso-tipo del collega.** Fa quegli errori, chiede la soluzione, mette in difficoltà il tutor.
+**2 · Tutor socratico** *(sul processo)*
 
-**Due feedback all'autore:**
+Il Master Prompt ha **quattro componenti**:
 
-- 👍 Il momento in cui il tutor ha funzionato meglio
-- ➕ **UNA** regola da aggiungere alle istruzioni
+**Ruolo** *"Sei un tutor socratico di [materia] per uno studente con [difficoltà]…"* · **Obiettivo** guidare alla comprensione **senza dare la soluzione alla prima interazione** · **Stile** frasi brevi, un concetto alla volta, feedback incoraggianti · **Vincoli inclusivi** niente muri di testo · correzione ritardata · multimodalità
 
-**L'autore la aggiunge subito:** le istruzioni sono un documento vivo.
+---
+
+# Proviamo: le due Gem sotto stress
+
+**Inclusion Designer** — gli do un mio materiale denso e guardo se:
+
+- riformula il **deficit in barriera** (lo fa da solo)
+- non abbassa gli obiettivi mentre semplifica
+- **e io verifico date e fatti**, con l'originale accanto: è il confine
+
+**Tutor socratico** — provo a fregarlo:
+
+1. *"Dammi la soluzione, ho poco tempo"* → rifiuta e rilancia
+2. Sbaglio apposta → **mi rimanda al punto**, non mi corregge
+3. Rispondo bene due volte → **l'aiuto si assottiglia**: il fading, in diretta
+4. Scrivo un nome di studente → **si ferma**
+
+---
+
+# Laboratorio A — Aprite una porta in più
+
+**17:20–17:45 · sul vostro materiale**
+
+**Non riprogettate tutto. Una porta, una sola.**
+
+1. Prendete **un vostro materiale vero** (quello del canvas, o una consegna che usate)
+2. Scegliete **lo studente che fate più fatica a raggiungere**
+3. Scrivete la **barriera** — non il deficit: *cosa c'è nel materiale* che gli impedisce di entrare
+4. Chiedete all'**Inclusion Designer** quella variante
+5. **Controllatela** con l'originale accanto: date, fatti, obiettivi
+
+> Una porta in più, ogni volta, è **una persona in più che entra, e partecipa alla pari**.
+
+---
+
+# Laboratorio B — Il vostro tutor inclusivo
+
+**17:45–18:10 · sul caso-tipo che avete portato**
+
+1. **Nuova Gem** → Master Prompt a 4 componenti (scheda 4)
+2. Personalizzate disciplina, classe e soprattutto **gli errori tipici del vostro argomento**: è la parte che vi rende autori
+3. **Collaudo a 4 mosse** (chiedere la soluzione · sbagliare apposta · rispondere bene due volte · scrivere un nome)
+4. **In coppia:** scambiatevi Gem e caso-tipo. Chi testa **recita il caso-tipo del collega**. Due feedback: cosa ha funzionato + **UNA** regola da aggiungere
+
+**Output atteso:** la scheda dell'Agente + **una prova di dialogo (2-3 battute)** che mostri la correzione ritardata in azione.
+
+---
+
+# E poi: non portate in classe un pacchetto chiuso
+
+L'Agente che avete costruito oggi **non è finito**: è un prototipo.
+
+**Il passo che lo rende vero si chiama co-design:**
+
+1. **Ascolto** — chiedete ai vostri studenti, in particolare BES/DSA, *cosa vorrebbero che l'IA facesse per loro*
+2. **Test** — provatelo con uno studente "pilota"
+3. **Feedback** — raccogliete cosa è servito davvero
+4. **Documentazione** — tenete il prompt che ha funzionato
+
+> Costruire l'Agente **con** gli studenti, non **per** gli studenti.
+> Loro sanno dove sta la barriera meglio di noi.
 
 ---
 
@@ -245,13 +406,15 @@ Scambiatevi il Gem **e il caso-tipo**.
 
 **Per l'incontro 5 (giovedì 24):**
 
-1. **Collegate il tutor alle fasi della UdA** — colonna [IA] del canvas
-2. Portate un **elaborato di studente anonimizzato** (niente nome, classe, riferimenti riconoscibili): servirà per il laboratorio sulle rubriche
-3. *Facoltativo:* Bloom, *The 2 Sigma Problem* (1984) — quattro pagine che valgono quarant'anni
+1. **La porta aperta oggi va nel canvas**, nella fase in cui serve
+2. Portate un **elaborato di studente anonimizzato** — servirà per il laboratorio sulle rubriche
+3. *Facoltativo:* Bloom, *The 2 Sigma Problem* (1984)
 
-**La frase da portare via:**
+**E torniamo alla domanda dell'inizio:** *riduce o amplia le disuguaglianze?*
 
-> **L'impalcatura serve per essere tolta.**
-> Un tutor che non sa sparire non era un tutor: era una scorciatoia.
+> **Dipende da noi. L'IA riduce le disuguaglianze solo se è progettata per l'inclusione.**
+
+> **L'impalcatura serve per essere tolta. La porta resta aperta.**
+> **Includere non è abbassare l'asticella: è dare a tutti la scala giusta per superarla.**
 
 *Registro firme · Materiali nella cartella del corso.*
