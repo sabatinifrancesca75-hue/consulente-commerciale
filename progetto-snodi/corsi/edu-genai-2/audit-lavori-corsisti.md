@@ -206,6 +206,47 @@
 
 ---
 
+## 7 · ROSANNA — Questionario stili di apprendimento con NotebookLM (accoglienza classe prima, liceo scientifico) — *audit da screenshot*
+
+**Percorso:** notebook "Learning Styles Questionnaire" (1 fonte) → questionario di 28 affermazioni in 5 canali (visivo-grafico, auditivo-discorsivo, cinestetico-laboratoriale, analitico-logico, collaborativo), scala 0–3 → "crea documento stampabile word ed anche una griglia per il calcolo rapido dei profili" → "prepara la griglia di valutazione formativa" → "prepara la presentazione per la classe". Quattro documenti generati in un flusso unico.
+
+### ✅ Cosa ha funzionato (da valorizzare)
+
+1. **La conversazione-flusso migliore del corso**: quattro richieste brevi, ciascuna costruita sull'output precedente (questionario → griglia di calcolo → rubrica formativa → presentazione). È la 4ª R — "non cercate il prompt perfetto: cercate la conversazione perfetta" — realizzata.
+2. **Grounding pulito, il primo così**: i numeretti delle citazioni compaiono praticamente su ogni affermazione del questionario — ogni item è tracciabile alla fonte caricata. Da mostrare in aula come "ecco come si presenta un notebook ben ancorato".
+3. **Attenzione al Format e all'usabilità**: "documento stampabile word", "calcolo rapido", rubrica a 4 livelli (Avanzato/Intermedio/Base/In prima acquisizione — il lessico ministeriale giusto). E l'introduzione per gli studenti è accogliente e destigmatizzante ("non esiste uno stile giusto o sbagliato").
+4. **Privacy ok**: nessun dato personale nel flusso.
+
+### ⚠️ Il rilievo centrale — la domanda che l'IA non le ha fatto
+
+**Il costrutto degli "stili di apprendimento" è tra i più discussi dalla ricerca educativa**: le rassegne principali (Pashler et al. 2008; Kirschner 2017; l'OCSE lo elenca tra i "neuromiti") concordano che **non ci sono evidenze che adattare la didattica allo "stile" diagnosticato migliori gli apprendimenti**. E qui sta il punto formativo, che non riguarda la qualità del lavoro di Rosanna (ottima) ma un limite strutturale dello strumento:
+
+- **NotebookLM è stato perfettamente fedele alla fonte — e la fonte assume il costrutto.** Il grounding garantisce la *fedeltà* alla fonte, non la *validità* della fonte. I numeretti proteggono dalla carbonara, non dal costrutto fragile.
+- **L'IA non ha mai sollevato la questione**: ha prodotto questionario, griglia di calcolo dei profili, rubrica e presentazione senza un solo avviso. Qualunque impianto le si dia, lo esegue bene. La domanda "questo costrutto regge?" resta tutta al docente — ed è una domanda che va posta *fuori* dal notebook, perché dentro il perimetro delle fonti la risposta non può esserci.
+
+**Il rischio pratico** non è il questionario in sé, ma la **"griglia per il calcolo rapido dei profili"**: se il punteggio diventa un'etichetta ("sei cinestetico") su cui calibrare la didattica individuale, si fa una pratica non supportata — con in più l'effetto-etichetta su ragazzi di prima.
+
+**Il riposizionamento che salva (quasi) tutto il lavoro:** da *diagnosi di stili* a **questionario metacognitivo sulle strategie e abitudini di studio** — attività di accoglienza per far *parlare* la classe di come studia, non per classificarla. Con questo cambio di cornice: il questionario resta (magari rinominato), l'introduzione resta, la **rubrica formativa resta ed è anzi il pezzo più solido** (osserva comportamenti, non canali); solo la griglia dei "profili" va declassata a spunto di conversazione collettiva.
+
+### ⚠️ Rilievi minori
+
+1. Alcuni item scricchiolano anche dentro il costrutto: l'item 1 (sottolineare ed evidenziare) è una *strategia*, non un canale visivo; l'item 4 (leggere vs ascoltare) è verbale, non visivo-grafico.
+2. **I docx generati vanno collaudati col solito metodo**: la griglia di calcolo somma correttamente 28 item su 5 canali? Il "documento stampabile" mantiene il formato promesso? (Non verificabile da screenshot — se arrivano i file, li controllo.)
+3. La presentazione dello Studio: auditarla prima dell'uso (lingua e contenuti — precedente della presentazione uscita in inglese).
+
+### 🔧 La mossa da insegnare — "il tagliando del costrutto"
+
+Prima di costruire materiali su un impianto teorico, un prompt fuori dal notebook (a Gemini, con ricerca):
+> "Sto per usare in classe un questionario basato sul costrutto degli stili di apprendimento. Cosa dice la ricerca educativa recente sulla validità di questo costrutto e sulla pratica di adattare la didattica agli stili? Cita rassegne e posizioni istituzionali, con fonti verificabili. Poi suggerisci come riformulare l'attività in chiave metacognitiva (strategie di studio) senza classificare gli studenti."
+
+### 💬 Spunti da restituire (in positivo)
+
+1. "Il tuo flusso in quattro mosse è la conversazione perfetta che insegniamo — e il tuo notebook è il primo che vedo con le citazioni su ogni riga: tecnicamente è il lavoro NotebookLM migliore del corso."
+2. "C'è una domanda che l'IA non ti ha fatto, perché non può: 'il costrutto regge?'. Gli stili di apprendimento sono tra i costrutti più criticati dalla ricerca — il notebook è stato fedele alla tua fonte, ma la validità della fonte resta compito nostro. È il livello di audit più alto di tutti: non i calcoli, non il formato — l'impianto."
+3. "Il tuo lavoro si salva quasi tutto con un cambio di cornice: da 'diagnosi degli stili' ad 'attività metacognitiva sulle strategie di studio'. E la tua rubrica formativa è il pezzo più solido: osserva comportamenti, non etichette."
+
+---
+
 ## Pattern ricorrenti dell'aula (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
@@ -220,6 +261,7 @@
 | Domande oltre il perimetro delle fonti → risposta plausibile senza ancoraggio ("carbonara") | Ilaria (confronto con epoche precedenti chiesto a un notebook con 1 fonte — da verificare) | Il test dei numeretti: le citazioni si controllano proprio nei passaggi "di frontiera"; delimitare il perimetro nel prompt e chiedere di dichiarare cosa resta fuori |
 | Contenuto chiesto direttamente come immagine → testo non correggibile, glitch (duplicazioni, troncamenti), inaccessibile | Catia (infografica con bullet duplicati, titolo troncato, errore storico "cotto" dentro) | Prima il contenuto in testo/tabella (verificabile e correggibile), poi l'impaginazione in uno strumento editabile; l'immagine AI si rilegge parola per parola |
 | Errori fattuali plausibili dentro materiali ben confezionati | Catia (Gunpowder Plot etichettato come dissenso puritano — era una congiura cattolica) | La confezione bella non è una garanzia: la verifica sulla fonte vale anche per i contenuti disciplinari, non solo per i calcoli |
+| L'IA non mette mai in discussione il costrutto pedagogico che le si dà (o che trova nella fonte) | Rosanna (kit completo sugli "stili di apprendimento" — costrutto criticato dalla ricerca — senza un solo avviso) | Il "tagliando del costrutto": prima di costruire materiali su un impianto teorico, verificarne la tenuta FUORI dal notebook, con fonti; il grounding garantisce la fedeltà alla fonte, non la sua validità |
 | *(in attesa dei prossimi lavori)* | | |
 
 ---
