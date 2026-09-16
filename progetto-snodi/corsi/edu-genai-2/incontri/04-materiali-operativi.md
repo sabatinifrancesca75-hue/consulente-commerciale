@@ -210,6 +210,64 @@ Comandi rapidi:
                   interrogare l'IA su questo argomento
 ```
 
+### Il primo messaggio in chat (una volta creata la Gem)
+
+*Le istruzioni della Gem dicono **come** lavorare. Il messaggio in chat dà **l'input**: il materiale, la barriera, la porta che volete, i vincoli. Incollate il testo del materiale oppure allegate il file.*
+
+```
+Ecco un materiale che uso davvero in classe:
+[incolla il testo — oppure allega il file]
+
+CONTESTO
+Disciplina: [ ] · Classe: [ ] · A cosa serve: [lezione / consegna /
+verifica / studio a casa]
+
+LA BARRIERA che voglio rimuovere — è nel materiale, non nello studente:
+[es. "il testo arriva in un unico blocco di 40 righe, senza titoletti né
+segmentazione, e non esiste una versione da ascoltare"]
+
+TI CHIEDO UNA SOLA PORTA: [rappresentazione / espressione /
+coinvolgimento]
+In concreto: [es. "una versione easy-to-read più un glossario dei 5
+termini più difficili"]
+
+VINCOLI
+- Semplifica il LINGUAGGIO, non i CONCETTI: fatti, date, nomi propri e
+  obiettivi restano identici. Se per semplificare devi togliere un
+  contenuto, FERMATI e segnalamelo invece di toglierlo in silenzio.
+- Il traguardo resta lo stesso per tutta la classe: non abbassare gli
+  obiettivi.
+- In coda elencami TUTTI i dati che devo verificare sull'originale:
+  date, cifre, nomi, citazioni.
+- Nessun dato personale di studenti: lavoro su profilo astratto.
+```
+
+**Versione lampo**, se il tempo stringe:
+
+```
+[materiale] — Classe [x], [disciplina]. La barriera è: [cosa c'è nel
+materiale che blocca]. Dammi solo [la porta che voglio]. Semplifica il
+linguaggio non i concetti; se devi togliere un contenuto segnalamelo; in
+coda elenca i dati da verificare.
+```
+
+**Le tre porte, in concreto** — cosa chiedere a seconda di dove sta la barriera:
+
+| Se la barriera è… | Chiedete (porta) | Esempio di richiesta |
+|---|---|---|
+| Il testo è troppo denso / troppo lungo / troppo tecnico | **Rappresentazione** | "Versione easy-to-read + schema per mappa + glossario di 5 termini" |
+| La consegna chiede un solo modo di rispondere (sempre scritto) | **Espressione** | "Tre versioni della consegna — scritta, orale, visiva — con lo stesso obiettivo e la stessa rubrica" |
+| L'argomento non aggancia, sembra lontano da loro | **Coinvolgimento** | "Riscrivi le situazioni-problema ambientandole in [contesto vicino ai ragazzi], senza cambiare la difficoltà" |
+
+**La seconda mossa** (è qui che si guadagna la qualità — la 4ª R): il primo output è una bozza. Rilanciate:
+
+- *"Questa frase ha perso il dato [X]: rimettilo."*
+- *"Troppo lungo per una pagina: dimezza, ma non togliere nessun fatto."*
+- *"La frase 3 è ancora troppo complessa: spezzala in due."*
+- *"Rileggi quello che hai scritto e dimmi tu dove ti sei allontanato dall'originale."* ← il Pattern del Critico, applicato all'inclusione
+
+**E poi il collaudo, che non salta nessuno:** aprite l'originale accanto e **verificate i dati della lista in coda**. *Materiali esatti, non approssimazioni gentili.*
+
 ---
 
 ## 6 · GEM B — Il tutor socratico *(lavora sul PROCESSO)*
