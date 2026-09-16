@@ -76,11 +76,50 @@ E il corollario, che è il modo di dirlo agli studenti e ai colleghi:
 | **Ipovisione** | Corpo e contrasto reali — **da verificare sul file** |
 | **ADHD** | Task analysis: micro-obiettivi e checklist graduata |
 | **NAI** | Tradurre i concetti chiave **mantenendo alta la sfida cognitiva** |
+| **Ansia da prestazione** | Rendere la prova **prevedibile**: rubrica e struttura note prima, prova di allenamento isomorfa, primo item che riesce di sicuro. Mai correzione pubblica |
+| **Plusdotazione / alto potenziale** | **Compattare e arricchire**: pre-test di padronanza → salta la ripetizione → estensione aperta. Mai "più esercizi uguali" |
 | **Difficoltà cognitive** | Si lavora sugli obiettivi (PEI), non solo sulla forma |
 
 **Due errori frequenti:**
 - **Il tempo lasciato come "oppure"** ("+30% *oppure* riduzione dei quesiti"): non è una misura, è un menù. Si sceglie e si dichiara.
 - **La misura dichiarata ma non presente nel file** (il font promesso e non applicato; il corpo 12-14 che nel PDF è 11). *Fidatevi del file, non della prosa.*
+
+### Due casi che il catalogo tratta male
+
+**🟡 Ansia da prestazione** — non è un DSA: è una barriera emotiva, e spesso accompagna un DSA (chi ha alle spalle anni di prove andate male ha imparato ad avere paura). Il catalogo risponde «più tempo», ma **più tempo davanti a un foglio bianco può amplificare il blocco**.
+
+Riformulata come barriera nel contesto, la difficoltà non è l'ansia: è **l'imprevedibilità**. Non sapere cosa sarà chiesto, quanto basta per "andare bene", quando arriverà la prova, chi vedrà l'errore. Quindi la misura centrale è **rendere la prova prevedibile**:
+
+- **rubrica consegnata prima**, scritta in lingua dello studente
+- **struttura dichiarata**: quanti item, di che tipo, quanto pesano
+- una **prova di allenamento isomorfa** — stessa struttura, contenuto diverso: così il giorno della verifica il formato è già familiare *(qui l'IA cambia l'equazione: generarla costa due minuti)*
+- il **primo item di riscaldamento**, quello che riesce di sicuro: rompe il blocco iniziale
+- **niente correzione pubblica**, niente interrogazione a sorpresa
+- una **checklist di autocontrollo** prima di consegnare
+
+> **E il tutor socratico è già di per sé un dispositivo anti-ansia:** è un posto dove sbagliare non costa niente e nessuno vede. La regola della *correzione ritardata* e il tono incoraggiante non sono cortesia — **sono la misura**.
+
+*(Se l'ansia è clinica, non tocca a noi diagnosticarla: si agisce sul contesto e si segnala al consiglio di classe.)*
+
+**🟣 Plusdotazione e alto potenziale cognitivo** — è la quarta riga della "classe reale", quella che dimentichiamo sempre: *chi corre avanti, e senza una sfida si spegne*.
+
+**Normativa:** la **Nota MIUR 562 del 3 aprile 2019** estende agli alunni ad alto potenziale cognitivo quanto previsto dalla **CM 8/2013**: il consiglio di classe può riconoscerli come BES e, se opportuno, formalizzare un **PDP**.
+
+Qui la barriera **non è il pavimento: è il soffitto**. Il rischio non è il fallimento, è la noia — che porta al disimpegno e, nei casi peggiori, al fenomeno controintuitivo del *plusdotato che va male*.
+
+**Le due misure sbagliate, e frequentissime:**
+- 🔴 **più esercizi dello stesso tipo**: è una punizione per essere stato veloce
+- 🔴 **"aiuta i compagni" come default**: ottimo se è un ruolo scelto e strutturato, è un parcheggio se è il modo di tenerlo occupato
+
+**Le misure giuste:**
+- **Compattazione del curricolo**: un pre-test dimostra la padronanza → salta l'esercitazione ripetitiva → il tempo liberato va su un'estensione
+- **Arricchimento in profondità**, non accelerazione quantitativa
+- **Compiti aperti e mal strutturati**: problemi senza risposta unica, dove la difficoltà sta nel porre la domanda
+- Un **ruolo autentico** nel lavoro di gruppo
+
+> **Perché l'IA cambia le cose anche qui:** fino a ieri l'estensione non si preparava perché non c'era tempo di farla per uno solo. Adesso costa due minuti. **È la stessa equazione della bussola, applicata all'altro estremo della classe.**
+
+**⚠️ La doppia eccezionalità (*twice-exceptional*, 2e):** plusdotazione e DSA possono coesistere — e si mascherano a vicenda. L'alto potenziale compensa il disturbo, il disturbo abbassa la prestazione, e lo studente appare **"nella media"**: restano invisibili entrambi i bisogni. È il profilo che sfugge più spesso, e vale la pena tenerlo a mente quando un ragazzo "potrebbe fare molto di più" ma non lo fa.
 
 ---
 
