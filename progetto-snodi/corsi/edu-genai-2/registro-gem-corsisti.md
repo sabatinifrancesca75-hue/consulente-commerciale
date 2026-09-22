@@ -17,6 +17,21 @@
 
 ---
 
+## Schede consegnabili (Google Documenti)
+
+Cartella Drive **Edu-GenAI 2 — Gem dei corsisti (revisione)**: `1iM1eURK84kUbb3oG7BnS_u3O7R2lnmeA`
+
+Ogni scheda ha la stessa struttura: *Cosa è cambiato* → **il system prompt in un riquadro ombreggiato**, pronto da selezionare e incollare nel campo «Istruzioni» della Gem → *Prima di usarla* (il collaudo). Da condividere una per una, in privato.
+
+| Corsista | Documento |
+|---|---|
+| Carla — Lettere | [Gem «Prof di Lettere»](https://docs.google.com/document/d/15cVq7r6i-KXb_6B6Zka0SRhrzzaVtOErzKtFF1brygU/edit) |
+| Katia — Inglese | [Gem «Prof di Inglese»](https://docs.google.com/document/d/1Q8vTD52XEJrXaWdRdPE_djvczkQ6l80hrXg_EdQdvJ0/edit) |
+| Ilaria — Storia dell'Arte e Disegno | [Gem «Prof di Storia dell'Arte e Disegno»](https://docs.google.com/document/d/1Cysqwd6ni-7iFPB-_LNIGKAs9CbbhWnYNLn2rYqC5MY/edit) |
+| Chiara — Matematica e Fisica | [Gem «Prof MC»](https://docs.google.com/document/d/1HMYinre1-XRtCGZn7HbstQwIkhgHBTdFAMR8P15FFIE/edit) |
+
+---
+
 ## 1 · CARLA — Prof di Lettere (Italiano e Latino, liceo scientifico, classi seconde)
 
 **Contesto:** due indirizzi, ordinamentale e internazionale, con monte ore diverso (4+3 vs 5+4). File di conoscenza dichiarati: Indicazioni nazionali, curricolo verticale d'istituto per competenze, programmazione dipartimentale di Lettere, griglie di valutazione, materiali di esempio.
