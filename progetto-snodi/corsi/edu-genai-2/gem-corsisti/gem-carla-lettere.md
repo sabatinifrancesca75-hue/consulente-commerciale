@@ -14,7 +14,7 @@
 **Ho aggiunto due regole specifiche della tua materia:**
 
 - **Le citazioni.** Per Lettere il rischio non è il calcolo: è il verso, il passo d'autore, la data citati **a memoria** — che il modello sbaglia, e sbaglia con sicurezza. Ora ogni citazione esce marcata «da verificare sull'edizione in uso» e finisce in un elenco in coda.
-- **Il latino.** La traduzione già pronta di un brano assegnato è il modo in cui la macchina fa il compito al posto dello studente. La Gem ora si ferma all'analisi del periodo, al lessico ragionato e alle domande-guida.
+- **Il latino.** Questa Gem è il **tuo** assistente, non il tutor degli studenti: quando le chiedi una traduzione te la dà, perché ti serve per la chiave di correzione, per il glossario, per controllare la tua resa. La regola che ho aggiunto riguarda due cose diverse: che ti **segnali i punti incerti** — i costrutti ambigui, le rese che ammettono più soluzioni — e che ti chieda, quando il materiale è destinato agli studenti, **se la traduzione va inclusa o tenuta fuori**. La decisione didattica resta tua.
 
 **Ho aggiunto il livello dell'incontro 4** (la Gem era stata scritta prima): la riformulazione della difficoltà come **barriera nel materiale**, il *semplifico il linguaggio non i concetti*, e la lista dei dati da verificare in chiusura.
 
@@ -71,10 +71,16 @@ REGOLE PERMANENTI
    verificare sull'edizione in uso" e ripetili nell'elenco finale. Vale
    anche per date, nomi propri e titoli.
 
-7. LATINO — non fornire mai la traduzione già fatta di un brano assegnato
-   agli studenti. Al massimo: analisi della struttura del periodo, lessico
-   ragionato, domande-guida che portino alla resa. La traduzione la fa lo
-   studente.
+7. LATINO — quando ti chiedo una traduzione o una resa, dammela: sono il
+   docente e mi serve per preparare la lezione, la chiave di correzione o
+   il glossario. Segnala però sempre i punti in cui la resa è incerta o
+   ammette più soluzioni (costrutti ambigui, lezioni diverse del testo) e
+   riportali nell'elenco finale.
+   Distingui il destinatario: se il materiale è DA CONSEGNARE agli
+   studenti, chiedimi prima se la traduzione va inclusa o tenuta fuori —
+   nella scheda dello studente di norma non ci va. Se ti chiedo la versione
+   guidata, produci analisi della struttura del periodo, lessico ragionato
+   e domande-guida che portino alla resa.
 
 8. INCLUSIONE — quando chiedo un adattamento, riformula prima la
    difficoltà come BARRIERA NEL MATERIALE, non come deficit dello studente
@@ -101,7 +107,7 @@ REGOLE PERMANENTI
 ## Prima di usarla
 
 1. **Carica i file di conoscenza** — Indicazioni nazionali, curricolo verticale, programmazione dipartimentale, griglie, e uno o due tuoi materiali d'esempio. È la parte che vale di più: una Gem senza file è solo un prompt lungo.
-2. **Collaudala sul latino**, che è il caso in cui è più facile che ceda: chiedile la traduzione di un brano che stai assegnando. Se te la dà, la regola 7 va rinforzata.
+2. **Collaudala sul latino**: chiedile la traduzione di un brano e controlla che ti **segnali i punti incerti**. Poi chiedile la scheda per gli studenti sullo stesso brano: deve domandarti se la traduzione va inclusa o no.
 3. **Controlla l'elenco finale**: dopo il primo output, verifica una citazione sull'edizione in uso. È il collaudo che conta.
 
 ---

@@ -4,6 +4,17 @@
 
 **Griglia di revisione (uguale per tutte):** ruolo e contesto · grounding e clausola fuori-perimetro · stile (few-shot sui propri materiali) · regole non negoziabili sulle verifiche · vincolo dichiarato da rispettare item per item · privacy · chiusura come bozza · **layer inclusione** (le Gem sono state scritte prima dell'incontro 4: va aggiunto).
 
+> ## ⚠️ Avvertenza di metodo — le due Gem hanno destinatari opposti
+>
+> **Il tutor socratico** (GEM 2) parla **con lo studente**: lì la regola «mai la soluzione» è tutto.
+> **Il Prof della mia materia** (GEM 5) parla **con il docente**: deve dargli tutto ciò che serve a preparare — traduzioni, soluzioni svolte, testi modello, chiavi di correzione.
+>
+> Trasferire le regole del tutor dentro la Gem del docente la rende inservibile: un assistente che rifiuta una traduzione a chi deve preparare la chiave di correzione non aiuta nessuno.
+>
+> **La regola corretta non riguarda *cosa la Gem può dire*, ma *a chi è destinato il materiale*:** quando l'output è da consegnare agli studenti, la Gem chiede se la soluzione va inclusa o tenuta fuori, e sa produrre su richiesta la versione guidata. **La decisione didattica resta al docente** — *l'algoritmo propone, il docente dispone*.
+>
+> *(Errore commesso e corretto in prima stesura su Carla, Katia e Chiara: vale la pena raccontarlo in aula, perché è la confusione che faranno tutti costruendo la seconda Gem.)*
+
 ---
 
 ## 1 · CARLA — Prof di Lettere (Italiano e Latino, liceo scientifico, classi seconde)
@@ -22,7 +33,7 @@
 2. **Due refusi da copia-incolla che cambiano il senso:** *"materiali; esempio del docente"* (due volte) invece di *"materiali **di** esempio"* — così si legge come due cose separate, e la regola 2 perde il riferimento. Idem *"Da verificare in classe"; per il docente*.
 3. **La domanda d'avvio chiede la cosa sbagliata.** La classe è già fissata (sempre seconde): la variabile vera è **l'indirizzo** — e la disciplina, perché italiano e latino hanno didattiche diverse. Inoltre *"chiedi la classe"* senza dire **cosa farne** fa sì che la Gem chieda e poi ignori la risposta: va scritto che con l'internazionale c'è un'ora in più a settimana, quindi più estensione e spazio di laboratorio, mentre l'ordinamentale richiede selezione.
 4. **Manca la regola più importante per Lettere: le citazioni.** Un modello che riporta versi, passi d'autore o definizioni **a memoria** li sbaglia — ed è il rischio specifico di questa disciplina, molto più del calcolo. Serve una regola che vieti la citazione a memoria e che elenchi in coda tutto ciò che va verificato sull'edizione in uso.
-5. **Manca la regola sul latino**, che è il soluzionismo in forma disciplinare: se la Gem fornisce la traduzione già fatta di un brano assegnato, ha fatto il compito al posto dello studente. Deve fermarsi all'analisi del periodo, al lessico ragionato e alle domande-guida.
+5. **Manca la regola sul latino** — ma attenzione a come va scritta. Questa Gem è l'assistente **della docente**, non il tutor degli studenti: se Carla chiede una traduzione, le serve (chiave di correzione, glossario, controllo della propria resa) e la Gem deve dargliela. La regola giusta riguarda due cose diverse: **segnalare i punti incerti** della resa (costrutti ambigui, lezioni diverse del testo) e **chiedere, quando il materiale è destinato agli studenti, se la traduzione va inclusa o tenuta fuori**. La decisione didattica resta alla docente.
 6. **Manca il layer inclusione** (incontro 4): la riformulazione deficit → barriera, il *semplifico il linguaggio non i concetti*, la lista dei dati da verificare in coda. L'"alta leggibilità" che ha già scritto è il seme giusto — va completato.
 
 ### 🔧 La versione corretta (pronta da incollare)
@@ -74,10 +85,16 @@ REGOLE PERMANENTI
    verificare sull'edizione in uso" e ripetili nell'elenco finale. Vale
    anche per date, nomi propri e titoli.
 
-7. LATINO — non fornire mai la traduzione già fatta di un brano assegnato
-   agli studenti. Al massimo: analisi della struttura del periodo, lessico
-   ragionato, domande-guida che portino alla resa. La traduzione la fa lo
-   studente.
+7. LATINO — quando ti chiedo una traduzione o una resa, dammela: sono il
+   docente e mi serve per preparare la lezione, la chiave di correzione o
+   il glossario. Segnala però sempre i punti in cui la resa è incerta o
+   ammette più soluzioni (costrutti ambigui, lezioni diverse del testo) e
+   riportali nell'elenco finale.
+   Distingui il destinatario: se il materiale è DA CONSEGNARE agli
+   studenti, chiedimi prima se la traduzione va inclusa o tenuta fuori —
+   nella scheda dello studente di norma non ci va. Se ti chiedo la versione
+   guidata, produci analisi della struttura del periodo, lessico ragionato
+   e domande-guida che portino alla resa.
 
 8. INCLUSIONE — quando chiedo un adattamento, riformula prima la
    difficoltà come BARRIERA NEL MATERIALE, non come deficit dello studente
@@ -103,7 +120,7 @@ REGOLE PERMANENTI
 
 1. "Ti sei scritta da sola una regola che non c'era nel kit — *chiedi la classe* — perché insegni su due indirizzi. È esattamente il senso della Gem personale. L'ho solo resa operativa: chiedere non basta, bisogna dirle **cosa fare** della risposta."
 2. "Per Lettere il rischio non è il calcolo: sono **le citazioni**. Un modello che riporta un verso a memoria lo sbaglia, e lo sbaglia con sicurezza. Ho aggiunto la regola che le marca tutte come da verificare sull'edizione in uso."
-3. "E una regola sul latino: la traduzione già fatta è il soluzionismo nella tua disciplina. La Gem si ferma all'analisi del periodo e alle domande-guida — la resa la fa lo studente."
+3. "E una regola sul latino: la Gem è la **tua** assistente, quindi la traduzione te la dà. Ma ti segnala i punti incerti, e quando il materiale va agli studenti ti chiede se la resa va inclusa o no — decidi tu."
 
 ### ❓ Da chiedere a Carla
 
@@ -129,7 +146,7 @@ REGOLE PERMANENTI
 3. **"Utilizza sempre la lingua inglese" è giusto ma sta nel posto sbagliato e manca un pezzo.** È dentro la regola 4, che riguarda le verifiche, mentre è una regola di sistema. E soprattutto: **vale anche per il dialogo con lei?** Così com'è, la Gem risponderà in inglese anche alle domande metodologiche e scriverà in inglese le due righe di "Da verificare in classe". Va distinto: **materiali per gli studenti in inglese, dialogo con la docente in italiano.**
 4. **"B2 - C1" è un intervallo, non un vincolo.** Lasciando un range, la macchina sceglie di volta in volta quale estremo usare — ed è precisamente il buco che abbiamo trovato negli audit. Va scritto come **target unico + eccezione etichettata**: B2 per la classe, C1 ammesso solo negli item di potenziamento, dichiarati come tali e fuori dal punteggio base. Più l'obbligo di **rileggere item per item** e segnalare quelli che salgono.
 5. **Manca la regola sulle citazioni letterarie.** È il rischio specifico della sua disciplina: versi, passi d'autore, date di pubblicazione e dati biografici citati a memoria sono sbagliati con grande sicurezza.
-6. **Manca la regola anti-soluzionismo in lingua straniera**, che qui ha due forme: la **traduzione già pronta** del brano e l'**essay scritto al posto dello studente**.
+6. **Manca la regola sul destinatario di traduzioni, essay e testi modello.** Anche qui: la Gem è l'assistente **della docente**, quindi traduzioni ed essay glieli dà — le servono come modello e come chiave di correzione. Va invece scritto che, quando il materiale è **da consegnare alla classe**, la Gem chieda prima se la resa va inclusa o tenuta fuori, e sappia produrre su richiesta la versione guidata.
 7. **Manca una cosa che solo un docente di lingue nota**: l'IA scrive inglese **da madrelingua**. Se quel testo viene dato alla classe come *modello* di produzione scritta, è irraggiungibile e demotivante. Il modello va calibrato sul livello; il testo autentico va dichiarato come autentico.
 8. **Manca il layer inclusione** (incontro 4).
 
@@ -185,11 +202,14 @@ REGOLE PERMANENTI
    titoli, date di pubblicazione e dati biografici vanno marcati come "da
    verificare sull'antologia in uso" e ripetuti nell'elenco finale.
 
-8. NON FARE IL COMPITO AL POSTO DELLO STUDENTE — non fornire la traduzione
-   già pronta di un brano assegnato, né l'essay o il commentary finito. Al
-   massimo: glossario ragionato, analisi della struttura del testo,
-   domande-guida, scaletta argomentativa. La resa e la scrittura le fa lo
-   studente.
+8. TRADUZIONI, ESSAY E TESTI MODELLO — quando ti chiedo una traduzione, un
+   essay o un commentary, dammelo: sono il docente e mi serve come modello,
+   come chiave di correzione o per preparare la lezione.
+   Distingui però il destinatario: se il materiale è DA CONSEGNARE agli
+   studenti, chiedimi prima se la resa o il testo modello vanno inclusi o
+   tenuti fuori. Per i materiali destinati agli studenti posso chiederti la
+   versione guidata: glossario ragionato, analisi della struttura del
+   testo, domande-guida, scaletta argomentativa.
 
 9. INCLUSIONE — quando chiedo un adattamento, riformula prima la difficoltà
    come BARRIERA NEL MATERIALE, non come deficit dello studente ("il brano
@@ -402,7 +422,7 @@ prima dell'uso]
 
 **5. Nessun protocollo d'avvio.** Copre cinque classi e due discipline e non chiede nulla: né la classe, né se è matematica o fisica, né il tempo prova — che però le serve per la sua stessa regola di Revisione.
 
-**6. Il recupero a rischio soluzionismo.** *"Schede operative con guidata risoluzione"* è giusto, ma va detto che è **scaffolding con fading**: i primi esercizi guidati, gli ultimi da soli. Altrimenti è una scheda di soluzioni.
+**6. Il recupero ha due destinatari e la regola non li distingue.** *"Schede operative con guidata risoluzione"* è giusto per la copia **dello studente**, che va costruita come scaffolding con fading — primi esercizi guidati, ultimi da soli. Ma la copia **della docente** deve avere tutte le soluzioni svolte. Va scritto che, se non specificato, la Gem chieda quale serve.
 
 **7. Mancano** la chiusura come bozza ("Da verificare in classe") e il layer inclusione.
 
@@ -485,9 +505,10 @@ Revisione — prima di restituire una verifica o una lezione, verifica il
 bilanciamento del carico di lavoro rispetto al tempo prova dichiarato
 (es. 60 o 120 minuti) e dichiara la stima di tempo per ciascun esercizio.
 
-Recupero — le schede di recupero sono SCAFFOLDING CON FADING: i primi
-esercizi guidati passo passo, gli ultimi da svolgere in autonomia. Non
-produrre schede che siano solo soluzioni.
+Recupero — distingui le due versioni. La scheda PER LO STUDENTE è
+scaffolding con fading: primi esercizi guidati passo passo, ultimi da
+svolgere in autonomia. La copia PER IL DOCENTE ha sempre tutte le soluzioni
+svolte. Se non te lo specifico, chiedimi quale ti serve.
 Potenziamento — problemi complessi, aperti e di modellizzazione: mai "più
 esercizi dello stesso tipo".
 
@@ -556,6 +577,7 @@ Stile: pratico, essenziale, niente giri di parole.
 | **Riscrivendo il template si perdono le regole non negoziabili** | Chiara (soluzioni svolte, ricalcolo della griglia, somma dei punteggi) | Chi riorganizza bene rischia di buttare via il contenuto: prima di salvare, ricontrollare che le regole nate dai vostri lavori ci siano ancora |
 | **Ancoraggio "ai programmi ministeriali" invece che ai propri file** | Chiara | È il mare aperto travestito da fonte. La Gem personale vale per i **tuoi** documenti: senza, è un ottimo assistente di chiunque |
 | Regola dichiarata senza il modo di collaudarla | Chiara (file A e B "equivalenti", ma equivalenti come?) | Ogni vincolo ha bisogno di una procedura di verifica scritta accanto, altrimenti resta un'intenzione |
+| **Regole del tutor trasferite nella Gem del docente** | *(errore della revisione, non dei corsisti — ma è quello che faranno tutti)* | Le due Gem hanno destinatari opposti. La Gem del docente **dà** soluzioni, traduzioni e testi modello: la regola riguarda **a chi è destinato il materiale**, non cosa la Gem può dire |
 
 ---
 *Documento di lavoro riservato alla formatrice. Elaborato con il supporto dell'IA e revisionato dalla formatrice.*

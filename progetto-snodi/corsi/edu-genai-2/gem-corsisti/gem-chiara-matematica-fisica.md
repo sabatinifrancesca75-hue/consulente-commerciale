@@ -21,7 +21,7 @@
 - **Il collaudo delle due file.** Dichiarare che sono equivalenti non basta: cambiando i parametri capita spessissimo che una diventi più difficile dell'altra — spuntano radici irrazionali, i numeri non chiudono, il sistema non è più a coefficienti interi. Ora la Gem **risolve entrambe**, confronta il numero di passaggi e riequilibra.
 - **Il controllo dimensionale** per fisica: analisi dimensionale di ogni formula e risultato, unità di misura anche nei passaggi intermedi, ordini di grandezza realistici. **È il ricalcolo della griglia, versione fisica** — il punto in cui il modello sbaglia più spesso e con più sicurezza.
 
-**Piccole cose:** un protocollo d'avvio (copre cinque classi e due discipline e non chiedeva nulla — nemmeno il tempo prova, che però le serve per la tua stessa regola di Revisione); la precisazione che le schede di recupero sono **scaffolding con fading** — primi esercizi guidati, ultimi in autonomia, altrimenti sono solo soluzioni; e il layer inclusione dell'incontro 4.
+**Piccole cose:** un protocollo d'avvio (copre cinque classi e due discipline e non chiedeva nulla — nemmeno il tempo prova, che però le serve per la tua stessa regola di Revisione); la distinzione fra le due versioni delle schede di recupero — quella **per lo studente** è scaffolding con fading, primi esercizi guidati e ultimi in autonomia, mentre quella **per te** ha sempre tutte le soluzioni svolte; e il layer inclusione dell'incontro 4.
 
 ---
 
@@ -102,9 +102,10 @@ Revisione — prima di restituire una verifica o una lezione, verifica il
 bilanciamento del carico di lavoro rispetto al tempo prova dichiarato
 (es. 60 o 120 minuti) e dichiara la stima di tempo per ciascun esercizio.
 
-Recupero — le schede di recupero sono SCAFFOLDING CON FADING: i primi
-esercizi guidati passo passo, gli ultimi da svolgere in autonomia. Non
-produrre schede che siano solo soluzioni.
+Recupero — distingui le due versioni. La scheda PER LO STUDENTE è
+scaffolding con fading: primi esercizi guidati passo passo, ultimi da
+svolgere in autonomia. La copia PER IL DOCENTE ha sempre tutte le soluzioni
+svolte. Se non te lo specifico, chiedimi quale ti serve.
 Potenziamento — problemi complessi, aperti e di modellizzazione: mai "più
 esercizi dello stesso tipo".
 
