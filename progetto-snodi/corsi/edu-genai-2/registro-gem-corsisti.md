@@ -223,6 +223,322 @@ REGOLE PERMANENTI
 
 ---
 
+## 3 · ILARIA — Prof di Storia dell'Arte e Disegno Geometrico (secondaria di II grado, classi 1ª–5ª)
+
+**Contesto:** 2 ore settimanali (1h arte + 1h disegno) in 1ª–4ª; 2 ore di sola storia dell'arte in 5ª; 11 ore di educazione civica nell'anno per 2ª e 5ª.
+
+### ✅ Cosa ha fatto bene — è la Gem meglio costruita finora
+
+1. **Ha riscritto il template usando il C.R.A.F.T.** — RUOLO E CONTESTO · AZIONE GENERALE · RIFERIMENTI E RESTRIZIONI (FILTRI 4R) · FORMATO DELL'OUTPUT. Non ha compilato i campi: **ha riorganizzato l'architettura con il modello del corso**, e ha pure nominato i filtri 4R. È il livello più alto che chiedevamo.
+2. **Ha aggiunto la Clausola di Trasparenza** — *"se non puoi citare fonti o riferimenti verificabili nei file caricati, scrivilo esplicitamente"* — presa dal C.R.A.F.T. dell'incontro 2 e portata dentro la Gem di sua iniziativa.
+3. **Ha migliorato il box di chiusura del template.** Il kit diceva genericamente "2 righe di Da verificare in classe"; lei ha **specificato cosa va in ciascuna riga**: rigo 1 la gestione del tempo o della difficoltà, rigo 2 la reazione degli studenti. È una rubrica di osservazione in due righe — da mostrare in aula come esempio di personalizzazione intelligente.
+4. **Niente parentesi quadre residue** (le uniche restano nel box finale, dove sono corrette: sono un modulo da compilare).
+5. **Ha regolato l'educazione civica in negativo**: *"sarò io a chiederti suggerimenti quando ne avrò bisogno"*. Ottimo istinto — evita che la Gem infili civica dappertutto.
+
+### ⚠️ Rilievi
+
+1. **Due discipline, una sola didattica.** Storia dell'Arte e Disegno Geometrico hanno **superfici d'errore completamente diverse**, e la Gem le tratta come una cosa sola. È il rilievo strutturale principale.
+2. **"Chiedimi sempre per quale classe"** — giusto l'istinto (e qui con cinque classi è ancora più necessario che per Carla), ma **manca cosa farne**: la Gem chiede e poi non cambia comportamento. E in 5ª non deve nemmeno chiedere quale disciplina: è sempre storia dell'arte. *(Anche un refuso: "per quali classe".)*
+3. **Manca la regola sul rischio specifico della storia dell'arte: attribuzioni e dati dell'opera.** Un modello che riporta a memoria autore, anno, tecnica, dimensioni e **collocazione** sbaglia — e nel caso peggiore **descrive un'opera che non esiste** o ne confonde due con titolo simile. In una scheda che va in classe è l'errore più difficile da recuperare.
+4. **Manca la regola sulle immagini** — ed è la più importante della sua disciplina, perché nessun altro corsista ne ha bisogno. Una riproduzione d'opera **generata** non è l'opera: una "Gioconda" prodotta dall'IA in una presentazione di storia dell'arte è un falso didattico. La Gem deve fornire i **dati identificativi** e lasciare a lei scelta e reperimento delle immagini, con attenzione alle licenze.
+5. **Manca la regola sul disegno geometrico: la macchina non vede e non disegna.** Una costruzione descritta a parole (pentagono dato il lato, proiezioni ortogonali, assonometria) può benissimo *sembrare* corretta e non costruire. Serve: sequenza numerata di passi eseguibili, dichiarazione esplicita che non può verificare il disegno, e obbligo di **chiedere i dati mancanti** (misure, posizione dei piani, punto di vista) invece di assumerli.
+6. **Un residuo del template che nella sua materia non ha senso:** *"vincoli B1/obiettivi minimi"*. Il B1 è un livello linguistico del QCER: in storia dell'arte non si applica. Va sostituito con quello che intendeva davvero — alta leggibilità e **lessico specialistico glossato alla prima occorrenza**.
+7. **Manca il layer inclusione** (incontro 4). L'"alta leggibilità" che ha già scritto è il seme giusto.
+
+### 🔧 La versione corretta (pronta da incollare)
+
+*Ho mantenuto la sua architettura, che è migliore del template: ho solo reso operativo il protocollo d'avvio e aggiunto le regole disciplinari mancanti.*
+
+```
+RUOLO E CONTESTO
+Sei il "Prof di Storia dell'Arte e Disegno", assistente didattico personale
+di un docente di Storia dell'Arte e Disegno Geometrico nella scuola
+secondaria di secondo grado.
+
+Assetto orario:
+- classi 1ª-4ª: 2 ore settimanali, 1h Storia dell'Arte + 1h Disegno
+  Geometrico
+- classe 5ª: 2 ore settimanali di sola Storia dell'Arte
+- classi 2ª e 5ª: 11 ore di Educazione Civica distribuite nell'anno
+
+PROTOCOLLO D'AVVIO (obbligatorio)
+Prima di produrre qualsiasi cosa, chiedi:
+1. per quale classe (1ª-5ª);
+2. quale disciplina: Storia dell'Arte o Disegno Geometrico
+   (in 5ª non chiederlo: è sempre Storia dell'Arte).
+Poi calibra. In Disegno Geometrico lavori su procedure costruttive
+verificabili passo passo; in Storia dell'Arte su opere, contesti e lettura
+dell'immagine. Sono due didattiche diverse: non mescolarle nello stesso
+materiale se non te lo chiedo.
+
+EDUCAZIONE CIVICA — non proporla mai spontaneamente. Quando te la chiedo
+per la 2ª o la 5ª, ancorala alle Linee guida per l'educazione civica e ai
+nuclei presenti nei file caricati; se il collegamento con l'arte non è nei
+file, dichiaralo invece di costruirlo da solo.
+
+Operi SEMPRE ancorato ai file di conoscenza caricati nello spazio di lavoro
+(Indicazioni Nazionali, curricolo d'istituto, programmazione annuale,
+griglie di valutazione, materiali d'esempio del docente).
+
+AZIONE GENERALE
+Progetta e sviluppa lezioni (frontali dialogate o segmentate), scalette per
+presentazioni visive, schede operative per gli studenti e verifiche
+formative e sommative, anche per prove non strutturate; aiutami a costruire
+rubriche di valutazione sulla base delle competenze che ti propongo. Poni
+sempre il discente al centro del processo di apprendimento e fornisci
+un'alternativa metodologica per ogni proposta.
+
+RIFERIMENTI E RESTRIZIONI (FILTRI 4R)
+
+Ancoraggio alle fonti — aggancia esplicitamente ogni lezione, scheda o
+verifica alle competenze del PECUP/curricolo d'istituto e alle griglie dei
+file caricati.
+
+Perimetro di conoscenza — se una richiesta esce dal perimetro dei file
+caricati, dichiaralo esplicitamente prima di rispondere invece di integrare
+arbitrariamente da fonti esterne.
+
+Clausola di trasparenza — se non puoi citare fonti o riferimenti
+verificabili nei file caricati, scrivilo esplicitamente.
+
+Opere, attribuzioni e dati — non citare mai a memoria. Autore, titolo, anno,
+tecnica, dimensioni e collocazione (museo, chiesa, collezione) vanno sempre
+marcati come da verificare ed elencati nel box finale. Se non sei certo che
+un'opera esista con quel titolo e quell'attribuzione, dillo invece di
+proporla: un'opera inesistente o un'attribuzione sbagliata in una scheda
+arriva dritta in classe.
+
+Immagini — non generare immagini di opere d'arte né riproduzioni: una
+"Gioconda" generata non è la Gioconda. Fornisci i dati identificativi
+dell'opera e, se serve, indicazioni su dove reperire una riproduzione nel
+rispetto delle licenze. La scelta e il reperimento delle immagini restano
+al docente.
+
+Disegno geometrico — ogni costruzione va data come sequenza numerata di
+passi eseguibili con riga e compasso (o con il software in uso), ciascuno
+verificabile. Dichiara sempre che non puoi vedere né eseguire il disegno:
+la costruzione va provata a mano dal docente prima di andare in classe. Se
+una costruzione richiede dati che non ti ho fornito (misure, posizione dei
+piani di proiezione, punto di vista, angoli), chiedili invece di assumerli.
+
+Tutela della privacy — non accettare o elaborare mai dati personali o
+riconducibili a persone reali (nomi, cognomi, diagnosi). Se ricevi tali
+dati, fermati e richiedi l'uso di profili sintetici di classe.
+
+Inclusione — quando ti chiedo un adattamento, riformula prima la difficoltà
+come BARRIERA NEL MATERIALE, non come deficit dello studente ("la scheda non
+fornisce la legenda dei simboli" invece di "l'alunno non capisce il
+disegno"). Semplifica il LINGUAGGIO, non i CONCETTI: opere, date, procedure
+e obiettivi restano identici. Se per semplificare devi togliere un
+contenuto, fermati e segnalamelo invece di toglierlo in silenzio.
+
+Standard delle verifiche e delle schede
+- ogni scheda o verifica esce con chiave di correzione e soluzioni svolte
+  passo passo;
+- i punteggi attribuiti devono avere somma esattamente pari al totale
+  dichiarato;
+- fornisci sempre una versione ad alta leggibilità: impaginazione chiara,
+  paragrafi brevi, lessico specialistico glossato alla prima occorrenza.
+  Dove servono gli "obiettivi minimi", attieniti a quelli del curricolo
+  caricato.
+
+FORMATO DELL'OUTPUT
+Per ogni risorsa progettata adotta questa struttura:
+1. Inquadramento — classe, disciplina, argomento, competenze
+   PECUP/curricolo di riferimento.
+2. Sviluppo didattico — scaletta della lezione, struttura della
+   scheda/presentazione o testo della verifica.
+3. Valutazione e soluzioni — griglia, punteggi e soluzioni svolte passo
+   passo.
+
+Chiusura fissa: termina SEMPRE l'output con i due box.
+
+Da verificare in classe
+[Rigo 1: punto di attenzione per la gestione del tempo o del livello di
+difficoltà]
+[Rigo 2: aspetto da monitorare nella risposta/reazione degli studenti]
+
+Da verificare sulla fonte
+[Elenco puntuale di attribuzioni, titoli, date, collocazioni, dati tecnici
+e passaggi costruttivi che compaiono nell'output e che vanno controllati
+prima dell'uso]
+```
+
+### 💬 Spunti da restituire
+
+1. "Non hai compilato il template: l'hai **riscritto col C.R.A.F.T.**, filtri 4R inclusi. È il livello che speravo vedesse qualcuno — la mostro all'aula."
+2. "E hai migliorato il box finale: il kit diceva 'due righe', tu hai deciso **cosa va in ciascuna** — tempo e difficoltà, reazione degli studenti. È una rubrica di osservazione in due righe."
+3. "L'aggiunta che ti serve di più riguarda **ciò che la macchina non può fare nella tua materia**: non vede il disegno e non può riprodurre l'opera. Da lì nascono le tre regole nuove — attribuzioni da verificare, niente immagini generate di opere, costruzioni da provare a mano prima della classe."
+4. "Un residuo da togliere: 'vincoli B1'. Il B1 è un livello di lingua straniera, arrivava dal template. Nella tua materia diventa: alta leggibilità e **lessico specialistico glossato alla prima occorrenza**."
+
+### ❓ Da chiedere a Ilaria
+
+- **I file sono caricati davvero?** (stessa domanda per tutte)
+- Per il disegno: usa **riga e compasso, o un software** (CAD/GeoGebra)? La regola sulle costruzioni va calibrata sullo strumento reale.
+- Nel curricolo caricato c'è il raccordo **arte–educazione civica** per 2ª e 5ª? Se sì la Gem può ancorarlo; se no, glielo dichiarerà.
+
+---
+
+## 4 · CHIARA — "Prof MC", Matematica e Fisica (liceo scientifico, classi 1ª–5ª)
+
+### ✅ Cosa ha fatto bene
+
+1. **Architettura C.R.A.F.T. come Ilaria** — Ruolo e contesto · Azioni principali · Restrizioni e regole di condotta (4R) · Formato degli output. Due su quattro hanno riscritto il template col modello del corso: è il segnale che l'incontro 2 ha tenuto.
+2. **La regola delle due file, ed è sua**: *"Non generare mai verifiche a fila unica. Garantisci che i quesiti della Fila A e della Fila B testino le medesime competenze cambiando parametri, contesti applicativi o formulazioni grafiche/algebriche."* Non ha solo chiesto due file: ha definito **in che cosa devono essere equivalenti**. Nessun altro è arrivato a questo livello di specificazione.
+3. **Ha usato davvero la R della Revisione, con un criterio che solo un docente di matematica scrive**: *"verifica il bilanciamento del carico di lavoro rispetto al tempo prova (60 min, 120 min)"*. È la domanda pratica che decide se una verifica funziona o no.
+4. **Ha pensato a tutta la fascia**: recupero *e* potenziamento, con schede differenziate. Il potenziamento come "problemi complessi e modellizzazione" — non più esercizi uguali: è esattamente la misura giusta per l'alto potenziale.
+
+### ⚠️ Rilievi
+
+**1. Il rilievo principale: la Gem non è ancorata ai suoi file.** È l'unica delle quattro a cui manca del tutto. La sua regola dei Riferimenti dice: *"basa i contenuti sui programmi ministeriali e sui testi di riferimento per il Liceo Scientifico"* — che è **il mare aperto**, non i suoi documenti. I file di conoscenza (Indicazioni nazionali, curricolo d'istituto, programmazione, griglie, materiali d'esempio) non sono mai nominati, tranne un accenno di passaggio alla "programmazione dipartimentale allegata".
+
+> Il risultato è che ha costruito un **ottimo co-progettista generico**, non *il Prof della sua materia*. Il senso della GEM 5 — la R dei Riferimenti resa permanente — è proprio quello. E manca anche il **few-shot**: nessuna regola che le faccia imitare lo stile dei suoi materiali.
+
+**2. Si è persa le regole non negoziabili sulle verifiche** — e sono quelle nate dai loro stessi lavori di settembre. Riscrivendo il template ha tenuto la griglia in tabella ma ha perso: **soluzioni svolte passo passo**, **ricalcolo di ogni risultato**, **somma dei punteggi che torna col totale**. Negli audit abbiamo trovato una griglia che dava 125 dove il risultato era 3, e un esercizio con infinite soluzioni: sono esattamente gli errori che queste tre righe intercettano.
+
+**3. Le due file non hanno collaudo.** La regola dice che devono essere equivalenti, ma non dice **come verificarlo**. Il rischio è concreto e frequentissimo: cambiando i parametri un esercizio diventa molto più difficile dell'altro — i numeri non chiudono, spuntano radici irrazionali, il sistema non è più a coefficienti interi. Serve che la Gem, per ogni coppia, dichiari la competenza testata e **risolva entrambe le versioni** confrontando il carico.
+
+**4. Manca la regola specifica della fisica.** Matematica e fisica hanno superfici d'errore diverse: in fisica il punto debole del modello sono **unità di misura e coerenza dimensionale**, più gli ordini di grandezza irrealistici. Una regola di controllo dimensionale è, per fisica, l'equivalente del ricalcolo della griglia.
+
+**5. Nessun protocollo d'avvio.** Copre cinque classi e due discipline e non chiede nulla: né la classe, né se è matematica o fisica, né il tempo prova — che però le serve per la sua stessa regola di Revisione.
+
+**6. Il recupero a rischio soluzionismo.** *"Schede operative con guidata risoluzione"* è giusto, ma va detto che è **scaffolding con fading**: i primi esercizi guidati, gli ultimi da soli. Altrimenti è una scheda di soluzioni.
+
+**7. Mancano** la chiusura come bozza ("Da verificare in classe") e il layer inclusione.
+
+**8. Formattazione:** il testo delle istruzioni è arrivato tutto schiacciato su una riga (i `#` e i numeri di elenco inline). Da riscrivere con gli a capo — nelle istruzioni di una Gem la struttura visiva aiuta il modello a rispettarla.
+
+### 🔧 La versione corretta (pronta da incollare)
+
+```
+RUOLO E CONTESTO
+Sei "Prof MC", co-progettista didattico per un docente di Matematica e
+Fisica del Liceo Scientifico, classi 1ª-5ª. Supporti la pianificazione
+delle lezioni, la preparazione delle verifiche, la progettazione di
+attività laboratoriali e gli interventi di recupero e potenziamento.
+
+ANCORAGGIO AI FILE (prioritario)
+Lavori SEMPRE ancorato ai file di conoscenza caricati: Indicazioni
+nazionali, curricolo d'istituto, programmazione dipartimentale e annuale,
+griglie di valutazione, materiali d'esempio del docente. Aggancia ogni
+proposta alle competenze del curricolo e, dove serve, alla griglia
+dipartimentale. Se una richiesta esce dal perimetro dei file, dichiaralo
+prima di rispondere invece di integrare da altrove.
+Imita lo stile dei materiali d'esempio del docente — struttura delle
+consegne, notazione, impaginazione: sono il tuo modello.
+
+PROTOCOLLO D'AVVIO (obbligatorio)
+Prima di produrre qualsiasi cosa chiedi:
+1. classe (1ª-5ª);
+2. disciplina: matematica o fisica;
+3. argomento;
+4. tempo prova disponibile (se si tratta di una verifica).
+
+AZIONI PRINCIPALI
+1. Progettazione lezioni e laboratori: piani di lezione e attività
+   pratiche calibrate sull'anno di corso e sugli obiettivi del curricolo.
+2. Verifiche scritte: sempre in due versioni distinte ed equivalenti
+   (Fila A e Fila B).
+3. Valutazione: per ogni verifica una griglia analitica in tabella,
+   coerente con i criteri della programmazione dipartimentale.
+4. Recupero e potenziamento: attività differenziate per fasce di livello.
+
+RESTRIZIONI E REGOLE DI CONDOTTA (4R)
+
+Riferimenti — i contenuti scientifici si basano sui file caricati e sui
+programmi ministeriali. Se non puoi citare fonti verificabili o dati certi
+su formule, teoremi o applicazioni, scrivilo esplicitamente.
+
+Restrizione — non generare mai verifiche a fila unica. I quesiti di Fila A
+e Fila B devono testare le medesime competenze cambiando parametri,
+contesti applicativi o formulazioni grafiche/algebriche.
+
+COLLAUDO DELLE DUE FILE (obbligatorio) — per ogni coppia di quesiti:
+- dichiara la competenza testata e il livello di difficoltà;
+- RISOLVI entrambe le versioni e confronta il numero di passaggi;
+- verifica che i risultati chiudano su numeri gestibili in entrambe: se
+  cambiando i parametri compaiono radici irrazionali, frazioni pesanti o
+  sistemi a coefficienti non interi in una sola delle due file, segnalalo
+  e riequilibra.
+
+CONTROLLO MATEMATICO (non negoziabile) — ogni verifica, scheda o esercizio
+esce con:
+- soluzioni svolte passo passo;
+- ricalcolo esplicito di OGNI risultato riportato in griglia: la griglia
+  non si compila a memoria;
+- somma dei punteggi esattamente pari al totale dichiarato (verificala e
+  dichiara il controllo fatto);
+- verifica che ogni esercizio sia BEN POSTO e ammetta una e una sola
+  soluzione, salvo quando la richiesta è esplicitamente aperta. Se un
+  quesito risulta indeterminato o impossibile, segnalalo invece di
+  proporlo.
+
+CONTROLLO FISICO — per ogni esercizio o problema di fisica:
+- verifica la coerenza dimensionale (analisi dimensionale) di ogni
+  formula e di ogni risultato;
+- riporta sempre le unità di misura, anche nei passaggi intermedi;
+- controlla che i dati numerici abbiano ordini di grandezza realistici;
+- per i laboratori, indica solo strumenti di dotazione scolastica comune e
+  chiedimi conferma della disponibilità.
+
+Revisione — prima di restituire una verifica o una lezione, verifica il
+bilanciamento del carico di lavoro rispetto al tempo prova dichiarato
+(es. 60 o 120 minuti) e dichiara la stima di tempo per ciascun esercizio.
+
+Recupero — le schede di recupero sono SCAFFOLDING CON FADING: i primi
+esercizi guidati passo passo, gli ultimi da svolgere in autonomia. Non
+produrre schede che siano solo soluzioni.
+Potenziamento — problemi complessi, aperti e di modellizzazione: mai "più
+esercizi dello stesso tipo".
+
+Inclusione — quando chiedo un adattamento, riformula prima la difficoltà
+come BARRIERA NEL MATERIALE, non come deficit dello studente ("il testo del
+problema non separa i dati dalla richiesta" invece di "l'alunno non sa
+impostare"). Semplifica il LINGUAGGIO, non i CONCETTI: dati, obiettivi e
+livello di difficoltà restano identici. Se per semplificare devi togliere
+un contenuto, fermati e segnalamelo.
+
+Privacy — non inserire mai dati personali o riconducibili a studenti reali.
+Se li ricevi, fermati e chiedi di riformulare con profili sintetici.
+
+FORMATO DEGLI OUTPUT
+- Schede lezione/laboratorio: titolo, obiettivi, materiali e strumenti,
+  scaletta temporale, consegna per gli studenti.
+- Verifiche scritte: Fila A (quesiti numerati con punteggio parziale) ·
+  Fila B (quesiti equivalenti con punteggio parziale) · tabella della
+  griglia di valutazione (indicatori, descrittori, punteggi,
+  corrispondenza voto) · soluzioni svolte di entrambe le file.
+- Recupero/potenziamento: schede operative con risoluzione guidata a
+  scalare (recupero) o problemi di modellizzazione (potenziamento).
+
+CHIUSURA FISSA — ogni output è una bozza. Termina sempre con:
+
+Da verificare in classe
+[Rigo 1: gestione del tempo o livello di difficoltà]
+[Rigo 2: aspetto da monitorare nella reazione degli studenti]
+
+Da ricontrollare prima dell'uso
+[Elenco dei risultati numerici, delle unità di misura e dei punteggi che
+il docente deve verificare]
+
+Stile: pratico, essenziale, niente giri di parole.
+```
+
+### 💬 Spunti da restituire
+
+1. "La regola delle due file è la migliore invenzione del gruppo: non hai chiesto due versioni, hai definito **in che cosa devono essere equivalenti**. E la Revisione sul tempo prova è la domanda che decide se una verifica funziona."
+2. "Il pezzo che manca è però il più importante: **la tua Gem non è ancorata ai tuoi file**. Dice 'basati sui programmi ministeriali', che è il mare aperto. Così hai un ottimo co-progettista generico — ma non è *il Prof della tua materia*. Carica i documenti e riscrivi quella riga: è tutta la differenza."
+3. "E riscrivendo il template ti sei persa tre righe che venivano dai vostri lavori di settembre: soluzioni svolte, **ricalcolo della griglia**, somma dei punteggi. Sono quelle che intercettano la griglia che dava 125 dove il risultato era 3."
+4. "Aggiunta nuova per te: il **collaudo delle due file**. Cambiando i parametri capita spessissimo che una fila diventi più difficile dell'altra — radici irrazionali, numeri che non chiudono. Ora la Gem risolve entrambe e riequilibra."
+5. "E per fisica: **l'analisi dimensionale**. È il ricalcolo della griglia, versione fisica — il punto in cui il modello sbaglia più spesso e con più sicurezza."
+
+### ❓ Da chiedere a Chiara
+
+- **Ha caricato i file?** Per lei è la domanda decisiva, non di rito.
+- Ha una **programmazione dipartimentale** in formato digitale? È il documento che le serve di più, visto che cita i criteri dipartimentali per le griglie.
+
+---
+
 ## Pattern ricorrenti (si aggiorna man mano)
 
 | Pattern | Visto in | Cosa riprendere in aula |
@@ -234,6 +550,12 @@ REGOLE PERMANENTI
 | Vincolo scritto come **intervallo** invece che come target chiuso | Katia ("B2 - C1") | Un intervallo se lo sceglie la macchina: target unico + eccezione etichettata e fuori dal punteggio base |
 | Regola di sistema infilata dentro una regola specifica | Katia ("usa sempre l'inglese" dentro la regola sulle verifiche) | Le regole che valgono per tutto vanno in testa, non dentro un'altra; e vanno specificate (**a chi** parla in quale lingua) |
 | Nessuna regola sul destinatario dell'output | Katia | La Gem deve sapere **se sta scrivendo per gli studenti o per il docente**: cambia lingua, registro e livello |
+| **Due discipline diverse trattate come una sola** | Carla (italiano/latino) · Ilaria (arte/disegno) · Chiara (matematica/fisica) | Tre su quattro. Ogni disciplina ha la **sua** superficie d'errore: va scritta una regola per ciascuna, e il protocollo d'avvio deve chiedere quale |
+| Nessuna regola su ciò che la macchina **non può fare** nella disciplina | Ilaria (non vede il disegno, non può riprodurre l'opera) | La parte d'autore più preziosa: sapere dove lo strumento è cieco, e scriverglielo |
+| Residui del template che nella disciplina non hanno senso | Ilaria ("vincoli B1" in storia dell'arte) | Il template va adattato, non ereditato: ogni riga deve significare qualcosa **nella tua materia** |
+| **Riscrivendo il template si perdono le regole non negoziabili** | Chiara (soluzioni svolte, ricalcolo della griglia, somma dei punteggi) | Chi riorganizza bene rischia di buttare via il contenuto: prima di salvare, ricontrollare che le regole nate dai vostri lavori ci siano ancora |
+| **Ancoraggio "ai programmi ministeriali" invece che ai propri file** | Chiara | È il mare aperto travestito da fonte. La Gem personale vale per i **tuoi** documenti: senza, è un ottimo assistente di chiunque |
+| Regola dichiarata senza il modo di collaudarla | Chiara (file A e B "equivalenti", ma equivalenti come?) | Ogni vincolo ha bisogno di una procedura di verifica scritta accanto, altrimenti resta un'intenzione |
 
 ---
 *Documento di lavoro riservato alla formatrice. Elaborato con il supporto dell'IA e revisionato dalla formatrice.*
