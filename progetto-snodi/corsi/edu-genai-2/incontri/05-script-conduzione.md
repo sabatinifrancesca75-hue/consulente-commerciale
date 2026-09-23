@@ -1,6 +1,8 @@
 # Script di conduzione — Incontro 5: Data literacy e valutazione assistita
 
-**Giovedì 24 settembre 2026, 16:00–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini • Tutor: Prof. Bonelli
+**Giovedì 24 settembre 2026, 15:30–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini • Tutor: Prof. Bonelli
+
+> **Nota.** Questa è la scaletta sintetica della prima stesura (7 settembre). La versione da usare in aula è **`05-script-completo.md`**, che la integra con il caso d'apertura sulla citazione di Cappi e con la mossa a tre passi.
 
 **Obiettivi:** i corsisti sanno riconoscere e dimostrare i difetti dell'IA (allucinazioni, bias, sycophancy); hanno praticato il fact-checking su due casi reali della letteratura sull'IA; sanno co-progettare rubriche con l'IA mantenendo la valutazione al docente; escono con rubrica e policy IA nel canvas.
 
