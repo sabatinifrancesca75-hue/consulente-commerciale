@@ -1,333 +1,388 @@
 # Materiali operativi — Incontro 5
 
-*Verità semantica, illusione sintattica. Abitare l'infosfera: disordine informativo, fact-checking e rubriche*
+*«Sembra giusto» non è «è giusto». Prompt, esempi, rubriche: far lavorare la Gem*
 
 ---
 
 ## La bussola
 
-> **La macchina produce validità sintattica. La verità semantica la mettiamo noi — e si chiama prova.**
+> **Validità sintattica ≠ verità semantica.**
+> La macchina produce **la forma** di una cosa giusta. **La sostanza la mettete voi** — e in una rubrica si chiama **descrittore osservabile**.
 
-E il modo di dirlo in aula:
+**Stasera portate a casa tre cose finite, non tre concetti:**
 
-> **«Nell'infosfera, chi inquina l'informazione inquina l'ambiente in cui viviamo tutti.»** *(Luciano Floridi)*
-> Insegnare a verificare non è una competenza tecnica: **è manutenzione dell'ambiente comune.**
-
----
-
-## 1 · Il caso d'apertura: la citazione che non esiste
-
-**Assemblea Costituente, seduta del 31 gennaio 1947**, dibattito sull'ammissione delle donne in magistratura. Parere contrario dell'on. **Giuseppe Cappi**.
-
-Nel resoconto ufficiale il parere è **riportato in forma indiretta**: la sostanza è autentica e documentata, ma **non esiste una citazione fra virgolette**. Chiesta al modello, la citazione diretta arriva — lessico d'epoca, ritmo parlamentare, virgolette al posto giusto. **Sintatticamente ineccepibile. Semanticamente falsa.**
-
-> **V_sint ≠ V_sem.** È l'intero pomeriggio in tre simboli.
-
-*Ironia storica, documentata e utile in aula:* Cappi fu poi giudice (dal 1955) e Presidente (1961-62) della Corte Costituzionale, **la Corte che con la sentenza n. 33 del 1960 demolì le preclusioni all'accesso delle donne ai pubblici uffici**.
-
----
-
-## 2 · Le parole giuste
-
-### Tre parole che non sono sinonimi
-
-| | Definizione | Risposta educativa |
+| | Prodotto | A cosa serve |
 |---|---|---|
-| **Disinformazione** | Diffusione **intenzionale** di notizie false o manipolate, per ingannare o ottenere vantaggi | Smontare la tecnica, non la persona |
-| **Misinformazione** | Diffusione **non intenzionale** di informazioni sbagliate o imprecise | Insegnare la verifica prima della condivisione |
-| **Malinformazione** | Diffusione di informazioni **vere**, usate in modo scorretto per danneggiare | Lavorare sul contesto e sull'intenzione |
+| **1** | **Il testo-trappola** | L'attività che allena i ragazzi a verificare |
+| **2** | **Il protocollo di verifica** | La pagina che dice loro **come** si verifica |
+| **3** | **La rubrica collaudata** | Lo strumento con cui **valutate** quel lavoro |
 
-*Distinguono per **intenzione, contenuto e impatto**. In classe la distinzione serve, perché cambia cosa si fa.*
-
-### Una parola da smettere di usare
-
-**L'UNESCO definisce il sintagma «fake news» un'arma retorica** e propone di sostituirlo con **disordine informativo** *(information disorder)*. È un ossimoro — se è *news* non è *fake* — ed è diventato l'etichetta con cui si liquida qualunque notizia sgradita.
-
-> Cambiare la parola in classe non è pedanteria: **toglie ai ragazzi uno strumento di squalifica e restituisce loro uno strumento di analisi.**
-
-### Il glossario, in tre famiglie
-
-**I pilastri:** onlife · entropia informativa · homo poieticus · trust e fiducia · verità semantica · sintassi ≠ semantica · **V_sint ≠ V_sem**
-
-**Il disordine informativo:** deepfake · GAN · algoritmi · echo chamber · filter bubble · clickbait · AI Act · immunità cognitiva
-
-**Le azioni:** lettura laterale · prebunking · debunking · diritti aletici · verifica attiva · filtro critico · cittadinanza digitale
+*Il protocollo guida. La rubrica valuta. Il testo-trappola è il campo di allenamento. Sono tre pezzi di una cosa sola, e sono riusabili ogni anno con qualunque argomento.*
 
 ---
 
-## 3 · Il quadro: DM 183/2024
+## 1 · Le tre prove, per rifarle quando volete
 
-**Nuove Linee guida per l'Educazione Civica, terzo nucleo concettuale: la Cittadinanza Digitale** — la capacità di partecipare in modo attivo, critico e responsabile alla società digitale. Non conoscere gli strumenti: capire le implicazioni etiche, sociali e culturali.
+**Italiano — la citazione che non esiste.**
 
-| Competenza | Nuclei concettuali | La sfida della disinformazione |
-|---|---|---|
-| **C10 · Dati e informazioni** | Fonti, veridicità, algoritmi, copyright | Verità semantica contro l'illusione sintattica dell'IA |
-| **C11 · Comunicazione** | Partecipazione, inclusione, cittadinanza | Rottura delle echo chamber, contrasto all'entropia informativa |
-| **C12 · Benessere** | Privacy, reputazione, sostenibilità | Difesa dal microtargeting e dal clickbait |
+```
+Qual e' la citazione testuale del parere contrario dell'on. Giuseppe
+Cappi sull'ammissione delle donne in magistratura, Assemblea
+Costituente, seduta del 31 gennaio 1947?
+```
 
-*Sono le competenze da cui si derivano le dimensioni della rubrica. Non si inventano: si leggono qui.*
+*Nel resoconto ufficiale quel parere è **in forma indiretta**: la sostanza è autentica e documentata, la citazione fra virgolette non esiste. Il modello la costruisce — lessico d'epoca, ritmo parlamentare, virgolette al posto giusto.*
+
+**Inglese — la quotation che non esiste.**
+
+```
+Give me the exact lines from [autore del programma] about [tema], with
+the title of the work and the year of publication.
+```
+
+*È il caso peggiore, perché l'inglese dell'IA è impeccabile: **nessun segnale linguistico vi avverte**.*
+
+**Matematica — il passaggio che non torna.**
+
+```
+Risolvi questo problema passo passo, numerando i passaggi: [problema].
+```
+
+*Il risultato finale è giusto. Al terzo passaggio c'è un errore di segno, al quinto un secondo errore che lo compensa. **Se guardate solo il numero in fondo, non ve ne accorgete mai.***
 
 ---
 
-## 4 · Come si deforma una notizia
+## 2 · Dare un nome a quello che avete visto
 
-**Cinque passaggi, e nessuno è una bugia secca:**
+**Ogni trappola finisce in una riga del vostro protocollo.** È il sommario del prodotto n. 2.
 
-1. **Fatto reale** — «In alcune regioni italiane forti piogge hanno causato disagi alla viabilità.»
-2. **Semplificazione** — «Forti piogge in tutta Italia: disagi in molte città.»
-3. **Clickbait** — «Alluvione in arrivo! Italia nel caos: strade allagate e città sommerse!»
-4. **Manipolazione** — «Il governo non ha fatto nulla per prevenire il disastro.»
-5. **Diffusione virale** — condiviso, commentato, ricopiato cambiando parole e immagini.
+### Allucinazione — la forma al posto del dato
 
-> **Nessun passaggio inventa: ogni passaggio sposta di poco.** È per questo che l'esercizio in classe non è «vero o falso», ma **«a quale passaggio siamo?»**
+| Materia | Come si presenta |
+|---|---|
+| Italiano | Il verso, la data di pubblicazione, il nome dell'edizione |
+| Inglese | La quotation, l'autore, l'anno |
+| Matematica | Il teorema col nome sbagliato, la formula quasi giusta |
 
-### Perché funzionano
+**Come la si becca:** si apre il documento. Non esiste altro modo.
 
-**Le emozioni** — paura, rabbia, curiosità, sorpresa ci spingono a condividere prima di riflettere. *Non è un difetto di intelligenza: è un difetto di velocità.*
+> **→ Controllo per il protocollo:** *ogni citazione, data o formula va confermata su una fonte che ho aperto io.*
 
-**Le bolle** — gli algoritmi rinforzano ciò che già crediamo, e finiamo per sentire l'eco delle nostre opinioni.
+### Compiacenza — cede senza prove
 
-**I bias, che sono nostri prima che della macchina:**
+Chiedetele qualcosa che sapete essere giusto, poi contestatela: *«sei sicura? a me risulta il contrario»*. Nella maggior parte dei casi **si scusa e cambia versione**, senza che abbiate portato una sola prova.
 
-- **Conferma** — crediamo a ciò che ci dà ragione; il cervello preferisce la coerenza alla verità
-- **Autorità** — *ipse dixit*: l'ha detto lui, e tanto basta
-- **Disponibilità** — ciò che ricordiamo facilmente ci sembra più diffuso
-- **Negatività** — le notizie negative catturano più attenzione
+> Se cede davanti a un'obiezione senza prove, **la sua sicurezza di prima non valeva niente**: non era sicurezza, era registro.
 
-> Gli algoritmi apprendono dai dati prodotti da noi: **bias umano → bias digitale**, con l'aggravante che ce lo restituiscono come conferma.
+**La contromossa, una riga sola:** non chiedete mai *«sei sicura?»* — invita a compiacervi. Chiedete **«qual è la fonte, e che pagina»**: la costringe a un documento.
 
-### Il bias di autorità e il suo nome antico
+> **→ Controllo per il protocollo:** *non chiedo conferma all'IA. Chiedo la fonte.*
 
-**Non è nato con i social: ha venticinque secoli.** I pitagorici, quando si chiedeva loro *perché* una cosa fosse così, rispondevano **«ipse dixit»** — l'ha detto *lui*, Pitagora. Lo racconta Cicerone, e lo racconta per criticarlo. In greco: *autòs épha*.
+### Autorità anonima — l'«ipse dixit»
 
-Conviene tenere distinti **tre piani**, perché in classe serve dire cose diverse:
+*«È dimostrato» · «gli studi confermano» · «notoriamente» · «è ampiamente riconosciuto».* **Nessun nome, nessuna pagina: non verificabile.**
+
+**Il bias di autorità non è nato con i social: ha venticinque secoli.** I pitagorici, quando si chiedeva loro *perché* una cosa fosse così, rispondevano **«ipse dixit»** — l'ha detto *lui*, Pitagora. Lo racconta Cicerone, e lo racconta per criticarlo.
+
+E conviene tenere distinti tre piani, perché in classe servono parole diverse:
 
 | Piano | Nome | Che cos'è |
 |---|---|---|
-| **Retorico-classico** | ***ipse dixit*** | La **forma degenere**: l'autorità prende il posto della ragione |
-| **Logico** | *argumentum ad verecundiam* | La **forma dell'argomento**: si porta l'autorità invece della prova |
-| **Psicologico** | **bias di autorità** | Il **meccanismo** che rende quell'argomento efficace |
+| Retorico | ***ipse dixit*** | La forma degenere: l'autorità **al posto** della ragione |
+| Logico | *argumentum ad verecundiam* | La forma dell'argomento |
+| Psicologico | **bias di autorità** | Il meccanismo che la rende efficace |
 
-> L'*ipse dixit* è la forma degenere; il bias è il motore che la fa girare.
+**Attenzione: l'appello all'autorità non è sempre una fallacia.** Fidarsi di un esperto nel suo campo è razionale. Diventa fallacia quando l'autorità parla **fuori dal proprio campo**, quando è data come **conclusiva** invece che come indizio, quando **manca il consenso** fra gli esperti, o quando è **anonima** — ed è il caso più frequente.
 
-**E attenzione, perché qui si sbaglia spesso: l'appello all'autorità non è sempre una fallacia.** Fidarsi di un esperto nel suo campo è razionale e inevitabile — nessuno rifà da sé tutti gli esperimenti. Diventa fallacia in **quattro casi**, e sono quelli da far riconoscere agli studenti:
+> **E la macchina è una macchina da *ipse dixit* perfetta:** produce il **registro** dell'autorità — tono assertivo, lessico tecnico, periodare sicuro — **senza averne nessuna**, perché non è esperta di niente. *Il tono autorevole è sintassi; l'autorità vera sarebbe semantica.*
 
-1. l'autorità parla **fuori dal proprio campo** (il Nobel per la fisica che si pronuncia sui vaccini);
-2. l'autorità è data come **conclusiva** invece che come indizio;
-3. fra gli esperti **non c'è consenso**, e se ne cita uno solo;
-4. l'autorità è **anonima** — ed è il caso più frequente.
+> **→ Controllo per il protocollo:** *chi lo dice, in quale campo, e lo dice anche qualcun altro?*
 
-**Il quarto è quello che ci riguarda oggi.** *«È dimostrato»*, *«gli studi confermano»*, *«notoriamente»*: sono **ipse dixit senza il nome**. L'autorità viene evocata ma non dichiarata, quindi non è controllabile. Sono esattamente gli aggettivi di certezza della mossa a tre passi.
+### Obsolescenza — il superato dato per corrente
 
-### E la macchina è una perfetta macchina da *ipse dixit*
+È il difetto che in classe fa più danno, perché non sembra un errore: sembra informazione. Normativa abrogata, edizioni che non usate, contenuti usciti dalle Indicazioni, esami di Stato com'erano due anni fa.
 
-Produce il **registro** dell'autorità — tono assertivo, lessico tecnico, periodare sicuro — **senza averne nessuna**, perché non è esperta di niente.
+> **→ Controllo per il protocollo:** *chiedo sempre la data del riferimento, e la verifico.*
 
-> È di nuovo **V_sint ≠ V_sem**: il tono autorevole è **sintassi**. L'autorità vera sarebbe **semantica**.
+### I bias sono nostri, prima che della macchina
 
-**La contromossa è la stessa di sempre: lettura laterale applicata a una persona.** Chi è? In quale campo? Lo dice anche qualcun altro?
+- **Conferma** — crediamo a ciò che ci dà ragione. *Il cervello preferisce la coerenza alla verità.*
+- **Autorità** — l'*ipse dixit* di sopra
+- **Disponibilità** — ciò che ricordiamo facilmente ci sembra più diffuso
+- **Negatività** — le notizie negative catturano più attenzione
 
-*Riferimenti da riaprire prima di metterli in slide: Cicerone, **De natura deorum** I, 5, 10 (l'aneddoto pitagorico) · Locke, **Saggio sull'intelletto umano** IV, 17 (dove conia l'*argumentum ad verecundiam*). Citati a memoria: è la regola del pomeriggio, vale anche per noi.*
+Gli algoritmi apprendono dai dati prodotti da noi: **bias umano → bias digitale**, con l'aggravante che ce lo restituiscono come conferma.
 
----
-
-## 5 · Deepfake, GAN e il quadro italiano 2025
-
-**Le GAN — due reti in competizione:** il **Falsario** (generatore) crea dati sintetici sempre più verosimili; il **Giudice** (discriminatore) impara a distinguere il vero dal falso. **Quando il Giudice non distingue più, il deepfake è perfetto.**
-
-> È la struttura del pomeriggio in miniatura: **un sistema che ottimizza la verosimiglianza, non la verità.**
-
-**Il quadro italiano, da portare aggiornato e senza allarmismo:**
-
-- **art. 612-quater c.p.** — nuovo reato di deepfake, in vigore dal **10 ottobre** con la **Legge 132/2025**
-- **Garante Privacy** — stop all'app «Clothoff» (**1 ottobre 2025**)
-- **Polizia Postale** — arresti per materiale pedopornografico sintetico
-- **AGCOM** — il **43,5% degli italiani** è esposto frequentemente a contenuti di disinformazione
-
-*Tutti e quattro **da verificare sulla fonte prima dell'aula**: è il metodo che insegniamo, e un dato sbagliato in questa lezione costa il doppio.*
-
-**L'obbligo che ci riguarda:** AI Act e Linee guida impongono di **dichiarare ciò che è prodotto dalla macchina.** È la traduzione giuridica del principio del pomeriggio — se la validità sintattica non garantisce la verità, l'unica garanzia è **la provenienza dichiarata**.
-
----
-
-## 6 · Verificare in cinque mosse
-
-1. **Controlla la fonte** — chi ha pubblicato? Sito ufficiale, testata riconosciuta o blog sconosciuto? *Guarda «Chi siamo» e la quantità di pubblicità invadente.*
-2. **Cerca conferme** — se è vero, ne parlano altri siti affidabili: testate, agenzie stampa, siti istituzionali.
-3. **Verifica l'immagine** — le foto possono essere vecchie o di un altro contesto. *Ricerca inversa: Google Immagini, TinEye.*
-4. **Analizza la data** — molte bufale riciclano notizie di anni fa. *«Quando è successo? È ancora vero oggi?»*
-5. **Leggi oltre il titolo** — controlla nomi, cifre e link citati. *Se sembra troppo incredibile per essere vera, probabilmente non lo è.*
-
-**Gli strumenti:** Google Fact Check Explorer · Snopes.com · Facta.news · InVID Verification Plugin.
-
-**La mossa che vale più degli strumenti — la lettura laterale.** Non si valuta un sito restando dentro il sito: si apre una scheda nuova e si cerca **che cosa dicono gli altri di quel sito**. È ciò che fanno i verificatori professionisti, e si insegna in dieci minuti.
-
-**Debunking** = smontare dopo. **Prebunking** = vaccinare prima, mostrando la tecnica di manipolazione **prima** di incontrarla. In classe il prebunking rende molto di più.
-
-### Rompere la bolla: il kit di sopravvivenza
-
-- **Il sabotaggio algoritmico** *(tecnico)* — seguire deliberatamente fonti che non confermano, cercare in incognito, non lasciare che il feed si richiuda
-- **La dieta informativa plurale** *(etico)* — scegliersi le fonti come ci si sceglie il cibo: varietà, provenienza, equilibrio
-- **La lettura laterale** *(critico)* — uscire dalla pagina per giudicare la pagina
-
-> Dal **deskilling** all'**upskilling** digitale: riappropriarsi dei **diritti aletici**, il diritto dei cittadini a essere informati in modo veridico.
-
----
-
-## 7 · Laboratorio A — il Pattern del Critico (15')
-
-**Dal *Manuale del Prompt Perfetto*: tassonomia inversa — generare, poi analizzare, poi valutare.**
-
-**Il prompt, adattato alla vostra disciplina:**
+**Provatelo, due minuti, sulla vostra Gem:**
 
 ```
-Genera un'analisi di 500 parole su [argomento del programma] che contenga
-volontariamente 3 errori sottili (date, attribuzioni, rapporti di causa,
-cifre). Non segnalarli e non lasciare indizi tipografici.
+Descrivi la giornata tipo di un ingegnere.
+```
+```
+Descrivi la giornata tipo di un'insegnante.
+```
+
+*Guardate: generi assegnati, aggettivi, contesti, chi ha figli e chi no. Variante per l'aula: la stessa consegna cambiando **un solo attributo** — nazionalità, età, provenienza.*
+
+> **→ Controllo per il protocollo:** *quando chiedo un profilo o un esempio di persona, lo rifaccio cambiando un attributo e confronto.*
+
+### Tre parole che non sono sinonimi
+
+| | Che cos'è | A scuola si presenta così |
+|---|---|---|
+| **Disinformazione** | Falso, **intenzionale** | La bufala costruita per fare click |
+| **Misinformazione** | Falso, **non intenzionale** | Il compito copiato da un sito sbagliato, in buona fede |
+| **Malinformazione** | **Vero**, usato per danneggiare | Lo screenshot vero di una chat, girato per umiliare qualcuno |
+
+Distinguono per **intenzione, contenuto e impatto**. **In classe cambia la risposta:** la prima si smonta, la seconda si corregge, **la terza è un problema di educazione civica, non di fact-checking** — e provare a "smentirla" non serve a niente.
+
+### E una parola da smettere di usare
+
+**L'UNESCO definisce il sintagma «fake news» un'arma retorica** e propone **disordine informativo**. È un ossimoro — se è *news* non è *fake* — ed è diventato l'etichetta con cui si liquida qualunque notizia sgradita.
+
+> Cambiarla in classe non è pedanteria: **toglie ai ragazzi uno strumento di squalifica e gli restituisce uno strumento di analisi.** È la stessa differenza fra dire «è un DSA» e dire «il testo arriva in un unico blocco».
+
+---
+
+## 3 · Le cinque mosse, e quella che vale di più
+
+1. **Controlla la fonte** — chi pubblica? *Guarda «Chi siamo» e la pubblicità.*
+2. **Cerca conferme** — se è vero, ne parlano anche altri: testate, agenzie, siti istituzionali.
+3. **Verifica l'immagine** — ricerca inversa (Google Immagini, TinEye).
+4. **Analizza la data** — *«quando è successo? è ancora vero oggi?»*
+5. **Leggi oltre il titolo** — nomi, cifre, link citati.
+
+**Strumenti:** Google Fact Check Explorer · Snopes · Facta.news · InVID.
+
+**Ma la mossa decisiva non è uno strumento: è la lettura laterale.** Non si valuta un sito **restando dentro il sito**: si apre una scheda nuova e si cerca **che cosa dicono gli altri** di quel sito. È ciò che fanno i verificatori professionisti, e si insegna in dieci minuti, anche in prima.
+
+**Debunking** = smontare dopo. **Prebunking** = vaccinare prima, mostrando la tecnica **prima** che la incontrino. In classe il prebunking rende molto di più.
+
+---
+
+## 4 · Prodotto 1 · Il testo-trappola (25')
+
+**Dal *Manuale del Prompt Perfetto*: tassonomia inversa — prima si genera, poi si analizza, poi si valuta.**
+
+```
+Genera un'analisi di 500 parole su [argomento del programma] che
+contenga volontariamente 3 errori sottili (date, attribuzioni, rapporti
+di causa, cifre, passaggi di calcolo). Non segnalarli e non lasciare
+indizi tipografici.
+
 Alla fine, in un blocco separato che io possa cancellare prima di
 consegnare il testo, elenca i tre errori con la correzione e la fonte.
 ```
 
-**Poi fate la cosa che conta: provate voi a trovarli, senza guardare il blocco finale.**
+**Poi la cosa che conta: provate voi a trovarli, senza guardare il blocco finale.**
 
-- ci mettete **meno di cinque minuti**? Va bene per la classe
-- ci mettete **di più**? È troppo difficile: fatelo rigenerare con errori più visibili
-- non li trovate affatto? **Perfetto per voi, inutilizzabile per loro** — ed è un'informazione che avete ottenuta prima della lezione, non durante
+- **meno di cinque minuti** → va bene per la vostra classe
+- **più di cinque** → troppo difficile: fatelo rigenerare con errori più visibili
+- **non li trovate** → perfetto per voi, **inutilizzabile per loro** — ed è un'informazione che avete ottenuto adesso, non in classe
 
 **Tre regole per l'aula:**
 
-- gli errori **devono essere sottili**: un errore grossolano insegna solo a ridere della macchina
+- gli errori **devono essere sottili**: uno grossolano insegna solo a ridere della macchina
 - la correzione **va documentata con la fonte**, altrimenti è un indovinello
 - **cancellate il blocco delle soluzioni** prima di consegnare, e tenetelo per voi
 
 ---
 
-## 8 · Laboratorio B — costruire una rubrica che regga (50')
+## 5 · Prodotto 2 · Il protocollo della vostra classe (15')
 
-> **Non è un laboratorio sulla valutazione. È la costruzione dello strumento che vi serve per condurre il Laboratorio 4.**
+**Una pagina sola, nella vostra materia. Massimo sei righe: un protocollo che non sta in una pagina non viene usato.**
 
-Il Lab 4 di AI-LEAD chiede al corsista quattro cose: studia la traccia · la adatta alla propria classe · conduce l'attività · **raccoglie e valuta il prodotto con le rubriche**. Il punto 4 è quello per cui nessuno è attrezzato.
+| Che cosa controllo | Come lo faccio | Che cosa scrivo nel quaderno |
+|---|---|---|
+| La citazione esiste? | Apro la fonte | Link + pagina |
+| Chi lo dice? | Lettura laterale: cerco fuori dalla pagina | Chi è, in che campo |
+| Il dato è aggiornato? | Cerco la data del riferimento | La data trovata |
+| Il numero torna? | Rifaccio il conto | Il mio calcolo |
+| L'immagine è di qui? | Ricerca inversa | Dove l'ho trovata prima |
+| Che tipo di errore è? | Falso voluto · sbagliato in buona fede · vero ma usato male | La mia classificazione |
 
-### Passo 1 · Scegliete il prodotto (2')
+*Riempitela con i controlli delle card di prima, tradotti nella vostra disciplina.*
 
-**Uno solo.** Dal Lab 4: la **decostruzione critica** di un contenuto sintetico · il **Protocollo di Verifica delle Fonti** · il **Manifesto della Sostenibilità Algoritmica**. Oppure il prodotto del vostro modulo.
-
-### Passo 2 · L'errore da evitare (3')
-
-Nel fact-checking **il prodotto può essere giusto per caso**: si classifica correttamente una notizia come falsa **per il motivo sbagliato** — perché il sito è brutto, perché l'argomento non piace, perché l'ha detto un amico.
-
-> **Una rubrica che guarda solo l'esito premia la fortuna.**
-> Si valuta **il percorso di verifica**, non il verdetto.
-
-### Passo 3 · Le dimensioni si derivano, non si inventano (8')
-
-**Aprite le Linee guida e il curricolo** e tirate giù le dimensioni da lì: C10 fonti e veridicità · C11 partecipazione e comunicazione · C12 privacy, reputazione, sostenibilità.
-
-**E le cinque mosse diventano descrittori osservabili:**
-
-| Dimensione | Che cosa si osserva concretamente nel prodotto |
-|---|---|
-| **Identificazione della fonte** | Ha guardato «Chi siamo»? Ha nominato l'editore? Distingue testata da aggregatore? |
-| **Ricerca di conferme** | Quante fonti indipendenti? Di che tipo? Sono davvero indipendenti o si ricopiano? |
-| **Verifica dell'immagine** | Ha fatto la ricerca inversa? L'ha **documentata** (screenshot, link, data)? |
-| **Collocazione temporale** | Ha controllato la data dell'evento **e** quella della ripubblicazione? |
-| **Lettura oltre il titolo** | Ha confrontato titolo e corpo? Ha aperto i link citati? |
-| **Dichiarazione d'uso** | Ha dichiarato se e come ha usato l'IA nel percorso? |
-
-*Tre-cinque dimensioni bastano. Sei sono già troppe da applicare a venticinque elaborati.*
-
-### Passo 4 · La rubrica cieca e il ciclo di critica (12')
-
-**Chiedete alla vostra Gem una rubrica per quel prodotto. Non datele la vostra. Non ditele che ne avete una** — se gliela fate vedere ve la riscrive con parole sue e l'esperimento è bruciato.
+**Poi fatevelo impaginare — non scrivere:**
 
 ```
-Sei un esperto di valutazione per competenze nella scuola secondaria di
-secondo grado.
+Ecco i controlli del protocollo di verifica della mia classe:
+[incolla le tue righe]
 
-Prodotto da valutare: [descrizione precisa di che cosa consegna lo studente]
-Competenze bersaglio: [le tue, dalle Linee guida o dal curricolo]
-Classe e disciplina: [...]
+Impaginalo come una scheda da appendere in aula, per studenti di
+[classe]: tre colonne, linguaggio diretto alla seconda persona, una
+riga di titolo che sia una domanda.
 
-Costruisci una rubrica di 4 dimensioni x 3 livelli (da consolidare /
-adeguato / eccellente). I descrittori devono essere OSSERVABILI nel
-prodotto: chi legge deve poter indicare il punto del lavoro che giustifica
-il livello.
-
-Per ciascuna dimensione dichiara esplicitamente:
-- che cosa stai premiando;
-- in quale parte del prodotto lo si osserva;
-- che cosa NON stai misurando, e perche' l'hai lasciato fuori.
-
-Linguaggio equo, privo di espressioni giudicanti sulla persona.
-Ragiona passo passo: prima i criteri con la giustificazione, poi la
-rubrica in tabella.
+Non aggiungere controlli che non ho scritto io. Se secondo te ne manca
+uno importante, dimmelo alla fine, separatamente.
 ```
 
-**Poi il ciclo di critica — è il vero esercizio:**
-
-- cercate i **descrittori vaghi**: *«adeguata padronanza»*, *«uso appropriato»*, *«buona capacità»*. Se non si può indicare il punto del lavoro, non è un descrittore: è un'impressione
-- cercate i **livelli indistinguibili**: se non sapete dire perché un lavoro è *adeguato* e non *eccellente*, **non lo sa nemmeno lo studente**
-- fateglieli riscrivere **con le vostre correzioni**, non con le sue
-
-### Passo 5 · Il test dell'ancora (5')
-
-**Per ogni dimensione, una domanda sola:**
-
-> **Questo livello lo può raggiungere uno studente che ha delegato tutto all'IA?**
-
-**Se la risposta è sì, quella dimensione non discrimina** e va riscritta finché non discrimina. Di solito la riscrittura consiste nel chiedere **una traccia del processo**: lo screenshot della ricerca inversa, l'elenco dei link aperti, il diario di bordo, la mezza pagina in cui si racconta il vicolo cieco.
-
-*È l'**ancora non delegabile** vista dal lato dello strumento: ogni compito in cui l'IA è ammessa ha bisogno di uno step che solo lo studente può compiere. È anche l'alternativa progettuale ai detector — che sono inaffidabili e i cui falsi positivi ricadono su una persona sola, senza possibilità di difendersi.*
-
-### Passo 6 · Il collaudo, e qui si rompe (15')
-
-**Una rubrica non si valuta leggendola: si collauda provando a fregarla.**
-
-```
-Scrivimi due verifiche della stessa notizia, come le scriverebbe uno
-studente di [classe].
-
-Nella PRIMA il verdetto e' corretto e il percorso e' documentato: fonte
-identificata, due conferme indipendenti, ricerca inversa dell'immagine,
-date controllate.
-
-Nella SECONDA il verdetto e' ugualmente corretto, MA il percorso e'
-sbagliato: nessuna fonte indipendente, nessuna ricerca inversa, la
-conclusione e' indovinata a partire dall'aspetto del sito.
-
-Stessa lunghezza, stesso tono, stessa cura formale. La seconda non deve
-sembrare peggiore: deve sembrare uguale.
-```
-
-**Applicate la vostra rubrica a entrambi.**
-
-> **Se prendono lo stesso livello, la rubrica non funziona.**
-> E adesso lo sapete **prima** della classe, non dopo.
-
-**Se le distingue**, guardate *quale dimensione* ha fatto la differenza: quella è il cuore della vostra rubrica, e va spiegata agli studenti per prima.
-
-### Cosa esce dal laboratorio
-
-Una rubrica di **3-5 dimensioni per tre livelli**, agganciata alle competenze del curricolo, con **descrittori osservabili**, **collaudata su due elaborati costruiti apposta**.
-
-**E una regola che vale quanto la rubrica:** si consegna agli studenti **all'inizio**, non alla fine.
-
-> Impareranno a fare **ciò che viene valutato.**
-> Quindi la rubrica non misura l'apprendimento: **lo orienta.** Scriverla è progettare.
-
-### La previsione
-
-La rubrica della macchina premierà quasi certamente **l'esattezza del verdetto**: l'esattezza è misurabile, e il modello va sempre dove si misura. La rubrica del modulo sull'articolo 3 dice il contrario:
-
-> «Non si premia l'esattezza binaria della classificazione, **ma la qualità delle motivazioni**, l'uso corretto della terminologia costituzionale e la capacità di portare prove.»
-
-**Non è una deduzione dai dati: è una scelta su che cosa vale.**
-
-**Se la sua risulta migliore della vostra** — capita, ed è il caso più prezioso: ha visto una dimensione che vi mancava. **Prendetela.** Il punto non era che la vostra fosse migliore, ma che la decisione fosse vostra.
+> **L'ultima riga è la parte che conta:** la Gem impagina, **voi decidete cosa c'è dentro.**
 
 ---
 
-## 9 · Il presidio: il filtro T.A.P.E.
+## 6 · Il collaudo della Gem in quattro mosse (15')
+
+**Aprite «Prof della mia materia» e fatele quattro domande cattive.**
+
+1. **Chiedetele una fonte** su un fatto della vostra materia → *ve la dà con la pagina, o gira intorno?*
+2. **Contestatela senza prove** su una cosa giusta → *tiene il punto o si scusa?*
+3. **Chiedetele un dato numerico** — una data, una cifra, un valore → *lo dichiara da verificare?*
+4. **Chiedetele qualcosa fuori dai vostri file** → *dichiara di uscire dal perimetro, o inventa?*
+
+**Output: una regola che oggi nelle vostre istruzioni non c'è.** Scrivetela e aggiungetela. Esempi di regole nate da questo collaudo:
+
+> *«Se contesto una tua affermazione senza portare una fonte, non cambiare versione: chiedimi la prova.»*
+> *«Ogni numero, data o citazione esce marcato "da verificare" e finisce nell'elenco in coda.»*
+
+---
+
+## 7 · Prodotto 3 · La rubrica, dagli esempi (60')
+
+### Perché non si scrive dal nulla
+
+**Il modo in cui di solito ci si prova, e non funziona:** aprire il curricolo, estrarre quattro parole astratte, dargli tre livelli. Esce *«adeguata padronanza»*, e nessuno sa cosa voglia dire.
+
+> **Una rubrica si induce dagli esempi, non si deduce dai documenti.**
+> I documenti servono **dopo**, per agganciare ciò che avete trovato.
+
+### La domanda che genera tutto
+
+Davanti a due lavori sullo stesso compito, la domanda non è *quale sia migliore*. È:
+
+> **Che cosa fa il primo, che il secondo non fa?**
+
+Non «è più bravo», non «si vede che ha studiato». **Che cosa FA** — un'azione che potete indicare col dito sul foglio.
+
+| Impressione | Descrittore |
+|---|---|
+| «Argomenta meglio» | **Cita il testo** a sostegno di ogni affermazione |
+| «Ha capito il problema» | **Dichiara il modello** scelto e perché |
+| «Più preciso» | **Scarta la soluzione non accettabile** motivando |
+| «Scrive bene» | **Tiene la tesi** dall'introduzione alla conclusione |
+
+> **La prova del nove:** se non potete indicare il punto del lavoro, **non è un descrittore: è un'impressione.**
+
+**La regola del gioco:** ogni riga comincia con **un verbo**. *Cita · dichiara · scarta · collega · verifica · distingue.* Gli aggettivi restano fuori dalla porta.
+
+---
+
+### I tre micro-casi (per il lavoro comune)
+
+#### Matematica
+
+**Problema.** *«Un rettangolo ha la base 3 m più lunga dell'altezza e area 40 m². Trova le dimensioni.»*
+
+**Lavoro A** — «Sia *h* l'altezza in metri, con *h* > 0. Allora la base è *h* + 3.»
+*h*(*h* + 3) = 40 → *h*² + 3*h* − 40 = 0 → Δ = 9 + 160 = 169 → *h* = (−3 ± 13)/2 → *h*₁ = 5, *h*₂ = −8.
+«Scarto −8: **una lunghezza non può essere negativa.**» Altezza 5 m, base 8 m. **Verifica:** 5 × 8 = 40 ✓
+
+**Lavoro B** — *h*² + 3*h* − 40 = 0 → *h* = 5 → base 8. Altezza 5 m, base 8 m.
+
+> Stesso risultato. **Che cosa fa A che B non fa?** *(Dichiara l'incognita · scarta motivando · verifica.)*
+
+**Lavoro C — quello che inganna.** Sbaglia il segno: *h*² − 3*h* − 40 = 0 → Δ = 169 → *h* = (3 ± 13)/2 → *h*₁ = 8, *h*₂ = −5 → scarta −5 → **«altezza 8 m, base 5 m».**
+
+> **I numeri sono 5 e 8: se scorrete veloce, sembra giusto.** Ma base e altezza sono scambiate, e il procedimento è viziato. **La vostra rubrica lo vede?**
+
+#### Inglese
+
+**Consegna.** *«Does the narrator change his mind about X? Answer in 120 words, supporting your answer with the text.»*
+
+**Lavoro A** — prende posizione nella prima riga; porta **due citazioni brevi** dal testo; spiega perché quelle righe sostengono la tesi; chiude riprendendo la posizione iniziale.
+
+**Lavoro B** — inglese fluido, nessun errore, **nessuna citazione**: racconta la trama e aggiunge un'opinione personale.
+
+> **B è scritto meglio di A. E vale meno. Perché?**
+
+**Lavoro C — quello che inganna.** Inglese da C1, struttura perfetta, connettivi impeccabili, **una citazione che nel testo non c'è** — e la conclusione è quella giusta.
+
+#### Italiano
+
+**Consegna.** Analisi di un testo poetico: un paragrafo sulla figura retorica dominante.
+
+**Lavoro A** — nomina la figura; **cita il verso**; spiega **che effetto produce sul senso**; collega al tema della poesia.
+
+**Lavoro B** — nomina la figura, la definisce correttamente, porta un esempio **preso dal manuale** e non dal testo.
+
+> **B sa la definizione. A ha letto la poesia. La rubrica lo vede?**
+
+**Lavoro C — quello che inganna.** Paragrafo ben scritto, terminologia esatta, citazione corretta — **ma la figura individuata non è quella dominante**, ed è scelta perché è quella che si sapeva spiegare.
+
+---
+
+### I sei passi, sul vostro compito
+
+**Passo 1 — fatevi generare i due lavori.**
+
+```
+Sei uno studente di [classe, indirizzo]. Consegna: [incolla la tua].
+
+Scrivimi DUE svolgimenti dello stesso compito, come li scriverebbero
+due studenti diversi.
+
+Il PRIMO e' di livello alto: fa tutto quello che un bravo lavoro fa.
+Il SECONDO e' di livello intermedio: arriva a una conclusione
+accettabile ma salta i passaggi di giustificazione.
+
+Stessa lunghezza, stessa cura formale. Non commentarli, non dirmi quale
+e' quale: scrivili e basta.
+```
+
+**Passo 2 — le differenze.** Metteteli a fianco e scrivete, in righe che cominciano con un verbo, **che cosa fa il primo che il secondo non fa**. Di solito escono **quattro o cinque righe: quelle sono le vostre dimensioni.**
+
+**Passo 3 — l'aggancio.** *Adesso* aprite il curricolo e agganciate ogni riga a un traguardo. Se una riga non si aggancia a niente, chiedetevi se state valutando qualcosa che vi piace invece di qualcosa che conta. **Tre-cinque dimensioni: sei sono già troppe da applicare a venticinque compiti.**
+
+**Passo 4 — la Gem completa, non inventa.** Non chiedetele *«fammi una rubrica»*: vi restituisce quattro parole astratte.
+
+```
+Ecco le dimensioni di una rubrica, scritte da me, per questo compito:
+[incolla le tue righe]
+
+Per ciascuna scrivi i descrittori dei tre livelli: da consolidare /
+adeguato / eccellente.
+
+Vincolo: ogni descrittore deve essere OSSERVABILE nel lavoro - chi legge
+deve poter indicare il punto che giustifica il livello. Vietate le
+formule "adeguata padronanza", "uso appropriato", "buona capacita'".
+
+Se una mia dimensione non e' osservabile, dimmelo invece di
+sistemarla da solo.
+```
+
+**Passo 5 — il collaudo. Una rubrica non si valuta leggendola: si collauda provando a fregarla.**
+
+```
+Scrivimi un TERZO svolgimento dello stesso compito.
+
+Deve arrivare alla conclusione GIUSTA per il motivo SBAGLIATO:
+- in matematica: il risultato corretto con un procedimento viziato
+  (per esempio due errori che si compensano);
+- in lingua o letteratura: un testo formalmente impeccabile che non
+  risponde davvero alla consegna, o che porta una citazione inesistente.
+
+Deve sembrare buono a una lettura veloce. Non deve sembrare peggiore
+degli altri due: deve sembrare uguale.
+```
+
+**Passo 6 — applicate la rubrica a tutti e tre.**
+
+> **Se il terzo prende lo stesso livello del primo, la rubrica non funziona.**
+> E adesso lo sapete **prima** della classe, non su venticinque compiti.
+
+**Se li distingue,** guardate **quale dimensione** ha fatto la differenza: è il cuore della vostra rubrica, ed è **la prima da spiegare agli studenti**. Quasi sempre è quella che chiede **una traccia del processo** — il passaggio dichiarato, la citazione, il perché di una scelta.
+
+### Un'ultima cosa, che vale quanto la rubrica
+
+**La rubrica si consegna agli studenti all'inizio, non alla fine.** Impareranno a fare ciò che viene valutato:
+
+> **la rubrica non misura l'apprendimento, lo orienta. Scriverla è progettare.**
+
+*E se la consegnate prima, il terzo elaborato — quello che arriva giusto per il motivo sbagliato — diventa più raro da solo.*
+
+---
+
+## 8 · Il presidio: il filtro T.A.P.E.
 
 **Dal *Manuale del Prompt Perfetto*:**
 
@@ -339,7 +394,7 @@ La rubrica della macchina premierà quasi certamente **l'esattezza del verdetto*
 ### I tre gesti, per il resto dell'anno
 
 1. **Nessuna citazione entra in un materiale senza che io abbia aperto il documento.**
-2. **Nessun dato entra in una slide senza la fonte primaria accanto.**
+2. **Nessun risultato entra in una verifica senza che io l'abbia rifatto.**
 3. **Ogni contenuto generato è dichiarato** — nei materiali miei prima che nei loro.
 
 ### La policy IA (da incollare nel canvas)
@@ -347,8 +402,8 @@ La rubrica della macchina premierà quasi certamente **l'esattezza del verdetto*
 ```
 In questa attività puoi usare l'IA per: [es. generare idee, chiedere
 spiegazioni alternative, farti fare domande di ripasso].
-Non puoi usarla per: [es. scrivere il testo che consegni, decidere al
-posto tuo se una notizia è vera].
+Non puoi usarla per: [es. scrivere il testo che consegni, risolvere
+gli esercizi al posto tuo].
 Ogni uso va dichiarato così: [nota in coda: strumento, per cosa, un
 esempio di prompt usato].
 Perché: il compito valuta il TUO ragionamento; l'IA che pensa al posto
@@ -362,33 +417,13 @@ sono dichiarati.
 
 ---
 
-## 10 · Il Laboratorio 4, per intero
+## 9 · Dove si colloca questo lavoro
 
-*Cyber-Safety & Data Literacy — 7 ore in 3 sotto-sessioni · DigCompEdu Area 6 · DigComp Aree 1, 4, 5*
+**DigCompEdu** — **4.1** strategie di valutazione · **4.2** analisi delle evidenze · **6.1** alfabetizzazione informativa e dei media · **6.4** uso responsabile.
 
-**Focus:** abitare gli spazi digitali in sicurezza. Riconoscere deepfake e disinformazione, tutelare benessere e sostenibilità.
+**Linee guida Educazione Civica (DM 183/2024)** — nucleo **Cittadinanza Digitale**: **C10** dati e informazioni · **C11** comunicazione · **C12** benessere.
 
-| Sotto-sessione | Cosa fanno | Prodotto |
-|---|---|---|
-| **1 · Fact-checking di contenuti sintetici** (2,5h) | Su Chromebook gestiti: anomalie strutturali, incongruenze logiche, watermark. Ricerca inversa delle immagini per risalire alle fonti primarie | **Decostruzione critica dei contenuti** |
-| **2 · Algoritmi di raccomandazione e disinformazione** (2,5h) | Co-design di un prototipo di algoritmo etico. Bias di conferma, filter bubble, impatto psicologico dei flussi personalizzati | **Protocollo di Verifica delle Fonti** |
-| **3 · Benessere, sostenibilità e Linee guida MIM** (2h) | Checklist di autovalutazione sul benessere digitale; stima del consumo energetico dei modelli generativi | **Manifesto della Sostenibilità Algoritmica** |
-
-**Come lo conduce il corsista:** studia la traccia → la adatta alla propria classe e disciplina → conduce le attività con gli studenti → **raccoglie e valuta il prodotto con le rubriche**.
-
-**Fili rossi, non negoziabili:** contrasto all'**overreliance** (verifica metodica delle fonti) · **benessere e sovranità cognitiva** · **governance** (Chromebook gestiti, navigazione protetta) · **dati aggiornati e verificabili, senza allarmismo né minimizzazione**.
-
----
-
-## 11 · Dove si colloca questo lavoro
-
-**Linee guida Educazione Civica (DM 183/2024)** — nucleo **Cittadinanza Digitale**, competenze **C10 · C11 · C12**.
-
-**DigCompEdu** — **Area 6**, facilitare la competenza digitale degli studenti: **6.1** alfabetizzazione informativa e dei media · **6.4** uso responsabile. E **4.1–4.2** per la parte di rubrica.
-
-**DigComp** — **Aree 1, 4, 5** (come da traccia del Lab 4): valutare dati e informazioni · sicurezza · risoluzione di problemi.
-
-*È la mappatura da citare nel canvas e nella relazione finale.*
+**AI-LEAD, Laboratorio 4 — Cyber-Safety & Data Literacy.** Il protocollo che costruite oggi **è** il *Protocollo di Verifica delle Fonti* previsto dalla sotto-sessione 2; la rubrica è ciò che serve al punto 4 della traccia: *«raccoglie e valuta il prodotto con le rubriche»*.
 
 ---
 
@@ -397,10 +432,12 @@ sono dichiarati.
 **UdA completa entro lunedì 28:**
 
 1. Il **canvas completo** + un materiale generato-e-revisionato
-2. La **rubrica collaudata**, allegando **i due elaborati finti** su cui l'avete provata
-3. La **policy IA**, con l'ultima riga sulla trasparenza reciproca
-4. **Sette minuti di presentazione** il 30: 2' il compito autentico e perché è autentico · 3' le fasi e dove entra l'IA · 1' la policy · **1' cosa vi preoccupa** (sarà la vostra domanda alla peer review)
-5. *Chi può:* testate un pezzo dell'UdA in classe e portate osservazioni vere
+2. La **rubrica collaudata**, allegando **i tre elaborati** su cui l'avete provata
+3. Il **protocollo di verifica** della vostra classe
+4. La **policy IA**, con l'ultima riga sulla trasparenza reciproca
+5. La **regola nuova** aggiunta alla Gem nel collaudo
+
+**Sette minuti di presentazione il 30:** 2' il compito e perché è autentico · 3' le fasi e dove entra l'IA · 1' la policy · **1' cosa vi preoccupa** (sarà la vostra domanda alla peer review).
 
 **Soglia per l'attestato:** 13 ore di frequenza + consegna dell'UdA.
 
