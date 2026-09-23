@@ -1,34 +1,27 @@
-# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (30 card, tema wireframe)
+# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (34 card, tema wireframe)
 
 *Generato con: textMode=preserve, cardSplit=inputTextBreaks, themeId=wireframe, language=it.*
-*Fonde lo script di conduzione del 7 settembre (tassonomia, tre trappole, fact-checking sui due casi reali, detector, policy IA) con il caso d'apertura tratto dal Modulo 1 "Competenze in azione" — Educazione Civica, Articolo 3.*
+
+*Riprogettazione sul disordine informativo. Fonde tre materiali della formatrice:*
+- *«Abitare l'infosfera nell'era dell'IA» — fact-checking e contrasto alla disinformazione (Floridi, DM 183/2024)*
+- *«Il Manuale del Prompt Perfetto» — C.R.A.F.T., 4R, tassonomia inversa, Pattern del Critico, modello T.A.P.E.*
+- *«AI-LEAD · Laboratorio 4 — Cyber-Safety & Data Literacy» — le tre sotto-sessioni e i loro prodotti*
+
+*Più il caso d'apertura dal Modulo 1 "Competenze in azione" (Educazione Civica, art. 3).*
 
 ---
 
-# Dov'è la prova?
+# Verità semantica, illusione sintattica
 
 **Edu-GenAI 2 · Incontro 5 di 6**
 
-Data literacy, bias e valutazione assistita
+Abitare l'infosfera: disordine informativo, fact-checking e rubriche
 
 Giovedì 24 settembre 2026 · 15:30–18:30 · Google Meet
 
 Formatrice: Prof.ssa Francesca Sabatini · Tutor: Prof. Bonelli
 
 Snodo Formativo VOLTERRA AI-MASTER HUB · PNRR — CUP I84D25003890006
-
----
-
-# Dove eravamo rimasti
-
-**Mercoledì abbiamo lavorato su due oggetti, e non vanno confusi:**
-
-- il **processo** dello studente → lo scaffolding, che si toglie
-- il **materiale** che gli mettiamo davanti → le barriere, che restano rimosse
-
-**Oggi se ne aggiunge un terzo, ed è quello che non si delega mai:**
-
-> **la fonte** — e il **giudizio** che ci mettiamo sopra.
 
 ---
 
@@ -61,359 +54,403 @@ Quella citazione, con le virgolette aperte e chiuse, **in quel documento non esi
 
 ---
 
-# Nominiamo bene quello che è successo
+# V_sint ≠ V_sem
 
-**Non è una bugia.** Una bugia presuppone che qualcuno sappia la verità e scelga di dirne un'altra.
+**Quella frase era perfetta.** Lessico d'epoca, ritmo parlamentare, virgolette al posto giusto: **sintatticamente ineccepibile.**
 
-**È una forma plausibile.** Il modello ha prodotto ciò che *ha l'aspetto* di una citazione d'epoca: il lessico giusto, il ritmo giusto, le virgolette al posto giusto.
+E **semanticamente falsa.**
 
-> **Il modello non sa cosa è vero. Sa cosa è verosimile.**
-> E il verosimile, in una slide, è indistinguibile dal vero.
+> **Validità sintattica ≠ verità semantica.**
+> La macchina produce la prima. **La seconda la mettiamo noi.**
 
-*Incontro 1: forma senza significato. Oggi la vediamo lavorare contro di noi.*
-
----
-
-# La tassonomia dei difetti
-
-| Difetto | Come si presenta |
-|---|---|
-| **Allucinazione** | Forma plausibile al posto del dato: citazioni, date, pagine, sentenze |
-| **Bias** | Stereotipi di genere, provenienza, età, professione |
-| **Compiacenza** | Cede davanti a un'obiezione **senza prove** |
-| **Camera dell'eco** | Vi restituisce la vostra tesi, argomentata meglio di voi |
-| **Obsolescenza** | Dà per corrente un quadro normativo o un dato superato |
-| **Pigrizia metacognitiva** | L'output è così ben scritto che smettiamo di chiederci se è giusto |
-
-*L'IA come oggetto di analisi **è** educazione civica.*
+*Il modello non sa cosa è vero: sa cosa è verosimile. E il verosimile, in una slide, è indistinguibile dal vero.*
 
 ---
 
-# La più pericolosa è l'ultima
+# Dove siamo: l'infosfera
 
-Le altre si vedono, se si guarda.
+**Luciano Floridi — la quarta rivoluzione.**
 
-La pigrizia metacognitiva **non si vede**, perché non agisce sulla macchina: **agisce su di noi.**
+L'essere umano non è più l'unico agente capace di elaborare informazioni e agire in modo intelligente: diventa un **inforg**, organismo informazionale, che coesiste con agenti artificiali in un ambiente integrato — l'**Onlife**.
 
-> **Più l'output è curato, meno lo controlliamo.**
+> **«Nell'infosfera, chi inquina l'informazione inquina l'ambiente in cui viviamo tutti.»**
 
-*Il rischio non è che la macchina sbagli. **È che sbagli bene.***
-
-E vale per noi esattamente come vale per i nostri studenti. Con un'aggravante: **noi firmiamo.**
+**L'obiettivo:** non subire l'ambiente, ma costruirlo. **Homo poieticus.**
 
 ---
 
-# Le tre trappole, in diretta
+# I diritti aletici
 
-**Prima di ogni esecuzione, scommettete.** Scrivete in chat che cosa pensate che succeda. **Poi** eseguo.
+**Esiste un diritto di cui si parla poco: il diritto dei cittadini a essere informati in modo veridico.**
 
-1. **Allucinazione** — *«Elenca 5 studi peer-reviewed (autore, anno, rivista) su…»* → quanti esistono davvero?
-2. **Bias** — *«Descrivi la giornata tipo di un ingegnere. Ora di un'insegnante.»* → generi, aggettivi, contesti
-3. **Compiacenza** — la stessa domanda con premesse opposte: *«Sono convinto che X sia dannoso…»* contro *«…sia utile…»*
+Quando l'infosfera si riempie di contenuti generati, quel diritto non viene negato da qualcuno: **viene eroso dall'entropia.**
 
-> Non chiedetele mai **«sei sicura?»**: invita a compiacervi.
-> Chiedetele **«qual è la fonte, e che pagina»**: la costringe a un documento.
+> Ogni volta che condividiamo senza verificare,
+> **diventiamo parte della catena.**
 
----
-
-# Il protocollo d'aula
-
-**Quando le porterete in classe, l'ordine è questo — e non è un dettaglio:**
-
-**previsione scritta → esecuzione → confronto con la previsione → «come lo verifichiamo?»**
-
-> Senza la previsione scritta, i ragazzi guardano un numero da circo.
-> **Con la previsione, scoprono di essersi sbagliati** — ed è lì che la lezione entra.
+*E insegnare fact-checking, a scuola, è la forma concreta di quel diritto: contrasto al deskilling cognitivo, pensiero critico, cittadinanza digitale.*
 
 ---
 
-# La mossa
+# Il quadro normativo è cambiato
 
-**La contromossa esiste già, e l'avete scritta voi.** È nel Modulo di Educazione Civica sull'articolo 3, dove si insegna agli studenti a smontare un'opinione travestita da fatto. Tre passi:
+**DM 183 del 7 settembre 2024 — nuove Linee guida per l'Educazione Civica.** Terzo nucleo concettuale: **Cittadinanza Digitale.**
 
-1. **Le parole che giudicano** — quali termini valutano invece di descrivere?
-2. **Dov'è la prova?** — qual è il documento, e l'ho aperto?
-3. **Chi lo dice, e perché** — quale autorevolezza ha la fonte, e quale interesse?
-
-> Il pericolo per la democrazia **non è l'opinione: è l'opinione travestita da fatto.**
-
----
-
-# La stessa mossa, due volte
-
-| | **Lo studente, sulla fonte** | **Voi, sull'output dell'IA** |
+| Competenza | Nuclei | La sfida |
 |---|---|---|
-| **1** | Le parole che giudicano | Gli aggettivi di certezza: *è dimostrato, gli studi confermano, notoriamente* |
-| **2** | Dov'è la prova? | La citazione ha un documento **che ho aperto**? |
-| **3** | Chi lo dice e perché | La fonte citata è primaria, o è un sito che vende qualcosa? |
+| **C10 · Dati e info** | Fonti, veridicità, algoritmi, copyright | Verità semantica **contro** illusione sintattica |
+| **C11 · Comunicazione** | Partecipazione, inclusione, cittadinanza | Rottura delle echo chamber |
+| **C12 · Benessere** | Privacy, reputazione, sostenibilità | Difesa da microtargeting e clickbait |
 
-> **Non state imparando una competenza nuova.
-> State applicando a voi stessi quella che insegnate a loro.**
-
----
-
-# Fact-checking su due casi veri
-
-**Metà aula sul caso A, metà sul caso B. Dieci minuti di ricerca, dieci di confronto.**
-
-**Gruppo A — il paper ritrattato.** Cercate *«meta-analysis ChatGPT learning performance retracted»*. Trovate la **retraction notice**.
-→ *Quando è stata ritrattata? La smentita ha circolato quanto il paper?*
-
-**Gruppo B — il preprint da 54 soggetti.** Cercate un titolo di stampa su *«Your Brain on ChatGPT»*, poi l'**abstract del preprint MIT**.
-→ *Quanti partecipanti? È peer-reviewed? Il titolo è sostenuto dai dati?*
+*Non è più materia facoltativa: è un nucleo con competenze da valutare.*
 
 ---
 
-# Caso A · I numeri della viralità
+# Tre parole che non sono sinonimi
 
-**Wang & Fan (2025)**, *Humanities and Social Sciences Communications* — il famoso **g = 0,867**.
+**Disinformazione** — diffusione **intenzionale** di notizie false o manipolate, per ingannare, influenzare opinioni, ottenere vantaggi.
 
-**Ritrattata il 22 aprile 2026:** discrepanze nella meta-analisi, studi troppo diversi per metodo e campione aggregati insieme. Gli autori non hanno risposto ai rilievi.
+**Misinformazione** — diffusione **non intenzionale** di informazioni sbagliate o imprecise.
 
-**Prima della ritrattazione:**
+**Malinformazione** — diffusione di informazioni **vere**, usate in modo scorretto per danneggiare qualcuno.
 
-> **~486.000 visualizzazioni · 266 citazioni · Altmetric 1.023**
-
-**I numeri della viralità *sono* la lezione: la smentita non viaggia mai quanto la notizia.**
-
----
-
-# Tre controlli, e la sintesi
-
-**Prima di citare una fonte:**
-
-1. **Esiste?**
-2. **È ancora valida?** — non ritrattata, non superata
-3. **Dice davvero ciò che il titolo le fa dire?**
-
-> **Le citazioni garantiscono la fedeltà alla fonte, non la validità della fonte.**
-> **Fidatevi del file, non della prosa.**
-
-*E notate che cosa stiamo facendo: applichiamo alla ricerca sull'IA il metodo che insegneremo ai ragazzi. **Se va verificata così la ricerca, figuriamoci quello che l'IA produce.***
+> Distinguono per **intenzione, contenuto e impatto.**
+> In classe la distinzione serve: cambia la risposta educativa.
 
 ---
 
-# Leggere i dati senza farsi leggere
+# E una parola da smettere di usare
 
-**Correlazione non è causa.** Due andamenti che si muovono insieme non dicono chi muove chi. È la domanda da fare a ogni grafico **prima** di trarne una conseguenza didattica.
+**L'UNESCO definisce il sintagma «fake news» un'arma retorica.**
 
-**Profilazione.** Costruire il profilo di uno studente da tempi di consegna, click ed errori ricorrenti non è una pratica neutra: **AI Act, sistemi ad alto rischio in ambito educativo.**
+È un ossimoro: se è *news*, non è *fake*; se è *fake*, non è *news*. Ed è diventato l'etichetta con cui si liquida qualunque notizia sgradita.
 
-> Il paletto non è tecnico. **È giuridico.**
+> La proposta: **disordine informativo** *(information disorder).*
 
----
-
-# Sui detector: diciamolo con forza
-
-**I detector di testo generato sono inaffidabili.** E i falsi positivi hanno un costo che ricade su una persona sola:
-
-> **uno studente accusato ingiustamente, senza possibilità di difendersi.**
-
-**L'alternativa non è un detector migliore: è progettuale.**
-
-Bozze intermedie · processo visibile · diario di lavoro · colloquio orale.
+*Cambiare la parola in classe non è pedanteria: è togliere ai ragazzi uno strumento di squalifica e restituire loro uno strumento di analisi.*
 
 ---
 
-# Il monito di Beghetto
+# Come si deforma una notizia
 
-Se gli studenti fanno scrivere i compiti all'IA, e noi li facciamo valutare all'IA, si arriva alla distopia in cui
+**Cinque passaggi, e nessuno di essi è una bugia secca.**
 
-> **«un'IA parla attraverso gli studenti a un'altra IA che parla attraverso i docenti».**
+1. **Fatto reale** — *«In alcune regioni italiane forti piogge hanno causato disagi alla viabilità.»*
+2. **Semplificazione** — *«Forti piogge in tutta Italia: disagi in molte città.»*
+3. **Clickbait** — *«Alluvione in arrivo! Italia nel caos: strade allagate!»*
+4. **Manipolazione** — *«Il governo non ha fatto nulla per prevenire il disastro.»*
+5. **Diffusione virale** — condiviso, ricopiato, riscritto cambiando parole e immagini.
 
-**La valutazione presidiata dal docente è l'argine.** Non è una preferenza: è ciò che tiene in piedi il senso dello scambio.
-
----
-
-# Human-in-the-loop, sul serio
-
-Si dice sempre, e quasi sempre non vuol dire niente. **Rendiamolo operativo.** Tre cose precise:
-
-1. **L'uomo decide che cosa conta** — prima, non dopo: è la rubrica
-2. **L'uomo apre le fonti** — non chiede alla macchina se ha ragione
-3. **L'uomo firma** — e quindi risponde
-
-> Se il controllo umano arriva **dopo** che la decisione è presa, non è controllo: **è ratifica.**
+> **Nessun passaggio inventa: ogni passaggio sposta di poco.**
 
 ---
 
-# Il vincolo, che non è un'opinione
+# Perché funzionano · le emozioni
 
-**DM 166/2025** — la valutazione resta atto **insindacabile e personale** del docente.
+**Puntano su paura, rabbia, curiosità, sorpresa.**
 
-Non è un limite tecnico che un modello migliore potrà superare: **è la struttura giuridica della funzione docente.** L'IA può preparare, ordinare, riformulare, proporre. **Non può valutare.**
+Le emozioni ci spingono a **condividere prima di riflettere**. E una notizia che ci colpisce viene ricordata di più.
 
-> **L'algoritmo propone, il docente dispone.**
+*«Nuovo virus misterioso nel tuo comune!»* → scatta l'allarme → condivido subito.
 
-*E nel registro elettronico finisce il nome del docente, non quello del modello.*
+> Non è un difetto di intelligenza. **È un difetto di velocità.**
 
 ---
 
-# Chi può fare cosa
+# Perché funzionano · le bolle
 
-**Quattro livelli, da applicare compito per compito** — non alla lezione intera:
+Sui social vediamo soprattutto idee simili alle nostre. **Gli algoritmi rinforzano ciò che già crediamo.** Finisce che sentiamo solo l'eco delle nostre opinioni.
 
-| Livello | Significato |
+**E i bias sono nostri, prima che della macchina:**
+
+- **Conferma** — crediamo a ciò che ci dà ragione
+- **Autorità** — se lo dice una persona famosa, dev'essere vero
+- **Disponibilità** — ciò che ricordiamo facilmente ci sembra più diffuso
+- **Negatività** — le notizie negative catturano più attenzione
+
+> Il cervello **preferisce la coerenza alla verità.** *Ci fidiamo di ciò che ci somiglia.*
+
+---
+
+# Bias umano → bias digitale
+
+Gli algoritmi di raccomandazione **apprendono dai dati prodotti da noi.**
+
+Se i dati contengono pregiudizi o squilibri, **l'IA li riproduce** — e li amplifica, perché li restituisce a chi li ha già.
+
+> Non è la macchina che ci ha resi parziali.
+> **È la macchina che ha imparato la nostra parzialità e ce la rivende come conferma.**
+
+---
+
+# L'architettura del falso: le GAN
+
+**Due reti in competizione.**
+
+- **Il Falsario** *(generatore)* — crea dati sintetici sempre più verosimili
+- **Il Giudice** *(discriminatore)* — impara a distinguere il vero dal falso
+
+**Quando il Giudice non distingue più, il deepfake è perfetto.**
+
+> È la stessa struttura del pomeriggio, in miniatura:
+> **un sistema che ottimizza la verosimiglianza, non la verità.**
+
+---
+
+# Deepfake 2025 · Italia
+
+**Nuovo reato.** L'art. **612-quater c.p.** introduce il reato di deepfake, in vigore dal **10 ottobre** con la **Legge 132/2025**.
+
+**Garante Privacy.** Stop all'app «Clothoff» (**1 ottobre 2025**).
+
+**Polizia Postale.** Arresti per materiale pedopornografico sintetico: intervento proattivo contro l'abuso.
+
+**AGCOM.** Il **43,5% degli italiani** è esposto frequentemente a contenuti di disinformazione.
+
+*Da verificare sulla fonte prima di portarli in aula: è il metodo che insegniamo.*
+
+---
+
+# L'obbligo che ci riguarda
+
+**AI Act e Linee guida: ciò che è prodotto dalla macchina va dichiarato.**
+
+Non è una formalità burocratica. È la traduzione giuridica del principio del pomeriggio:
+
+> **se la validità sintattica non garantisce la verità, l'unica garanzia è la provenienza dichiarata.**
+
+*E vale per i nostri materiali quanto per i loro elaborati. La trasparenza o è reciproca o non è.*
+
+---
+
+# Verificare in cinque mosse
+
+1. **Controlla la fonte** — chi ha pubblicato? Sito ufficiale, testata riconosciuta o blog sconosciuto? *Guarda «Chi siamo» e la quantità di pubblicità.*
+2. **Cerca conferme** — se è vero, ne parlano altri siti affidabili: testate, agenzie stampa, siti istituzionali.
+3. **Verifica l'immagine** — le foto possono essere vecchie o di un altro contesto. *Ricerca inversa: Google Immagini, TinEye.*
+4. **Analizza la data** — molte bufale riciclano notizie di anni fa. *«Quando è successo? È ancora vero oggi?»*
+5. **Leggi oltre il titolo** — i titoli servono ad attirare click. Controlla nomi, cifre, link citati.
+
+> **Regola d'oro:** se sembra troppo incredibile per essere vera, probabilmente non lo è.
+
+---
+
+# Gli strumenti, e una mossa che vale più degli strumenti
+
+**Google Fact Check Explorer** · **Snopes.com** · **Facta.news** · **InVID Verification Plugin**
+
+**Ma la mossa decisiva non è uno strumento: è la lettura laterale.**
+
+Non si valuta un sito **restando dentro il sito**. Si apre una scheda nuova e si cerca **che cosa dicono gli altri di quel sito**. È ciò che fanno i verificatori professionisti, ed è insegnabile in dieci minuti.
+
+> **Debunking:** smontare dopo. **Prebunking:** vaccinare prima, mostrando la tecnica di manipolazione prima di incontrarla.
+
+---
+
+# Laboratorio A · Il Pattern del Critico
+
+**Dal vostro Manuale del Prompt Perfetto — tassonomia inversa: generare, poi analizzare, poi valutare.**
+
+Il prompt da dare alla vostra Gem, adattato alla vostra disciplina:
+
+> *«Genera un'analisi di 500 parole su [argomento del programma] che contenga volontariamente **3 errori sottili**. Il compito degli studenti è trovarli, correggerli e citare le fonti originali.»*
+
+**Quindici minuti:** generatelo, poi **provate voi a trovare i tre errori** senza guardare la risposta. Se ci mettete più di cinque minuti, è troppo difficile per la classe — e lo saprete prima, non dopo.
+
+---
+
+# Perché questo esercizio è diverso
+
+**Non insegna a diffidare: insegna a verificare.** E capovolge il rapporto: lo studente non riceve un testo da credere, **riceve un testo da interrogare.**
+
+**Tre cose da tenere quando lo portate in classe:**
+
+- gli errori **devono essere sottili** — un errore grossolano insegna solo a ridere della macchina
+- la correzione **va documentata con la fonte**: senza quella è un indovinello
+- l'IA sa dove ha messo gli errori: **non chiedeteglielo prima di averli cercati voi**
+
+---
+
+# Rompere la bolla: il kit
+
+**Tre livelli, dal più tecnico al più difficile.**
+
+**Il sabotaggio algoritmico** *(tecnico)* — seguire deliberatamente fonti che non confermano, cercare in incognito, non lasciare che il feed si richiuda.
+
+**La dieta informativa plurale** *(etico)* — scegliersi le fonti come ci si sceglie il cibo: varietà, provenienza, equilibrio.
+
+**La lettura laterale** *(critico)* — uscire dalla pagina per giudicare la pagina.
+
+> Dal **deskilling** all'**upskilling** digitale: riappropriarsi dei diritti aletici.
+
+---
+
+# E adesso il pezzo che vi serve davvero
+
+**Il Laboratorio 4 di AI-LEAD — Cyber-Safety & Data Literacy** chiede al corsista quattro cose:
+
+1. studia la traccia · 2. la adatta alla propria classe · 3. conduce l'attività con gli studenti ·
+4. **raccoglie e valuta il prodotto con le rubriche.**
+
+**I prodotti sono tre:** la decostruzione critica di un contenuto sintetico · il **Protocollo di Verifica delle Fonti** · il **Manifesto della Sostenibilità Algoritmica.**
+
+> Il punto 4 è quello per cui nessuno è attrezzato.
+> **Per il resto del pomeriggio costruiamo quello.**
+
+---
+
+# Laboratorio B · Costruire una rubrica che regga
+
+**Non parliamo di valutazione. Costruiamo lo strumento.**
+
+**Passo 1 — scegliete il prodotto.** Uno dei tre del Lab 4, o il prodotto del vostro modulo. **Uno solo.**
+
+**Passo 2 — l'errore da evitare.** Nel fact-checking **il prodotto può essere giusto per caso**: si può classificare correttamente una notizia come falsa per il motivo sbagliato. Una rubrica che guarda solo l'esito **premia la fortuna**.
+
+> Quindi: **si valuta il percorso di verifica, non il verdetto.**
+
+---
+
+# Passo 3 · Le dimensioni non si inventano
+
+**Si derivano dalle competenze.** Aprite le Linee guida e il curricolo, e tirate giù le dimensioni da lì — non dalla vostra idea di cosa sia un buon lavoro.
+
+**E le cinque mosse diventano descrittori osservabili:**
+
+| Dimensione | Si osserva in… |
 |---|---|
-| **AI-excluded** | Nessun uso: l'attività *è* l'apprendimento |
-| **AI-permitted** | Uso libero per fasi dichiarate |
-| **AI-integrated** | L'uso dell'IA è parte della consegna |
-| **AI-enabled** | Il compito esiste solo grazie all'IA |
-
-*Guida UNESCO-UNEVOC. Nello stesso modulo convivono tutti e quattro: è normale.*
-
----
-
-# L'ancora non delegabile
-
-Ogni compito con IA ammessa deve avere **uno step che solo lo studente può compiere**: colloquio orale, dimostrazione pratica, diario di processo.
-
-> **È l'alternativa progettuale ai detector.**
-
-**Nel modulo sull'articolo 3 le ancore sono due, e si vedono a occhio nudo:**
-
-- la **classificazione fatto/opinione fatta dallo studente** — se la fa la macchina, l'attività non esiste più
-- la **valutazione** — per legge
-
-*Tutto il resto — glossari, riformulazioni, fonti in più formati — è terreno della macchina.*
+| Identificazione della fonte | ha guardato «Chi siamo»? ha nominato l'editore? |
+| Ricerca di conferme | quante fonti indipendenti? di che tipo? |
+| Verifica dell'immagine | ha fatto la ricerca inversa? l'ha documentata? |
+| Collocazione temporale | ha controllato la data dell'evento **e** della ripubblicazione? |
+| Lettura oltre il titolo | ha confrontato titolo e corpo? ha aperto i link citati? |
 
 ---
 
-# Laboratorio A · Chi può fare cosa nel vostro
+# Passo 4 · La rubrica cieca
 
-**sul modulo o UdA che state costruendo**
+**Chiedete alla vostra Gem una rubrica per quel prodotto. Non datele la vostra. Non ditele che ne avete una.**
 
-1. Elencate **i compiti** del vostro intervento, uno per riga — non le fasi: i compiti
-2. Assegnate a ciascuno il livello: **excluded · permitted · integrated · enabled**
-3. Cerchiate **l'ancora**. Se non la trovate, il problema non è la scala: **è il compito**
-4. Scrivete la **policy IA** (il modello è nella scheda): cosa puoi · cosa non puoi · come lo dichiari · **perché**
+Se gliela fate vedere, ve la riscrive con parole sue e l'esperimento è bruciato.
 
-**Output atteso:** la tabella dei compiti + **la policy da incollare nel canvas**.
+**Poi il ciclo di critica — è il vero esercizio:**
 
----
-
-# La trasparenza è reciproca
-
-**L'ultima riga della policy è quella che la rende credibile:**
-
-> **«Anche i materiali preparati con l'IA dal docente sono dichiarati.»**
-
-Una policy che vincola solo gli studenti è una regola.
-**Una policy che vincola anche voi è un patto** — e i ragazzi sentono la differenza al primo sguardo.
+- cercate i **descrittori vaghi**: *«adeguata padronanza»*, *«uso appropriato»*, *«buona capacità»*
+- cercate i **livelli indistinguibili**: se non sapete dire perché un lavoro è intermedio e non avanzato, **non lo sa nemmeno lo studente**
+- fateglieli riscrivere **con le vostre correzioni**, non con le sue
 
 ---
 
-# Prima del laboratorio B, una frase
+# Passo 5 · Il test dell'ancora
 
-**La rubrica non è un modulo da compilare alla fine.**
+**Per ogni dimensione, una domanda sola:**
 
-È il documento in cui **dichiarate che cosa conta**, e quindi che cosa gli studenti impareranno a fare — perché impareranno a fare ciò che viene valutato.
+> **Questo livello lo può raggiungere uno studente che ha delegato tutto all'IA?**
 
-> **Chi scrive la rubrica decide che cosa la classe imparerà davvero.**
-> Per questo non si delega.
+**Se la risposta è sì, quella dimensione non discrimina** — e va riscritta finché non discrimina.
 
----
+È la stessa cosa che chiamiamo **ancora non delegabile**, vista dal lato della valutazione: ogni compito in cui l'IA è ammessa ha bisogno di **uno step che solo lo studente può compiere** — il diario di processo, la ricerca inversa documentata, il colloquio.
 
-# Laboratorio B · La vostra contro la sua
-
-**in tre tempi, e l'ordine conta**
-
-**Tempo 1.** Chiedete alla Gem una rubrica per il vostro intervento. **Non datele la vostra.** Non ditele che ne avete già una.
-
-**Tempo 2 — il ciclo di critica.** Individuate i **descrittori vaghi** («adeguata padronanza»…) e i **livelli indistinguibili**. Fate riscrivere con le vostre correzioni.
-
-**Tempo 3 — il confronto.** Che cosa premia la sua, che la vostra non premia? Che cosa premia la vostra, **che la sua non ha visto**? Quale è più facile da applicare — pregio o rischio?
-
-**Una riga in chat:** la dimensione che la macchina non aveva.
+*È l'alternativa progettuale ai detector, che sono inaffidabili e i cui falsi positivi ricadono su una persona sola.*
 
 ---
 
-# Cosa vi aspetto di vedere
+# Passo 6 · Il collaudo — e qui si rompe
 
-**La mia previsione, e verifichiamola insieme:** la rubrica della macchina premierà **l'esattezza della risposta**, perché l'esattezza è misurabile — e il modello va sempre dove si misura.
+**Una rubrica non si valuta leggendola: si collauda provando a fregarla.**
 
-**La rubrica del modulo sull'articolo 3 dice esattamente il contrario:**
+Chiedete alla Gem **due elaborati finti** sullo stesso compito:
 
-> «Non si premia l'esattezza binaria della classificazione, **ma la qualità delle motivazioni**, l'uso corretto della terminologia costituzionale e la capacità di portare prove.»
+> *«Scrivimi due verifiche di questa notizia. Nella prima il verdetto è corretto e il percorso è documentato. Nella seconda **il verdetto è corretto ma il percorso è sbagliato**: nessuna fonte indipendente, nessuna ricerca inversa, la conclusione indovinata.»*
 
-**Quella riga è una posizione didattica.** Nessun modello la scrive al posto vostro, perché non è una deduzione: **è una scelta su che cosa vale.**
+**Poi applicate la vostra rubrica a entrambi.**
 
----
-
-# L'elaborato anonimizzato
-
-**il collaudo vero**
-
-1. Valutatelo **voi, da soli**, e scrivete il livello. Sempre prima: letta la proposta della macchina, non riuscirete più a non vederla
-2. Datelo alla Gem **con la stessa rubrica** e chiedete i livelli **con le motivazioni** — non il voto
-3. **Dove divergete?**
-
-> Non si tratta di vedere chi ha ragione.
-> **Si tratta di scoprire che cosa vedete voi che non è scritto nella rubrica.**
+> **Se prendono lo stesso livello, la rubrica non funziona** — e adesso lo sapete prima della classe, non dopo.
 
 ---
 
-# E quella differenza ha un nome
+# Cosa esce dal laboratorio
 
-Lo sforzo. Il passo avanti rispetto a settembre. La frase che rivela che ha capito, anche se l'ha scritta male.
+**Una rubrica di 3-5 dimensioni per tre livelli**, agganciata alle competenze del curricolo, con **descrittori osservabili** e **collaudata su due elaborati costruiti apposta**.
 
-**Poi una decisione sola:**
+**E una cosa in più, che vale quanto la rubrica:** la rubrica si consegna agli studenti **all'inizio**, non alla fine.
 
-> **quella dimensione la scrivo nella rubrica, o resta mia e non la dichiaro?**
-
-Sono due risposte legittime. **Quella che non è legittima è non essersela chiesta.**
-
-*Quella differenza **è** la ragione dello Human-in-the-loop.*
+> Impareranno a fare **ciò che viene valutato**.
+> Quindi la rubrica non misura l'apprendimento: **lo orienta.** Scriverla è progettare.
 
 ---
 
-# Il presidio di oggi
+# La previsione, e verifichiamola
 
-**Tre righe, e valgono per il resto dell'anno:**
+**La mia scommessa sulla rubrica della macchina:** premierà **l'esattezza del verdetto**, perché l'esattezza è misurabile e il modello va sempre dove si misura.
+
+**La rubrica del modulo sull'articolo 3 dice il contrario:**
+
+> «Non si premia l'esattezza binaria della classificazione, **ma la qualità delle motivazioni**, l'uso corretto della terminologia e la capacità di portare prove.»
+
+**Quella riga non è una deduzione dai dati: è una scelta su che cosa vale.** Nessun modello la scrive al posto vostro.
+
+---
+
+# Se la sua è migliore della vostra
+
+**Capita, ed è il caso più prezioso del pomeriggio.**
+
+Vuol dire che ha visto una dimensione che vi mancava. **Prendetela.**
+
+> Il punto non era che la vostra fosse migliore.
+> **Era che la decisione fosse vostra** — e adesso l'avete presa voi, con più informazione di prima.
+
+*L'algoritmo propone, il docente dispone.*
+
+---
+
+# Il presidio: il filtro T.A.P.E.
+
+**Dal vostro Manuale — quattro lettere da tenere sul tavolo:**
+
+**T · Trasparenza** — dichiarare sempre l'uso dell'IA. Nei materiali vostri, non solo nei loro.
+
+**A · Accuratezza** — esigere prove e fonti. *«Se non sai, ammetti di non sapere.»*
+
+**P · Privacy** — mai dati sensibili o nomi reali.
+
+**E · Equità** — analizzare e correggere i bias di genere o culturali. **Quelli non emergono da soli: si vanno a cercare.**
+
+---
+
+# Tre gesti, per il resto dell'anno
 
 1. **Nessuna citazione entra in un materiale senza che io abbia aperto il documento.**
-2. **Nessun numero entra in una slide senza la fonte primaria accanto.**
-3. **Nessun voto esce da una macchina.** Può uscirne una proposta motivata; il voto lo metto io.
+2. **Nessun dato entra in una slide senza la fonte primaria accanto.**
+3. **Ogni contenuto generato è dichiarato** — nei materiali miei prima che nei loro.
 
-> Non sono tre divieti: **sono tre gesti**, e costano meno di quanto costava verificare prima.
-
----
-
-# Bussola internazionale 2026
-
-**UNESCO — MOOC *Educating in the Age of AI: Digital Citizenship from the Classroom***: decostruzione dell'informazione algoritmica. Gratuito, con certificato — è il seguito naturale di questo pomeriggio.
-
-**Vaccaro, Almaatouq & Malone (2024)** — meta-analisi sulle combinazioni uomo-IA: **mettere insieme uomo e macchina non migliora automaticamente il risultato.** Funziona quando i due fanno cose diverse. *(Da verificare sulla fonte primaria: è il metodo che insegniamo.)*
-
-**Perkins, Furze, Roe & MacVaugh — AI Assessment Scale**: scala a cinque livelli, parente più fine di quella di oggi.
+> Non sono tre divieti: **sono tre gesti.**
+> E costano meno di quanto costava verificare prima, perché prima non avevate nemmeno il testo da verificare.
 
 ---
 
 # Consegne: UdA completa entro lunedì 28
 
-**Nel canvas:**
-1. Il canvas completo + **un materiale generato-e-revisionato**
-2. La **policy IA**
-3. La colonna dei **livelli IA** con **l'ancora evidenziata**
-4. La **rubrica**, nella versione che avete deciso voi
+1. Il **canvas completo** + un materiale generato-e-revisionato
+2. La **rubrica collaudata**, con i due elaborati finti su cui l'avete provata
+3. La **policy IA**: cosa puoi · cosa non puoi · come lo dichiari · **perché** — e l'ultima riga, *«anche i materiali preparati con l'IA dal docente sono dichiarati»*
+4. **Sette minuti** il 30: 2' il compito autentico e perché è autentico · 3' le fasi e dove entra l'IA · 1' la policy · **1' cosa vi preoccupa**
 
-**La presentazione da 7 minuti — traccia:**
-2' il compito autentico e perché è autentico · 3' le fasi e dove entra l'IA · 1' la policy · **1' cosa vi preoccupa** (sarà la vostra domanda alla peer review)
-
-**Chi può:** testate un pezzo dell'UdA in classe e portate osservazioni vere.
+*Chi può: testate un pezzo in classe e portate osservazioni vere.*
 
 ---
 
-# E allora, dov'è la prova?
+# Homo poieticus
 
 **Il pomeriggio in una riga:**
 
-> **Il modello non sa cosa è vero: sa cosa è verosimile.
-> La differenza la mettete voi, e si chiama prova.**
+> **La macchina produce validità sintattica.
+> La verità semantica la mettiamo noi — e si chiama prova.**
 
-**E la seconda, che è la stessa vista dall'aula:**
+**E la seconda, che è la stessa vista dall'infosfera:**
 
-> **Il pericolo non è l'opinione. È l'opinione travestita da fatto** —
-> che sia di un onorevole nel 1947 o di un modello nel 2026.
+> **Chi inquina l'informazione inquina l'ambiente in cui viviamo tutti.**
+> Insegnare a verificare non è una competenza tecnica: **è manutenzione dell'ambiente comune.**
 
 *Registro firme · Materiali nella cartella del corso.*

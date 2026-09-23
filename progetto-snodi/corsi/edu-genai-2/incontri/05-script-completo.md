@@ -1,38 +1,28 @@
-# Script completo minuto per minuto — Incontro 5: Dov'è la prova?
+# Script completo minuto per minuto — Incontro 5: Verità semantica, illusione sintattica
 
 **Giovedì 24 settembre 2026, 15:30–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini · Tutor: Prof. Bonelli
-**Deck:** def_Edu-GenAI 2 — Incontro 5 (30 card, tema wireframe) · **Scheda del giorno:** 5
+**Deck:** def_Edu-GenAI 2 — Incontro 5 (34 card, tema wireframe) · **Scheda del giorno:** 5
 
 *Le parti tra virgolette « » sono da dire parola per parola; [REGIA] sono note operative; [CARD n] indica quando cambiare slide.*
 **⚡ = card lampo (1-2'), si passa veloce. ★ = non si taglia mai.**
 
-*Fonde lo script di conduzione del 7 settembre con il caso d'apertura tratto dal Modulo 1 "Competenze in azione" — Educazione Civica, art. 3.*
+*Fonde tre materiali della formatrice: «Abitare l'infosfera» (fact-checking e disinformazione) · «Il Manuale del Prompt Perfetto» (C.R.A.F.T., 4R, tassonomia inversa, Pattern del Critico, T.A.P.E.) · «AI-LEAD Laboratorio 4 — Cyber-Safety & Data Literacy». Più il caso d'apertura dal Modulo 1 "Competenze in azione".*
 
 ---
 
-## 15:30–15:40 · APERTURA E PONTE [CARD 1–2]
+## 15:30–15:35 · APERTURA [CARD 1]
 
-**15:30 — [CARD 1] Accoglienza (3')**
+[REGIA: deck proiettato, registro presenze in chat. **Non serve l'elaborato anonimizzato:** in questa versione la rubrica si collauda su due elaborati generati apposta. Se qualcuno l'ha portato lo stesso, gli servirà per il canvas.]
 
-[REGIA: deck proiettato, registro presenze in chat. Chiedere subito l'elaborato anonimizzato: serve alle 18:15, e alle 18:15 è tardi per scoprire che manca.]
-
-«Buon pomeriggio. Prima cosa, un controllo di magazzino: chi ha portato l'elaborato anonimizzato scriva "sì" in chat.»
-
-[REGIA: annotare **chi non ce l'ha**. Quelli lavoreranno in coppia con chi ce l'ha — deciso adesso, non alle 18.]
-
-**15:33 — ⚡ [CARD 2] Dove eravamo rimasti (7')**
-
-«Mercoledì abbiamo separato due oggetti: il **processo** dello studente, che si sostiene con l'impalcatura e poi si toglie; e il **materiale**, dove si rimuovono le barriere e **non** si rimettono.»
-
-«Oggi ne arriva un terzo, e ha una proprietà diversa dagli altri due: **non si delega mai, in nessuna misura.** È la fonte — e il giudizio che ci mettiamo sopra.»
+«Buon pomeriggio. Oggi non parliamo di valutazione — parliamo di **informazione**: di come si guasta, di come si riconosce quando è guasta, e di come si insegna a riconoscerlo. Alla fine costruiremo uno strumento solo, e vi servirà per condurre il Laboratorio 4 con i vostri studenti.»
 
 ---
 
-## 15:40–16:00 · ★ LA TRAPPOLA D'APERTURA [CARD 3–5]
+## 15:35–15:52 · ★ LA CITAZIONE CHE NON ESISTE [CARD 2–3]
 
-**15:40 — ★ [CARD 3] La citazione (8')**
+**15:35 — ★ [CARD 2] La citazione (8')**
 
-[REGIA: **la prova si fa in mattinata e si salva lo screenshot.** In aula si tenta dal vivo; se il modello non abbocca, si mostra la cattura e lo si dice apertamente. Prompt: *«Qual è la citazione testuale del parere contrario dell'on. Giuseppe Cappi sull'ammissione delle donne in magistratura, Assemblea Costituente, seduta del 31 gennaio 1947?»*]
+[REGIA: **la prova si fa in mattinata e si salva lo screenshot.** In aula si tenta dal vivo; se il modello non abbocca si mostra la cattura, dicendolo. Prompt: *«Qual è la citazione testuale del parere contrario dell'on. Giuseppe Cappi sull'ammissione delle donne in magistratura, Assemblea Costituente, seduta del 31 gennaio 1947?»*]
 
 «Trentuno gennaio millenovecentoquarantasette. L'Assemblea Costituente discute se le donne possano entrare in magistratura. L'onorevole Giuseppe Cappi è contrario.»
 
@@ -42,9 +32,9 @@
 
 «Ora una parola sola in chat: **la mettereste nella vostra slide?**»
 
-[REGIA: contare ad alta voce. «Sette sì, due no, uno "dipende".» Se qualcuno scrive "verificherei" — **prendere il nome**: serve fra tre minuti.]
+[REGIA: contare ad alta voce. «Sette sì, due no, uno "dipende".» Se qualcuno scrive "verificherei", **prendere il nome**: serve fra tre minuti.]
 
-**15:48 — ★ [CARD 4] La fonte (7')**
+**15:43 — ★ [CARD 3] La fonte (9')**
 
 [REGIA: aprire **davvero** il portale *La nascita della Costituzione*, resoconto del 31 gennaio 1947, accanto alla risposta del modello. Non una slide del testo: il documento.]
 
@@ -52,279 +42,299 @@
 
 «Quindi: **la sostanza è autentica. La citazione testuale, con le virgolette aperte e chiuse, in quel documento non esiste.** L'ha costruita il modello.»
 
-[REGIA: se qualcuno aveva scritto "verificherei", nominarlo ora. Costa dieci secondi e vale tutto il pomeriggio.]
+[REGIA: se qualcuno aveva scritto "verificherei", nominarlo ora. Dieci secondi che valgono tutto il pomeriggio.]
 
 «E vi dico la cosa che rende questo esempio diverso da un esercizio: **è il materiale di un nostro modulo di Educazione Civica. Ed è andato in classe.** Nella lezione in cui si insegna agli studenti a pretendere le prove.»
 
-**15:55 — ★ [CARD 5] Nominiamo bene (5')**
+---
 
-«Attenzione a come lo chiamiamo, perché il nome sbagliato porta alla contromisura sbagliata.»
+## 15:52–15:57 · ★ V_SINT ≠ V_SEM [CARD 4]
 
-«**Non è una bugia.** Una bugia presuppone che qualcuno sappia la verità e scelga di dirne un'altra. Qui non c'è nessuno che sa.»
+**15:52 — ★ [CARD 4] La formula del pomeriggio (5')**
 
-«**È una forma plausibile.** Il modello ha prodotto ciò che *ha l'aspetto* di una citazione d'epoca: il lessico giusto, il ritmo giusto, le virgolette al posto giusto.»
+[REGIA: scriverla a mano sulla lavagna condivisa mentre si parla. Deve restare visibile fino alle 18:30.]
 
-*«Il modello non sa cosa è vero. Sa cosa è verosimile.»*
+«Guardate perché quella frase ha funzionato. Lessico d'epoca. Ritmo parlamentare. Virgolette al posto giusto. **Sintatticamente ineccepibile.** E semanticamente falsa.»
 
-«Ve lo dissi al primo incontro con altre parole: **forma senza significato**. Allora era una definizione. Oggi l'avete vista lavorare contro di voi.»
+«Questa è la formula di tutto il pomeriggio, e ve la scrivo qui: **V sintattica diverso da V semantica.**»
+
+*«La macchina produce la prima. La seconda la mettiamo noi.»*
+
+«Il modello non sa cosa è vero: **sa cosa è verosimile.** E il verosimile, dentro una slide ben impaginata, è indistinguibile dal vero.»
 
 ---
 
-## 16:00–16:10 · LA TASSONOMIA [CARD 6–7]
+## 15:57–16:10 · L'INFOSFERA E IL QUADRO [CARD 5–7]
 
-**16:00 — [CARD 6] I sei difetti (6')**
+**15:57 — [CARD 5] Dove siamo (6')**
 
-[REGIA: non dare lo stesso tempo a tutti. Trenta secondi ciascuno ai primi cinque, **due minuti all'ultimo**.]
+«Floridi la chiama la quarta rivoluzione. L'essere umano non è più l'unico agente capace di elaborare informazioni e agire in modo intelligente: diventa un **inforg**, un organismo informazionale, che coesiste con agenti artificiali in un ambiente integrato — l'**onlife**.»
 
-«**Allucinazione**, l'avete appena vista. **Bias**: stereotipi di genere, provenienza, età. **Compiacenza**: se insistete, cede. **Camera dell'eco**: vi restituisce la vostra tesi, argomentata meglio di come l'avreste argomentata voi. **Obsolescenza**: vi dà per corrente una norma superata — e nella nostra materia le norme cambiano ogni anno.»
+«E dentro quell'ambiente vale una frase che secondo me è la più utile che possiate portare in classe:»
 
-«E poi la sesta: **pigrizia metacognitiva.**»
+*«Nell'infosfera, chi inquina l'informazione inquina l'ambiente in cui viviamo tutti.»*
 
-*«L'IA come oggetto di analisi è educazione civica.»*
+«Non è una metafora ecologica graziosa. **È la descrizione esatta di cosa succede quando si condivide senza verificare.**»
 
-**16:06 — ★ [CARD 7] La più pericolosa è l'ultima (4')**
+**16:03 — ★ [CARD 6] I diritti aletici (5')**
 
-«Le altre cinque si vedono, se si guarda. La sesta no, perché non agisce sulla macchina: **agisce su di noi.**»
+«Esiste un diritto di cui si parla poco: **il diritto dei cittadini a essere informati in modo veridico.** Si chiamano diritti aletici, da *aletheia*.»
 
-«E c'è una proporzione da tenere a mente: **più l'output è curato, meno lo controlliamo.** L'impaginazione pulita disattiva il sospetto. È esattamente il meccanismo che insegnate ai ragazzi a riconoscere in un sito ben fatto che dice il falso.»
+«E hanno una caratteristica scomoda: **non vengono negati da qualcuno. Vengono erosi dall'entropia** — da un ambiente che si riempie di contenuti plausibili finché distinguere costa troppo.»
 
-*«Il rischio non è che la macchina sbagli. È che sbagli bene.»*
+*«Ogni volta che condividiamo senza verificare, diventiamo parte della catena.»*
 
-«E vale per noi come per loro, con un'aggravante: **noi firmiamo.**»
+«Per questo insegnare fact-checking non è una tecnica: è la forma concreta di quel diritto.»
 
----
+**16:08 — ⚡ [CARD 7] DM 183/2024 (2')**
 
-## 16:10–16:25 · LE TRE TRAPPOLE [CARD 8–9]
+[REGIA: card lampo, è riferimento normativo. Ma **dirlo**, perché cambia lo statuto del pomeriggio.]
 
-**16:10 — [CARD 8] Le tre trappole, in diretta (11')**
+«E dal settembre scorso non è più facoltativo: **decreto ministeriale 183 del 2024, nuove Linee guida per l'Educazione Civica.** Terzo nucleo: **Cittadinanza Digitale**, con tre competenze — C10 dati e informazioni, C11 comunicazione, C12 benessere.»
 
-[REGIA: **collaudate il giorno prima**, con screenshot di riserva per ciascuna. Prima di ogni esecuzione **far scommettere l'aula**: è la parte che vale più della demo.]
-
-«Tre prove. E prima di ognuna vi chiedo una cosa: **scommettete.** Scrivete in chat che cosa pensate che succeda. Poi eseguo.»
-
-[REGIA: Trappola 1 — bibliografia di nicchia nella propria disciplina. Trappola 2 — «descrivi la giornata tipo di un ingegnere / di un'insegnante». Trappola 3 — la stessa domanda con premesse opposte. Ogni volta: scommessa → esecuzione → «chi aveva indovinato?».]
-
-«Sulla terza, il corollario operativo, e scrivetelo: **non chiedetele mai "sei sicura?". Chiedetele "qual è la fonte, e che pagina".** La prima domanda invita a compiacervi. La seconda la costringe a un documento.»
-
-**16:21 — ★ [CARD 9] Il protocollo d'aula (4')**
-
-«Quando le porterete in classe — e ve lo consiglio, funzionano benissimo — l'ordine è questo, e non è un dettaglio: **previsione scritta, esecuzione, confronto con la previsione, e poi la domanda "come lo verifichiamo?".**»
-
-«**Senza la previsione scritta, i ragazzi guardano un numero da circo.** Con la previsione, scoprono di essersi sbagliati — ed è lì che la lezione entra.»
+«Ci torniamo, perché **sono quelle le competenze da cui si derivano le dimensioni della rubrica.** Non si inventano: si leggono lì.»
 
 ---
 
-## 16:25–16:38 · ★ LA MOSSA [CARD 10–11]
+## 16:10–16:22 · LE PAROLE GIUSTE [CARD 8–9]
 
-**16:25 — ★ [CARD 10] La mossa (7')**
+**16:10 — ★ [CARD 8] Tre parole che non sono sinonimi (7')**
 
-[REGIA: **è il cuore del pomeriggio.** Qui si ribalta il rapporto: non state insegnando una competenza nuova, state restituendo loro la loro.]
+[REGIA: farle dire a loro. «Chi sa dirmi la differenza fra disinformazione e misinformazione?» Due risposte in chat, poi la card.]
 
-«Adesso la contromossa. E la bella notizia è che **non ve la devo insegnare: l'avete già scritta voi.**»
+«**Disinformazione:** diffusione **intenzionale** di notizie false o manipolate, per ingannare, influenzare, ottenere un vantaggio.»
+«**Misinformazione:** diffusione **non intenzionale** di informazioni sbagliate. La zia su WhatsApp non vi vuole ingannare.»
+«**Malinformazione:** informazioni **vere**, usate in modo scorretto per danneggiare qualcuno. È la più difficile da insegnare, perché non si può smontare col fact-checking: è vera.»
 
-«Nel modulo di Educazione Civica sull'articolo 3 c'è una sezione che insegna agli studenti a smontare un'opinione travestita da fatto. La mossa è in tre passi.»
+«Distinguono per intenzione, contenuto e impatto. **E in classe la distinzione serve, perché cambia cosa si fa:** sulla prima si smonta la tecnica, sulla seconda si insegna a verificare prima di condividere, sulla terza si lavora sul contesto.»
 
-«**Uno: le parole che giudicano.** Quali termini valutano invece di descrivere?»
-«**Due: dov'è la prova?** Qual è il documento — e l'ho aperto?»
-«**Tre: chi lo dice, e perché.** Che autorevolezza ha la fonte, e che interesse ha?»
+**16:17 — ★ [CARD 9] La parola da smettere di usare (5')**
 
-*«Il pericolo per la democrazia non è l'opinione: è l'opinione travestita da fatto.»*
+«E adesso una richiesta. **Smettete di dire "fake news".**»
 
-**16:32 — ★ [CARD 11] La stessa mossa, due volte (6')**
+«L'UNESCO lo definisce **un'arma retorica**. È un ossimoro — se è *news* non è *fake*, se è *fake* non è *news* — ed è diventato l'etichetta con cui chiunque liquida qualunque notizia sgradita. La proposta è: **disordine informativo.**»
 
-[REGIA: leggere la tabella **per colonne**, non per righe. Il colpo sta nel vedere che è la stessa.]
-
-«**Le parole che giudicano**, per noi, sono gli aggettivi di certezza: *è dimostrato, gli studi confermano, notoriamente.* Ogni volta che leggete una di queste formule, quella frase va aperta.»
-
-«**Dov'è la prova**, per noi, ha una forma sola: la citazione ha un documento **che ho aperto**? Non che esiste: che ho aperto.»
-
-*«Non state imparando una competenza nuova. State applicando a voi stessi quella che insegnate a loro.»*
+«Non è pedanteria. **Togliete ai ragazzi uno strumento di squalifica e gli restituite uno strumento di analisi.** È la stessa differenza che passa fra dire "è un DSA" e dire "il testo arriva in un unico blocco": nominare male chiude, nominare bene apre.»
 
 ---
 
-## 16:38–16:48 · PAUSA (10')
+## 16:22–16:35 · COME SI DEFORMA, E PERCHÉ FUNZIONA [CARD 10–13]
 
-[REGIA: pausa vera. Nel frattempo: aprire i link del fact-checking (pagina della retraction; un titolo di stampa sul caso MIT + link al preprint) e **il PDF con la filigrana RETRACTED ARTICLE**.]
+**16:22 — ★ [CARD 10] I cinque passaggi (7')**
 
----
+[REGIA: leggerli uno per uno, lentamente. **La forza sta nel fatto che nessuno è una bugia.**]
 
-## 16:48–17:10 · ★ FACT-CHECKING SUI DUE CASI [CARD 12–14]
+«Guardate come si deforma una notizia, e contate quante bugie ci sono. **Fatto reale.** Poi **semplificazione**: "in alcune regioni" diventa "in tutta Italia". Poi **clickbait**: "disagi" diventa "Italia nel caos". Poi **manipolazione**: compare un colpevole. Poi **diffusione virale**: condivisa, ricopiata, riscritta.»
 
-**16:48 — [CARD 12] Le consegne (2')**
+«Quante bugie avete contato? **Nessuna secca.** Ogni passaggio sposta di poco.»
 
-«Dividiamo l'aula. **Metà di voi sul caso A, metà sul caso B. Dieci minuti di ricerca**, poi ci raccontiamo cosa avete trovato.»
+«Ed è per questo che l'esercizio da fare in classe non è "vero o falso". **È: a quale passaggio siamo?**»
 
-[REGIA: assegnare per ordine alfabetico, non per volontariato — i gruppi restano equilibrati e non si perde tempo.]
+**16:29 — ⚡ [CARD 11] Le emozioni (3')**
 
-**16:50 — Ricerca (10')**
+«Puntano su paura, rabbia, curiosità, sorpresa — perché le emozioni ci fanno **condividere prima di riflettere**. Non è un difetto di intelligenza: **è un difetto di velocità.** E lo dico anche per noi, non solo per loro.»
 
-[REGIA: restare in chat, rispondere solo a domande tecniche. **Non anticipare la retraction:** devono trovarla loro.]
+**16:32 — [CARD 12] Le bolle e i bias (5')**
 
-**17:00 — ★ [CARD 13] Caso A, i numeri della viralità (5')**
+«Poi ci sono le bolle, e i bias — che però sono **nostri prima che della macchina**. Conferma: crediamo a ciò che ci dà ragione. Autorità: se lo dice una persona famosa dev'essere vero. Disponibilità: ciò che ricordiamo facilmente ci sembra più diffuso. Negatività: le notizie brutte catturano di più.»
 
-[REGIA: far raccontare prima al gruppo A. Poi mostrare il PDF con la filigrana.]
+*«Il cervello preferisce la coerenza alla verità. Ci fidiamo di ciò che ci somiglia.»*
 
-«La meta-analisi di Wang e Fan, 2025, quella del famoso **g = 0,867**. **Ritrattata il 22 aprile 2026**: studi troppo diversi per metodo e campione aggregati insieme. Gli autori non hanno risposto ai rilievi.»
+**16:37 — ⚡ [CARD 13] Bias umano → bias digitale (3')**
 
-«E adesso i numeri che contano davvero, quelli di *prima* della ritrattazione: **quattrocentottantaseimila visualizzazioni. Duecentosessantasei citazioni. Altmetric mille e ventitré.**»
+«E gli algoritmi imparano dai dati prodotti da noi. Se i dati contengono pregiudizi, **l'IA li riproduce — e li amplifica**, perché li restituisce a chi li aveva già.»
 
-«Duecentosessantasei lavori citano uno studio che non sta più in piedi. E continueranno a citarlo.»
-
-*«La smentita non viaggia mai quanto la notizia.»*
-
-**17:05 — ★ [CARD 14] Tre controlli, e la sintesi (5')**
-
-[REGIA: far raccontare il gruppo B — il preprint da 54 soggetti contro i titoli di stampa. Due minuti, poi la sintesi.]
-
-«Tre controlli minimi prima di citare una fonte. **Esiste? È ancora valida? Dice davvero ciò che il titolo le fa dire?**»
-
-«E notate che cosa abbiamo appena fatto, perché è il punto più formativo del corso: **abbiamo applicato alla ricerca sulla nostra materia il metodo che insegneremo ai ragazzi.** Se va verificata *così* la letteratura scientifica sull'IA, figuriamoci quello che l'IA produce.»
+«Non è la macchina che ci ha reso parziali. **È la macchina che ha imparato la nostra parzialità e ce la rivende come conferma.**»
 
 ---
 
-## 17:10–17:22 · LEGGERE I DATI [CARD 15–17]
+## 16:40–16:48 · GAN E DEEPFAKE [CARD 14–16]
 
-**17:10 — ⚡ [CARD 15] Correlazione e profilazione (5')**
+**16:40 — [CARD 14] Le GAN (3')**
 
-«**Correlazione non è causa.** Due andamenti che si muovono insieme non dicono chi muove chi. È la domanda da fare a ogni grafico *prima* di trarne una conseguenza didattica — e vale per i dati della vostra classe quanto per quelli di una rivista.»
+«Due reti in competizione. **Il Falsario** crea dati sintetici sempre più verosimili. **Il Giudice** impara a distinguere il vero dal falso. E si allenano l'uno contro l'altro finché — attenzione — **quando il Giudice non distingue più, il deepfake è perfetto.**»
 
-«**Profilazione.** Costruire il profilo di uno studente dai tempi di consegna, dai click, dagli errori ricorrenti non è neutro: **AI Act, sistemi ad alto rischio in ambito educativo.** Il paletto non è tecnico: è giuridico.»
+«È la struttura del pomeriggio in miniatura: **un sistema che ottimizza la verosimiglianza. Non la verità.**»
 
-**17:15 — ★ [CARD 16] I detector (4')**
+**16:43 — ⚡ [CARD 15] Il quadro italiano 2025 (3')**
 
-[REGIA: dirlo con forza, senza attenuazioni. È il punto su cui i colleghi hanno più aspettative sbagliate.]
+[REGIA: **tutti e quattro i dati vanno verificati la mattina stessa**. In questa lezione un dato sbagliato costa il doppio.]
 
-«**I detector di testo generato sono inaffidabili.** E i falsi positivi non sono un errore statistico: sono **uno studente accusato ingiustamente, che non ha modo di difendersi.** Non si può dimostrare di *non* aver usato uno strumento.»
+«Quattro fatti, e li do con le date perché servono: **art. 612-quater**, nuovo reato di deepfake, in vigore dal 10 ottobre con la legge 132 del 2025. Il **Garante** ferma l'app Clothoff il primo ottobre. La **Polizia Postale** arresta per materiale pedopornografico sintetico. E **AGCOM**: il 43,5% degli italiani è esposto frequentemente a disinformazione.»
 
-«L'alternativa non è un detector migliore. **È progettuale:** bozze intermedie, processo visibile, diario di lavoro, colloquio orale. Si progetta un compito in cui copiare non conviene, invece di inseguire chi copia.»
+«Senza allarmismo e senza minimizzare: sono i dati, e sono recenti.»
 
-**17:19 — ★ [CARD 17] Beghetto (3')**
+**16:46 — ⚡ [CARD 16] L'obbligo che ci riguarda (2')**
 
-«Ve l'avevo seminato all'incontro 3. Se gli studenti fanno scrivere i compiti all'IA, e noi li facciamo valutare all'IA, si arriva alla distopia in cui **"un'IA parla attraverso gli studenti a un'altra IA che parla attraverso i docenti"**.»
+«AI Act e Linee guida dicono una cosa sola: **ciò che è prodotto dalla macchina va dichiarato.** Che è la traduzione giuridica della formula di prima: se la validità sintattica non garantisce la verità, **l'unica garanzia è la provenienza dichiarata.**»
 
-«**La valutazione presidiata dal docente è l'argine.** Non è una preferenza personale: è ciò che tiene in piedi il senso dello scambio.»
-
----
-
-## 17:22–17:32 · HUMAN-IN-THE-LOOP E IL VINCOLO [CARD 18–19]
-
-**17:22 — [CARD 18] Human-in-the-loop, sul serio (6')**
-
-«"Human-in-the-loop" si dice sempre e quasi sempre non vuol dire niente. Ha tre pezzi precisi.»
-
-«**Uno: l'uomo decide che cosa conta** — e lo decide *prima*. Questo documento si chiama rubrica, e ci torniamo fra mezz'ora.»
-«**Due: l'uomo apre le fonti.** Non chiede alla macchina se ha ragione: avete visto dove porta.»
-«**Tre: l'uomo firma.** E quindi risponde.»
-
-*«Se il controllo umano arriva dopo che la decisione è presa, non è controllo: è ratifica.»*
-
-**17:28 — ⚡ [CARD 19] Il vincolo (4')**
-
-«E qui non siamo nell'opinione. **DM 166 del 2025: la valutazione resta atto insindacabile e personale del docente.**»
-
-«Non è un limite tecnico che un modello migliore supererà fra due anni. **È la struttura giuridica della funzione docente.**»
-
-*«L'algoritmo propone, il docente dispone.»*
+«E vale per i nostri materiali quanto per i loro elaborati. **La trasparenza o è reciproca o non è.**»
 
 ---
 
-## 17:32–17:52 · ★ LABORATORIO A — LIVELLI, ANCORA, POLICY [CARD 20–23]
+## 16:48–16:58 · PAUSA (10')
 
-**17:32 — [CARD 20] I quattro livelli (3')**
-
-«Quattro livelli, e la regola d'oro è una sola: **si assegnano al singolo compito, mai alla lezione intera.** Nello stesso modulo convivono tutti e quattro, ed è normale.»
-
-**17:35 — ★ [CARD 21] L'ancora non delegabile (4')**
-
-«Ogni compito in cui l'IA è ammessa deve avere **uno step che solo lo studente può compiere**: colloquio orale, dimostrazione pratica, diario di processo. **È l'alternativa progettuale ai detector** — quella di cui parlavamo dieci minuti fa.»
-
-«Nel modulo sull'articolo 3 le ancore sono due: **la classificazione fatto/opinione fatta dallo studente** — se la fa la macchina, l'attività non esiste più, non è aiutata: è annullata — e **la valutazione**, per legge.»
-
-**17:39 — [CARD 22] Laboratorio A (11')**
-
-[REGIA: istruzioni brevi, poi silenzio. **Non dare esempi in più: sporcano il loro elenco.**]
-
-«Undici minuti. Elencate **i compiti** del vostro intervento — non le fasi: i compiti. Assegnate il livello a ciascuno. Cerchiate l'ancora. E poi scrivete **la policy**: il modello di dieci righe è nella scheda.»
-
-«Se l'ancora non la trovate, sentite bene: **il problema non è la scala, è il compito.** Un'attività senza ancora è un'attività che la macchina può fare al posto dello studente, e va riprogettata.»
-
-**17:50 — ★ [CARD 23] La trasparenza è reciproca (2')**
-
-[REGIA: raccogliere due ancore dalla chat, poi questa card. È breve ma pesa.]
-
-«Guardate l'ultima riga della policy, perché è quella che la rende credibile: **"anche i materiali preparati con l'IA dal docente sono dichiarati".**»
-
-«Una policy che vincola solo gli studenti è una regola. **Una policy che vincola anche voi è un patto** — e i ragazzi sentono la differenza al primo sguardo.»
+[REGIA: pausa vera. Nel frattempo: aprire la Gem per il laboratorio A e tenere pronto **un esempio già generato** nel caso qualcuno resti indietro.]
 
 ---
 
-## 17:52–18:15 · ★ LABORATORIO B — LA RUBRICA [CARD 24–26]
+## 16:58–17:05 · LE CINQUE MOSSE [CARD 17–18]
 
-**17:52 — ★ [CARD 24] Chi scrive la rubrica (3')**
+**16:58 — ★ [CARD 17] Verificare in cinque mosse (4')**
 
-«**La rubrica non è un modulo da compilare alla fine.** È il documento in cui dichiarate **che cosa conta** — e quindi che cosa gli studenti impareranno a fare, perché impareranno a fare ciò che viene valutato.»
+[REGIA: veloce, perché è materiale da scheda e loro lo conoscono. **Il tempo va speso sulla card 18.**]
 
-*«Chi scrive la rubrica decide che cosa la classe imparerà davvero. Per questo non si delega.»*
+«Controlla la fonte. Cerca conferme. Verifica l'immagine con la ricerca inversa. Analizza la data. Leggi oltre il titolo. Le avete già viste, sono nella scheda.»
 
-**17:55 — [CARD 25] Laboratorio B (15')**
+**17:02 — ★ [CARD 18] La mossa che vale più degli strumenti (3')**
 
-[REGIA: **l'ordine è tutto.** Insistere: non incollare la propria rubrica, non dire alla Gem che ne esiste una.]
+«Gli strumenti li trovate in scheda: Fact Check Explorer, Snopes, Facta, InVID. Ma la mossa decisiva non è uno strumento, ed è questa: **la lettura laterale.**»
 
-«**Primo tempo:** chiedete alla Gem una rubrica per il vostro intervento. **Non datele la vostra. Non ditele che ne avete già una.** Se gliela fate vedere, ve la riscrive con parole sue e l'esperimento è bruciato.»
+«**Non si valuta un sito restando dentro il sito.** Si apre una scheda nuova e si cerca cosa dicono *gli altri* di quel sito. È quello che fanno i verificatori professionisti, ed è insegnabile in dieci minuti — anche in prima.»
 
-«**Secondo tempo, il ciclo di critica** — ed è il vero esercizio: cercate i **descrittori vaghi**, quelli tipo "adeguata padronanza", e i **livelli indistinguibili**. Fateglieli riscrivere con le vostre correzioni.»
-
-«**Terzo tempo:** aprite le due affiancate. Che cosa premia la sua, che la vostra non premia? Che cosa premia la vostra, **che la sua non ha visto**? E una riga in chat: **la dimensione che la macchina non aveva.**»
-
-**18:10 — ★ [CARD 26] Cosa vi aspetto di vedere (5')**
-
-[REGIA: **leggere quattro o cinque righe dalla chat prima di scoprire la previsione.**]
-
-«Vi avevo fatto una previsione: che la rubrica della macchina premiasse **l'esattezza della risposta**. Perché l'esattezza è misurabile, e il modello va sempre dove si misura.»
-
-«Guardate cosa dice la rubrica del modulo sull'articolo 3: *"Non si premia l'esattezza binaria della classificazione, ma la qualità delle motivazioni, l'uso corretto della terminologia costituzionale e la capacità di portare prove."*»
-
-«Quella riga è **una posizione didattica**. Nessun modello la scrive al posto vostro: non è una deduzione dai dati, **è una scelta su che cosa vale.**»
+«E tenete la coppia: **debunking** è smontare dopo. **Prebunking** è vaccinare prima, mostrando la tecnica di manipolazione **prima** che la incontrino. In classe il prebunking rende molto di più.»
 
 ---
 
-## 18:15–18:24 · L'ELABORATO ANONIMIZZATO [CARD 27–28]
+## 17:05–17:20 · ★ LABORATORIO A — IL PATTERN DEL CRITICO [CARD 19–20]
 
-**18:15 — [CARD 27] Il collaudo (6')**
+**17:05 — [CARD 19] Il laboratorio (13')**
 
-[REGIA: le coppie sono decise dalle 15:33. **Ricordare la regola di anonimizzazione** prima che qualcuno incolli.]
+[REGIA: il prompt completo è nella scheda. Istruzioni brevi, poi silenzio.]
 
-«Tre passi. **Primo: valutatelo voi, da soli**, e scrivete il livello. Sempre prima — se leggete la proposta della macchina, non riuscirete più a non vederla.»
+«Questo viene dal vostro Manuale del Prompt Perfetto, ed è tassonomia inversa: **prima si genera, poi si analizza, poi si valuta.**»
 
-«**Secondo:** datelo alla Gem con la stessa rubrica e chiedete i livelli **con le motivazioni**. Le motivazioni, non il voto: il voto da solo non è discutibile.»
+«Chiedete alla vostra Gem un testo di cinquecento parole sul vostro argomento **con tre errori sottili dentro**, e le soluzioni in fondo, in un blocco separato che poi cancellerete.»
 
-«**Terzo: dove divergete?**»
+«Poi fate la cosa che conta davvero: **provate voi a trovarli, senza guardare il fondo.** Se ci mettete meno di cinque minuti va bene per la classe. Se ci mettete di più è troppo difficile. Se non li trovate affatto — **perfetto per voi, inutilizzabile per loro**, e l'avete scoperto adesso invece che in classe.»
 
-**18:21 — ★ [CARD 28] E quella differenza ha un nome (3')**
+[REGIA a 17:16: «Due minuti.» A 17:18 chiedere in chat: «quanti ne avete trovati?». Il conteggio è informativo per tutti.]
 
-«Lo sforzo. Il passo avanti rispetto a settembre. La frase che rivela che ha capito, anche se l'ha scritta male.»
+**17:18 — ★ [CARD 20] Perché questo esercizio è diverso (2')**
 
-«E poi una decisione sola: **quella dimensione la scrivo nella rubrica, o resta mia e non la dichiaro?** Sono due risposte legittime. Quella che non è legittima è non essersela chiesta.»
+«Non insegna a diffidare: **insegna a verificare.** E capovolge il rapporto — lo studente non riceve un testo da credere, **riceve un testo da interrogare.**»
 
-*«Quella differenza è la ragione dello Human-in-the-loop.»*
+«Tre regole quando lo portate in classe: gli errori **devono essere sottili**, se no si impara solo a ridere della macchina; la correzione **va documentata con la fonte**, altrimenti è un indovinello; e **cancellate il blocco delle soluzioni** prima di consegnare.»
 
 ---
 
-## 18:24–18:30 · PRESIDIO, CONSEGNE, CHIUSURA [CARD 29–30]
+## 17:20–17:28 · LA BOLLA E IL PONTE [CARD 21–22]
 
-**18:24 — ★ [CARD 29] Il presidio e le consegne (4')**
+**17:20 — ⚡ [CARD 21] Rompere la bolla (4')**
 
-«Tre righe, e valgono per il resto dell'anno. **Nessuna citazione entra in un materiale senza che io abbia aperto il documento. Nessun numero entra in una slide senza la fonte primaria accanto. Nessun voto esce da una macchina** — può uscirne una proposta motivata; il voto lo metto io.»
+«Tre livelli. **Sabotaggio algoritmico**: seguire deliberatamente fonti che non vi confermano, cercare in incognito, non lasciare che il feed si richiuda. **Dieta informativa plurale**: scegliersi le fonti come ci si sceglie il cibo. **Lettura laterale**: uscire dalla pagina per giudicare la pagina.»
 
-«**UdA completa entro lunedì 28**: canvas, un materiale generato-e-revisionato, la policy, la colonna dei livelli con l'ancora evidenziata, la rubrica nella versione che avete deciso voi.»
+«Dal deskilling all'upskilling: **riappropriarsi dei diritti aletici.**»
 
-«**Sette minuti di presentazione:** due il compito autentico e perché è autentico, tre le fasi e dove entra l'IA, uno la policy, e **uno su cosa vi preoccupa** — quello lo voglio, perché diventa la vostra domanda alla peer review.»
+**17:24 — ★ [CARD 22] E adesso il pezzo che vi serve davvero (4')**
 
-**18:28 — ★ [CARD 30] Chiusura (2')**
+[REGIA: è il ponte del pomeriggio. Dirlo guardando in camera.]
 
-*«Il modello non sa cosa è vero: sa cosa è verosimile. La differenza la mettete voi, e si chiama prova.»*
+«Il Laboratorio 4 di AI-LEAD vi chiede quattro cose: studia la traccia, adattala alla tua classe, conduci l'attività, **e raccogli e valuta il prodotto con le rubriche.**»
 
-«E la stessa frase vista dall'aula: **il pericolo non è l'opinione, è l'opinione travestita da fatto** — che sia di un onorevole nel 1947 o di un modello nel 2026.»
+«I prodotti sono tre: la decostruzione critica di un contenuto sintetico, il Protocollo di Verifica delle Fonti, il Manifesto della Sostenibilità Algoritmica.»
+
+«**Il punto quattro è quello per cui nessuno è attrezzato.** Non perché non sappiate valutare: perché valutare un percorso di verifica è diverso da valutare un tema. Per i prossimi cinquanta minuti costruiamo quello.»
+
+---
+
+## 17:28–18:18 · ★★ LABORATORIO B — LA RUBRICA CHE REGGE [CARD 23–30]
+
+**17:28 — ★ [CARD 23] Passi 1 e 2 (3')**
+
+«Scegliete **un** prodotto. Uno solo: dal Lab 4 o dal vostro modulo.»
+
+«E poi l'errore da evitare, che è tutto il problema: **nel fact-checking il prodotto può essere giusto per caso.** Si può classificare correttamente una notizia come falsa per il motivo sbagliato — perché il sito è brutto, perché l'argomento non piace, perché l'ha detto un amico.»
+
+*«Una rubrica che guarda solo l'esito premia la fortuna. Si valuta il percorso di verifica, non il verdetto.»*
+
+**17:31 — ★ [CARD 24] Passo 3, le dimensioni (8')**
+
+«Le dimensioni **non si inventano: si derivano.** Aprite le Linee guida e il curricolo e tiratele giù da lì — C10, C11, C12 — non dalla vostra idea di cosa sia un buon lavoro.»
+
+«E poi guardate la tabella: **le cinque mosse diventano descrittori osservabili.** "Identificazione della fonte" si osserva così: ha guardato "Chi siamo"? Ha nominato l'editore? "Verifica dell'immagine": ha fatto la ricerca inversa, e **l'ha documentata**?»
+
+«Tre-cinque dimensioni bastano. **Sei sono già troppe da applicare a venticinque elaborati** — e una rubrica che non si riesce ad applicare non è una rubrica: è un desiderio.»
+
+**17:39 — [CARD 25] Passo 4, la rubrica cieca (12')**
+
+[REGIA: **l'ordine è tutto.** Insistere due volte: non incollare la propria, non dire che ne esiste una.]
+
+«Chiedete alla Gem una rubrica per quel prodotto — il prompt è in scheda. **Non datele la vostra. Non ditele che ne avete una.** Se gliela fate vedere, ve la riscrive con parole sue e l'esperimento è bruciato.»
+
+«Poi il ciclo di critica, che è il vero esercizio. Cercate i **descrittori vaghi**: "adeguata padronanza", "uso appropriato", "buona capacità". La prova è questa: **se non potete indicare il punto del lavoro, non è un descrittore — è un'impressione.**»
+
+«E i **livelli indistinguibili**: se non sapete dire perché un lavoro è adeguato e non eccellente, **non lo sa nemmeno lo studente.**»
+
+**17:51 — ★ [CARD 26] Passo 5, il test dell'ancora (5')**
+
+«Adesso una domanda sola, per ogni dimensione: **questo livello lo può raggiungere uno studente che ha delegato tutto all'IA?**»
+
+«Se la risposta è sì, **quella dimensione non discrimina.** E va riscritta finché non discrimina.»
+
+«La riscrittura di solito consiste nel chiedere **una traccia del processo**: lo screenshot della ricerca inversa, l'elenco dei link aperti, mezza pagina in cui si racconta il vicolo cieco. È l'**ancora non delegabile**, vista dal lato dello strumento.»
+
+«Ed è anche la risposta a chi mi chiede dei detector: sono inaffidabili, e **un falso positivo ricade su una persona sola che non ha modo di difendersi** — non si può dimostrare di *non* aver usato qualcosa. L'alternativa non è un detector migliore: **è progettare un compito in cui delegare non conviene.**»
+
+**17:56 — ★ [CARD 27] Passo 6, il collaudo (15')**
+
+[REGIA: **è il momento più bello del pomeriggio.** Dare il prompt (è in scheda) e lasciarli lavorare in silenzio.]
+
+«Una rubrica non si valuta leggendola. **Si collauda provando a fregarla.**»
+
+«Chiedete alla Gem due elaborati finti sullo stesso compito. Nel primo il verdetto è corretto **e il percorso è documentato**. Nel secondo il verdetto è **ugualmente corretto, ma il percorso è sbagliato**: nessuna fonte indipendente, nessuna ricerca inversa, la conclusione indovinata guardando l'aspetto del sito. Stessa lunghezza, stesso tono, stessa cura formale: **il secondo non deve sembrare peggiore, deve sembrare uguale.**»
+
+«Poi applicate la vostra rubrica a tutti e due.»
+
+*«Se prendono lo stesso livello, la rubrica non funziona. E adesso lo sapete prima della classe, non dopo.»*
+
+[REGIA a 18:09: «Due minuti.» Poi chiedere in chat: **«li ha distinti?»** — e farsi dire da due persone **quale dimensione** ha fatto la differenza.]
+
+**18:11 — ★ [CARD 28] Cosa esce di qui (3')**
+
+«Una rubrica di tre-cinque dimensioni per tre livelli, agganciata alle competenze, con descrittori osservabili, **collaudata su due elaborati costruiti apposta**. È molto più di quello con cui siete entrati.»
+
+«E una regola che vale quanto la rubrica: **si consegna agli studenti all'inizio, non alla fine.** Perché impareranno a fare ciò che viene valutato — quindi la rubrica non misura l'apprendimento: **lo orienta. Scriverla è progettare.**»
+
+**18:14 — [CARD 29] La previsione (2')**
+
+[REGIA: leggere tre righe dalla chat **prima** di scoprire la previsione.]
+
+«Vi avevo fatto una previsione: che la rubrica della macchina premiasse **l'esattezza del verdetto**, perché l'esattezza è misurabile e il modello va sempre dove si misura.»
+
+«E la rubrica del modulo sull'articolo 3 dice il contrario: *"non si premia l'esattezza binaria della classificazione, ma la qualità delle motivazioni e la capacità di portare prove"*. **Quella riga non è una deduzione dai dati: è una scelta su che cosa vale.**»
+
+**18:16 — ⚡ [CARD 30] Se la sua è migliore (2')**
+
+«E se la sua è venuta meglio della vostra — capita, ed è il caso più prezioso del pomeriggio: **ha visto una dimensione che vi mancava. Prendetela.** Il punto non era che la vostra fosse migliore. Era che **la decisione fosse vostra.**»
+
+---
+
+## 18:18–18:30 · PRESIDIO, CONSEGNE, CHIUSURA [CARD 31–34]
+
+**18:18 — ★ [CARD 31] Il filtro T.A.P.E. (4')**
+
+«Chiudo con quattro lettere che sono vostre, dal Manuale.»
+
+«**Trasparenza:** dichiarare sempre l'uso dell'IA — nei materiali vostri, non solo nei loro. **Accuratezza:** esigere prove e fonti, e pretendere che dica "non lo so". **Privacy:** mai dati sensibili o nomi reali, mai un PDP o un PEI. **Equità:** analizzare e correggere i bias di genere e culturali — e quelli **non emergono da soli: si vanno a cercare.**»
+
+**18:22 — ★ [CARD 32] I tre gesti (2')**
+
+«Nessuna citazione entra in un materiale senza che io abbia aperto il documento. Nessun dato entra in una slide senza la fonte primaria accanto. Ogni contenuto generato è dichiarato — **nei materiali miei prima che nei loro.**»
+
+«Non sono tre divieti: **sono tre gesti**, e costano meno di quanto costava verificare prima.»
+
+**18:25 — [CARD 33] Consegne (3')**
+
+«**Entro lunedì 28:** canvas completo, un materiale generato-e-revisionato, la **rubrica collaudata allegando i due elaborati finti** su cui l'avete provata, e la policy IA con l'ultima riga — quella sulla trasparenza reciproca.»
+
+«**Sette minuti il 30:** due il compito autentico e perché è autentico, tre le fasi e dove entra l'IA, uno la policy, **e uno su cosa vi preoccupa** — quello lo voglio, perché diventa la vostra domanda alla peer review.»
+
+**18:28 — ★ [CARD 34] Chiusura (2')**
+
+*«La macchina produce validità sintattica. La verità semantica la mettiamo noi — e si chiama prova.»*
+
+«E l'altra, che è la stessa vista dall'infosfera: **chi inquina l'informazione inquina l'ambiente in cui viviamo tutti.** Insegnare a verificare non è una competenza tecnica: **è manutenzione dell'ambiente comune.**»
 
 «Firmate il registro. Ci vediamo mercoledì 30, all'ultimo.»
 
@@ -334,58 +344,52 @@
 
 **In ordine di sacrificabilità:**
 
-1. ⚡ [CARD 15] Correlazione e profilazione → due righe, resta nella scheda
-2. ⚡ [CARD 23] La trasparenza reciproca → si dice dentro il laboratorio A
-3. [CARD 6] La tassonomia → si tengono allucinazione, compiacenza e pigrizia metacognitiva
-4. [CARD 8] Le tre trappole → si riducono a due (bias e compiacenza: l'allucinazione l'hanno già vista in apertura)
-5. [CARD 13–14] Il fact-checking → **un solo caso**, il paper ritrattato, e si racconta il secondo
-6. [CARD 27] L'elaborato → 4' facendo solo il primo e il terzo passo
+1. ⚡ [CARD 21] Rompere la bolla → resta nella scheda
+2. ⚡ [CARD 13] Bias umano → digitale → una riga dentro la card 12
+3. ⚡ [CARD 15] Il quadro italiano 2025 → si citano solo il 612-quater e il dato AGCOM
+4. [CARD 11–12] Emozioni e bolle → si fondono in 4'
+5. [CARD 14] Le GAN → si racconta in due frasi senza la card
+6. [CARD 19] Laboratorio A → **diventa compito per casa**, con il prompt dalla scheda (è il taglio grosso: libera 15' per il laboratorio B)
 
-**Non si tagliano mai:** la citazione Cappi con la fonte aperta accanto · **la mossa a tre passi** (il cuore) · la stessa mossa applicata due volte · i detector e Beghetto · il vincolo DM 166/2025 · il laboratorio B · il presidio.
+**Non si tagliano mai:** la citazione Cappi con la fonte aperta accanto · **V_sint ≠ V_sem** · le tre parole e il disordine informativo · i cinque passaggi della deformazione · la lettura laterale · **tutto il laboratorio B, e in particolare il passo 6** · T.A.P.E.
 
 **Altre contingenze:**
 
-- **Il modello non abbocca sulla citazione** → si mostra la cattura di stamattina e si dice apertamente che dal vivo ha tenuto: «Oggi ha tenuto. Il problema è che non potete sapere in anticipo quando tiene.» La lezione regge, anzi è più onesta.
-- **Una delle tre trappole non scatta** → screenshot di riserva, preparati il giorno prima. E si nomina il fatto: la variabilità è essa stessa il dato.
-- **Qualcuno conosce già il caso Cappi** → gli si dà la parola, si guadagnano tre minuti.
-- **Il gruppo A non trova la retraction in dieci minuti** → dare la chiave di ricerca («cercate il DOI sul sito della rivista, poi "retraction note"»). Se ancora non la trovano, **è un risultato**: «Ci avete messo dieci minuti e non l'avete trovata. Ecco perché duecentosessantasei lavori la citano ancora.»
-- **«Ma allora non ci si può fidare di niente»** → «Non è "non fidarsi": è **sapere dove guardare**. Prima di questi strumenti, quante volte avete aperto la fonte di una frase trovata in un manuale? Il livello di controllo che vi chiedo oggi è più alto di quello che applicavate prima. Non è sfiducia: è un mestiere nuovo.»
-- **«Se devo verificare tutto, non risparmio tempo»** → «Non verificate tutto: verificate **le citazioni, i numeri e i nomi propri**. La struttura, il lessico, l'impaginazione, le varianti della consegna non hanno bisogno di verifica. Il risparmio è lì, ed è grande.»
-- **«E i detector che ha comprato la scuola?»** → non entrare in polemica con l'istituto: «Uno strumento che sbaglia su una persona sola ha già fatto un danno che non si ripara. Usatelo al massimo come segnale per voi, mai come prova in un colloquio con la famiglia.»
-- **La rubrica della macchina risulta migliore della loro** → è il caso più prezioso. «Allora vi ha fatto un regalo: ha visto una dimensione che vi mancava. **Prendetela.** Il punto non era che la vostra fosse migliore: era che la decisione fosse vostra — e adesso l'avete presa voi, con più informazione di prima.»
-- **Qualcuno arriva senza elaborato** → coppia decisa alle 15:33, oppure l'elaborato d'esempio anonimizzato della formatrice.
-- **Un elaborato contiene dati riconoscibili** → si ferma **prima** che venga incollato, senza imbarazzo: «Questo non entra. Ed è esattamente la regola che insegneremo ai ragazzi.»
+- **Il modello non abbocca sulla citazione** → si mostra la cattura di stamattina e lo si dice: «Oggi ha tenuto. Il problema è che non potete sapere in anticipo quando tiene.» Più onesto, funziona uguale.
+- **Nel laboratorio A gli errori sono grossolani** → è un risultato: «Guardate che vi ha dato. Con un errore così si impara a ridere della macchina, non a verificare. Rigeneratelo chiedendo errori *sottili*.»
+- **Qualcuno non trova nessuno dei tre errori** → non è un fallimento, è la card 20 dimostrata: «Se non li ha trovati un docente della materia, in classe quel testo non regge. Ed è meglio saperlo adesso.»
+- **La rubrica cieca esce buona al primo colpo** → far fare comunque il passo 5: quasi sempre l'ancora manca, anche in una rubrica ben scritta.
+- **Nel collaudo i due elaborati prendono lo stesso livello** → **è l'esito più utile.** «Complimenti: avete appena scoperto che la vostra rubrica premia la fortuna, e l'avete scoperto qui invece che su venticinque compiti.»
+- **«Ma se valuto il processo, devo leggere il doppio»** → «Leggete diverso, non di più. Il processo documentato è più veloce da valutare del prodotto: la ricerca inversa o c'è o non c'è. È il tema che richiede tempo.»
+- **«Gli studenti useranno l'IA per scrivere anche il diario di processo»** → «Certo. Per questo il diario chiede il **vicolo cieco**: la macchina non sa dove vi siete persi voi. E se lo inventa, si vede.»
+- **«Non ho mai fatto il Laboratorio 4»** → la traccia è nella scheda, per intero, con i tre prodotti e i fili rossi. Il lavoro di oggi vale comunque per il proprio modulo.
+- **Qualcuno chiede dei detector** → la risposta è dentro la card 26: non entrare in polemica con l'istituto, dire che al massimo è un segnale per il docente, **mai una prova in un colloquio con la famiglia.**
 
 ## Checklist pre-incontro
 
 - [ ] **La prova sulla citazione Cappi fatta in mattinata**, screenshot salvato
-- [ ] **Il resoconto del 31 gennaio 1947** già aperto in una scheda (portale *La nascita della Costituzione*)
-- [ ] **Le tre trappole collaudate il giorno prima** + screenshot di riserva per ciascuna
-- [ ] **Link del fact-checking pronti:** pagina della retraction · un titolo di stampa sul caso MIT · link al preprint
-- [ ] **PDF con la filigrana «RETRACTED ARTICLE»** nella cartella dell'incontro
-- [ ] Il dossier 2 Sigma aperto sulla tabella senza numeri
-- [ ] Un **elaborato anonimizzato di riserva**
-- [ ] Tabella dei quattro livelli e modello di policy pronti da condividere
+- [ ] **Il resoconto del 31 gennaio 1947** aperto in una scheda del browser
+- [ ] **I quattro dati del 2025 riverificati** (612-quater/L.132, Clothoff/Garante, Polizia Postale, AGCOM 43,5%)
+- [ ] **Il Pattern del Critico provato** sulla propria materia, con un esempio già generato di riserva
+- [ ] **I due elaborati finti già generati** su un caso d'esempio, per mostrare il passo 6 se qualcuno si blocca
+- [ ] Lavagna condivisa pronta per scrivere **V_sint ≠ V_sem**
+- [ ] Traccia del **Laboratorio 4** nella cartella del corso
 - [ ] Scheda 5 pubblicata nei materiali
 - [ ] Deck def_Incontro 5 aperto
-- [ ] Verificato in chat, alle 15:33, **chi non ha l'elaborato**
 - [ ] Timer
-- [ ] **Promemoria di metà settimana già mandato:** consegna UdA lunedì 28
+- [ ] **Promemoria già mandato** (versione aggiornata: serve il modulo e le competenze, **non** l'elaborato anonimizzato)
 
 ## Fonti
 
-- **Modulo 1 "Competenze in azione"** — Educazione Civica, art. 3: l'accesso delle donne alla magistratura (materiale della formatrice). Fonte A: Assemblea Costituente, seduta del 31 gennaio 1947, portale *La nascita della Costituzione*; Corte Cost. sent. n. 33/1960; legge n. 66/1963; prime otto magistrate 1965.
-- **Wang & Fan (2025)**, *Humanities and Social Sciences Communications*, DOI 10.1057/s41599-025-04787-y — **ritrattata il 22 aprile 2026** (Retraction Note: HSSC vol. 13, art. 528).
-- **"Your Brain on ChatGPT"** — preprint MIT, 54 partecipanti, non sottoposto a peer review.
-- **DM 166/2025** — la valutazione come atto insindacabile del docente. **AI Act** — sistemi ad alto rischio in ambito educativo.
-- **UNESCO-UNEVOC** — scala dei livelli di coinvolgimento dell'IA e *non-delegable anchor*.
-- **UNESCO** — MOOC *Educating in the Age of AI: Digital Citizenship from the Classroom*.
-- **Vaccaro, Almaatouq & Malone (2024)** — meta-analisi sulle combinazioni uomo-IA. *Da verificare sulla fonte primaria prima di citarne i valori.*
-- **Perkins, Furze, Roe & MacVaugh** — *AI Assessment Scale*, scala a cinque livelli.
-- **Beghetto** — il monito sulle due IA che si parlano (richiamo all'incontro 3). **Bender et al.** — forma senza significato (incontro 1).
-- Materiali del corso: audit del dossier *2 Sigma* (scheda fonti) · registro degli audit dei lavori dei corsisti.
+- **«Abitare l'infosfera nell'era dell'Intelligenza Artificiale»** — materiale della formatrice: Floridi (onlife, inforg, homo poieticus, entropia informativa, diritti aletici); disinformazione/misinformazione/malinformazione; UNESCO sul «disordine informativo»; GAN e deepfake; le cinque mosse; lettura laterale, prebunking, debunking; glossario in tre famiglie.
+- **«Il Manuale del Prompt Perfetto»** — materiale della formatrice: C.R.A.F.T., 4R, tassonomia di Bloom e tassonomia inversa, teoria del carico cognitivo, Context Conveyor Pattern, **Pattern del Critico**, modello **T.A.P.E.**
+- **«AI-LEAD · Laboratorio 4 — Cyber-Safety & Data Literacy»** — le tre sotto-sessioni, i tre prodotti, i fili rossi, il mandato di valutare i prodotti con le rubriche.
+- **Modulo 1 "Competenze in azione"** — Educazione Civica, art. 3: Assemblea Costituente, seduta del 31 gennaio 1947 (portale *La nascita della Costituzione*); Corte Cost. sent. n. 33/1960; legge n. 66/1963.
+- **DM 183 del 7 settembre 2024** — Linee guida per l'Educazione Civica, nucleo Cittadinanza Digitale (C10, C11, C12).
+- **AI Act** — obbligo di dichiarazione dei contenuti generati. **Legge 132/2025**, art. 612-quater c.p.
+- **AGCOM** — esposizione alla disinformazione. **Garante Privacy** — provvedimento Clothoff.
 
-> **Nota di verifica.** Nella timeline del percorso l'"era post-plagiarism" è attribuita a *Perkins & Roe*. Il termine **postplagiarism** è di **Sarah Elaine Eaton (2023)**; Perkins, Furze, Roe & MacVaugh sono gli autori dell'*AI Assessment Scale*. Prima di citarlo in aula conviene sistemare l'attribuzione — oggi più che mai.
+> **Nota di verifica.** I quattro dati del 2025 e la percentuale AGCOM vanno riaperti sulla fonte la mattina stessa. In questa lezione più che in ogni altra, un dato non verificato smonta da solo tutto quello che si è detto.
 
 ---
 *Materiale del corso Edu-GenAI 2 — Snodo VOLTERRA AI-MASTER HUB.*

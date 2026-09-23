@@ -1,43 +1,38 @@
 # Promemoria ai corsisti — prima dell'incontro 5
 
-*Da pubblicare come annuncio su Google Classroom. Il promemoria era previsto per lunedì 21: va mandato subito.*
+*Da pubblicare come annuncio su Google Classroom. Sostituisce la versione precedente, che chiedeva un elaborato anonimizzato: con la riprogettazione dell'incontro non serve più.*
 
 ---
 
 ## Testo dell'annuncio
 
-**Oggetto:** Giovedì 24 — cosa portare (due cose, una delicata)
+**Oggetto:** Giovedì 24 — cosa portare
 
 Buongiorno a tutte e a tutti,
 
-giovedì 24 alle 15:30 ci vediamo per il quinto incontro: **data literacy e valutazione assistita**. Si lavora quasi tutto il pomeriggio sui vostri materiali, quindi servono due cose.
+giovedì 24 alle 15:30 ci vediamo per il quinto incontro. Si parla di **disordine informativo**: come si guasta un'informazione, come si insegna a riconoscerlo, e come si costruisce uno strumento per valutare quel lavoro quando lo farete fare ai vostri studenti.
 
-**1 · Un elaborato di uno studente, anonimizzato.**
+Si lavora quasi tutto il pomeriggio sui vostri materiali. Servono tre cose, e sono tutte roba che avete già.
 
-Serve per il laboratorio sulle rubriche: lo valuterete voi, poi lo farete valutare alla vostra Gem con la stessa rubrica, e guarderemo insieme **dove i due giudizi divergono**. È il pezzo più utile del pomeriggio, e senza l'elaborato non si fa.
+**1 · Il modulo o l'UdA che state costruendo.**
 
-Va bene qualunque cosa: un tema, una relazione di laboratorio, un esercizio svolto, la risposta a una domanda aperta. **Meglio uno non perfetto** — su un elaborato eccellente non si vede niente.
+Quello cominciato al terzo incontro, con la "porta" aggiunta mercoledì. Serve per l'ultima ora e mezza.
 
-**Come si anonimizza, in concreto:**
+**2 · Le competenze del vostro curricolo, aperte accanto.**
 
-- via **nome e cognome**, anche dall'intestazione e dal nome del file;
-- via **classe, sezione e istituto**;
-- via le **date che identificano** e i nomi di compagni e docenti;
-- via i **riferimenti a fatti riconoscibili** («quando mio nonno è mancato a marzo», «durante la gita a…»): sono quelli che sfuggono sempre, e sono i più identificanti di tutti.
+Le Indicazioni nazionali o le Linee guida per l'Educazione Civica, e la programmazione del vostro dipartimento. Non per consultarle in teoria: **per copiarne i traguardi**. Le dimensioni di una rubrica non si inventano, si derivano da lì — e senza il documento aperto si finisce per scrivere quello che ci sembra un buon lavoro, che non è la stessa cosa.
 
-**E una regola che non ha eccezioni:** se l'elaborato contiene un **dato sanitario** o un riferimento a una **diagnosi**, resta fuori. Non si anonimizza: non si carica. Lo stesso vale, ovviamente, per **PDP e PEI**, che non entrano mai in uno strumento di IA, in nessuna forma e nemmeno per estratto (GDPR art. 9).
+**3 · La vostra Gem, funzionante.**
 
-Nel dubbio, portatelo lo stesso e me lo mostrate prima di incollarlo: decidiamo insieme.
-
-**2 · Il modulo o l'UdA che state costruendo.**
-
-Quello che avete cominciato al terzo incontro e a cui avete aggiunto la "porta" mercoledì. Giovedì ci lavoriamo due volte: prima per decidere **compito per compito** che cosa può fare l'IA e che cosa no, poi per la rubrica.
+Quella che avete costruito nel terzo e nel quarto incontro. La useremo due volte, e la seconda è un esperimento che riesce solo se la Gem è già istruita sui vostri file.
 
 ---
 
-**Un avviso sulle scadenze, così non arriva a sorpresa:** l'**UdA completa va consegnata lunedì 28**, perché il 30 è l'ultimo incontro e si presenta. Giovedì ne usciamo con la maggior parte del lavoro già fatto.
+**Che cosa ne uscirà:** una **rubrica** per valutare un lavoro di verifica delle fonti — agganciata alle vostre competenze, con descrittori osservabili, e **collaudata**. Collaudata vuol dire che l'avremo messa alla prova su due elaborati costruiti apposta per ingannarla: uno fatto bene, e uno che arriva alla conclusione giusta per il motivo sbagliato. Se la rubrica non li distingue, non funziona — ed è molto meglio scoprirlo giovedì che su venticinque compiti.
 
-*Facoltativo, per chi vuole arrivare preparato:* Bloom, *The 2 Sigma Problem* (1984) — quattro pagine, è nella cartella.
+**Non serve** portare lavori dei vostri studenti: gli elaborati su cui proveremo la rubrica li genereremo lì, apposta.
+
+**Un avviso sulle scadenze, così non arriva a sorpresa:** l'**UdA completa va consegnata lunedì 28**, perché il 30 è l'ultimo incontro e si presenta. Giovedì ne usciamo con la maggior parte del lavoro già fatto.
 
 A giovedì,
 Francesca Sabatini
@@ -46,9 +41,9 @@ Francesca Sabatini
 
 ## Note per la formatrice
 
-- **Perché l'anonimizzazione va spiegata e non solo richiesta:** giovedì il presidio privacy va mostrato in azione davanti all'aula (se un elaborato contiene dati riconoscibili si ferma **prima** che venga incollato). Averlo scritto nell'annuncio rende il gesto coerente invece che imbarazzante.
-- **Il punto che si perde sempre:** i riferimenti a fatti riconoscibili. Nome e classe li tolgono tutti; «la gita a Praga della terza B» no.
-- **Da verificare entro mercoledì:** chi ha risposto. Chi non ha l'elaborato lavora in coppia — le coppie si decidono alle 15:33, non alle 18.
+- **Il punto 2 è quello che di solito non fanno.** Se arrivano senza il curricolo aperto, il passo 3 del laboratorio B si trasforma in un brainstorming e la rubrica perde l'ancoraggio. Vale la pena ripeterlo all'inizio dell'incontro.
+- **Il punto 3 va verificato prima:** chi non ha la Gem funzionante lavora in chat incollando le istruzioni come primo messaggio (come all'incontro 4). Chiederlo in chat alle 15:35.
+- **Niente elaborati di studenti** significa anche niente questione anonimizzazione in diretta. Il presidio privacy resta, ma passa dal filtro T.A.P.E. in chiusura: *mai dati sensibili o nomi reali*.
 
 ---
 *Materiale del corso Edu-GenAI 2 — Snodo VOLTERRA AI-MASTER HUB.*
