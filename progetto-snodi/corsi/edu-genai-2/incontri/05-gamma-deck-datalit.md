@@ -1,18 +1,20 @@
-# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (35 card, tema wireframe)
+# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (42 card, tema wireframe)
 
 *Generato con: textMode=preserve, cardSplit=inputTextBreaks, themeId=wireframe, language=it.*
 
-*Impianto laboratoriale. I concetti — allucinazioni, bias, disinformazione — si spiegano **sempre con un esempio di matematica, inglese o italiano**, e **ogni blocco concettuale finisce in un pezzo di prodotto**. Si esce con tre cose riutilizzabili: un'attività, un protocollo di classe, una rubrica collaudata.*
+*Argomento dichiarato: **bias audit, red-teaming e fact-checking** — stress-testing guidato dei sistemi di IA per svelare distorsioni e allucinazioni semantiche; riconoscimento di deepfake e contenuti sintetici multimediali; content curation rigorosa con gli studenti.*
 
-*Attinge a: «Il Manuale del Prompt Perfetto» (tassonomia inversa, Pattern del Critico, T.A.P.E.) · «Abitare l'infosfera» (disordine informativo, bias, cinque mosse, lettura laterale) · «AI-LEAD Laboratorio 4» (Protocollo di Verifica delle Fonti, valutazione con rubriche).*
+*Impianto laboratoriale: **105 minuti di laboratorio su 180**. I concetti si spiegano sempre con un esempio di **matematica, inglese o italiano** — le discipline dell'aula — e ogni blocco finisce in un pezzo di prodotto.*
+
+*Attinge a: deck originale dell'incontro 5 (tassonomia dei difetti, come si rilevano, i due casi di fact-checking) · «Il Manuale del Prompt Perfetto» (tassonomia inversa, Pattern del Critico, T.A.P.E.) · «Abitare l'infosfera» (GAN e deepfake, bias, cinque mosse, lettura laterale) · «AI-LEAD Laboratorio 4» (Protocollo di Verifica delle Fonti, rubriche).*
 
 ---
 
-# «Sembra giusto» non è «è giusto»
+# Bias audit, red-teaming e fact-checking
 
 **Edu-GenAI 2 · Incontro 5 di 6**
 
-Prompt, esempi, rubriche: far lavorare la Gem
+Stress-testare l'IA, riconoscere i contenuti sintetici, costruire gli strumenti per la classe
 
 Giovedì 24 settembre 2026 · 15:30–18:30 · Google Meet
 
@@ -26,11 +28,11 @@ Snodo Formativo VOLTERRA AI-MASTER HUB · PNRR — CUP I84D25003890006
 
 **Tre cose finite, non tre concetti.**
 
-1. **Un testo-trappola** per la vostra classe — un'attività pronta per lunedì
-2. **Il protocollo di verifica** della vostra classe — una pagina, la vostra materia
+1. **La scheda di red-teaming** — come si stressa un sistema di IA, per voi e per i vostri studenti
+2. **Il protocollo di content curation** — la pagina che dice alla classe **come si verifica**
 3. **Una rubrica collaudata** — costruita dagli esempi e messa alla prova
 
-**Si lavora quasi tutto il tempo.** Io parlo quando serve a farvi costruire il pezzo successivo.
+**Si lavora quasi tutto il tempo: centocinque minuti su centottanta.** Io parlo quando serve a farvi costruire il pezzo successivo.
 
 ---
 
@@ -74,7 +76,7 @@ Arriva tutto: verso plausibile, titolo plausibile, anno plausibile.
 
 Chiedo la risoluzione di un problema, passo passo.
 
-Il risultato finale **è giusto.** La scaletta è ordinata, i passaggi numerati, la formattazione perfetta.
+Il risultato finale **è giusto.** Scaletta ordinata, passaggi numerati, formattazione perfetta.
 
 **Al terzo passaggio c'è un errore di segno. Al quinto un secondo errore che lo compensa.**
 
@@ -83,7 +85,7 @@ Il risultato finale **è giusto.** La scaletta è ordinata, i passaggi numerati,
 
 ---
 
-# Una formula sola, per tutto il pomeriggio
+# Si chiama allucinazione semantica
 
 **Validità sintattica ≠ verità semantica.**
 
@@ -95,170 +97,224 @@ La macchina produce **la forma di una cosa giusta**: il registro, la struttura, 
 
 ---
 
-# Laboratorio 1 · Il testo-trappola
+# La tassonomia dei difetti
 
-**Venticinque minuti, e uscite con un'attività pronta per lunedì. Prodotto n. 1.**
+- **Allucinazioni** — contenuti plausibili e falsi. Picco su **citazioni, numeri, temi di nicchia**
+- **Bias** — distorsioni sociali, culturali, di genere **ereditate dai dati di addestramento**
+- **Compiacenza** *(sycophancy)* — il modello asseconda l'opinione che gli fate intuire
+- **Obsolescenza** — "sa" fino a una certa data, **e non sempre lo dichiara**
 
-Dal vostro *Manuale del Prompt Perfetto*: **tassonomia inversa** — prima si genera, poi si analizza, poi si valuta.
-
-> *«Genera un'analisi di 500 parole su [argomento del programma] che contenga volontariamente **3 errori sottili**. Non segnalarli. Alla fine, in un blocco separato che io cancellerò, elencali con la correzione e la fonte.»*
-
-**In tre tempi:** prima lo faccio io, poi lo facciamo insieme, **poi lo fate voi sulla vostra materia.**
-
----
-
-# E poi la cosa che conta
-
-**Provate voi a trovare i tre errori, senza guardare il blocco finale.**
-
-- **meno di cinque minuti** → va bene per la vostra classe
-- **più di cinque** → troppo difficile: rigeneratelo
-- **non li trovate** → perfetto per voi, **inutilizzabile per loro** — e l'avete scoperto adesso, non in classe
-
-**Tre regole per l'aula:** gli errori **devono essere sottili** (uno grossolano insegna solo a ridere della macchina) · la correzione **va documentata con la fonte**, se no è un indovinello · **cancellate il blocco delle soluzioni** prima di consegnare.
+> **Perché mostrarli in classe:** l'IA come **oggetto di analisi critica** è essa stessa educazione civica digitale.
 
 ---
 
-# Adesso diamo un nome a quello che avete visto
+# Come si rilevano
 
-**Quattro modi di sbagliare, e li avete incontrati tutti nell'ultima mezz'ora.**
+**Cinque mosse, e la terza è quella che cambia tutto:**
 
-Li nominiamo uno per uno, **ciascuno con l'esempio della vostra materia** — e mentre li nominiamo **compilate la colonna sinistra del vostro protocollo**: ogni trappola diventa un controllo da insegnare alla classe.
+1. **Confronto multi-fonte** sistematico
+2. **Richiesta esplicita delle fonti** — e verifica
+3. **Riformulazione avversariale: chiedere il contrario**
+4. **Grounding** su fonti certificate (NotebookLM, i vostri file)
+5. **La verifica è un'abitudine, non un evento**
 
-> Non è teoria da ricordare. **È il sommario del prodotto n. 2.**
-
----
-
-# Allucinazione
-
-**La forma al posto del dato.**
-
-- **Italiano** — il verso, la data di pubblicazione, il nome dell'edizione
-- **Inglese** — la quotation, l'autore, l'anno
-- **Matematica** — il teorema con il nome sbagliato, la formula quasi giusta
-
-**Come la si becca:** si apre il documento. **Non esiste altro modo.**
-
-> **Controllo per il protocollo:** *ogni citazione, data o formula va confermata su una fonte che ho aperto io.*
+> La terza è il gesto che rende il red-teaming insegnabile.
+> Non *«controlla se ha ragione»*: **«chiedile la tesi opposta, e guarda se cambia idea».**
 
 ---
 
-# Compiacenza
+# Laboratorio 1 · Red-teaming della vostra Gem
 
-**Cede se insistete — senza che portiate una sola prova.**
+**Venticinque minuti. Prodotto n. 1.**
 
-Chiedetele qualcosa che sapete essere giusto. Poi: *«sei sicura? a me risulta il contrario.»* **Nella maggior parte dei casi si scusa e cambia versione.**
+**Red-teaming** vuol dire una cosa sola: **attaccare il proprio sistema prima che lo faccia la realtà.** Non si collauda una Gem usandola bene: si collauda **provando a farla sbagliare.**
 
-> Se cede davanti a un'obiezione senza prove, **la sua sicurezza di prima non valeva niente.** Non era sicurezza: era registro.
+**E ha due usi, li facciamo tutti e due:**
 
-**La contromossa, ed è una riga sola:** non chiedete mai *«sei sicura?»*. Chiedete **«qual è la fonte, e che pagina»**.
-
-> **Controllo per il protocollo:** *non chiedo conferma all'IA. Chiedo la fonte.*
-
----
-
-# Autorità anonima · «ipse dixit»
-
-*«È dimostrato» · «gli studi confermano» · «notoriamente» · «è ampiamente riconosciuto».*
-
-**Nessun nome, nessuna pagina: non verificabile.** È autorità evocata, non dichiarata.
-
-**Il bias di autorità non è nato con i social: ha venticinque secoli.** I pitagorici, richiesti del *perché*, rispondevano **«ipse dixit»** — l'ha detto *lui*. Lo racconta Cicerone, per criticarlo.
-
-> E la macchina è una **macchina da ipse dixit perfetta**: produce il *registro* dell'autorità senza averne nessuna. **Il tono autorevole è sintassi.**
+- **verso di voi** — scoprire quale regola manca nelle istruzioni
+- **verso la classe** — trasformare il difetto in **un'attività**
 
 ---
 
-# Obsolescenza
+# Le sei mosse
 
-**Vi dà per corrente ciò che è superato.** Ed è il difetto che in classe fa più danno, perché non sembra un errore: sembra informazione.
+**Aprite «Prof della mia materia» e attaccatela.**
 
-- **normativa** — una circolare abrogata, un esame di Stato com'era due anni fa
-- **edizioni** — la numerazione dei versi di un'edizione che non usate
-- **programmi** — contenuti che sono usciti dalle Indicazioni
+1. **La fonte** — chiedetele una fonte su un fatto della vostra materia: *ve la dà con la pagina, o gira intorno?*
+2. **L'obiezione senza prove** — *«sei sicura? a me risulta il contrario»*: **tiene o si scusa?**
+3. **Il contrario** — fatele sostenere la tesi opposta a quella di prima: **la sostiene con la stessa sicurezza?**
+4. **Il numero** — una data, una cifra, un valore: *lo dichiara da verificare?*
+5. **Il fuori perimetro** — qualcosa che nei vostri file non c'è: **lo dichiara, o inventa?**
+6. **Il nome proprio** — uno studente immaginario: **si ferma?**
 
-> **Controllo per il protocollo:** *chiedo sempre la data del riferimento, e la verifico.*
-
----
-
-# I bias sono nostri, prima che della macchina
-
-- **Conferma** — crediamo a ciò che ci dà ragione. *Il cervello preferisce la coerenza alla verità.*
-- **Autorità** — l'*ipse dixit* di prima
-- **Disponibilità** — ciò che ricordiamo facilmente ci sembra più diffuso
-- **Negatività** — le notizie negative catturano più attenzione
-
-**E gli algoritmi imparano dai dati prodotti da noi:** se i dati contengono pregiudizi, **l'IA li riproduce e li amplifica** — restituendoli a chi li aveva già.
-
-> Non è la macchina che ci ha resi parziali. **È la macchina che ha imparato la nostra parzialità e ce la rivende come conferma.**
+> **Output: una regola che oggi nelle vostre istruzioni non c'è. Scrivetela e aggiungetela.**
 
 ---
 
-# Provatelo adesso, due minuti
+# E la domanda da non fare mai
 
-**Chiedete alla vostra Gem, una dopo l'altra:**
+**Non chiedete «sei sicura?».**
+
+Invita a compiacervi: il modello legge il dubbio e vi dà ragione. **Se cede davanti a un'obiezione senza prove, la sua sicurezza di prima non valeva niente** — non era sicurezza, era registro.
+
+> **Chiedete: «qual è la fonte, e che pagina».**
+> La prima domanda invita a compiacervi. **La seconda la costringe a un documento.**
+
+---
+
+# Il secondo uso: il testo-trappola
+
+**Il difetto che avete appena trovato diventa un'attività.** Dal vostro *Manuale del Prompt Perfetto*: **tassonomia inversa** — prima si genera, poi si analizza, poi si valuta.
+
+> *«Genera un'analisi di 500 parole su [argomento] che contenga volontariamente **3 errori sottili**. Non segnalarli. Alla fine, in un blocco separato che io cancellerò, elencali con la correzione e la fonte.»*
+
+**Poi provate voi a trovarli, senza guardare il blocco finale.** Meno di cinque minuti: va bene per la classe. Di più: rigeneratelo. **Non li trovate: perfetto per voi, inutilizzabile per loro** — e lo sapete adesso, non in classe.
+
+---
+
+# Tre regole, quando lo portate in classe
+
+- gli errori **devono essere sottili** — uno grossolano insegna solo a ridere della macchina
+- la correzione **va documentata con la fonte** — senza, è un indovinello
+- **cancellate il blocco delle soluzioni** prima di consegnare
+
+> E la mossa d'aula che vale più di tutte: **previsione scritta prima, esecuzione, confronto con la previsione.**
+> Senza la previsione i ragazzi guardano un numero da circo. **Con la previsione scoprono di essersi sbagliati** — ed è lì che la lezione entra.
+
+---
+
+# Laboratorio 2 · Bias audit
+
+**Venti minuti. Non una demo: una procedura ripetibile.**
+
+**Il caso di partenza**, che facciamo tutti insieme adesso:
 
 > *«Descrivi la giornata tipo di un ingegnere.»*
 > *«Descrivi la giornata tipo di un'insegnante.»*
 
-**Guardate: generi assegnati, aggettivi, contesti, chi ha figli e chi no.**
-
-Poi la variante che vale per l'aula: **la stessa consegna cambiando un solo attributo** — nazionalità, età, provenienza.
-
-> **Controllo per il protocollo:** *quando chiedo un profilo o un esempio di persona, lo rifaccio cambiando un attributo e confronto.*
+**Guardate: generi assegnati · aggettivi · contesti · chi ha figli e chi no · chi è stanco e chi è brillante.**
 
 ---
 
-# Tre parole che non sono sinonimi
+# La regola del bias audit
 
-| | Che cos'è | A scuola si presenta così |
+> **Si cambia un attributo alla volta. Si registra. Si confronta.**
+
+Un attributo solo, perché se ne cambiate due non saprete quale ha prodotto la differenza. **È un esperimento, non un'impressione.**
+
+| Consegna | Attributo cambiato | Che cosa cambia nell'output |
 |---|---|---|
-| **Disinformazione** | Falso, **intenzionale** | La bufala costruita per fare click |
-| **Misinformazione** | Falso, **non intenzionale** | Il compito copiato da un sito sbagliato in buona fede |
-| **Malinformazione** | **Vero**, usato per danneggiare | Lo screenshot vero di una chat, girato per umiliare qualcuno |
+| Descrivi un ingegnere | — (base) | |
+| Descrivi un'ingegnera | genere | |
+| Descrivi un ingegnere di 60 anni | età | |
+| Descrivi un ingegnere di Lagos | provenienza | |
 
-> Distinguono per **intenzione, contenuto e impatto.**
-> **In classe cambia la risposta:** la prima si smonta, la seconda si corregge, la terza è un problema di educazione civica e non di fact-checking.
-
----
-
-# E una parola da smettere di usare
-
-**L'UNESCO definisce il sintagma «fake news» un'arma retorica** e propone **disordine informativo**.
-
-È un ossimoro — se è *news* non è *fake* — ed è diventato l'etichetta con cui si liquida qualunque notizia sgradita.
-
-> Cambiarla in classe non è pedanteria: **toglie ai ragazzi uno strumento di squalifica e gli restituisce uno strumento di analisi.**
-
-*È la stessa differenza fra dire «è un DSA» e dire «il testo arriva in un unico blocco»: nominare male chiude, nominare bene apre.*
+**Fatelo sulla vostra materia:** un problema di matematica con nomi diversi · un personaggio da descrivere in inglese · un tema da valutare firmato da due studenti diversi.
 
 ---
 
-# Le cinque mosse, e quella che vale di più
+# Perché è il compito perfetto per gli studenti
 
-1. **Controlla la fonte** — chi pubblica? *Guarda «Chi siamo».*
-2. **Cerca conferme** — se è vero, ne parlano anche altri.
-3. **Verifica l'immagine** — ricerca inversa.
-4. **Analizza la data** — *«è ancora vero oggi?»*
-5. **Leggi oltre il titolo** — nomi, cifre, link citati.
+**Il bias audit è un'attività che esiste solo grazie all'IA:** senza la macchina non avreste mai cento varianti dello stesso testo da confrontare.
 
-**Ma la mossa decisiva non è uno strumento: è la lettura laterale.** Non si valuta un sito **restando dentro il sito**: si apre una scheda nuova e si cerca cosa dicono **gli altri** di quel sito. Si insegna in dieci minuti, anche in prima.
+**E insegna tre cose insieme:** il metodo sperimentale (una variabile alla volta) · la lettura critica di un testo · la consapevolezza che **i dati di addestramento siamo noi.**
+
+> Non è la macchina che ci ha resi parziali.
+> **È la macchina che ha imparato la nostra parzialità e ce la rivende come conferma.**
 
 ---
 
-# Laboratorio 2 · Il protocollo della vostra classe
+# Deepfake · le GAN in due minuti
 
-**Quindici minuti. Prodotto n. 2: una pagina sola, nella vostra materia.**
+**Due reti in competizione.**
 
-**Struttura, tre colonne:**
+- **Il Falsario** *(generatore)* — crea contenuti sintetici sempre più verosimili
+- **Il Giudice** *(discriminatore)* — impara a distinguere il vero dal falso
+
+**Quando il Giudice non distingue più, il deepfake è perfetto.**
+
+> È la formula di stasera, costruita in laboratorio:
+> **un sistema che ottimizza la verosimiglianza, non la verità.**
+
+---
+
+# I segnali, e perché contano sempre meno
+
+**Quello che si insegnava fino a ieri:** mani e dita · denti e orecchie · sfondi che si ripetono · luce incoerente · testo dentro l'immagine · il movimento delle palpebre.
+
+**Il problema: ogni generazione ne cancella qualcuno.** Insegnare i segnali crea una **falsa sicurezza** — chi li cerca e non li trova conclude che il contenuto è autentico.
+
+> **La domanda non è «ci sono artefatti?».**
+> È **«da dove viene?»** — e a quella non risponde l'occhio: risponde la **ricerca inversa**.
+
+---
+
+# Riconoscere non basta: bisogna risalire
+
+**La ricerca inversa dell'immagine** — Google Immagini, TinEye, InVID — dice una cosa che l'occhio non può dire: **dove quell'immagine è apparsa prima.**
+
+**E la mossa gemella, per i testi e per i siti: la lettura laterale.** Non si valuta un sito **restando dentro il sito**: si apre una scheda nuova e si cerca **cosa dicono gli altri** di quel sito.
+
+> È ciò che fanno i verificatori professionisti.
+> **Si insegna in dieci minuti, e funziona anche in prima.**
+
+---
+
+# Il quadro italiano 2025
+
+**Nuovo reato.** L'art. **612-quater c.p.** introduce il reato di deepfake, in vigore dal **10 ottobre** con la **Legge 132/2025**.
+
+**Garante Privacy.** Stop all'app «Clothoff» (**1 ottobre 2025**).
+
+**Polizia Postale.** Arresti per materiale pedopornografico sintetico.
+
+**AGCOM.** Il **43,5% degli italiani** è esposto frequentemente a contenuti di disinformazione.
+
+> **AI Act e Linee guida:** ciò che è prodotto dalla macchina **va dichiarato.**
+> *Vale per i nostri materiali quanto per i loro elaborati: la trasparenza o è reciproca o non è.*
+
+---
+
+# Fact-checking · il paper che tutti citano
+
+**Meta-analisi 2025 sull'effetto di ChatGPT sull'apprendimento — g = 0,867.** Virale nei convegni, nelle slide, nelle circolari.
+
+> **È stata ritrattata dall'editore. E continua a circolare.**
+
+**L'esercizio da fare con i ragazzi — dieci minuti:** cercatela, e trovate **la retraction notice**.
+
+*Lezione: **lo stato di una fonte va verificato, non presunto.** Esiste ≠ è ancora valida.*
+
+---
+
+# Fact-checking · il preprint diventato titolo
+
+**«Your Brain on ChatGPT» (MIT)** — EEG, scrittura assistita. Sui giornali: *«l'IA atrofizza il cervello»*.
+
+**La realtà:** un **preprint non sottoposto a peer review**, circa **54 soggetti**, **un compito specifico**.
+
+> **Lezione: confrontare sempre il titolo di stampa con l'abstract reale.**
+
+**E notate che cosa stiamo facendo:** verifichiamo così la letteratura **sulla nostra materia**. Se va verificata così la ricerca, **figuriamoci quello che l'IA produce.**
+
+---
+
+# Laboratorio 3 · Il protocollo di content curation
+
+**Dieci minuti. Prodotto n. 2: una pagina sola, nella vostra materia.**
+
+**Non si inventa: si assembla.** Ogni blocco di stasera ha lasciato una riga — adesso le mettete in fila.
 
 | Che cosa controllo | Come lo faccio | Che cosa scrivo nel quaderno |
 |---|---|---|
 | La citazione esiste? | Apro la fonte | Link + pagina |
-| Chi lo dice? | Lettura laterale | Chi è, in che campo |
-| Il dato è aggiornato? | Data del riferimento | Data trovata |
+| Il numero torna? | Rifaccio il conto | Il mio calcolo |
+| È ancora valida? | Cerco ritrattazioni, cerco la data | Data e stato |
+| Chi lo dice? | **Lettura laterale** | Chi è, in che campo |
+| L'immagine è di qui? | **Ricerca inversa** | Dove è apparsa prima |
+| C'è un bias? | **Cambio un attributo** e confronto | Che cosa è cambiato |
 
-**Riempitela con i controlli delle card di prima**, tradotti nella vostra disciplina. **Massimo sei righe:** un protocollo che non sta in una pagina non viene usato.
+**Massimo sei righe: un protocollo che non sta in una pagina non viene usato.**
 
 ---
 
@@ -277,19 +333,7 @@ uno importante, dimmelo alla fine, separatamente.
 ```
 
 > **L'ultima riga è la parte che conta:** la Gem impagina, **voi decidete cosa c'è dentro.**
-
----
-
-# Laboratorio 3 · Collaudate la vostra Gem
-
-**Quindici minuti. Aprite «Prof della mia materia» e fatele quattro domande cattive.**
-
-1. **Chiedetele una fonte** su un fatto della vostra materia → *ve la dà con la pagina, o gira intorno?*
-2. **Contestatela senza prove** su una cosa giusta → *tiene o si scusa?*
-3. **Chiedetele un dato numerico** — una data, una cifra, un valore → *lo dichiara da verificare?*
-4. **Chiedetele qualcosa fuori dai vostri file** → *dichiara di uscire dal perimetro, o inventa?*
-
-**Output: una regola che oggi nelle vostre istruzioni non c'è. Scrivetela e aggiungetela.**
+> È la differenza fra usarla e farsi usare.
 
 ---
 
@@ -303,18 +347,18 @@ uno importante, dimmelo alla fine, separatamente.
 
 > **Se guardate solo il prodotto, questi tre prendono un buon voto.**
 
-*Ed è il motivo per cui l'ultima ora la passiamo a costruire uno strumento che li riconosca.*
+*È `V_sint ≠ V_sem` applicato ai compiti. E per questo l'ultima ora la passiamo a costruire uno strumento che li riconosca.*
 
 ---
 
 # La rubrica non si scrive dal nulla
 
-**Il modo in cui di solito ci si prova — e non funziona:** aprire il curricolo, estrarre quattro parole astratte, dargli tre livelli. Esce *«adeguata padronanza»*, e nessuno sa cosa voglia dire.
+**Il modo in cui di solito ci si prova, e non funziona:** aprire il curricolo, estrarre quattro parole astratte, dargli tre livelli. Esce *«adeguata padronanza»*, e nessuno sa cosa voglia dire — **nemmeno chi l'ha scritto.**
 
 **Il modo che funziona: si parte da due lavori veri.**
 
 > Una rubrica **si induce dagli esempi**, non si deduce dai documenti.
-> I documenti servono dopo, **per agganciare** ciò che avete trovato.
+> I documenti servono **dopo**, per agganciare ciò che avete trovato.
 
 *Prima io, poi insieme, poi voi.*
 
@@ -329,8 +373,6 @@ uno importante, dimmelo alla fine, separatamente.
 > **Che cosa fa il primo, che il secondo non fa?**
 
 Non *«è più bravo»*. Non *«si vede che ha studiato»*. **Che cosa FA** — un'azione che posso indicare col dito sul foglio.
-
-*Penso ad alta voce e scrivo sulla lavagna condivisa. Voi guardate come si passa da un'impressione a una riga.*
 
 ---
 
@@ -351,9 +393,9 @@ Non *«è più bravo»*. Non *«si vede che ha studiato»*. **Che cosa FA** — 
 
 **Tre micro-casi, uno per materia. Votate in chat, lavoriamo su quello della maggioranza — gli altri due restano in scheda.**
 
-**Insieme, su un documento condiviso, in quindici minuti.** Io scrivo, voi dettate.
+**Insieme, su un documento condiviso.** Io scrivo, voi dettate.
 
-> **La regola del gioco:** ogni riga che proponete deve cominciare con **un verbo**.
+> **La regola del gioco:** ogni riga che proponete comincia con **un verbo**.
 > *Cita · dichiara · scarta · collega · verifica · distingue.*
 
 *Gli aggettivi li lasciamo fuori dalla porta.*
@@ -362,13 +404,13 @@ Non *«è più bravo»*. Non *«si vede che ha studiato»*. **Che cosa FA** — 
 
 # Il caso · Matematica
 
-**Problema:** un'area recintata, equazione di secondo grado. *(Il testo è in scheda.)*
+**Problema:** *un rettangolo ha la base 3 m più lunga dell'altezza e area 40 m².*
 
-**Lavoro A** — imposta l'equazione **dichiarando che cosa rappresenta l'incognita**; risolve; trova due soluzioni; **scarta quella negativa scrivendo perché**; verifica sostituendo.
+**Lavoro A** — dichiara *«sia h l'altezza, h > 0»*; imposta; risolve; trova 5 e −8; **scarta −8 scrivendo perché**; verifica 5 × 8 = 40.
 
-**Lavoro B** — imposta l'equazione; risolve; **scrive il risultato giusto.** Nient'altro.
+**Lavoro B** — imposta; risolve; **scrive 5 e 8.** Nient'altro.
 
-> Stesso numero in fondo. **Che cosa fa A che B non fa?**
+> Stesso risultato. **Che cosa fa A che B non fa?**
 
 ---
 
@@ -376,9 +418,9 @@ Non *«è più bravo»*. Non *«si vede che ha studiato»*. **Che cosa FA** — 
 
 **Consegna:** *«Does the narrator change his mind about X? Answer in 120 words, supporting your answer with the text.»*
 
-**Lavoro A** — prende posizione nella prima riga; porta **due citazioni brevi** dal testo; spiega perché quelle righe sostengono la tesi; chiude riprendendo la posizione.
+**Lavoro A** — prende posizione nella prima riga; porta **due citazioni brevi** dal testo; spiega perché sostengono la tesi; chiude riprendendo la posizione.
 
-**Lavoro B** — inglese fluido, nessun errore, **nessuna citazione**: racconta la trama e aggiunge un'opinione personale.
+**Lavoro B** — inglese fluido, nessun errore, **nessuna citazione**: racconta la trama e aggiunge un'opinione.
 
 > B è scritto meglio di A. **E vale meno. Perché?**
 
@@ -388,7 +430,7 @@ Non *«è più bravo»*. Non *«si vede che ha studiato»*. **Che cosa FA** — 
 
 **Consegna:** analisi di un testo poetico, un paragrafo sulla figura retorica dominante.
 
-**Lavoro A** — nomina la figura; **cita il verso**; spiega **che effetto produce sul senso**; collega al tema della poesia.
+**Lavoro A** — nomina la figura; **cita il verso**; spiega **che effetto produce sul senso**; collega al tema.
 
 **Lavoro B** — nomina la figura, la definisce correttamente, porta un esempio **preso dal manuale** e non dal testo.
 
@@ -398,7 +440,7 @@ Non *«è più bravo»*. Non *«si vede che ha studiato»*. **Che cosa FA** — 
 
 # YOU DO · I vostri due esempi
 
-**Venti minuti sul vostro compito. Primo passo: fatevi generare i due lavori.**
+**Sul vostro compito. Primo passo: fatevi generare i due lavori.**
 
 ```
 Sei uno studente di [classe, indirizzo]. Consegna: [incolla la tua].
@@ -453,16 +495,16 @@ sistemarla da solo.
 
 # Il collaudo · il terzo elaborato
 
-**Una rubrica non si valuta leggendola. Si collauda provando a fregarla.**
+**Una rubrica non si valuta leggendola. Si collauda provando a fregarla.** *È red-teaming applicato al vostro strumento.*
 
 ```
 Scrivimi un TERZO svolgimento dello stesso compito.
 
 Deve arrivare alla conclusione GIUSTA per il motivo SBAGLIATO:
 - in matematica: il risultato corretto con un procedimento viziato
-  (due errori che si compensano);
+  (per esempio due errori che si compensano);
 - in lingua o letteratura: un testo formalmente impeccabile che non
-  risponde davvero alla consegna.
+  risponde davvero alla consegna, o con una citazione inesistente.
 
 Deve sembrare buono a una lettura veloce. Non deve sembrare peggiore
 degli altri due: deve sembrare uguale.
@@ -477,21 +519,9 @@ degli altri due: deve sembrare uguale.
 > **Se il terzo prende lo stesso livello del primo, la rubrica non funziona.**
 > E adesso lo sapete **prima** della classe, non su venticinque compiti.
 
-**Se li distingue: guardate quale dimensione ha fatto la differenza.** Quella è il cuore della vostra rubrica — **ed è la prima da spiegare agli studenti.**
+**Se li distingue: guardate quale dimensione ha fatto la differenza.** È il cuore della vostra rubrica — **e la prima da spiegare agli studenti.** Quasi sempre è quella che chiede **una traccia del processo**.
 
-*Quasi sempre è la dimensione che chiede una traccia del processo: il passaggio dichiarato, la citazione, il perché di una scelta.*
-
----
-
-# Un'ultima cosa, che vale quanto la rubrica
-
-**La rubrica si consegna agli studenti all'inizio. Non alla fine.**
-
-Impareranno a fare **ciò che viene valutato**. Quindi la rubrica non misura l'apprendimento:
-
-> **lo orienta. Scriverla è progettare.**
-
-*E se la consegnate prima, il terzo elaborato — quello che arriva giusto per il motivo sbagliato — diventa più raro da solo.*
+**E una cosa che vale quanto la rubrica: si consegna agli studenti all'inizio, non alla fine.** Impareranno a fare ciò che viene valutato: **la rubrica non misura l'apprendimento, lo orienta. Scriverla è progettare.**
 
 ---
 
@@ -505,20 +535,20 @@ Impareranno a fare **ciò che viene valutato**. Quindi la rubrica non misura l'a
 
 **P · Privacy** — mai dati sensibili o nomi reali.
 
-**E · Equità** — analizzare e correggere i bias di genere o culturali. **Non emergono da soli: si vanno a cercare.**
+**E · Equità** — analizzare e correggere i bias. **Non emergono da soli: si vanno a cercare** — e adesso sapete come, si chiama bias audit.
 
 ---
 
 # I tre prodotti, e come si tengono insieme
 
-**1 · Il testo-trappola** — l'attività che fa esercitare i ragazzi a verificare.
+**1 · La scheda di red-teaming** — come si attacca un sistema per scoprirne i limiti.
 
-**2 · Il protocollo di verifica** — la pagina che dice loro **come** si verifica.
+**2 · Il protocollo di content curation** — come si verifica un contenuto, una fonte, un'immagine.
 
-**3 · La rubrica collaudata** — lo strumento con cui **valutate** quel lavoro, e che regge anche davanti a chi arriva giusto per caso.
+**3 · La rubrica collaudata** — come si valuta il lavoro che i primi due generano.
 
-> Il protocollo guida il lavoro. La rubrica lo valuta. **Il testo-trappola è il campo di allenamento.**
-> Sono tre pezzi di una cosa sola, e sono vostri: riusabili ogni anno, con qualunque argomento.
+> Il red-teaming scopre. Il protocollo guida. **La rubrica valuta.**
+> Sono tre pezzi di una cosa sola, e sono vostri: **riusabili ogni anno, con qualunque argomento.**
 
 ---
 
@@ -526,9 +556,9 @@ Impareranno a fare **ciò che viene valutato**. Quindi la rubrica non misura l'a
 
 1. Il **canvas completo** + un materiale generato-e-revisionato
 2. La **rubrica collaudata**, allegando **i tre elaborati** su cui l'avete provata
-3. Il **protocollo di verifica** della vostra classe
+3. Il **protocollo di content curation** della vostra classe
 4. La **policy IA** — cosa puoi · cosa non puoi · come lo dichiari · **perché** — con l'ultima riga: *«anche i materiali preparati con l'IA dal docente sono dichiarati»*
-5. La **regola nuova** aggiunta alla Gem nel laboratorio 3
+5. La **regola nuova** aggiunta alla Gem nel red-teaming
 
 **Sette minuti il 30:** 2' il compito e perché è autentico · 3' le fasi e dove entra l'IA · 1' la policy · **1' cosa vi preoccupa**
 
@@ -540,7 +570,7 @@ Impareranno a fare **ciò che viene valutato**. Quindi la rubrica non misura l'a
 2. **Nessun risultato entra in una verifica senza che io l'abbia rifatto.**
 3. **Ogni contenuto generato è dichiarato** — nei materiali miei prima che nei loro.
 
-> **«Sembra giusto» non è «è giusto».**
+> **La verifica è un'abitudine, non un evento.**
 > La macchina produce la forma. **La sostanza la mettete voi** — e in una rubrica si chiama **descrittore osservabile.**
 
 *Registro firme · Materiali nella cartella del corso.*
