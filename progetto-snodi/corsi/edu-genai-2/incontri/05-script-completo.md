@@ -1,24 +1,24 @@
-# Script completo minuto per minuto — Incontro 5: «Sembra giusto» non è «è giusto»
+# Script completo minuto per minuto — Incontro 5: Bias audit, red-teaming e fact-checking
 
 **Giovedì 24 settembre 2026, 15:30–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini · Tutor: Prof. Bonelli
-**Deck:** def_Edu-GenAI 2 — Incontro 5 (35 card, tema wireframe) · **Scheda del giorno:** 5
+**Deck:** def_Edu-GenAI 2 — Incontro 5 (42 card, tema wireframe) · **Scheda del giorno:** 5
 
 *Le parti tra virgolette « » sono da dire parola per parola; [REGIA] sono note operative; [CARD n] indica quando cambiare slide.*
 **⚡ = card lampo (1-2'), si passa veloce. ★ = non si taglia mai.**
 
-> **Il bilancio del pomeriggio: 63 minuti di laboratorio su 180.** I concetti si spiegano sempre con un esempio di **matematica, inglese o italiano**, e **ogni blocco concettuale finisce in un pezzo di prodotto.**
+> **105 minuti di laboratorio su 180.** I concetti si spiegano sempre con un esempio di **matematica, inglese o italiano** — le discipline dell'aula — e ogni blocco finisce in un pezzo di prodotto.
 
-**I tre prodotti:** ① il testo-trappola · ② il protocollo di verifica della classe · ③ la rubrica collaudata.
+**I tre prodotti:** ① la scheda di red-teaming · ② il protocollo di content curation · ③ la rubrica collaudata.
 
 ---
 
 ## 15:30–15:35 · APERTURA [CARD 1–2]
 
-[REGIA: deck proiettato, registro presenze in chat. Verificare subito che tutti abbiano **la Gem funzionante** — chi non ce l'ha lavora in chat incollando le istruzioni come primo messaggio.]
+[REGIA: deck proiettato, registro presenze in chat. **Verificare subito chi ha la Gem funzionante** — chi non ce l'ha lavora in chat incollando le istruzioni come primo messaggio.]
 
-«Buon pomeriggio. Oggi si lavora. Vi anticipo cosa portate a casa stasera, perché non sono tre concetti: **sono tre cose finite.**»
+«Buon pomeriggio. Oggi si lavora: centocinque minuti di laboratorio su centottanta. Vi anticipo cosa portate a casa, perché non sono tre concetti — **sono tre cose finite.**»
 
-«**Un testo-trappola** per la vostra classe, che è un'attività pronta per lunedì. **Il protocollo di verifica** della vostra classe, una pagina nella vostra materia. **E una rubrica collaudata** — non scritta a tavolino: costruita dagli esempi e messa alla prova.»
+«**La scheda di red-teaming**: come si attacca un sistema per scoprirne i limiti. **Il protocollo di content curation**: la pagina che dice alla vostra classe come si verifica. **E una rubrica collaudata**, costruita dagli esempi e messa alla prova.»
 
 «Io parlo quando serve a farvi costruire il pezzo dopo.»
 
@@ -26,9 +26,9 @@
 
 ## 15:35–15:48 · ★ TRE PROVE, TRE MATERIE [CARD 3–6]
 
-**15:35 — [CARD 3] L'annuncio (1')**
+**15:35 — ⚡ [CARD 3] L'annuncio (1')**
 
-«Non vi racconto che l'IA sbaglia: ve lo faccio vedere **nella vostra materia**, adesso. Una per italiano, una per inglese, una per matematica. E guardate una cosa sola: non *se* sbaglia — **quanto è bella la forma con cui sbaglia.**»
+«Non vi racconto che l'IA sbaglia: ve lo faccio vedere **nella vostra materia**. Una per italiano, una per inglese, una per matematica. E guardate una cosa sola: non *se* sbaglia — **quanto è bella la forma con cui sbaglia.**»
 
 **15:36 — ★ [CARD 4] Italiano (5')**
 
@@ -42,31 +42,27 @@
 
 **15:41 — ★ [CARD 5] Inglese (3')**
 
-[REGIA: chiedere un verso di un autore del programma di quarta, con opera e anno.]
-
 «Arriva tutto: verso plausibile, titolo plausibile, anno plausibile. **E il verso è di un altro autore, o non è di nessuno.**»
 
-«Questo è il caso peggiore per noi, e lo dico alle colleghe di inglese: **l'inglese dell'IA è impeccabile.** Non c'è nessun segnale linguistico che vi avverta. Nel tema di uno studente un errore vi salta all'occhio; qui no.»
+«Questo è il caso peggiore, e lo dico alle colleghe di inglese: **l'inglese dell'IA è impeccabile.** Non c'è nessun segnale linguistico che vi avverta. Nel tema di uno studente un errore vi salta all'occhio; qui no.»
 
 **15:44 — ★ [CARD 6] Matematica (4')**
 
-[REGIA: problema preparato, con l'errore già individuato. **Far vedere il passaggio, non raccontarlo.**]
+[REGIA: problema preparato, errore già individuato. **Far vedere il passaggio, non raccontarlo.**]
 
-«Chiedo la risoluzione passo passo. Il risultato finale **è giusto.** Scaletta ordinata, passaggi numerati, formattazione perfetta.»
+«Risultato finale giusto. Scaletta ordinata, passaggi numerati, formattazione perfetta. **Terzo passaggio: errore di segno. Quinto passaggio: un secondo errore che lo compensa.** Il numero in fondo torna.»
 
-«**Terzo passaggio: errore di segno. Quinto passaggio: un secondo errore che lo compensa.** Il numero in fondo torna.»
-
-«E adesso la domanda vera, che è per tutti e non solo per matematica: **quante volte correggendo guardate solo il numero in fondo?**»
+«E adesso la domanda vera, che è per tutti e non solo per matematica: **quante volte, correggendo, guardate solo il numero in fondo?**»
 
 ---
 
-## 15:48–15:52 · ★ LA FORMULA [CARD 7]
+## 15:48–15:52 · ★ ALLUCINAZIONE SEMANTICA [CARD 7]
 
-**15:48 — ★ [CARD 7] V_sint ≠ V_sem (4')**
+**15:48 — ★ [CARD 7] La formula (4')**
 
 [REGIA: scriverla a mano sulla lavagna condivisa. **Deve restare visibile fino alle 18:30.**]
 
-«Una formula sola, per tutto il pomeriggio: **validità sintattica diverso da verità semantica.**»
+«Questa cosa ha un nome: **allucinazione semantica.** E si riassume in una formula: **validità sintattica diverso da verità semantica.**»
 
 «La macchina produce **la forma di una cosa giusta**: il registro, la struttura, la sicurezza del tono. **La sostanza la mettete voi.** Il modello non sa cosa è vero: sa cosa è verosimile.»
 
@@ -74,247 +70,263 @@
 
 ---
 
-## 15:52–16:15 · ★ LABORATORIO 1 · IL TESTO-TRAPPOLA [CARD 8–9]
+## 15:52–16:00 · LA TASSONOMIA E COME SI RILEVA [CARD 8–9]
 
-**15:52 — [CARD 8] Le istruzioni (3')**
+**15:52 — ⚡ [CARD 8] I quattro difetti (4')**
 
-«Primo prodotto. Ventitré minuti, e uscite con un'attività pronta per lunedì. Viene dal vostro Manuale del Prompt Perfetto: **tassonomia inversa** — prima si genera, poi si analizza, poi si valuta.»
+«**Allucinazioni**: plausibile e falso, col picco su citazioni, numeri e temi di nicchia. **Bias**: distorsioni sociali, culturali, di genere **ereditate dai dati di addestramento**. **Compiacenza**: asseconda l'opinione che le fate intuire. **Obsolescenza**: sa fino a una certa data, e non sempre lo dichiara.»
 
-«Il prompt è in scheda. In sostanza: cinquecento parole sul vostro argomento **con tre errori sottili dentro**, senza segnalarli, e le soluzioni in fondo in un blocco separato che poi cancellerete.»
+«E il motivo per cui questi difetti vanno **mostrati** in classe e non nascosti: **l'IA come oggetto di analisi critica è essa stessa educazione civica digitale.**»
 
-**15:55 — I DO (4')**
+**15:56 — ★ [CARD 9] Come si rilevano (4')**
 
-[REGIA: farlo in diretta sulla propria materia. **Pensare ad alta voce mentre si scrive il prompt**: perché «sottili», perché «non lasciare indizi tipografici», perché il blocco separato.]
+«Cinque mosse. Confronto multi-fonte. Richiesta esplicita delle fonti, **e verifica**. **Riformulazione avversariale: chiedere il contrario.** Grounding su fonti certificate — i vostri file, NotebookLM. E l'ultima, che non è una tecnica: **la verifica è un'abitudine, non un evento.**»
 
-**15:59 — WE DO (4')**
-
-«Adesso insieme. Ditemi in chat: **su quale argomento lo farei, se fossi voi?** Ne prendo uno e lo scriviamo insieme.»
-
-[REGIA: prendere una proposta reale, adattare il prompt in diretta davanti a tutti, generare.]
-
-**16:03 — ★ YOU DO (12')**
-
-«Adesso voi, sulla vostra materia. E poi **la cosa che conta: provate a trovare i tre errori senza guardare il blocco finale.**»
-
-[REGIA a 16:13: «Due minuti.» A 16:14 chiedere in chat: **«quanti ne avete trovati, e in quanto tempo?»** Il conteggio serve a tutti.]
-
-**16:14 — ★ [CARD 9] La lettura dei risultati (1')**
-
-«Meno di cinque minuti: va bene per la vostra classe. Più di cinque: troppo difficile, rigeneratelo. **Non li avete trovati: perfetto per voi, inutilizzabile per loro** — e l'avete scoperto adesso, non in classe.»
-
-«Tre regole per l'aula: errori **sottili** — uno grossolano insegna solo a ridere della macchina; la correzione **documentata con la fonte**, se no è un indovinello; e **cancellate il blocco delle soluzioni** prima di consegnare.»
+«Fermatevi sulla terza, perché è quella che rende il red-teaming insegnabile: **non "controlla se ha ragione", ma "chiedile la tesi opposta e guarda se cambia idea".** Ci lavoriamo adesso.»
 
 ---
 
-## 16:15–16:40 · DARE UN NOME, E RIEMPIRE IL PROTOCOLLO [CARD 10–18]
+## 16:00–16:25 · ★ LABORATORIO 1 · RED-TEAMING [CARD 10–14]
 
-**16:15 — ⚡ [CARD 10] L'annuncio (2')**
+**16:00 — [CARD 10] Che cos'è (2')**
 
-[REGIA: **è il blocco concettuale del pomeriggio, ed è l'unico.** Va tenuto a venticinque minuti.]
+«**Red-teaming vuol dire una cosa sola: attaccare il proprio sistema prima che lo faccia la realtà.** Viene dalla sicurezza informatica, e a scuola serve esattamente per lo stesso motivo.»
 
-«Adesso diamo un nome a quello che avete appena visto. Quattro modi di sbagliare, e li avete incontrati tutti nell'ultima mezz'ora.»
+«**Non si collauda una Gem usandola bene. Si collauda provando a farla sbagliare.** E se non ci provate voi, ci proveranno i vostri studenti — con più fantasia e meno preavviso.»
 
-«**E mentre li nominiamo, voi compilate:** ogni trappola diventa **un controllo da insegnare alla classe.** Non è teoria da ricordare — **è il sommario del prodotto numero due.**»
+**16:02 — [CARD 11] Le sei mosse (3')**
 
-**16:17 — [CARD 11] Allucinazione (3')**
+«Aprite "Prof della mia materia" e attaccatela. **Sei mosse**, sono in scheda: la fonte · l'obiezione senza prove · **il contrario** · il numero · il fuori perimetro · il nome proprio.»
 
-«La forma al posto del dato. Per italiano è il verso, la data, l'edizione. Per inglese la quotation, l'autore, l'anno. Per matematica il teorema col nome sbagliato o la formula quasi giusta.»
+«**Output: una regola che oggi nelle vostre istruzioni non c'è.** Non è un esercizio: è manutenzione.»
 
-«Come la si becca: **si apre il documento. Non esiste altro modo.**»
+**16:05 — ★ YOU DO (10')**
 
-*«→ Controllo: ogni citazione, data o formula va confermata su una fonte che ho aperto io.»*
+[REGIA: silenzio operativo. Girare in chat. **L'errore tipico: fanno domande gentili.** Spronare: «più cattivi. Non le state facendo un colloquio, la state rompendo.»]
 
-**16:20 — ★ [CARD 12] Compiacenza (4')**
+[REGIA a 16:14: «Un minuto.»]
 
-[REGIA: **farlo dal vivo**, è venti secondi e vale più della spiegazione.]
+**16:15 — ★ [CARD 12] La domanda da non fare mai (2')**
 
-«Guardate. Le chiedo una cosa che so essere giusta. Poi le dico: *sei sicura? a me risulta il contrario.*»
+«Una cosa che avete quasi sicuramente fatto: le avete chiesto *"sei sicura?"*. **Non chiedetelo mai.** Invita a compiacervi: il modello legge il dubbio e vi dà ragione.»
 
-[REGIA: nella maggior parte dei casi si scusa e cambia versione. **Se invece tiene, è ancora meglio:** «Questa volta ha tenuto. Allora la domanda è: come faccio a sapere *quando* tiene? Non posso. Ed è per questo che il controllo non può essere chiedere a lei.»]
+«**Se cede davanti a un'obiezione senza prove, la sua sicurezza di prima non valeva niente**: non era sicurezza, era registro.»
 
-«Se cede davanti a un'obiezione senza prove, **la sua sicurezza di prima non valeva niente**: non era sicurezza, era registro.»
+*«Chiedete: "qual è la fonte, e che pagina". La prima domanda invita all'accordo. La seconda la costringe a un documento.»*
 
-«E la contromossa è una riga sola, scrivetevela: **non chiedete mai "sei sicura?". Chiedete "qual è la fonte, e che pagina".**»
+**16:17 — ★★ La trappola delle premesse opposte (5')**
 
-*«→ Controllo: non chiedo conferma all'IA. Chiedo la fonte.»*
+[REGIA: **è il pezzo più importante del laboratorio.** Averlo preparato in due schede già aperte, così si mostra invece di raccontarlo.]
 
-**16:24 — [CARD 13] Autorità anonima (4')**
+«Adesso la mossa tre, per esteso, perché è quella che porterete in classe.»
 
-«*"È dimostrato", "gli studi confermano", "notoriamente".* Nessun nome, nessuna pagina: **non verificabile.**»
+«Il modello **non ha un'opinione: ha una stima di cosa vi farà dire "sì, buona risposta".** Nell'addestramento le risposte accondiscendenti sono state premiate più spesso. Quindi se nella domanda c'è già una posizione — *"sono convinto che X sia dannoso"* — **quella posizione entra nel contesto e viene trattata come parte di ciò che va soddisfatto.** Non è menzogna, non è errore: **è ottimizzazione del gradimento.**»
 
-«E ha un nome antico, che le colleghe di lettere conoscono: **ipse dixit.** I pitagorici, quando si chiedeva loro *perché*, rispondevano "l'ha detto lui" — cioè Pitagora. Lo racconta Cicerone, e lo racconta per criticarlo. **Il bias di autorità ha venticinque secoli.**»
+«Guardate: stessa domanda, due premesse opposte. *"Sono convinto che le dimostrazioni al biennio siano inutili"* — e nell'altra scheda *"siano indispensabili"*.»
 
-«Attenzione, però: **l'appello all'autorità non è sempre una fallacia.** Fidarsi di un esperto nel suo campo è razionale. Diventa fallacia quando l'autorità è fuori campo, quando è data come conclusiva, quando manca il consenso — **o quando è anonima**, che è il caso di prima.»
+[REGIA: mostrare le due risposte affiancate.]
 
-«E la macchina è una **macchina da ipse dixit perfetta**: produce il *registro* dell'autorità senza averne nessuna, perché non è esperta di niente. **Il tono autorevole è sintassi.**»
+«**E adesso l'avvertenza che fa la differenza fra un esperimento e una chiacchiera: due chat separate.** Se le fate di seguito nella stessa conversazione, il modello ricorda la prima risposta e cerca di essere **coerente con sé stesso**: la seconda esce attenuata e non avete dimostrato niente.»
 
-**16:28 — ⚡ [CARD 14] Obsolescenza (3')**
+«Nel confronto guardate cinque cose, sono in scheda. La più istruttiva: **ricompaiono gli stessi studi, gli stessi autori, gli stessi esempi — schierati da parti opposte.** Quando succede, avete la prova che **le prove erano decorative.**»
 
-«Vi dà per corrente ciò che è superato. Ed è il difetto che in classe fa più danno, perché **non sembra un errore: sembra informazione.** Una circolare abrogata, l'edizione che non usate, l'esame di Stato com'era due anni fa.»
+**16:22 — ★ La variante che chiude il discorso (2')**
 
-*«→ Controllo: chiedo sempre la data del riferimento, e la verifico.»*
+[REGIA: **è il ponte verso l'ultima ora.** Dirlo lentamente.]
 
-**16:31 — [CARD 15] I bias (4')**
+«E adesso la variante che vi riguarda direttamente. Prendete un testo di uno studente e, in **due chat separate**, scrivete: *"questo tema secondo me merita 8, sei d'accordo?"* e *"questo tema secondo me merita 5, sei d'accordo?"*»
 
-«E adesso la parte scomoda: **i bias sono nostri, prima che della macchina.** Conferma: crediamo a ciò che ci dà ragione, il cervello preferisce la coerenza alla verità. Autorità, l'abbiamo vista. Disponibilità: ciò che ricordiamo facilmente ci sembra più diffuso. Negatività: le notizie brutte catturano di più.»
+«Quasi sempre escono **due argomentazioni pienamente convincenti per voti diversi sullo stesso identico testo.**»
 
-«Gli algoritmi imparano dai dati prodotti da noi. **Non è la macchina che ci ha reso parziali: è la macchina che ha imparato la nostra parzialità e ce la rivende come conferma.**»
+«Questa non è la norma che ve lo dice: **è un esperimento.** E ci dice che serve uno strumento che ancori il giudizio a qualcosa di **osservabile**, proprio perché la macchina si adatta a qualunque giudizio le suggerite. Quello strumento lo costruiamo alle cinque e mezza.»
 
-**16:35 — ★ [CARD 16] Provatelo adesso (4')**
+**16:24 — ⚡ [CARD 13–14] Il secondo uso: il testo-trappola (1')**
 
-[REGIA: hands-on breve, tutti insieme. Due prompt, trenta secondi.]
-
-«Due minuti, sulla vostra Gem. Chiedetele: *descrivi la giornata tipo di un ingegnere*. Poi: *descrivi la giornata tipo di un'insegnante*.»
-
-«**Guardate: generi assegnati, aggettivi, contesti. Chi ha figli e chi no.**»
-
-[REGIA: raccogliere due o tre osservazioni in chat. Poi:]
-
-«La variante per l'aula è ancora più utile: **la stessa consegna cambiando un solo attributo** — nazionalità, età, provenienza. È un'attività di educazione civica che dura dieci minuti e non si dimentica.»
-
-*«→ Controllo: quando chiedo un profilo o un esempio di persona, lo rifaccio cambiando un attributo e confronto.»*
-
-**16:39 — ⚡ [CARD 17–18] Le tre parole (in chiusura di blocco, 3')**
-
-«Tre parole che usiamo come sinonimi e non lo sono. **Disinformazione**: falso e intenzionale, la bufala costruita per fare click. **Misinformazione**: falso ma in buona fede — il compito copiato dal sito sbagliato. **Malinformazione**: **vero**, usato per danneggiare — lo screenshot vero di una chat, girato per umiliare qualcuno.»
-
-«E in classe cambia la risposta: la prima si smonta, la seconda si corregge, **la terza è un problema di educazione civica e non di fact-checking** — provare a smentirla non serve a niente, perché è vera.»
-
-«Ultima cosa e poi pausa: **smettete di dire "fake news".** L'UNESCO lo chiama un'arma retorica — è un ossimoro, ed è l'etichetta con cui si liquida qualunque notizia sgradita. Si dice **disordine informativo**. Non è pedanteria: **togliete ai ragazzi uno strumento di squalifica e gli restituite uno strumento di analisi.**»
+«Il red-teaming ha un secondo uso: **il difetto che avete trovato diventa un'attività.** È il Pattern del Critico del vostro Manuale — un testo con tre errori sottili dentro, che gli studenti devono trovare. Il prompt e le tre regole sono in scheda: **ve lo fate stasera**, ed è la vostra lezione di lunedì.»
 
 ---
 
-## 16:40–16:50 · PAUSA (10')
+## 16:25–16:45 · ★ LABORATORIO 2 · BIAS AUDIT [CARD 15–17]
 
-[REGIA: nel frattempo aprire il modello del protocollo da condividere e la lavagna comune per il laboratorio 2.]
+**16:25 — [CARD 15] Il caso di partenza (4')**
+
+«Tutti insieme, adesso. Chiedete alla Gem: *descrivi la giornata tipo di un ingegnere*. Poi, in una chat nuova: *descrivi la giornata tipo di un'insegnante*.»
+
+[REGIA: raccogliere in chat. Far nominare le cose concrete: **generi assegnati, aggettivi, contesti, chi ha figli e chi no, chi è stanco e chi è brillante.**]
+
+**16:29 — ★ [CARD 16] La regola (4')**
+
+«E adesso trasformiamo la demo in **una procedura**, perché è quello che vi serve per portarla in classe.»
+
+*«Si cambia un attributo alla volta. Si registra. Si confronta.»*
+
+«**Un attributo solo**, perché se ne cambiate due non saprete quale ha prodotto la differenza. **È un esperimento, non un'impressione** — ed è la prima cosa che insegnate ai ragazzi quando fate scienze.»
+
+«La tabella è in scheda: consegna, attributo cambiato, cosa cambia nell'output.»
+
+**16:33 — ★ YOU DO (9')**
+
+«Adesso sulla vostra materia. **Matematica:** lo stesso problema con nomi diversi — guardate **chi compra e chi vende** nei problemi generati. **Inglese:** *write a short description of a doctor / of a nurse.* **Italiano:** la stessa traccia firmata da due studenti con nomi diversi, e chiedete un commento — **cambia il tono del giudizio?**»
+
+[REGIA a 16:41: raccogliere **tre osservazioni** dalla chat. Sono il materiale migliore per la restituzione del 30.]
+
+**16:42 — ⚡ [CARD 17] Perché è il compito perfetto (3')**
+
+«E notate una cosa: **questo è un compito che esiste solo grazie all'IA.** Senza la macchina non avreste mai cento varianti dello stesso testo da confrontare.»
+
+«E insegna tre cose insieme: **il metodo sperimentale** — una variabile alla volta; **la lettura critica** di un testo; e la consapevolezza che **i dati di addestramento siamo noi.** Non è la macchina che ci ha reso parziali: **è la macchina che ha imparato la nostra parzialità e ce la rivende come conferma.**»
 
 ---
 
-## 16:50–16:55 · LE CINQUE MOSSE [CARD 19]
+## 16:45–16:55 · PAUSA (10')
 
-**16:50 — ⚡ [CARD 19] Le mosse, e quella che vale di più (5')**
-
-«Le cinque mosse le conoscete e sono in scheda: fonte, conferme, immagine, data, oltre il titolo. **Il tempo lo spendo sulla sesta, che non è uno strumento.**»
-
-«**La lettura laterale.** Non si valuta un sito **restando dentro il sito**: si apre una scheda nuova e si cerca **cosa dicono gli altri** di quel sito. È quello che fanno i verificatori professionisti, si insegna in dieci minuti, e funziona anche in prima.»
-
-«E tenete la coppia: **debunking** è smontare dopo. **Prebunking** è vaccinare prima, mostrando la tecnica **prima** che la incontrino. In classe il prebunking rende molto di più.»
+[REGIA: nel frattempo aprire le immagini per il blocco deepfake, il modello del protocollo e il documento condiviso per il WE DO.]
 
 ---
 
-## 16:55–17:10 · ★ LABORATORIO 2 · IL PROTOCOLLO [CARD 20–21]
+## 16:55–17:15 · DEEPFAKE, CONTENUTI SINTETICI, FACT-CHECKING [CARD 18–24]
 
-**16:55 — [CARD 20] Le istruzioni (3')**
+**16:55 — ⚡ [CARD 18] Le GAN (3')**
 
-«Secondo prodotto. Quindici minuti. **Una pagina sola, nella vostra materia.**»
+«Due reti in competizione. **Il Falsario** crea contenuti sintetici sempre più verosimili; **il Giudice** impara a distinguere il vero dal falso. E si allenano l'uno contro l'altro finché — attenzione — **quando il Giudice non distingue più, il deepfake è perfetto.**»
 
-«Tre colonne: **che cosa controllo · come lo faccio · che cosa scrivo nel quaderno.** La terza è quella che di solito manca, ed è quella che rende il protocollo valutabile: se non resta una traccia, non avete niente da guardare.»
+«È la formula di stasera, costruita in laboratorio: **un sistema che ottimizza la verosimiglianza, non la verità.**»
 
-«**Massimo sei righe.** Un protocollo che non sta in una pagina non viene usato — e voi lo sapete meglio di me.»
+**16:58 — ★ [CARD 19] I segnali, e perché contano sempre meno (4')**
 
-**16:58 — YOU DO (9')**
+[REGIA: mostrare due immagini generate, una del 2023 e una recente. **Il confronto vale più della lista.**]
 
-[REGIA: girare in chat. **L'errore tipico: scrivono controlli generici.** Rimandare sempre alla materia: «"controlla la fonte" in matematica che cosa vuol dire? Vuol dire rifare il conto.»]
+«Quello che si insegnava fino a ieri: mani e dita, denti, orecchie, sfondi che si ripetono, luce incoerente, testo dentro l'immagine.»
 
-**17:07 — [CARD 21] L'impaginazione (3')**
+«**Il problema è che ogni generazione ne cancella qualcuno.** E insegnare i segnali crea una **falsa sicurezza**: chi li cerca e non li trova conclude che il contenuto è autentico.»
 
-«Adesso fatevelo impaginare — **non scrivere.** Il prompt è in scheda, e l'ultima riga è la parte che conta: *"non aggiungere controlli che non ho scritto io; se secondo te ne manca uno, dimmelo separatamente".*»
+*«La domanda non è "ci sono artefatti?". È "da dove viene?" — e a quella non risponde l'occhio.»*
+
+**17:02 — ★ [CARD 20] Risalire, non riconoscere (4')**
+
+«**La ricerca inversa dell'immagine** — Google Immagini, TinEye, InVID — dice una cosa che l'occhio non può dire: **dove quell'immagine è apparsa prima.**»
+
+«E la mossa gemella per i testi e per i siti: **la lettura laterale.** Non si valuta un sito **restando dentro il sito**: si apre una scheda nuova e si cerca **cosa dicono gli altri** di quel sito. È quello che fanno i verificatori professionisti. **Si insegna in dieci minuti, e funziona anche in prima.**»
+
+«E tenete la coppia: **debunking** è smontare dopo; **prebunking** è vaccinare prima, mostrando la tecnica **prima** che la incontrino. In classe il prebunking rende molto di più.»
+
+**17:06 — ⚡ [CARD 21] Il quadro italiano 2025 (3')**
+
+[REGIA: **tutti e quattro i dati riverificati la mattina stessa.**]
+
+«Quattro fatti, con le date. **Art. 612-quater**, nuovo reato di deepfake, in vigore dal 10 ottobre con la legge 132 del 2025. Il **Garante** ferma l'app Clothoff il primo ottobre. La **Polizia Postale** arresta per materiale pedopornografico sintetico. **AGCOM**: il 43,5% degli italiani è esposto frequentemente a disinformazione.»
+
+«Senza allarmismo e senza minimizzare. E sopra tutto: **AI Act e Linee guida dicono che ciò che è prodotto dalla macchina va dichiarato.** Vale per i nostri materiali quanto per i loro elaborati: **la trasparenza o è reciproca o non è.**»
+
+**17:09 — ★ [CARD 22–23] I due casi di fact-checking (4')**
+
+«Due casi, e sono sulla **nostra** materia — cioè sulla ricerca a proposito dell'IA.»
+
+«**Uno:** la meta-analisi del 2025 sull'effetto di ChatGPT, quella del famoso *g uguale zero virgola ottocentosessantasette*. Virale nei convegni, nelle slide, nelle circolari. **È stata ritrattata dall'editore. E continua a circolare.** L'esercizio da fare coi ragazzi: cercatela, e trovate **la retraction notice**. Lezione: **lo stato di una fonte va verificato, non presunto.** Esiste non vuol dire è ancora valida.»
+
+«**Due:** *"Your Brain on ChatGPT"*, il preprint del MIT. Sui giornali: *l'IA atrofizza il cervello*. La realtà: **preprint non sottoposto a peer review, circa 54 soggetti, un compito specifico.** Lezione: **confrontare sempre il titolo di stampa con l'abstract reale.**»
+
+**17:13 — ★ [CARD 24] Il momento meta (2')**
+
+«E notate che cosa abbiamo appena fatto. **Abbiamo verificato la letteratura scientifica sulla nostra materia con lo stesso metodo che insegneremo ai ragazzi sulle loro fonti.**»
+
+*«Se va verificata così la ricerca, figuriamoci quello che l'IA produce.»*
+
+---
+
+## 17:15–17:25 · ★ LABORATORIO 3 · IL PROTOCOLLO [CARD 25–26]
+
+**17:15 — [CARD 25] Le istruzioni (2')**
+
+«Secondo prodotto, dieci minuti. **E non si inventa: si assembla.** Ogni blocco di stasera ha lasciato una riga — adesso le mettete in fila.»
+
+«Tre colonne: **che cosa controllo · come lo faccio · che cosa scrivo nel quaderno.** La terza è quella che di solito manca, ed è quella che rende il protocollo valutabile: **se non resta una traccia, non avete niente da guardare.**»
+
+«**Massimo sei righe.** Un protocollo che non sta in una pagina non viene usato, e lo sapete meglio di me.»
+
+**17:17 — YOU DO (6')**
+
+[REGIA: **l'errore tipico: controlli generici.** Riportarli sempre alla materia: «"controlla la fonte" in matematica cosa vuol dire? **Vuol dire rifare il conto.**»]
+
+**17:23 — ⚡ [CARD 26] L'impaginazione (2')**
+
+«Adesso fatevelo impaginare — **non scrivere.** Il prompt è in scheda, e l'ultima riga è la parte che conta: *"non aggiungere controlli che non ho scritto io; se secondo te ne manca uno, dimmelo separatamente"*.»
 
 «**La Gem impagina. Voi decidete cosa c'è dentro.** È la differenza fra usarla e farsi usare.»
 
 ---
 
-## 17:10–17:20 · ★ LABORATORIO 3 · IL COLLAUDO DELLA GEM [CARD 22]
+## 17:25–17:30 · IL PONTE [CARD 27]
 
-**17:10 — [CARD 22] Quattro domande cattive (10')**
+**17:25 — ★ [CARD 27] Il risultato giusto col procedimento sbagliato (5')**
 
-«Dieci minuti. Aprite "Prof della mia materia" e fatele quattro domande cattive.»
+[REGIA: dirlo lentamente, guardando in camera. **È il ponte del pomeriggio.**]
 
-«**Una:** chiedetele una fonte su un fatto della vostra materia — ve la dà con la pagina, o gira intorno? **Due:** contestatela senza prove su una cosa giusta — tiene o si scusa? **Tre:** chiedetele un dato numerico — lo dichiara da verificare? **Quattro:** chiedetele qualcosa fuori dai vostri file — dichiara di uscire dal perimetro, o inventa?»
-
-«**Output: una regola che oggi nelle vostre istruzioni non c'è.** Scrivetela e aggiungetela.»
-
-[REGIA a 17:18: raccogliere **tre regole** dalla chat, leggerle ad alta voce. Sono il materiale migliore per la restituzione del 30.]
-
----
-
-## 17:20–17:25 · IL PONTE [CARD 23]
-
-**17:20 — ★ [CARD 23] Il risultato giusto col procedimento sbagliato (5')**
-
-[REGIA: **è il ponte del pomeriggio.** Dirlo lentamente, guardando in camera.]
-
-«Adesso vi dico una cosa che vi succede ogni settimana, in tutte e tre le materie.»
-
-«**Matematica:** il numero è giusto e due errori si compensano. **Inglese:** l'essay è impeccabile e non risponde alla consegna. **Italiano:** il tema è scritto benissimo ed è fuori traccia.»
+«Una cosa che vi succede ogni settimana, in tutte e tre le materie. **Matematica:** il numero è giusto e due errori si compensano. **Inglese:** l'essay è impeccabile e non risponde alla consegna. **Italiano:** il tema è scritto benissimo ed è fuori traccia.»
 
 «**Se guardate solo il prodotto, questi tre prendono un buon voto.**»
 
-«Ed è esattamente la formula delle tre e cinquanta: **validità sintattica diverso da verità semantica.** Vale per la macchina e vale per i compiti. Per questo l'ultima ora la passiamo a costruire uno strumento che li riconosca.»
+«Ed è esattamente la formula delle tre e cinquanta: **validità sintattica diverso da verità semantica.** Vale per la macchina e vale per i compiti. E si aggancia all'esperimento dei due voti: **la macchina si adatta a qualunque giudizio le suggerite, quindi il giudizio va ancorato a qualcosa di osservabile.**»
 
 ---
 
-## 17:25–18:20 · ★★ IL BLOCCO RUBRICHE [CARD 24–33]
+## 17:30–18:20 · ★★ LABORATORIO 4 · LA RUBRICA [CARD 28–38]
 
-**17:25 — ★ [CARD 24] Non si scrive dal nulla (3')**
+**17:30 — ★ [CARD 28] Non si scrive dal nulla (3')**
 
 «Il modo in cui di solito ci si prova, e non funziona: aprire il curricolo, estrarre quattro parole astratte, dargli tre livelli. Esce *"adeguata padronanza"*, e nessuno sa cosa voglia dire — **nemmeno chi l'ha scritto.**»
 
 «Il modo che funziona: **si parte da due lavori veri.** Una rubrica **si induce dagli esempi, non si deduce dai documenti.** I documenti servono dopo, per agganciare quello che avete trovato.»
 
-**17:28 — ★ [CARD 25] I DO (6')**
+**17:33 — ★ [CARD 29] I DO (6')**
 
-[REGIA: proiettare i due elaborati preparati. **Pensare ad alta voce, scrivendo sulla lavagna condivisa.** È la parte che insegna il metodo: vederla fare vale più di spiegarla.]
+[REGIA: proiettare i due elaborati preparati. **Pensare ad alta voce scrivendo sulla lavagna condivisa.** Vederlo fare vale più di spiegarlo.]
 
-«Due lavori sullo stesso compito. Uno è migliore, e lo vedete in tre secondi. **Ma la domanda non è quale sia migliore.** La domanda è:»
+«Due lavori sullo stesso compito. Uno è migliore, e lo vedete in tre secondi. **Ma la domanda non è quale sia migliore.**»
 
 *«Che cosa fa il primo, che il secondo non fa?»*
 
 «Non "è più bravo". Non "si vede che ha studiato". **Che cosa FA** — un'azione che io posso indicare col dito sul foglio.»
 
-**17:34 — ★ [CARD 26] Da impressione a descrittore (4')**
+**17:39 — ★ [CARD 30] Da impressione a descrittore (4')**
 
-«Guardate la tabella. "Argomenta meglio" diventa **cita il testo a sostegno di ogni affermazione.** "Ha capito il problema" diventa **dichiara il modello scelto e perché.** "Più preciso" diventa **scarta la soluzione non accettabile motivando.**»
+«"Argomenta meglio" diventa **cita il testo a sostegno di ogni affermazione**. "Ha capito il problema" diventa **dichiara il modello scelto e perché**. "Più preciso" diventa **scarta la soluzione non accettabile motivando**.»
 
 «**La prova del nove:** se non potete indicare il punto del lavoro, **non è un descrittore: è un'impressione.**»
 
-**17:38 — ★ [CARD 27] WE DO, la scelta (2')**
+**17:43 — ★ [CARD 31] WE DO, la scelta (2')**
 
-«Tre micro-casi, uno per materia. **Votate in chat**, lavoriamo su quello della maggioranza — gli altri due restano in scheda e ve li fate da soli.»
+«Tre micro-casi, uno per materia. **Votate in chat**, lavoriamo su quello della maggioranza — gli altri due restano in scheda con tutti i testi.»
 
-«E una regola del gioco: **ogni riga che proponete comincia con un verbo.** Cita, dichiara, scarta, collega, verifica, distingue. **Gli aggettivi li lasciamo fuori dalla porta.**»
+«Regola del gioco: **ogni riga che proponete comincia con un verbo.** Cita, dichiara, scarta, collega, verifica, distingue. **Gli aggettivi li lasciamo fuori dalla porta.**»
 
-**17:40 — ★ [CARD 28/29/30] WE DO, il caso (12')**
+**17:45 — ★ [CARD 32/33/34] WE DO, il caso (11')**
 
-[REGIA: aprire il documento condiviso. **Scrivere io, dettano loro.** Non correggere le proposte: trasformarle. «"È più ordinato" — bene, che cosa fa? Numera i passaggi? Allora scriviamo: *numera i passaggi*.»]
+[REGIA: documento condiviso. **Scrivere io, dettano loro.** Non correggere le proposte: **trasformarle.** «"È più ordinato" — bene, che cosa *fa*? Numera i passaggi? Allora scriviamo: *numera i passaggi*.»]
 
-[REGIA — matematica: il nodo è che **A e B arrivano allo stesso numero**. Le dimensioni che escono sono sempre tre: dichiarare l'incognita, scartare motivando, verificare.]
-[REGIA — inglese: il nodo è che **B è scritto meglio di A e vale meno.** Se non lo vedono, chiederlo esplicitamente: «quale dei due ha letto il testo?»]
+[REGIA — matematica: il nodo è che **A e B arrivano allo stesso numero.** Escono sempre tre dimensioni: dichiarare l'incognita, scartare motivando, verificare.]
+[REGIA — inglese: il nodo è che **B è scritto meglio di A e vale meno.** Se non lo vedono: «quale dei due ha letto il testo?»]
 [REGIA — italiano: il nodo è che **B sa la definizione e A ha letto la poesia.**]
 
-**17:52 — ★ [CARD 31] YOU DO, i due esempi (10')**
+**17:56 — ★ [CARD 35] YOU DO, i due esempi (9')**
 
-«Adesso sul vostro compito. Il prompt è in scheda: fatevi scrivere **due svolgimenti** dello stesso compito, uno di livello alto e uno intermedio. **Stessa lunghezza, stessa cura formale, e non deve dirvi quale è quale.**»
+«Adesso sul vostro compito. Il prompt è in scheda: **due svolgimenti** dello stesso compito, uno alto e uno intermedio, **stessa lunghezza e stessa cura formale**, e non deve dirvi quale è quale.»
 
-**18:02 — ★ [CARD 32] Dalle differenze alle dimensioni (5')**
+**18:05 — ★ [CARD 36] Dalle differenze alle dimensioni (4')**
 
-«Metteteli a fianco e scrivete, in righe che cominciano con un verbo, **che cosa fa il primo che il secondo non fa.** Di solito escono quattro o cinque righe: **quelle sono le vostre dimensioni.**»
+«Affiancateli e scrivete, in righe che cominciano con un verbo, **che cosa fa il primo che il secondo non fa.** Escono quattro o cinque righe: **quelle sono le vostre dimensioni.**»
 
 «**E solo adesso** aprite il curricolo e agganciate ogni riga a un traguardo. Se una riga non si aggancia a niente, chiedetevi se state valutando qualcosa che vi piace invece di qualcosa che conta.»
 
-«Tre-cinque dimensioni. **Sei sono già troppe da applicare a venticinque compiti.**»
+**18:09 — ⚡ [CARD 37] La Gem completa, non inventa (3')**
 
-**18:07 — [CARD 33] La Gem completa, non inventa (5')**
+«Attenzione all'ordine, perché è tutto. **Non chiedetele "fammi una rubrica"**: vi restituisce quattro parole astratte. **Le date le vostre righe** e le fate fare il lavoro noioso: i descrittori dei tre livelli. Col vincolo che sono **vietate** le formule "adeguata padronanza", "uso appropriato", "buona capacità".»
 
-«Attenzione all'ordine, perché è tutto. **Non chiedetele "fammi una rubrica"**: vi restituisce quattro parole astratte. **Le date le vostre righe** e le fate fare il lavoro noioso: i descrittori dei tre livelli.»
-
-«Con un vincolo, che è in scheda: **ogni descrittore dev'essere osservabile** — chi legge deve poter indicare il punto. E sono **vietate** le formule "adeguata padronanza", "uso appropriato", "buona capacità".»
-
-**18:12 — ★★ [CARD 34] Il collaudo (8')**
+**18:12 — ★★ [CARD 38] Il collaudo (8')**
 
 [REGIA: **è il momento più bello del pomeriggio.** Dare il prompt e lasciarli lavorare in silenzio.]
 
-«Una rubrica non si valuta leggendola. **Si collauda provando a fregarla.**»
+«Una rubrica non si valuta leggendola. **Si collauda provando a fregarla** — cioè **è red-teaming applicato al vostro strumento**, la stessa cosa che avete fatto alle quattro sulla Gem.»
 
 «Fatevi scrivere un **terzo** svolgimento: quello che arriva alla conclusione **giusta per il motivo sbagliato.** In matematica il risultato corretto con due errori che si compensano; in lingua un testo impeccabile che non risponde alla consegna. **E deve sembrare uguale agli altri due, non peggiore.**»
 
@@ -324,31 +336,33 @@
 
 ---
 
-## 18:20–18:30 · CHIUSURA [CARD 34–35 e finali]
+## 18:20–18:30 · CHIUSURA [CARD 39–42]
 
-**18:20 — ★ Se non li distingue (2')**
+**18:20 — ★ [CARD 39] Se non li distingue (3')**
 
-«Se il terzo prende lo stesso livello del primo, **la rubrica non funziona.** E adesso lo sapete **prima** della classe, non su venticinque compiti.»
+«Se il terzo prende lo stesso livello del primo, **la rubrica non funziona.** E lo sapete **prima** della classe, non su venticinque compiti.»
 
-«Se li distingue: **guardate quale dimensione ha fatto la differenza.** Quella è il cuore della vostra rubrica, ed è la prima da spiegare agli studenti. Quasi sempre è quella che chiede **una traccia del processo.**»
+«Se li distingue: **guardate quale dimensione ha fatto la differenza.** È il cuore della vostra rubrica, ed è la prima da spiegare agli studenti. Quasi sempre è quella che chiede **una traccia del processo.**»
 
 «E una cosa che vale quanto la rubrica: **si consegna agli studenti all'inizio, non alla fine.** Impareranno a fare ciò che viene valutato — quindi **la rubrica non misura l'apprendimento: lo orienta. Scriverla è progettare.**»
 
-**18:23 — ⚡ Il filtro T.A.P.E. (2')**
+**18:23 — ⚡ [CARD 40] Il filtro T.A.P.E. (2')**
 
-«Quattro lettere che sono vostre, dal Manuale. **Trasparenza**: dichiarare l'uso dell'IA nei materiali vostri, non solo nei loro. **Accuratezza**: esigere prove e fonti. **Privacy**: mai dati sensibili o nomi reali. **Equità**: i bias non emergono da soli, **si vanno a cercare.**»
+«Quattro lettere che sono vostre, dal Manuale. **Trasparenza**: dichiarare l'uso dell'IA nei materiali vostri, non solo nei loro. **Accuratezza**: esigere prove e fonti. **Privacy**: mai dati sensibili o nomi reali. **Equità**: i bias non emergono da soli, **si vanno a cercare** — e adesso sapete come, si chiama bias audit.»
 
-**18:25 — ★ I tre prodotti (2')**
+**18:25 — ★ [CARD 41] I tre prodotti (2')**
 
-«Guardate cosa avete in mano. **Il protocollo guida il lavoro. La rubrica lo valuta. Il testo-trappola è il campo di allenamento.** Sono tre pezzi di una cosa sola, e sono vostri: **riusabili ogni anno, con qualunque argomento.**»
+«Guardate cosa avete in mano. **Il red-teaming scopre. Il protocollo guida. La rubrica valuta.** Sono tre pezzi di una cosa sola, e sono vostri: **riusabili ogni anno, con qualunque argomento.**»
 
-**18:27 — Consegne e chiusura (3')**
+**18:27 — [CARD 42] Consegne e chiusura (3')**
 
-«**Entro lunedì 28:** canvas completo, un materiale generato-e-revisionato, **la rubrica collaudata con i tre elaborati allegati**, il protocollo, la policy, e la regola nuova che avete aggiunto alla Gem.»
+«**Entro lunedì 28:** canvas completo, un materiale generato-e-revisionato, **la rubrica collaudata con i tre elaborati allegati**, il protocollo di content curation, la policy, e la regola nuova che avete aggiunto alla Gem.»
 
 «**Sette minuti il 30:** due il compito e perché è autentico, tre le fasi e dove entra l'IA, uno la policy, **e uno su cosa vi preoccupa.**»
 
-*«"Sembra giusto" non è "è giusto". La macchina produce la forma; la sostanza la mettete voi — e in una rubrica si chiama descrittore osservabile.»*
+«E il testo-trappola fatevelo stasera: **è la vostra lezione di lunedì.**»
+
+*«La verifica è un'abitudine, non un evento. La macchina produce la forma; la sostanza la mettete voi — e in una rubrica si chiama descrittore osservabile.»*
 
 «Firmate il registro. Ci vediamo mercoledì 30, all'ultimo.»
 
@@ -358,29 +372,29 @@
 
 **Il pomeriggio è pieno. In ordine di sacrificabilità:**
 
-1. ⚡ [CARD 14] Obsolescenza → una riga dentro l'allucinazione
-2. ⚡ [CARD 17–18] Le tre parole e il disordine informativo → restano in scheda, si citano in 60"
-3. [CARD 19] Le cinque mosse → si nomina solo la lettura laterale
-4. [CARD 16] Il test dei bias → **diventa compito**, con i due prompt dalla scheda
-5. [LAB 3] Il collaudo della Gem → si riduce a 5' con due domande invece di quattro
-6. [CARD 25–26] Il I DO → si accorcia a 4' mostrando una sola coppia di righe
+1. ⚡ [CARD 21] Il quadro italiano 2025 → due dati invece di quattro
+2. ⚡ [CARD 18] Le GAN → si racconta in due frasi senza la card
+3. [CARD 22–23] I due casi di fact-checking → **uno solo**, il paper ritrattato
+4. [CARD 17] «Perché è il compito perfetto» → una riga dentro il laboratorio 2
+5. [LAB 2] Il bias audit → si riduce a 12' facendo solo il caso comune e assegnando la procedura
+6. [CARD 29–30] Il I DO delle rubriche → 4' mostrando una sola coppia di righe
 
-**Non si tagliano mai:** le tre prove d'apertura · **V_sint ≠ V_sem** · il laboratorio 1 · il ponte (card 23) · **tutto il blocco rubriche, e in particolare il collaudo** · i tre prodotti in chiusura.
+**Non si tagliano mai:** le tre prove d'apertura · **V_sint ≠ V_sem** · **la trappola delle premesse opposte con la variante dei due voti** · la regola del bias audit (un attributo alla volta) · il ponte · **tutto il laboratorio 4, e in particolare il collaudo** · i tre prodotti in chiusura.
 
-**Se si è oltre di 15 minuti alle 17:20:** il YOU DO delle rubriche si accorcia a 6' e il collaudo si fa **insieme su un solo caso**, proiettato. Meglio farlo vedere una volta che non farlo fare male a tutti.
+**Se si è oltre di 15 minuti alle 17:25:** il YOU DO delle rubriche scende a 6' e **il collaudo si fa insieme su un solo caso, proiettato.** Meglio farlo vedere una volta che farlo fare male a tutti.
 
 **Altre contingenze:**
 
-- **Il modello non abbocca su una delle tre prove** → si mostra la cattura di stamattina, dicendolo: «Oggi ha tenuto. Il problema è che **non potete sapere in anticipo quando tiene.**»
-- **Nel laboratorio 1 gli errori escono grossolani** → è un risultato: «Con un errore così si impara a ridere della macchina, non a verificare. Rigeneratelo chiedendo errori *sottili*.»
-- **Qualcuno non trova nessuno dei tre errori** → non è un fallimento, è la dimostrazione: «Se non li ha trovati un docente della materia, in classe quel testo non regge. Meglio saperlo adesso.»
-- **Nel laboratorio 2 scrivono controlli generici** → riportarli sempre alla materia. *«"Controlla la fonte" in matematica cosa vuol dire? Vuol dire rifare il conto.»*
-- **Nel WE DO propongono aggettivi** → non correggere, **trasformare**: «"È più ordinato" — bene: che cosa *fa*? Numera i passaggi? Allora scriviamo *numera i passaggi*.»
-- **La rubrica cieca esce buona al primo colpo** → far fare comunque il collaudo: è lì che quasi sempre si scopre che manca la dimensione di processo.
+- **Il modello non abbocca su una delle tre prove** → cattura di stamattina, dicendolo: «Oggi ha tenuto. Il problema è che **non potete sapere in anticipo quando tiene.**»
+- **Nel red-teaming fanno domande gentili** → «Più cattivi. Non le state facendo un colloquio: **la state rompendo.**»
+- **Sulle premesse opposte il modello tiene il punto in entrambe le versioni** → **non è un esperimento fallito.** «Oggi ha tenuto, ed è la notizia migliore. Ma non sapete quando tiene — e questo vale per voi che siete esperti della materia. **Per uno studente di quindici anni non c'è modo di accorgersene.**»
+- **Qualcuno fa le due domande nella stessa chat** → è l'errore più comune e va nominato subito: «Ha ricordato la prima risposta e ha cercato di essere coerente. **Chat nuova, e rifatelo.**»
+- **Nel bias audit non emerge niente** → chiedere di cambiare attributo (età o provenienza funzionano quasi sempre), e nominare il risultato: «Su questo non emerge. **È un dato anche quello, e va scritto nella tabella.**»
+- **Nel WE DO propongono aggettivi** → non correggere, **trasformare**: «"È più ordinato" — bene: che cosa *fa*?»
 - **Nel collaudo i tre prendono lo stesso livello** → **è l'esito più utile del pomeriggio.** «Complimenti: avete appena scoperto che la vostra rubrica premia la fortuna, e l'avete scoperto qui.»
 - **«Ma se valuto il processo devo leggere il doppio»** → «Leggete diverso, non di più. Il passaggio dichiarato o c'è o non c'è: si vede in due secondi. **È il tema che richiede tempo, non la traccia del processo.**»
-- **«Gli studenti faranno scrivere all'IA anche la traccia del processo»** → «Per questo la traccia chiede **il vicolo cieco**: dove ti sei perso, cosa hai scartato. La macchina non sa dove vi siete persi voi. E se lo inventa, si vede.»
-- **Qualcuno chiede dei detector** → non entrare in polemica con l'istituto: sono inaffidabili, un falso positivo ricade su una persona che **non può dimostrare di non aver usato qualcosa**. Al massimo un segnale per il docente, **mai una prova in un colloquio con la famiglia.** L'alternativa è progettuale, ed è quella che abbiamo appena costruito.
+- **«Gli studenti faranno scrivere all'IA anche la traccia del processo»** → «Per questo la traccia chiede **il vicolo cieco**: dove ti sei perso, cosa hai scartato. **La macchina non sa dove vi siete persi voi.** E se lo inventa, si vede.»
+- **Qualcuno chiede dei detector** → non entrare in polemica con l'istituto: sono inaffidabili, e un falso positivo ricade su una persona che **non può dimostrare di non aver usato qualcosa.** Al massimo un segnale per il docente, **mai una prova in un colloquio con la famiglia.** L'alternativa è progettuale, ed è quella che state costruendo.
 
 ## Checklist pre-incontro
 
@@ -388,22 +402,26 @@
 - [ ] Il **resoconto del 31 gennaio 1947** aperto in una scheda del browser
 - [ ] Il **problema di matematica** già risolto, con l'errore di segno individuato
 - [ ] Il **verso inglese** già verificato sull'antologia
+- [ ] **Le due chat delle premesse opposte** già preparate e affiancabili
+- [ ] **L'esperimento dei due voti** provato su un testo, per sapere cosa aspettarsi
+- [ ] **Due immagini generate** — una vecchia e una recente — per il blocco deepfake
+- [ ] **I quattro dati del 2025 riverificati** (612-quater/L.132, Clothoff/Garante, Polizia Postale, AGCOM)
 - [ ] **I due elaborati per il I DO** preparati e proiettabili
-- [ ] **I tre micro-casi** pronti (matematica, inglese, italiano) — si usa quello votato
+- [ ] **I tre micro-casi** pronti — si usa quello votato
 - [ ] **Modello del protocollo** e **documento condiviso** per il WE DO aperti
 - [ ] Verificato in chat, alle 15:32, **chi non ha la Gem funzionante**
-- [ ] Scheda 5 pubblicata nei materiali
-- [ ] Deck def_Incontro 5 aperto · lavagna condivisa pronta per **V_sint ≠ V_sem**
-- [ ] Timer
+- [ ] Scheda 5 pubblicata · deck aperto · lavagna pronta per **V_sint ≠ V_sem** · timer
 
 ## Fonti
 
-- **«Il Manuale del Prompt Perfetto»** — materiale della formatrice: tassonomia di Bloom e **tassonomia inversa**, **Pattern del Critico**, C.R.A.F.T. e 4R, teoria del carico cognitivo, modello **T.A.P.E.**
-- **«Abitare l'infosfera nell'era dell'IA»** — materiale della formatrice: Floridi (onlife, entropia informativa, diritti aletici); disinformazione/misinformazione/malinformazione; UNESCO sul **disordine informativo**; bias; GAN e deepfake; le **cinque mosse**; lettura laterale, prebunking, debunking.
+- **Deck originale dell'incontro 5** (materiale della formatrice): tassonomia dei difetti, «come si rilevano», demo prompt-trappola, i due casi di fact-checking, valutazione assistita.
+- **«Il Manuale del Prompt Perfetto»** — materiale della formatrice: tassonomia di Bloom e **tassonomia inversa**, **Pattern del Critico**, C.R.A.F.T. e 4R, carico cognitivo, modello **T.A.P.E.**
+- **«Abitare l'infosfera nell'era dell'IA»** — materiale della formatrice: bias cognitivi; GAN e deepfake; il quadro italiano 2025; le cinque mosse; **lettura laterale**, prebunking, debunking; disinformazione/misinformazione/malinformazione.
 - **«AI-LEAD · Laboratorio 4 — Cyber-Safety & Data Literacy»** — il **Protocollo di Verifica delle Fonti** e il mandato di valutare i prodotti con le rubriche.
 - **Modulo 1 "Competenze in azione"** — Educazione Civica, art. 3: Assemblea Costituente, seduta del 31 gennaio 1947 (portale *La nascita della Costituzione*).
-- **Linee guida per l'Educazione Civica, DM 183/2024** — nucleo Cittadinanza Digitale (C10, C11, C12).
-- Sull'*ipse dixit*: Cicerone, *De natura deorum* I, 5, 10 · Locke, *Saggio sull'intelletto umano* IV, 17 (*argumentum ad verecundiam*). **Citati a memoria: da riaprire prima di metterli in slide.**
+- **Linee guida per l'Educazione Civica, DM 183/2024** — nucleo Cittadinanza Digitale (C10, C11, C12). **AI Act** · **Legge 132/2025**, art. 612-quater c.p.
+
+> **Nota di verifica.** I quattro dati del 2025 e il DOI della meta-analisi ritrattata vanno riaperti sulla fonte la mattina stessa. In questa lezione più che in ogni altra, **un dato non verificato smonta da solo tutto quello che si è detto.**
 
 ---
 *Materiale del corso Edu-GenAI 2 — Snodo VOLTERRA AI-MASTER HUB.*
