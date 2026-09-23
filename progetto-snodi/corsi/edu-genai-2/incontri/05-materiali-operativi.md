@@ -90,11 +90,44 @@ Nel resoconto ufficiale il parere è **riportato in forma indiretta**: la sostan
 **I bias, che sono nostri prima che della macchina:**
 
 - **Conferma** — crediamo a ciò che ci dà ragione; il cervello preferisce la coerenza alla verità
-- **Autorità** — se lo dice una persona famosa, dev'essere vero
+- **Autorità** — *ipse dixit*: l'ha detto lui, e tanto basta
 - **Disponibilità** — ciò che ricordiamo facilmente ci sembra più diffuso
 - **Negatività** — le notizie negative catturano più attenzione
 
 > Gli algoritmi apprendono dai dati prodotti da noi: **bias umano → bias digitale**, con l'aggravante che ce lo restituiscono come conferma.
+
+### Il bias di autorità e il suo nome antico
+
+**Non è nato con i social: ha venticinque secoli.** I pitagorici, quando si chiedeva loro *perché* una cosa fosse così, rispondevano **«ipse dixit»** — l'ha detto *lui*, Pitagora. Lo racconta Cicerone, e lo racconta per criticarlo. In greco: *autòs épha*.
+
+Conviene tenere distinti **tre piani**, perché in classe serve dire cose diverse:
+
+| Piano | Nome | Che cos'è |
+|---|---|---|
+| **Retorico-classico** | ***ipse dixit*** | La **forma degenere**: l'autorità prende il posto della ragione |
+| **Logico** | *argumentum ad verecundiam* | La **forma dell'argomento**: si porta l'autorità invece della prova |
+| **Psicologico** | **bias di autorità** | Il **meccanismo** che rende quell'argomento efficace |
+
+> L'*ipse dixit* è la forma degenere; il bias è il motore che la fa girare.
+
+**E attenzione, perché qui si sbaglia spesso: l'appello all'autorità non è sempre una fallacia.** Fidarsi di un esperto nel suo campo è razionale e inevitabile — nessuno rifà da sé tutti gli esperimenti. Diventa fallacia in **quattro casi**, e sono quelli da far riconoscere agli studenti:
+
+1. l'autorità parla **fuori dal proprio campo** (il Nobel per la fisica che si pronuncia sui vaccini);
+2. l'autorità è data come **conclusiva** invece che come indizio;
+3. fra gli esperti **non c'è consenso**, e se ne cita uno solo;
+4. l'autorità è **anonima** — ed è il caso più frequente.
+
+**Il quarto è quello che ci riguarda oggi.** *«È dimostrato»*, *«gli studi confermano»*, *«notoriamente»*: sono **ipse dixit senza il nome**. L'autorità viene evocata ma non dichiarata, quindi non è controllabile. Sono esattamente gli aggettivi di certezza della mossa a tre passi.
+
+### E la macchina è una perfetta macchina da *ipse dixit*
+
+Produce il **registro** dell'autorità — tono assertivo, lessico tecnico, periodare sicuro — **senza averne nessuna**, perché non è esperta di niente.
+
+> È di nuovo **V_sint ≠ V_sem**: il tono autorevole è **sintassi**. L'autorità vera sarebbe **semantica**.
+
+**La contromossa è la stessa di sempre: lettura laterale applicata a una persona.** Chi è? In quale campo? Lo dice anche qualcun altro?
+
+*Riferimenti da riaprire prima di metterli in slide: Cicerone, **De natura deorum** I, 5, 10 (l'aneddoto pitagorico) · Locke, **Saggio sull'intelletto umano** IV, 17 (dove conia l'*argumentum ad verecundiam*). Citati a memoria: è la regola del pomeriggio, vale anche per noi.*
 
 ---
 

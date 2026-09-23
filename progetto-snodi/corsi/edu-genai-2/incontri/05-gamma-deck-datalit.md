@@ -164,11 +164,13 @@ Sui social vediamo soprattutto idee simili alle nostre. **Gli algoritmi rinforza
 **E i bias sono nostri, prima che della macchina:**
 
 - **Conferma** — crediamo a ciò che ci dà ragione
-- **Autorità** — se lo dice una persona famosa, dev'essere vero
+- **Autorità** — *ipse dixit*: l'ha detto lui, e tanto basta
 - **Disponibilità** — ciò che ricordiamo facilmente ci sembra più diffuso
 - **Negatività** — le notizie negative catturano più attenzione
 
-> Il cervello **preferisce la coerenza alla verità.** *Ci fidiamo di ciò che ci somiglia.*
+> **Il bias di autorità non è nato con i social: ha venticinque secoli.** I pitagorici, quando si chiedeva loro *perché* una cosa fosse così, rispondevano **«ipse dixit»** — l'ha detto *lui*, Pitagora. Lo racconta Cicerone, e lo racconta per criticarlo.
+
+*Il cervello preferisce la coerenza alla verità. Ci fidiamo di ciò che ci somiglia.*
 
 ---
 

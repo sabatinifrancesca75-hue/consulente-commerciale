@@ -136,7 +136,15 @@
 
 **16:32 — [CARD 12] Le bolle e i bias (5')**
 
-«Poi ci sono le bolle, e i bias — che però sono **nostri prima che della macchina**. Conferma: crediamo a ciò che ci dà ragione. Autorità: se lo dice una persona famosa dev'essere vero. Disponibilità: ciò che ricordiamo facilmente ci sembra più diffuso. Negatività: le notizie brutte catturano di più.»
+«Poi ci sono le bolle, e i bias — che però sono **nostri prima che della macchina**. Conferma: crediamo a ciò che ci dà ragione. Disponibilità: ciò che ricordiamo facilmente ci sembra più diffuso. Negatività: le notizie brutte catturano di più.»
+
+«E poi l'autorità, su cui mi fermo dieci secondi perché ha un nome che conoscete: **ipse dixit.** I pitagorici, quando si chiedeva loro *perché* una cosa fosse così, rispondevano "l'ha detto lui" — cioè Pitagora. Lo racconta Cicerone, e lo racconta per criticarlo.»
+
+«**Il bias di autorità non è nato con i social: ha venticinque secoli.** E badate che l'appello all'autorità non è sempre una fallacia — fidarsi di un esperto nel suo campo è razionale, nessuno rifà da sé tutti gli esperimenti. Diventa fallacia in quattro casi, e il quarto è quello che ci riguarda oggi: **quando l'autorità è anonima.**»
+
+«*"È dimostrato", "gli studi confermano", "notoriamente"*: sono **ipse dixit senza il nome.** L'autorità viene evocata ma non dichiarata, e quindi non è controllabile.»
+
+[REGIA: se c'è tempo, la chiusa che vale — altrimenti si recupera alla card 18. «E la macchina è una perfetta macchina da ipse dixit: produce il **registro** dell'autorità senza averne nessuna, perché non è esperta di niente. **Il tono autorevole è sintassi. L'autorità vera sarebbe semantica.**»]
 
 *«Il cervello preferisce la coerenza alla verità. Ci fidiamo di ciò che ci somiglia.»*
 
