@@ -43,6 +43,71 @@ In conclusione, credo che la soluzione non sia proibire, perché il proibizionis
 
 ---
 
+## Versione B — livello più basso
+
+*Serve al **I DO** del blocco rubriche: è la seconda metà della domanda «che cosa fa il primo che il secondo non fa?».*
+
+**Il problema dell'alcol tra i giovani**
+
+L'alcol è una sostanza che viene consumata da moltissime persone in tutto il mondo. Anche tra i giovani il consumo di alcol è molto diffuso e rappresenta un problema molto grave, di cui si parla spesso sui giornali e in televisione.
+
+Le cause di questo fenomeno sono diverse. Prima di tutto c'è l'influenza degli amici, che spingono a bere. Poi c'è la pubblicità, che fa vedere l'alcol in modo positivo. Anche la famiglia può avere un ruolo, perché se i genitori bevono i figli tendono a imitarli. Infine c'è la noia, perché molti ragazzi non sanno cosa fare nel tempo libero e si annoiano.
+
+Le conseguenze sono molto gravi. L'alcol fa male alla salute e può provocare malattie serie, soprattutto al fegato. Inoltre chi beve troppo può avere problemi a scuola e in famiglia, perché non riesce più a concentrarsi e litiga con i genitori. Ci sono anche gli incidenti stradali, che sono una delle conseguenze peggiori di tutte.
+
+Bisogna anche dire che l'alcol crea dipendenza e che uscirne non è per niente facile. Molte persone hanno bisogno dell'aiuto di uno specialista. Per questo motivo è importante non iniziare, perché smettere è molto più difficile che non cominciare.
+
+Secondo me il problema dell'alcol tra i giovani è molto serio e bisognerebbe fare qualcosa. Le istituzioni dovrebbero intervenire con leggi più severe, ma anche la scuola e la famiglia hanno le loro responsabilità. Ognuno deve fare la sua parte.
+
+In conclusione posso dire che l'alcol è un problema grave che riguarda tutti noi e che bisogna combattere in ogni modo possibile. Spero che in futuro i giovani siano più consapevoli e che imparino a divertirsi senza bere.
+
+*Mario Rossi — 3ª G, Liceo Scientifico*
+
+> **Che cosa è stato tolto, ed è esattamente ciò che l'aula deve nominare:** la **presa di posizione** iniziale · l'**esempio personale** · il **controargomento** · la **proposta concreta**.
+> Restano affermazioni vere e generiche, in ordine ragionevole. **Non ci sono errori: è questo che lo rende utile.**
+
+---
+
+## Versione C — quella che inganna
+
+*Serve al **collaudo** delle 18:12. A una lettura veloce sembra la migliore delle tre.*
+
+**Il problema dell'alcol tra i giovani**
+
+Il rapporto tra le nuove generazioni e le sostanze alcoliche costituisce oggi una delle questioni più dibattute nell'ambito delle politiche giovanili, e si presenta con caratteristiche di indubbia complessità. Affrontarlo richiede di superare le semplificazioni e di considerare la molteplicità dei fattori in gioco.
+
+Sul piano sociologico, il consumo di alcol in età adolescenziale non può essere ricondotto a una causa unica. Se da un lato la dimensione del gruppo dei pari esercita una pressione ampiamente documentata, dall'altro non si possono trascurare le trasformazioni del contesto familiare, l'influenza dei modelli mediatici e il mutamento delle modalità di socializzazione che ha caratterizzato gli ultimi decenni. Ciascuno di questi elementi contribuisce in misura diversa, e la loro interazione rende problematica ogni lettura monocausale.
+
+Dal punto di vista sanitario, la letteratura scientifica concorda nel rilevare la particolare vulnerabilità dell'organismo in fase di sviluppo. Gli effetti sul sistema nervoso centrale, sull'apparato epatico e sulle funzioni cognitive risultano più marcati rispetto a quanto si osserva nella popolazione adulta, con conseguenze che possono manifestarsi anche a distanza di tempo.
+
+Occorre inoltre considerare la dimensione culturale del fenomeno. Il consumo di alcol è storicamente radicato nelle società mediterranee e assume significati simbolici che variano sensibilmente a seconda dei contesti: ciò rende ogni intervento educativo particolarmente delicato, poiché esso deve confrontarsi con pratiche percepite come normali.
+
+Le strategie di contrasto elaborate negli ultimi anni si muovono lungo direttrici differenti: l'intervento normativo, la campagna informativa, l'educazione tra pari. Ciascuna presenta punti di forza e limiti, e l'esperienza internazionale suggerisce che l'efficacia dipenda largamente dalla capacità di integrarle in un disegno coerente.
+
+In conclusione, il fenomeno del consumo giovanile di alcol si configura come una questione multidimensionale, che non ammette soluzioni semplici e che richiede un approccio integrato, capace di coinvolgere la scuola, la famiglia e le istituzioni in una prospettiva di lungo periodo.
+
+*Mario Rossi — 3ª G, Liceo Scientifico*
+
+### Perché inganna
+
+**Ha tutto quello che si premia a colpo d'occhio:** lessico specialistico, subordinate ben governate, connettivi di correlazione (*se da un lato… dall'altro*), articolazione per piani (sociologico, sanitario, culturale), apparente equilibrio.
+
+**E non ha niente di quello che la traccia chiedeva:**
+
+| La traccia chiedeva | C che cosa fa |
+|---|---|
+| **Una posizione motivata** | Non prende posizione: dice che il fenomeno è complesso |
+| **Analisi del fenomeno** | Elenca categorie, non analizza un caso |
+| **Cause individuate** | Le nomina tutte e non ne pesa nessuna |
+| Un ragionamento che porti da qualche parte | Conclude che **«non ammette soluzioni semplici»** — cioè che non conclude |
+
+> **«Richiede un approccio integrato» è il modo elegante di non dire niente.**
+> E notate una seconda cosa, che in aula vale doppio: **è anche il modo in cui scrive l'IA.** Chi si abitua a riconoscere questo registro riconosce due cose insieme.
+
+**Il test, in una riga:** provate a ricavarne **una frase che qualcuno potrebbe contraddire.** Nella versione A ce ne sono tre. Qui, nessuna.
+
+---
+
 ## Come si usa
 
 ### 1 · L'esperimento delle due chat *(laboratorio 1, ore 16:22)*
