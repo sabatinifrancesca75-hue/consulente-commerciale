@@ -10,7 +10,9 @@
 
 Buongiorno a tutte e a tutti,
 
-giovedì 24 alle 15:30 ci vediamo per il quinto incontro. Si parla di **disordine informativo**: come si guasta un'informazione, come si insegna a riconoscerlo, e come si costruisce uno strumento per valutare quel lavoro quando lo farete fare ai vostri studenti.
+giovedì 24 alle 15:30 ci vediamo per il quinto incontro: **bias audit, red-teaming e fact-checking**. Si impara a stressare un sistema di IA per fargli uscire i difetti, a riconoscere i contenuti sintetici, e a costruire gli strumenti che servono per far fare questo lavoro ai vostri studenti.
+
+**Si lavora quasi tutto il tempo: centocinque minuti di laboratorio su centottanta.** Ne uscite con tre cose finite — la scheda di red-teaming, il protocollo di verifica della vostra classe, e una rubrica collaudata.
 
 Si lavora quasi tutto il pomeriggio sui vostri materiali. Servono tre cose, e sono tutte roba che avete già.
 
@@ -28,7 +30,7 @@ Quella che avete costruito nel terzo e nel quarto incontro. La useremo due volte
 
 ---
 
-**Che cosa ne uscirà:** una **rubrica** per valutare un lavoro di verifica delle fonti — agganciata alle vostre competenze, con descrittori osservabili, e **collaudata**. Collaudata vuol dire che l'avremo messa alla prova su due elaborati costruiti apposta per ingannarla: uno fatto bene, e uno che arriva alla conclusione giusta per il motivo sbagliato. Se la rubrica non li distingue, non funziona — ed è molto meglio scoprirlo giovedì che su venticinque compiti.
+**Sulla rubrica, perché è il pezzo più lungo:** la costruiremo **partendo da esempi**, non dal curricolo. Vi farete generare due svolgimenti dello stesso compito, uno di livello alto e uno intermedio, e la domanda da cui nasce tutto sarà *«che cosa fa il primo che il secondo non fa?»*. Poi la **collauderemo** su un terzo svolgimento, costruito apposta per ingannarla: quello che arriva alla conclusione **giusta per il motivo sbagliato** — il risultato corretto con due errori che si compensano, il testo impeccabile che non risponde alla consegna. **Se la rubrica non lo distingue, non funziona** — ed è molto meglio scoprirlo giovedì che su venticinque compiti.
 
 **Non serve** portare lavori dei vostri studenti: gli elaborati su cui proveremo la rubrica li genereremo lì, apposta.
 
