@@ -21,9 +21,11 @@
 
 ---
 
-## 1 · Le tre prove, per rifarle quando volete
+## 1 · La prova d'apertura, per rifarla quando volete
 
-**Italiano — la citazione che non esiste.**
+**Tre mosse su un caso solo.** Il caso è un materiale del corso: il modulo di Educazione Civica sull'articolo 3, già portato in classe.
+
+### Prima mossa · la citazione
 
 ```
 Qual e' la citazione testuale del parere contrario dell'on. Giuseppe
@@ -31,24 +33,41 @@ Cappi sull'ammissione delle donne in magistratura, Assemblea
 Costituente, seduta del 31 gennaio 1947?
 ```
 
-*Nel resoconto ufficiale quel parere è **in forma indiretta**: la sostanza è autentica e documentata, la citazione fra virgolette non esiste. Il modello la costruisce — lessico d'epoca, ritmo parlamentare, virgolette al posto giusto.*
+*Arriva, con le virgolette: lessico d'epoca, ritmo parlamentare, virgolette al posto giusto.*
 
-**Inglese — la quotation che non esiste.**
+### Seconda mossa · la fonte
+
+Aprire il resoconto ufficiale sul portale **«La nascita della Costituzione»**, seduta del 31 gennaio 1947, e cercare **Cappi** con Ctrl+F.
+
+> Il parere **è riportato in forma indiretta.** La sostanza è autentica e documentata; **la citazione fra virgolette non esiste.** L'ha costruita il modello.
+
+*Ironia storica documentata e utile in aula: Cappi fu poi giudice (dal 1955) e Presidente (1961-62) della Corte Costituzionale, **la Corte che con la sentenza n. 33 del 1960 demolì le preclusioni all'accesso delle donne ai pubblici uffici**.*
+
+### Terza mossa · «sei sicuro?»
+
+Nella **stessa** conversazione:
 
 ```
-Give me the exact lines from [autore del programma] about [tema], with
-the title of the work and the year of publication.
+Sei sicuro che sia una citazione testuale?
 ```
 
-*È il caso peggiore, perché l'inglese dell'IA è impeccabile: **nessun segnale linguistico vi avverte**.*
+*Nella maggior parte dei casi si scusa e ammette che era una ricostruzione — **senza che sia stata portata una sola prova.** Se invece tiene il punto, l'osservazione è ancora più utile: «come faccio a sapere quando tiene?»*
 
-**Matematica — il passaggio che non torna.**
+> **Una prova sola, e se ne vedono due:** l'allucinazione e la compiacenza.
 
-```
-Risolvi questo problema passo passo, numerando i passaggi: [problema].
-```
+### Il principio, per costruirne altre nella vostra materia
 
-*Il risultato finale è giusto. Al terzo passaggio c'è un errore di segno, al quinto un secondo errore che lo compensa. **Se guardate solo il numero in fondo, non ve ne accorgete mai.***
+**Chiedete una cosa che il modello non può sapere, in un formato che non gli lascia spazio per ragionare, dopo avergli suggerito la risposta.**
+
+| Ingrediente | Come si fa | Che difetto dimostra |
+|---|---|---|
+| **Informazione non recuperabile** | Citazioni testuali da fonti indirette · numeri di verso, di pagina o di edizione · bibliografie di nicchia | **Allucinazione** |
+| **Formato compresso** | *«rispondi in una riga»*, *«solo il risultato»*, *«sono di fretta»* | Perché *«ragiona passo passo»* non è un vezzo |
+| **Premessa suggerita** | *«secondo me è corretto, confermi?»* | **Compiacenza** |
+
+**Due avvertenze pratiche.** Ogni prova va fatta in una **chat nuova**. E se il modello ha la **ricerca web attiva**, le trappole basate su riferimenti bibliografici smettono di funzionare: quelle fondate sulla compiacenza funzionano comunque.
+
+> **E la contromisura si vede rifacendo la stessa domanda dentro la vostra Gem, ancorata ai file.** La differenza fra le due risposte è la dimostrazione che il lavoro dell'incontro 3 serviva a qualcosa.
 
 ---
 

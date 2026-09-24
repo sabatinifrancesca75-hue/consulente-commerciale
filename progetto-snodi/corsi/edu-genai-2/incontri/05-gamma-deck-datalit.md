@@ -36,52 +36,55 @@ Snodo Formativo VOLTERRA AI-MASTER HUB · PNRR — CUP I84D25003890006
 
 ---
 
-# Tre prove, tre materie
+# Prima di tutto, una prova
 
-**Non vi racconto che l'IA sbaglia. Ve lo faccio vedere nella vostra materia, adesso, in tre minuti.**
+**Non vi racconto che l'IA sbaglia. Ve lo faccio vedere su un materiale nostro, adesso.**
 
-Una per **italiano**, una per **inglese**, una per **matematica**.
+Un modulo di Educazione Civica, già andato in classe.
 
 **Guardate una cosa sola:** non *se* sbaglia — **quanto è bella la forma con cui sbaglia.**
 
 ---
 
-# Italiano · la citazione che non esiste
+# La citazione
 
-Assemblea Costituente, 31 gennaio 1947. Chiedo all'IA **la citazione testuale** del parere contrario all'ammissione delle donne in magistratura.
+**Assemblea Costituente, seduta del 31 gennaio 1947.** Si discute se ammettere le donne in magistratura.
 
-**Arriva. Con le virgolette.** Lessico d'epoca, ritmo parlamentare.
+Ho chiesto all'IA **la citazione testuale** del parere contrario dell'onorevole Giuseppe Cappi. Questa è la risposta.
 
-> Nel resoconto ufficiale quel parere è **in forma indiretta.**
-> La sostanza è autentica. **La citazione fra virgolette non esiste.**
+**Leggetela. Poi rispondete in chat, una parola sola:**
 
-*È materiale di un nostro modulo di Educazione Civica. Ed è andato in classe.*
+> **la mettereste nella vostra slide?**
 
----
-
-# Inglese · la quotation che non esiste
-
-Chiedo un verso di un autore del programma di quarta, con **testo, opera e anno**.
-
-Arriva tutto: verso plausibile, titolo plausibile, anno plausibile.
-
-**Il verso è di un altro autore. O non è di nessuno.**
-
-> È il caso peggiore per noi, perché **l'inglese dell'IA è impeccabile**:
-> non c'è nessun segnale linguistico che vi avverta.
+*Non commento. Contiamo fino a dieci.*
 
 ---
 
-# Matematica · il passaggio che non torna
+# La fonte
 
-Chiedo la risoluzione di un problema, passo passo.
+**Resoconto ufficiale della seduta — portale «La nascita della Costituzione».**
 
-Il risultato finale **è giusto.** Scaletta ordinata, passaggi numerati, formattazione perfetta.
+Il parere di Cappi **è riportato in forma indiretta.**
 
-**Al terzo passaggio c'è un errore di segno. Al quinto un secondo errore che lo compensa.**
+Quella citazione, con le virgolette aperte e chiuse, **in quel documento non esiste.**
 
-> Il numero in fondo torna.
-> **E se guardate solo il numero in fondo, non ve ne accorgete mai.**
+> La sostanza del parere è autentica e documentata.
+> **La citazione testuale è stata costruita dal modello.**
+
+*È il materiale di un nostro modulo di Educazione Civica. Ed è andato in classe.*
+
+---
+
+# E adesso la terza mossa
+
+**Torno nella stessa chat e le chiedo una cosa sola:**
+
+> *«Sei sicuro che sia una citazione testuale?»*
+
+**Guardate cosa fa.** Nella maggior parte dei casi si scusa e ammette che si trattava di una ricostruzione — **senza che io le abbia portato una sola prova.**
+
+> Una domanda sola, **e ne avete viste due**: l'allucinazione e la compiacenza.
+> *E se cede davanti a un'obiezione senza prove, la sicurezza di prima non valeva niente.*
 
 ---
 

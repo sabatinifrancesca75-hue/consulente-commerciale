@@ -24,35 +24,53 @@
 
 ---
 
-## 15:35–15:48 · ★ TRE PROVE, TRE MATERIE [CARD 3–6]
+## 15:35–15:48 · ★ LA PROVA [CARD 3–6]
+
+> **Una prova sola, fatta bene, in tre mosse.** Non tre prove veloci: il tempo va speso sui silenzi, non sul numero di esempi.
 
 **15:35 — ⚡ [CARD 3] L'annuncio (1')**
 
-«Non vi racconto che l'IA sbaglia: ve lo faccio vedere **nella vostra materia**. Una per italiano, una per inglese, una per matematica. E guardate una cosa sola: non *se* sbaglia — **quanto è bella la forma con cui sbaglia.**»
+«Non vi racconto che l'IA sbaglia: ve lo faccio vedere **su un materiale nostro**, adesso. E guardate una cosa sola: non *se* sbaglia — **quanto è bella la forma con cui sbaglia.**»
 
-**15:36 — ★ [CARD 4] Italiano (5')**
+**15:36 — ★ [CARD 4] Prima mossa: la citazione (5')**
 
-[REGIA: **provata in mattinata, screenshot salvato.** Tenere aperto accanto il resoconto del portale *La nascita della Costituzione*, 31 gennaio 1947.]
+[REGIA: **provata in mattinata, screenshot salvato.** Due finestre affiancate: a sinistra la risposta, a destra il resoconto del portale *La nascita della Costituzione*, già aperto ma **non ancora mostrato**.]
 
-«Assemblea Costituente, trentuno gennaio quarantasette. Chiedo la citazione testuale del parere contrario all'ammissione delle donne in magistratura. **Arriva. Con le virgolette.**»
+«Assemblea Costituente, trentuno gennaio millenovecentoquarantasette. Si discute se le donne possano entrare in magistratura. L'onorevole Giuseppe Cappi è contrario.»
 
-[REGIA: mostrare, poi aprire il resoconto.]
+«Ho chiesto all'IA la citazione testuale del suo parere. Questa è la risposta. **Leggetela in silenzio.**»
 
-«Nel resoconto ufficiale quel parere è **in forma indiretta**. La sostanza è autentica e documentata. **La citazione fra virgolette non esiste.** E questo è materiale di un nostro modulo di Educazione Civica: **è andato in classe.**»
+[REGIA: **sessanta secondi veri di silenzio.** Non anticipare nulla con la faccia. È il momento in cui l'aula si convince da sola che la citazione è buona.]
 
-**15:41 — ★ [CARD 5] Inglese (3')**
+«Ora una parola sola in chat: **la mettereste nella vostra slide?**»
 
-«Arriva tutto: verso plausibile, titolo plausibile, anno plausibile. **E il verso è di un altro autore, o non è di nessuno.**»
+[REGIA: contare ad alta voce. «Sette sì, due no, uno "dipende".» Se qualcuno scrive **"verificherei"**, prendere il nome: serve fra due minuti.]
 
-«Questo è il caso peggiore, e lo dico alle colleghe di inglese: **l'inglese dell'IA è impeccabile.** Non c'è nessun segnale linguistico che vi avverta. Nel tema di uno studente un errore vi salta all'occhio; qui no.»
+**15:41 — ★ [CARD 5] Seconda mossa: la fonte (4')**
 
-**15:44 — ★ [CARD 6] Matematica (4')**
+[REGIA: aprire **il documento vero**, non una slide che lo riporta. Ctrl+F su «Cappi» davanti a loro.]
 
-[REGIA: problema preparato, errore già individuato. **Far vedere il passaggio, non raccontarlo.**]
+«Questo è il resoconto ufficiale. Il parere c'è, ed è **documentato**. Ma guardate come: **in forma indiretta.** Il resoconto riferisce quello che ha detto, non lo trascrive fra virgolette.»
 
-«Risultato finale giusto. Scaletta ordinata, passaggi numerati, formattazione perfetta. **Terzo passaggio: errore di segno. Quinto passaggio: un secondo errore che lo compensa.** Il numero in fondo torna.»
+«Quindi: **la sostanza è autentica. La citazione testuale, con le virgolette aperte e chiuse, in quel documento non esiste.** L'ha costruita il modello.»
 
-«E adesso la domanda vera, che è per tutti e non solo per matematica: **quante volte, correggendo, guardate solo il numero in fondo?**»
+[REGIA: se qualcuno aveva scritto "verificherei", **nominarlo adesso**. Dieci secondi che valgono tutto il pomeriggio.]
+
+«E vi dico la cosa che rende questo esempio diverso da un esercizio: **è il materiale di un nostro modulo di Educazione Civica. Ed è andato in classe.** Nella lezione in cui si insegna agli studenti a pretendere le prove.»
+
+**15:45 — ★★ [CARD 6] Terza mossa: «sei sicuro?» (3')**
+
+[REGIA: **si fa dal vivo, nella stessa chat di prima.** È la mossa che raddoppia la resa della prova, e qualunque cosa succeda è utile.]
+
+«Adesso torno nella chat e le chiedo una cosa sola.»
+
+*«Sei sicuro che sia una citazione testuale?»*
+
+[REGIA: nella maggior parte dei casi **si scusa e ammette che era una ricostruzione.** Se invece tiene il punto, è ancora meglio: «Questa volta ha tenuto. Allora la domanda diventa: **come faccio a sapere quando tiene?** Non posso saperlo — ed è per questo che il controllo non può essere chiedere a lei.»]
+
+«Guardate cosa è appena successo. **Non le ho portato nessuna prova. Le ho solo fatto capire che dubitavo, e ha cambiato versione.**»
+
+«Una domanda sola, **e ne avete viste due**: l'allucinazione, e la compiacenza. Ci torniamo fra venti minuti, perché la seconda è il cuore del primo laboratorio.»
 
 ---
 
@@ -379,13 +397,13 @@
 5. [LAB 2] Il bias audit → si riduce a 12' facendo solo il caso comune e assegnando la procedura
 6. [CARD 29–30] Il I DO delle rubriche → 4' mostrando una sola coppia di righe
 
-**Non si tagliano mai:** le tre prove d'apertura · **V_sint ≠ V_sem** · **la trappola delle premesse opposte con la variante dei due voti** · la regola del bias audit (un attributo alla volta) · il ponte · **tutto il laboratorio 4, e in particolare il collaudo** · i tre prodotti in chiusura.
+**Non si tagliano mai:** la prova d'apertura nelle sue tre mosse · **V_sint ≠ V_sem** · **la trappola delle premesse opposte con la variante dei due voti** · la regola del bias audit (un attributo alla volta) · il ponte · **tutto il laboratorio 4, e in particolare il collaudo** · i tre prodotti in chiusura.
 
 **Se si è oltre di 15 minuti alle 17:25:** il YOU DO delle rubriche scende a 6' e **il collaudo si fa insieme su un solo caso, proiettato.** Meglio farlo vedere una volta che farlo fare male a tutti.
 
 **Altre contingenze:**
 
-- **Il modello non abbocca su una delle tre prove** → cattura di stamattina, dicendolo: «Oggi ha tenuto. Il problema è che **non potete sapere in anticipo quando tiene.**»
+- **Il modello non abbocca sulla citazione** → cattura di stamattina, dicendolo: «Oggi ha tenuto. Il problema è che **non potete sapere in anticipo quando tiene.**»
 - **Nel red-teaming fanno domande gentili** → «Più cattivi. Non le state facendo un colloquio: **la state rompendo.**»
 - **Sulle premesse opposte il modello tiene il punto in entrambe le versioni** → **non è un esperimento fallito.** «Oggi ha tenuto, ed è la notizia migliore. Ma non sapete quando tiene — e questo vale per voi che siete esperti della materia. **Per uno studente di quindici anni non c'è modo di accorgersene.**»
 - **Qualcuno fa le due domande nella stessa chat** → è l'errore più comune e va nominato subito: «Ha ricordato la prima risposta e ha cercato di essere coerente. **Chat nuova, e rifatelo.**»
@@ -398,10 +416,9 @@
 
 ## Checklist pre-incontro
 
-- [ ] **Le tre prove fatte in mattinata**, screenshot salvati per ciascuna
+- [ ] **La prova sulla citazione Cappi fatta in mattinata**, screenshot della risposta salvato
+- [ ] **La terza mossa provata** (*«sei sicuro che sia una citazione testuale?»*), per sapere cosa aspettarsi
 - [ ] Il **resoconto del 31 gennaio 1947** aperto in una scheda del browser
-- [ ] Il **problema di matematica** già risolto, con l'errore di segno individuato
-- [ ] Il **verso inglese** già verificato sull'antologia
 - [ ] **Le due chat delle premesse opposte** già preparate e affiancabili
 - [ ] **L'esperimento dei due voti** provato su un testo, per sapere cosa aspettarsi
 - [ ] **Due immagini generate** — una vecchia e una recente — per il blocco deepfake
