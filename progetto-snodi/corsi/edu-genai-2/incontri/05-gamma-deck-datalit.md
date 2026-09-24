@@ -1,4 +1,4 @@
-# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (46 card, tema wireframe)
+# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (48 card, tema wireframe)
 
 *Generato con: textMode=preserve, cardSplit=inputTextBreaks, themeId=wireframe, language=it.*
 
@@ -364,6 +364,29 @@ Un attributo solo, perché se ne cambiate due non saprete quale ha prodotto la d
 > **Lezione: confrontare sempre il titolo di stampa con l'abstract reale.**
 
 **E notate che cosa stiamo facendo:** verifichiamo così la letteratura **sulla nostra materia**. Se va verificata così la ricerca, **figuriamoci quello che l'IA produce.**
+
+---
+
+# Che cos'è la content curation
+
+**Curatore** è chi allestisce una mostra. Non produce le opere e non le possiede: **sceglie, ordina, contestualizza, e si assume la responsabilità di quella scelta.**
+
+> Una mostra è fatta tanto di quello che è appeso alle pareti **quanto di quello che è rimasto in magazzino.**
+
+**La differenza fra un aggregatore e un curatore è una sola:** il curatore **dichiara perché** ha tenuto questo e scartato quello.
+
+---
+
+# Se non curate voi, cura l'algoritmo
+
+Il disordine informativo è **entropia**: troppa informazione indistinta, in cui il vero e il falso hanno lo stesso aspetto. **La curation è il gesto opposto.**
+
+> **Se non curate voi, cura l'algoritmo.**
+> E il criterio dell'algoritmo non è la verità: **è il tempo che passate sulla pagina.**
+
+**E «rigorosa» non è un abbellimento:** una selezione senza criterio esplicito **è un pregiudizio travestito da scelta.**
+
+*Si valuta quello che hanno buttato, non quello che hanno tenuto. **Chi include tutto non ha curato: ha fatto un magazzino.***
 
 ---
 

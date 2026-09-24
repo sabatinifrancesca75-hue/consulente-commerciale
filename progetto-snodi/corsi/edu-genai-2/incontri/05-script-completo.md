@@ -1,7 +1,7 @@
 # Script completo minuto per minuto — Incontro 5: Bias audit, red-teaming e fact-checking
 
 **Giovedì 24 settembre 2026, 15:30–18:30, Google Meet** — Formatrice: Prof.ssa Sabatini · Tutor: Prof. Bonelli
-**Deck:** def_Edu-GenAI 2 — Incontro 5 (46 card, tema wireframe) · **Scheda del giorno:** 5
+**Deck:** def_Edu-GenAI 2 — Incontro 5 (48 card, tema wireframe) · **Scheda del giorno:** 5
 
 *Le parti tra virgolette « » sono da dire parola per parola; [REGIA] sono note operative; [CARD n] indica quando cambiare slide.*
 **⚡ = card lampo (1-2'), si passa veloce. ★ = non si taglia mai.**
