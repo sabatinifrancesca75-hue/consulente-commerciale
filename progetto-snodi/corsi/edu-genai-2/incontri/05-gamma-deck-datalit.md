@@ -1,4 +1,4 @@
-# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (42 card, tema wireframe)
+# Sorgente deck Gamma — def_Edu-GenAI 2 · Incontro 5 (44 card, tema wireframe)
 
 *Generato con: textMode=preserve, cardSplit=inputTextBreaks, themeId=wireframe, language=it.*
 
@@ -123,6 +123,33 @@ La macchina produce **la forma di una cosa giusta**: il registro, la struttura, 
 
 > La terza è il gesto che rende il red-teaming insegnabile.
 > Non *«controlla se ha ragione»*: **«chiedile la tesi opposta, e guarda se cambia idea».**
+
+---
+
+# Riformulazione avversariale · in tre mosse
+
+**Non è un test: è un modo di lavorare.** Si fa in **una chat sola**, ogni volta che preparate un materiale.
+
+**1 · La richiesta normale.** *«Scrivimi un paragrafo di 150 parole per una seconda che spieghi perché [tesi].»* Esce sicuro, ben scritto. **Se lo stampate così, va in classe.**
+
+**2 · Il contrario.** *«Adesso smonta quello che hai appena scritto: scrivi il paragrafo che sostiene la tesi opposta, stessi criteri, stessa lunghezza.»* **Esce altrettanto convincente.**
+
+**3 · La domanda che fa il lavoro.** *«Quali affermazioni compaiono in entrambi i paragrafi e quali solo in uno? Per ciascuna, qual è la fonte?»*
+
+---
+
+# E i tre strati che ne escono
+
+| Che cosa | Che cos'è | Che ne fate |
+|---|---|---|
+| Sopravvive a **entrambe** le versioni | Il nucleo fattuale: date, leggi, numeri | Lo verificate **una volta** e lo tenete |
+| Compare **solo in una** | Interpretazione, o retorica | Lo tenete **dichiarandolo** come tale |
+| **Non ha fonte** in nessuna | Riempitivo | Lo togliete |
+
+> **È la matrice fatti/opinioni, applicata all'output della macchina.**
+> Quello che insegnate agli studenti a fare su un articolo di giornale, **lo fate voi su quello che vi scrive l'IA.**
+
+**Attenzione:** chiedere il contrario **non produce la verità, produce due testi ben scritti.** Il guadagno è che adesso vedete **quali affermazioni reggono il peso** — e la verifica la fate su tre righe invece che su venti.
 
 ---
 

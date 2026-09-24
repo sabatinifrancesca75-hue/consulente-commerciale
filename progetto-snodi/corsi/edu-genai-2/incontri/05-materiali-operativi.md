@@ -92,6 +92,70 @@ Sei sicuro che sia una citazione testuale?
 
 ---
 
+### La riformulazione avversariale, per esteso
+
+**Non confondetela con il test della compiacenza.** Si somigliano — in tutti e due i casi si chiede il contrario — ma servono a cose diverse:
+
+| | Che cos'è | Quando si fa |
+|---|---|---|
+| **«Sei sicuro?» / le premesse opposte** | Un **test**: serve a capire **se vi asseconda** | Una volta, per sapere con chi avete a che fare |
+| **La riformulazione avversariale** | Un **metodo di lavoro**: serve a **ripulire un materiale** | **Ogni volta** che preparate qualcosa |
+
+#### Le tre mosse, in una chat sola
+
+**1 · La richiesta normale**, quella che fareste comunque.
+
+```
+Scrivimi un paragrafo di 150 parole per una classe seconda che spieghi
+perche' [tesi].
+```
+
+*Esce sicuro, ben scritto. **Se lo stampate così, va in classe.***
+
+**2 · Il contrario.**
+
+```
+Adesso smonta quello che hai appena scritto: scrivi il paragrafo che
+sostiene la tesi opposta, con gli stessi criteri e la stessa lunghezza.
+```
+
+*Ne esce uno **altrettanto convincente**. E già questo vi dice una cosa: **la sicurezza del primo non valeva niente**, perché la stessa sicurezza era disponibile per il contrario.*
+
+**3 · La domanda che fa il lavoro.**
+
+```
+Quali affermazioni compaiono in entrambi i paragrafi e quali solo in
+uno? Per ciascuna, qual e' la fonte?
+```
+
+#### I tre strati che ne escono
+
+| Che cosa | Che cos'è | Che ne fate |
+|---|---|---|
+| Sopravvive a **entrambe** le versioni | Il nucleo fattuale: date, leggi, numeri | Lo verificate **una volta** e lo tenete |
+| Compare **solo in una** | Interpretazione, o retorica | Lo tenete **dichiarandolo** come tale |
+| **Non ha fonte** in nessuna delle due | Riempitivo | Lo togliete |
+
+> **È la matrice fatti/opinioni, applicata all'output della macchina.**
+> Quello che insegnate agli studenti a fare su un articolo di giornale, **lo fate voi su quello che vi scrive l'IA.** Non è una competenza nuova: è la vostra, rivolta a uno strumento invece che a una fonte.
+
+#### La versione breve, quando avete fretta
+
+```
+Dammi la tesi piu' forte a favore e la piu' forte contro, ciascuna con
+le sue fonti. Poi dimmi quale delle due ha l'evidenza migliore, e
+perche'.
+```
+
+#### Due esempi per le altre materie
+
+- **Matematica** — *«spiegami perché il metodo di sostituzione è preferibile a quello di riduzione»* → poi il contrario. **Quello che sopravvive:** che dipende dalla forma del sistema. Che è la risposta giusta, e che **nessuna delle due versioni vi avrebbe dato da sola.**
+- **Inglese** — *«why is extensive reading the most effective way to build vocabulary?»* → poi il contrario. **Quello che sopravvive:** l'esposizione ripetuta in contesto. Il resto è posizione didattica, e va dichiarata come tale.
+
+> **L'avvertenza.** Chiedere il contrario **non produce la verità: produce due testi ben scritti.** Il guadagno non è sapere chi ha ragione — è **vedere quali affermazioni reggono il peso.** La verifica sulle fonti la fate lo stesso, ma su tre righe invece che su venti.
+
+---
+
 ## 3 · Prodotto 1 · Il red-teaming (25')
 
 **Red-teaming vuol dire una cosa sola: attaccare il proprio sistema prima che lo faccia la realtà.** Non si collauda una Gem usandola bene: si collauda **provando a farla sbagliare.**
