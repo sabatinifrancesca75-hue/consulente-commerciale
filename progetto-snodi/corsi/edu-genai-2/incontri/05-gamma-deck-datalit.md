@@ -192,13 +192,17 @@ Invita a compiacervi: il modello legge il dubbio e vi dà ragione. **Se cede dav
 
 ---
 
-# Il secondo uso: il testo-trappola
+# Il secondo uso: dall'errore trovato all'attività
 
-**Il difetto che avete appena trovato diventa un'attività.** Dal vostro *Manuale del Prompt Perfetto*: **tassonomia inversa** — prima si genera, poi si analizza, poi si valuta.
+**Nel primo uso l'errore lo subite e lo studiate. Adesso lo ordinate.**
 
-> *«Genera un'analisi di 500 parole su [argomento] che contenga volontariamente **3 errori sottili**. Non segnalarli. Alla fine, in un blocco separato che io cancellerò, elencali con la correzione e la fonte.»*
+Il red-teaming vi ha appena detto **che tipo di errore fa nella vostra materia.** Ordinatele **proprio quelli**: sono gli stessi che incontreranno i vostri studenti.
 
-**Poi provate voi a trovarli, senza guardare il blocco finale.** Meno di cinque minuti: va bene per la classe. Di più: rigeneratelo. **Non li trovate: perfetto per voi, inutilizzabile per loro** — e lo sapete adesso, non in classe.
+> *«Genera un'analisi di 500 parole su [argomento] con dentro volontariamente **3 errori sottili di questo tipo**: [i vostri]. Non segnalarli. Alla fine, in un blocco separato che cancellerò, elencali con correzione e fonte.»*
+
+**Poi provate voi a trovarli, senza guardare il blocco finale.** Meno di cinque minuti: va bene per la classe. Di più: rigeneratelo.
+
+> **Attenzione: chiedendone tre, spesso ne fa cinque** — e i due in più non li dichiara, perché non sa di averli fatti. **Rileggete tutto il testo**, non solo i tre punti dichiarati.
 
 ---
 
